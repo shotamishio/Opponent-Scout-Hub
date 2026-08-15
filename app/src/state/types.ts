@@ -35,8 +35,6 @@ export const initialAppState: AppState = {
   roster: {
     nadeshiko: [...DEFAULT_ROSTER.nadeshiko],
     u20: [...DEFAULT_ROSTER.u20],
-    u19: [...DEFAULT_ROSTER.u19],
     u17: [...DEFAULT_ROSTER.u17],
-    u16: [...DEFAULT_ROSTER.u16],
   },
 };

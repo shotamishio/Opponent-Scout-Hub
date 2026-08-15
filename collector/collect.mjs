@@ -19,7 +19,7 @@
 //    country pages now show real news only.
 //  - Queries are per (country, category) and results are relevance-filtered
 //    — see lib/topic.mjs. Without that, every category got the same senior
-//    query, so the U-16/17/19/20 screens showed senior-team news.
+//    query, so the youth screens showed senior-team news.
 //    A category/country with no on-topic news is left empty on purpose:
 //    "情報なし" is a usable answer for a scout, wrong-team news is not.
 //  - On a per-country fetch failure, keep the previous successful data for

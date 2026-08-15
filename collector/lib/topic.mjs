@@ -4,9 +4,9 @@
 // Why this exists: the first version of the collector built one query per
 // country — `"<country>" women's national football team` — with no notion of
 // the age category. Every category therefore got byte-identical results, so
-// the U-16/17/19/20 screens showed senior-team news, and loose matching let
-// clearly unrelated headlines through (flag football, an encyclopedia entry,
-// other countries' fixtures). Both are worse than showing nothing: an analyst
+// the youth screens showed senior-team news, and loose matching let clearly
+// unrelated headlines through (flag football, an encyclopedia entry, other
+// countries' fixtures). Both are worse than showing nothing: an analyst
 // reading the U-17 screen has no way to tell the news isn't about U-17.
 //
 // So there are two layers here:
@@ -19,12 +19,18 @@
 //      a screen full of the wrong country's news is not.
 //
 // The filter is deliberately the stricter of the two: the first live run with
-// age-aware queries still filled the U-19 screen with women's CRICKET
-// ("Australia U19 Women", "7 wickets in final T20I"), the U-17 Korea screen
-// with VOLLEYBALL, Canada's senior screen with BASEBALL and Australia's U-20
-// screen with BASKETBALL. Every one of those genuinely is a national women's
-// team of that age group — just the wrong sport. Nothing in a query can
-// prevent that, so it has to be caught here.
+// age-aware queries still filled the U-17 Korea screen with VOLLEYBALL,
+// Canada's senior screen with BASEBALL, Australia's U-20 screen with
+// BASKETBALL, and the since-removed U-19 screen with CRICKET. Every one of
+// those genuinely is a national women's team of that age group — just the
+// wrong sport. Nothing in a query can prevent that, so it has to be caught
+// here.
+//
+// Categories live in CATEGORY_TOPICS below and must stay in step with the
+// app's ModeKey (app/src/types.ts) and CATEGORY_COUNTRIES in roster.mjs.
+// U-19 and U-16 were dropped from all three: AFC and FIFA run these age
+// groups as U-20 and U-17, so almost no English-language football coverage
+// uses "U-19 women" or "U-16 women" — those screens could only ever be empty.
 import { COUNTRIES } from './roster.mjs';
 
 // Age categories are much sparser than the senior game, so they look further
@@ -37,9 +43,7 @@ import { COUNTRIES } from './roster.mjs';
 export const CATEGORY_TOPICS = {
   nadeshiko: { age: null, recencyDays: 60 },
   u20: { age: 20, recencyDays: 240 },
-  u19: { age: 19, recencyDays: 240 },
   u17: { age: 17, recencyDays: 240 },
-  u16: { age: 16, recencyDays: 240 },
 };
 
 // Age labels as they appear in headlines: "U-17", "U17", "Under-17".

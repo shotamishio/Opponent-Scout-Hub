@@ -14,16 +14,8 @@ export const DEFAULT_ROSTER: Record<ModeKey, RosterEntry[]> = {
     ['ESP', 'WC'], ['BRA', 'WC'], ['USA', 'WC'], ['NED', 'WC'], ['NGA', 'WC'], ['COL', 'WC'], ['FRA', 'WC'], ['MEX', 'WC'],
     ['PRK', 'AFC'], ['KOR', 'AFC'], ['CHN', 'AFC'], ['AUS', 'AFC'], ['VIE', 'AFC'], ['UZB', 'AFC'],
   ],
-  u19: [
-    ['KOR', 'AFC'], ['CHN', 'AFC'], ['PRK', 'AFC'], ['AUS', 'AFC'], ['VIE', 'AFC'],
-    ['THA', 'AFC'], ['TPE', 'AFC'], ['MYA', 'AFC'], ['UZB', 'AFC'], ['JOR', 'AFC'],
-  ],
   u17: [
     ['PRK', 'WC'], ['ESP', 'WC'], ['USA', 'WC'], ['COL', 'WC'], ['NGA', 'WC'], ['BRA', 'WC'], ['ENG', 'WC'], ['MEX', 'WC'],
     ['KOR', 'AFC'], ['CHN', 'AFC'], ['AUS', 'AFC'], ['PHI', 'AFC'], ['THA', 'AFC'], ['BAN', 'AFC'],
-  ],
-  u16: [
-    ['KOR', 'AFC'], ['CHN', 'AFC'], ['PRK', 'AFC'], ['AUS', 'AFC'], ['VIE', 'AFC'],
-    ['THA', 'AFC'], ['TPE', 'AFC'], ['BAN', 'AFC'], ['IND', 'AFC'], ['PHI', 'AFC'],
   ],
 };

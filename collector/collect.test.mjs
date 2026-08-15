@@ -52,7 +52,7 @@ assert.notEqual(buildQuery('AUS', 'u17'), buildQuery('AUS', 'u20'));
 
 // Every query names the sport: without it, Google returns the same country's
 // women's cricket/volleyball/basketball squads for the same age group.
-assert.match(buildQuery('AUS', 'u19'), /\(football OR soccer\)$/);
+assert.match(buildQuery('AUS', 'u17'), /\(football OR soccer\)$/);
 assert.match(buildQuery('AUS', 'nadeshiko'), /\(football OR soccer\)$/);
 
 // Recency is NOT delegated to the query's `when:` operator — Google News
@@ -106,11 +106,14 @@ assert.ok(!rel("AFC U-17 Women's Asian Cup: China through to semi-finals", 'CHN'
 
 // Other sports. Every one of these reached the live site: they really are
 // that country's women's national team at that age group, in another sport.
-assert.ok(!rel('Bangladesh U-19 women lift trophy, outclass China by 7 wickets in final T20I', 'CHN', 'u19'));
-assert.ok(!rel('Sri Lanka U19 Women thrash Australia U19 Women in one-off Youth ODI', 'AUS', 'u19'));
 assert.ok(!rel("South Korea U-17 Women's Volleyball Advances to Quarterfinals", 'KOR', 'u17'));
 assert.ok(!rel("Women's National Team Advances to WBSC Women's Baseball World Cup Finals", 'CAN', 'nadeshiko'));
 assert.ok(!rel('Replay: Victoria v Western Australia (U20 Women Quarter-Final 1) – Basketball Australia', 'AUS', 'u20'));
+// Cricket is the hard case and the reason the jargon list exists: reports are
+// written entirely in it and never name the sport. (Constructed from the
+// wording of the U-19 cricket results that filled that screen before the
+// category was removed.)
+assert.ok(!rel('Australia U20 Women win by 7 wickets in final T20I', 'AUS', 'u20'));
 // ...while the football coverage they were crowding out survives.
 assert.ok(rel("Canadian women's soccer team to host Denmark in pair of October friendlies", 'CAN', 'nadeshiko'));
 assert.ok(rel('Nigeria qualify for FIFA U20 Women’s World Cup Poland 2026', 'NGA', 'u20'));

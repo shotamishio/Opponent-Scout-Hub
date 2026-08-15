@@ -9,9 +9,7 @@ import type { CountryCode } from '@/data/pool';
 
 import nadeshiko from '@/data/collected/nadeshiko.json';
 import u20 from '@/data/collected/u20.json';
-import u19 from '@/data/collected/u19.json';
 import u17 from '@/data/collected/u17.json';
-import u16 from '@/data/collected/u16.json';
 
 export type CollectedTier = 'T1' | 'T2';
 
@@ -54,9 +52,7 @@ export interface CategoryCollection {
 const CATEGORY_DATA: Record<ModeKey, CategoryCollection> = {
   nadeshiko: nadeshiko as CategoryCollection,
   u20: u20 as CategoryCollection,
-  u19: u19 as CategoryCollection,
   u17: u17 as CategoryCollection,
-  u16: u16 as CategoryCollection,
 };
 
 const EMPTY_COUNTRY: CountryCollection = { items: [], status: 'never_collected' };

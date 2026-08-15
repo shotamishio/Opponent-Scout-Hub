@@ -19,7 +19,7 @@
 //    country pages now show real news only.
 //  - Queries are per (country, category) and results are relevance-filtered
 //    — see lib/topic.mjs. Without that, every category got the same senior
-//    query, so the U-16/17/19/20 screens showed senior-team news.
+//    query, so the youth screens showed senior-team news.
 //    A category/country with no on-topic news is left empty on purpose:
 //    "情報なし" is a usable answer for a scout, wrong-team news is not.
 //  - On a per-country fetch failure, keep the previous successful data for
@@ -30,7 +30,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchAndClassify } from './lib/fetchNews.mjs';
 import { CATEGORY_COUNTRIES } from './lib/roster.mjs';
-import { buildQuery, isRelevant } from './lib/topic.mjs';
+import { buildQuery, isRelevant, isRecent } from './lib/topic.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.resolve(__dirname, '../app/src/data/collected');
@@ -44,7 +44,7 @@ function sleep(ms) {
 async function collectCountry(code, category) {
   try {
     const fetched = await fetchAndClassify(buildQuery(code, category), code);
-    const items = fetched.filter((item) => isRelevant(item, code, category));
+    const items = fetched.filter((item) => isRelevant(item, code, category) && isRecent(item, category));
     items.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
     return {
       code,

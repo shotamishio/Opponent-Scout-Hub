@@ -1,1128 +1,728 @@
 {
   "category": "u17",
-  "generatedAt": "2026-08-15T09:04:44.832Z",
+  "generatedAt": "2026-08-15T14:25:30.449Z",
   "successCount": 16,
   "totalCount": 16,
+  "itemCount": 76,
+  "emptyCount": 2,
   "countries": {
     "PRK": {
       "items": [
         {
-          "title": "One year out from 2027 Women's World Cup: Power Ranking, burning questions, 10 top U23 prospects",
-          "link": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQckM5LXM4MVF4RUZHYXdRSHdVQS1mMS1ZZVMzaVB6WkN3VDRUSmp3d0lHd0d6NmE3TTFHTER2WExEV29TWExxRXgyb2QxVlZubGd4MHV6dXpkYUwxZGxTU0hzRWk0cnhsUGRCRnVLaHlhSXpGS1g1cWotMjg4dlhNTDNNVUpyMDdfb19ya0ZhbjU4LWk3Ukl0cEJmQjQtVm13WlJ0bl9xeTYtVnAwdEJpUkdubUFWeE9UUVZfdUR3V192MXh6a1oxZlhn?oc=5",
-          "sourceName": "ESPN",
-          "sourceUrl": "https://www.espn.com",
-          "publishedAt": "2026-06-24T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Falconets draw Spain in tough World Cup group",
-          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFBpSzRaa0JjVndVRlVKa0s4NExmZE9pQzBWVmRHQkc2STF6ck5xQnU5MUplTUJkdVdPMFhFVGhQZ0dKOTloTlRQWlotNlEzTWFBQmtOM3lieWI4Mk1BR0hQb0J3SWFPelRkNUpvT2NwY283SHJPQ0U4aWJuSWdnZw?oc=5",
-          "sourceName": "westernpost.ng",
-          "sourceUrl": "https://www.westernpost.ng",
-          "publishedAt": "2026-05-16T00:02:27.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Canada's women rise to 9th in rankings following impressive effort at FIFA Series",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxPbF9rb2R3YjJQQzlRVEFmTHVSNkJrU19GY3c5V29mWWVwSndnbFZUNnFvZFYteGV2cGZZbTBDZUJtMG5QMnFmU0MyWjR0cS10SU1nSmhOa2lhY0w4LXdiNnBLSjhQUlBIbU4xTU9LN0JJZWpEU1Vlc2ZWQ0N3RFNNZHFXZVppdDVPVkE?oc=5",
-          "sourceName": "CBC",
-          "sourceUrl": "https://www.cbc.ca",
-          "publishedAt": "2026-04-21T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "FIFA Rankings: Super Falcons rise to 36th in the world, tighten grip as Africa’s No.1",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPTDhMZXV6TnBOZHp5WFNfM2g4c3k1UV84TGZ4RzVMUDJqUzFlSUsxLWxuU0tqdFJ3ZjVIU2lLSV9NX0VtMktwa0pZM0Vub3J6bWRZcGZHQjQ0enZyRDZ2cHJFNS1XSjBSRmtWVWRwTE9wVUNFVzFlNUd6OU0xNTBIeG9XUkVJOFZyTlFBMUVMSlRNdEp1VnZXZjNLWlhsMlc0LWg4UzBkVDhaZjc3M29ENkhhaU1iYW9abU50cmpsNVJKMkViR2tFMGl4azZrajVFV0Myb0Jn?oc=5",
-          "sourceName": "premiumtimesng.com",
-          "sourceUrl": "https://www.premiumtimesng.com",
-          "publishedAt": "2026-04-21T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Japan Vs North Korea Live Streaming, AFC U20 Women's Asian Cup 2026 Final: When And Where To Watch",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPZldXQVdpVFNmLTFzOFhHS1VhLWF3VVpBbndEeFNBRndFZ1JnejRDQWVwNlgtUUVBNWNmaTNkcTJ3cG0ybTNvUDZKUXZCZkUzZmtpVnpCMkF1WmlyalFDampnalhwOEwzX3FYakNmQlV3V1BBSjVTQlQ4NFlZZnRQWmZMeFNyR21DaE9mbGVpUVBCclhwVVA1ZG1ZYTM0aXhxRk10R3Y1c0tFdUpPUl83azZCZkdnMXdQU0xyaWJwU0NCN0ZTUXU1QmlabDhfWEwzb0NoZnBra9IB5AFBVV95cUxQRHV6cG1nR21ZcUJIWXpVeENPSll5RFhyV0JzMkVtanhCSnM5c2FTSU1tSWd0anhncE5HRjJDaEh2QUxQNGpUbWhCcGJLY0xQWXdzY2VLekFyYzBnYXVBZmg2Ykg5RmM4N205RlRJUTd5QUd1NHFJSXJfcE9NMlVXRkVoVjJQOGtDMG8zRTZrWmwxbG4zZzBuTFNFN0ZtdlZ3c29xQlFXRTN0VnpZa2IxOWVRRk5EWVctVmt0UWpxcjJuOTBsSmpLYWF2aVJSNERRbmotMEctajlRNFNJT2J4dThIc2E?oc=5",
-          "sourceName": "Outlook India",
-          "sourceUrl": "https://www.outlookindia.com",
-          "publishedAt": "2026-04-18T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "CommBank Young Matildas defeated 3-0 by DPR Korea in AFC U-20 Women's Asian Cup quarter-final",
-          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaG5iNHBVRUpYcXRaLWtLeG9XTEdnZVlLbDRpZ2lZSVp5RnBhR2tyZG5aQ3VMa2ltNWFVWTZ4OThNOW01Z0hweEp6MUxmZXNsTEwyS1NmbkYwdERGbTYxV0p5Wm9NYTVsTWpldk9RaFU2QlBzNVpsTm5UcDkyZGFYeGNLSFpSeXlxWGlTRUJxb1Zsak5KcDNBRE8zcno2NEVYSGVhTFh6ZHlyU0N0Q0UzcWRJRHdCZmlmQlo2bHl5R1BRQQ?oc=5",
-          "sourceName": "Football Australia",
-          "sourceUrl": "https://footballaustralia.com.au",
-          "publishedAt": "2026-04-13T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Sullivan: We’re all ready to take this game on",
-          "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1CMF8yZ2FDSWxITFBvbkh3c2ZIOGV4MDgxTDZKRzB0YktrV1MtYVJYb3dTR0YwaEZNVk1DWXQ0OEQtU3FSZXJwVmpmdWpKQmpzRm91dGZvVFZYRnZzeTgwZXJaY3lSNVpudUlsVTVibw?oc=5",
-          "sourceName": "Matildas",
-          "sourceUrl": "https://matildas.com.au",
-          "publishedAt": "2026-04-11T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "How to Watch: CommBank Young Matildas v Korea DPR | AFC U-20 Women’s Asian Cup 2026",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNcE1MMzZjYVlsLUVLdnByQmJfdy1HMEo3QmxjTWVmN1BQekNZYkhxNC1tSFRsZXpYdW56RFBCYU1zRGxPQkJPREdnMHNEMHRpT2Z2X2I2LWFjX0VoVUtzX0hwandQSFgybERrdk1ZTExodzFnN1FQaXhPODN1TDBHbUdTTnVEdlBwcXRoWXdJbFpLZjh1ZExLSTEwcG92R1c2Nm9BTXFqa19VUmc?oc=5",
-          "sourceName": "Matildas",
-          "sourceUrl": "https://matildas.com.au",
-          "publishedAt": "2026-04-11T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:19.701Z",
-      "status": "ok"
-    },
-    "ESP": {
-      "items": [
-        {
-          "title": "Metropolitano to Host Spain vs England in the UEFA Nations League",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOMDZka2JxN1NsRG5DYzR6dEkxOTBITlRoLXlkaVVsM2FFMUV0RXlTX183UEZMelNSSWhDdVRyeWEyZnI4VVBCQU05Y2hwUUJLZktEUE90elFtSkZlbEJ1NTRXaWdsUWotaDRxNmlkNnhlWlNYOW5QeFIzSGhQSDJQeU13YjRUTnhtNVZBSFNPakNCYTF3YmFKYQ?oc=5",
-          "sourceName": "RFEF",
-          "sourceUrl": "https://rfef.es",
-          "publishedAt": "2026-08-04T07:00:00.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "Why Spain are top of the world in both men's and women's games",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPR1kwbnpjUTQ3dU1vR2ZsdS1VWlFXV3VSOFFYbzhkZlFXbmpvcml4elhXanJHclFjNTJfbDA2dEg3d0FRZXFEQ1ZGWGF3UU5GY0M3VndjZkYxUUpuTlp3VzVBMEV3Yk5pUkpzVVBteC03dzlKX2NFWTNNNmRlN2xhS2V1X0RKcVRCWkxGVlliRXhvdW9HWHE2OURncG0?oc=5",
-          "sourceName": "ESPN",
-          "sourceUrl": "https://www.espn.com",
-          "publishedAt": "2026-07-22T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Women’s World Cup 2027 odds: U.S. favored ahead of defending champion Spain - The Athletic",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNenV4UlkxQVJTTDhoUU5XYjFsZTQ1V0ZkZERleWcxR2Z0WXZ0S2tBMWhocGlVQ1A3N3YtU0FIZzNVeWpHSGtQaHhUU1R3YTJGZWlnUC1RbWpmd1hRcUpxdnI2Vl9Sb2lRWTFnV21JY1lJVlhzTC1udTJ0R3lpZ0dxYl9yd1RUdWhTNWxNeHZ1N0ZqaWc?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-07-22T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Spain Makes History: The First Nation to Be Men’s and Women’s World Champions at the Same Time",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOOWFiS2V5cU8zd1l3SUFHQmMzWUhLUHV5WXBQQmV2QUFSTmZCel9tV1hyZDl2ZmdYSzNBdGZhNmJkTUJ2akR6RV93dXJUT0diMTJadWZodkFERHNYelJfTTh0Z3ZLLWZoSUZEVkRGNXozWGVKb0NCckRSUjE5RXN3Rk5yUXh1Q09CZWJtbFBkTG1oMHVIcEpSRFB0czdTU0xBa2tmTFhCYi1zNHZwYjlzRmxwemVnaVlmZmR0LWJCR2N0T1lzV1BGeWQtMFdYNUlRaDlEWlZiYTIySVMyYlcxMzM0NjU4Y3ozX3RlLUluX1lmbDVoWThiVXdQMmM0V2tvRDVBR3pwNkpKWl9iWW0yMmVB?oc=5",
-          "sourceName": "beIN SPORTS",
-          "sourceUrl": "https://www.beinsports.com",
-          "publishedAt": "2026-07-21T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Spain can claim global football dominance with unprecedented men’s and women’s World Cup double",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNUZCV0FaNWc0UkxoZ2hSVW5DMUtQMkZtWHNTWDRuUmhQSXNlX2YxTExJUHZxS04zdXFMQTBoejQ2ZXN5REwzSmxZTTNDUnU2bVp0Wk9kMy1UbDRLQjVtWDlsYWx1bnJqNUoyTGlOZzgtZXZ2Z2hWX2kzbVNJUlVzVUx5UnpzZVR6MUw5ZnNnUTRDZHEzYzlXMEt6WDE4YW4zSHVjN2pGUU5TTm5tSEc5VjR6TQ?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-07-21T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Spain’s unprecedented soccer synergy. Plus: Entering uncharted territory with Netflix - The Athletic",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQVU1RRkdvQXozWkpIck5RYWZ3ZG1Pa3RpcllRMjlkS0YxUEVZNmNTeFlPLXJGR0dfSDA1ZGRJb0VJWl82bE9NaGtKRXhnOVp0cXpCNDF6SWJJVzd3d2tPdVpvSDBHTnhzUWJVYW5PMHhxdExzQU9nM1ZMZl80elNjZS1uZlg1a01tY2V2RWhteEJBbnIzdkd4Mkg4aw?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-07-20T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Sixteen titles in five years - why Spain are a dominant force",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5JWFpkSFBob0lHRmxOMmJQSEJCdVZUb1pmb2NMUUtSUlA3dXY1bXJ3ajVQMVVxMnB6YUhfaG12dy1hZ0ZlUHZBM3FwdnNFcWE1R0FjTWpUMDE5YURORExkV2oyXzNQNHc?oc=5",
-          "sourceName": "bbc.com",
-          "sourceUrl": "https://www.bbc.com",
-          "publishedAt": "2026-07-20T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "How Spain's Men's And Women's National Teams Rose Above The Rest Of The World",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOdy02ZnoydUYzWmlSYzF3S0JTZWtGZ3QxVTZMZHRJdW02SFZGSC1HVG1OSExReVVUTHpRUGlQaVFmYmVVZ29ZUU9RenAwSlY2RnkzenQ1YzF0a3FoaXZaMk5hUER6VDNVRXhkT1R4bExaV1pTVlNCSmMyTUZIdUFmTUl5MEhBSERGU3ZyS3JRdjhZeTFNcVhvTXd6bWc5U0l3bFJqQUN0VmlkVXJ1am1v0gGvAUFVX3lxTE0xRXItUzNQWUhFSjRNLXBKRUFVY1FlUHBMVmVWUlJzNXViRnEyWE00MGtVb3dqWV9sQWEtUk1XUnJzdjdhcnU3Y0pTUHRPVDVpWlU2T2pSbXI1OHpRM3MyZXNkZDY2R1BoNnMxN0JVUTA4U0lCU1RwcDdLaHNDR3pUUFd5azdnTzVETUhmV0RfNTI1OVNMRUdwTWZvTkl6azBRYkw3N0ZCMENXaUktZlU?oc=5",
-          "sourceName": "foxsports.com",
-          "sourceUrl": "https://www.foxsports.com",
-          "publishedAt": "2026-07-19T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:21.212Z",
-      "status": "ok"
-    },
-    "USA": {
-      "items": [
-        {
-          "title": "CT flag football standout wraps up checkered junior career, sets sights on Olympics",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNaTI2V3h6c1AtZXdxRm1OMjlQemE0aExCRDRLcXdMWl9QSWdQY2VISmM3X2FyZFJkQ3oxbUJ0WkZtWG9ISFFFUW1nNHc5VHN1cTR6U19BSTAtOThUMGlaYk1CVzJIVWdLRnhQbl90M3FCMjRtY00yLXV2UVYwN1BFdW94TWl5UWVFRmpmUWM0TGt6TmJNQUZYVXhpZWFwbDBKd3F3WXpn?oc=5",
-          "sourceName": "CT Insider",
-          "sourceUrl": "https://www.ctinsider.com",
-          "publishedAt": "2026-08-13T17:02:56.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "IFAF Flag Football World Championships 2026: Team USA men's and women's schedule, full rosters and how to watch live",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxObUdDaUpiV3RsSVh1OGRmTWZDdnJuUFoyaGZnZU9jMXJZYlBkZnVwYllrcnQtcmJ2TXA4TkRpODlOUk9seWpKa0YzcmNrdlI1U0ZpU1BqNzJUT2hXTWR5UWxkbmdSdktYSVJRcTBtaUZNa0JTNEJDWjZYaXdVS2JqTVJpTTJqYjZ5Sm85MFBtbUh5ejZVRDRrYjdMLWtWWnBtMDRNdDBTVS1ZdXZqcW9IM0Rn?oc=5",
-          "sourceName": "olympics.com",
-          "sourceUrl": "https://www.olympics.com",
-          "publishedAt": "2026-08-12T12:36:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Women’s World Cup 2027 odds: U.S. favored ahead of defending champion Spain - The Athletic",
-          "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNenV4UlkxQVJTTDhoUU5XYjFsZTQ1V0ZkZERleWcxR2Z0WXZ0S2tBMWhocGlVQ1A3N3YtU0FIZzNVeWpHSGtQaHhUU1R3YTJGZWlnUC1RbWpmd1hRcUpxdnI2Vl9Sb2lRWTFnV21JY1lJVlhzTC1udTJ0R3lpZ0dxYl9yd1RUdWhTNWxNeHZ1N0ZqaWc?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-07-22T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "USWNT to face defending World Cup champion Spain twice this fall— how to get tickets",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOTl9nZWV6VXVBcGNrU3dac0tiS01QeWd3S29FWHNic0I5ZTc0Z2tmTEh4bFlQbGozNzg0MXhkUUVhOG85a1c1aTFkRmJiSnNKSEF4emZvellmeWtYbGFCd0VYdFdzSEdEd1NIVkZWYjAySURudG9OZHk2U3F6WVJSbDlOdjVRVWJ4OWtPZU9GeEYtVW9ET2Z1cnhKMUlSWlN1Y05tSVFEOXJ6LWE4MWlNRkI0VlRRM1FU?oc=5",
-          "sourceName": "USA Today",
-          "sourceUrl": "https://www.usatoday.com",
-          "publishedAt": "2026-07-14T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "U.S. Women’s National Team Will Face World No. 1 Spain at Audi Field On October 10",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNamJiUk84OXdqTS1udEh6bUhXam9lSkV6eWpGWG10Y1F2Y3JWVHdMWXR5SzJfeGpFcXRXWGtpY2ppNzJTT3BOSzM2Z3dyWFBSa0xoU0tuSldXTWh5SElSMTBHYll2eHRUX2F2bzlfZk9EaU5SRzFuT0NzYjFaN0JUZkRTMTBLRGZzSVhSRkdaaFRjR2luN2hhZFdvT29pc0lZTjVDcWtqdm9DVjI1OVN2OU5WLXRVRVdId283N2NkNGJQcEk?oc=5",
-          "sourceName": "washingtonspirit.com",
-          "sourceUrl": "https://washingtonspirit.com",
-          "publishedAt": "2026-07-13T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "U.S. Women's National Team Will Face World No. 1 Spain in Two October Matches",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY0NvMG44U2Q3a21hSXpWWmdITGZzNHYtX3IwYlJMdFNXQkhucFhyOE5uenExOFAwNUU1d3FqTDBRa2ozVkp5VUtmMFhCdnV6bmg3TDJSMnl6TmtlTGhOaWpPOFhpbEZOTU1tZGJXMzBUbFVyeXg4TGhCbzIzNm5ib2I0RGtPTVp3bDEyaEpCNUMwRVh0ZnlqY1dzdDV3QWo3QTVNWTQwZFlPaUNIQnhBcFdYNUs5T3J4M0RnaA?oc=5",
-          "sourceName": "US Soccer",
-          "sourceUrl": "https://ussoccer.com",
-          "publishedAt": "2026-07-13T07:00:00.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "Women's soccer stars fought for equal pay. It's paying off while the men play in this year's World Cup",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPQjB5SVhQMXlPOGV0Qk1LdUd0dDF4QU5IeDNXQW5VSGFfeW1wa0pnNlJkOGtPcHRJQ21VdEpNYWdSWklLRFJlQW1jSmZYdFNtRFNyekRVc2Y1TENlVlBnc21lU1paTW5jNWZzS2JiSHJELXZvMEhhVXRrUDdIQWpGMkNDM2VkUEVpNFgxMUdkTml4aHE3Rk5NYkdfZjhfSFU?oc=5",
-          "sourceName": "Fortune",
-          "sourceUrl": "https://fortune.com",
-          "publishedAt": "2026-07-09T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "USMNT’s World Cup $12.8M payout will be shared with women’s team after equal pay CBA",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNNVJ1OG5FTnhZV2RTczNrdnFGa3p4MHRwOVV6TFZCbjNadnVSMmtETF9FcDVhaTgtRDdyY2FxLUkzVDhJM1B6YlhqakpRSDFfQWhZNmNlemFmVmdJMW5NakpQSk9ldkZheHhoMlZBNm9sbkt2SGJLMHJhRlRWZW5pQS1Wd2RBVkF6NTVGeWhUQnhxWVRsakJrTGFlNWtMUDBOZlVlMkZFUDhKVVEtTUJuRGtn?oc=5",
-          "sourceName": "New York Post",
-          "sourceUrl": "https://nypost.com",
-          "publishedAt": "2026-07-08T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:22.727Z",
-      "status": "ok"
-    },
-    "COL": {
-      "items": [
-        {
-          "title": "Venezuela vs Colombia live score, H2H and lineups",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTFB5dlA2TkZoWnZNbC1fZVk0MG1FeFpXYWRVS05rZlZEcVlzUWYySE8tOGZQTkg5TU94LU96WFp1NnQ1d0tVc0NCaGhXNjJMVDVXWTdUYi1VRHV0ajBTNzJZNXZ1b01mb3k0anVDV3VlWUo4bEFzUXhr?oc=5",
-          "sourceName": "Sofascore",
-          "sourceUrl": "https://www.sofascore.com",
-          "publishedAt": "2026-08-04T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "The 2026 SheBelieves Cup Will Feature CANWNT, USA, Argentina and Colombia",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamdHN2xSVVVMazhBTzNKMlVIRHNsZTFvOFlOWEduTnlfZ1Uta240LVQ0emljTjRkMTdLVlQ0c3E1N29VR3c0aXNFbmhpdU9sekxFODFRQ1dBaHBtWG4tYjRGMU9VeXJ2UUhWcmtuYzRHTGNTNzlXbGwyNUJOaGFQWHVIdk5aTDJVZ3ByNUJQNGRudGg3bURYOVZPTWxadjREQkM0?oc=5",
-          "sourceName": "Canada Soccer Pressroom",
-          "sourceUrl": "https://news.canadasoccer.com",
-          "publishedAt": "2026-07-01T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "U.S. Under-20 Women's National Team to Hold Training Camp and First Women's International Matches at the Arthur M. Blank U.S. Soccer National Training Center",
-          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkFQQlBYcG0wZzlkUW1NT1puM29lb0Q5N2NmaU41MlpTdl9ZUGFCUzNhS0t2dk53UDNxQ2JqV3ZCQ2xhMXY5cldaSkk5U3l1TURicUZPQlhTWEJ5U3Z6cGFUVmRtSlZUZmd0WlF2cURnOTBLTENKWkNiNkcwOU96aUpZS3dUNTllUEZETEZaR2F3ZDZfUHJMeDhmU2FwbzlvX2pCa3hjVmZVYnpFb0FHZHlSdV84ZkRyb2c1Z2pYQ2NGdkhBaXBUeXNnTG0zWlNpczIw?oc=5",
-          "sourceName": "US Soccer",
-          "sourceUrl": "https://ussoccer.com",
-          "publishedAt": "2026-06-30T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Soccer in Colombia: Growing an ‘unimaginable’ domestic league from national-team momentum - The Athletic",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNam9adDBaS1JKbk43QnVuM0VnME1FNkRkRzdMbGtMZktLb2loTXp1cFRnVFJ4XzZ5R1A5amtQTDZJN2JTNExBUUpaSm42b2psX0FETjhFSUhLeDgycVNyRW1oZlNscmN6OTJSWDBia1FDZmpNSTMxZTJUX01ZSXdoYV84UFVXWXRPVlFPS2Jn?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-06-18T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Colombia Crowned Women’s Nations League Champion",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOTEo1SGVPMzRMcS1wNV9BbVhiaElFRHdtWXdnRkZyQTBXZllENWdhX2xyNHl1aUVjeWxfTE9UdkdHWU5oT1lWY2M4TTJSeUtPNm1DM3JYazc5Sy1wRHhPTm0wcmpjdmRQNFFWblhrVUNRcHBFZm1yM2RFMmFyakhuYWNSWGg5Vm1uMy1v?oc=5",
-          "sourceName": "ColombiaOne.com",
-          "sourceUrl": "https://colombiaone.com",
-          "publishedAt": "2026-06-10T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Washington Spirit Midfielder Leicy Santos Called Up to Colombia Women’s National Team for World Cup Qualifiers",
-          "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOaHdPSURUT0lJeVRQem1hdEtCOHhDR0pHZWtNNFpSc09YazFaVHd6WjhsS3BCRXZZTVUxaE5la1lkRWN2cXhGVUdFQ1Zqb01LSUNFdUdsX0luX09XQVBpSHJMN0FPTjdVZk1VYk54VTNCTzFKVU1pT1VjM1ZFNkhVLWktSGthaFZfcDFqX2NFb2ZjZTdyOWlEVTZzUDlwaFk5SHc4OVFvMWFfTFpwY1BPY1FoNnJlc2I5Rk1NcVFZQzBnQzF1bXBrVzhHQXhoRnJzMlhPYmtZVlhsZzBHaFVWN3FlXzdPRWU3MzVlYXd3?oc=5",
-          "sourceName": "washingtonspirit.com",
-          "sourceUrl": "https://washingtonspirit.com",
-          "publishedAt": "2026-06-01T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "U-20 WWC Draw: Falconets placed in Pot 2",
-          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9MMHF3bGsyQWF2TUlwbnczTV9uRjJHcGtHWWJXOERDWHdSM3o5Yi1xbTlPa0dtQnVxLXVJNG5vaVNCZmhfVXhjdmxzRHBtbEE1Y0UxVE9wcEFCODEwOXF3U2lnYmlWWnlpdzNWM1NJWFB4VE01ckxHb0lCWkk?oc=5",
-          "sourceName": "Daily Post Nigeria",
-          "sourceUrl": "https://dailypost.ng",
-          "publishedAt": "2026-05-13T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Colombia’s Women’s Team Needs Two Wins to Clinch 2027 World Cup Spot",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOLWZ5WEtGUVBxdmJEby03SHRQZkFpMGVicERUMXRBdm50TkpWWFp0eFl4Q3FHMlBnSTc1bk5aTS1RM3pjc29EYlRXa1BrTzFNb1prRWJ5aVcycEF4RHI2dTdfcGpSN1NPV3VNc0dEekVTSmUtVXR4WEtNaUxoSEFrOFVvbHo1ZWM?oc=5",
-          "sourceName": "ColombiaOne.com",
-          "sourceUrl": "https://colombiaone.com",
-          "publishedAt": "2026-04-27T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:24.239Z",
-      "status": "ok"
-    },
-    "NGA": {
-      "items": [
-        {
-          "title": "Today in Africa: South Sudan refugees face food aid cuts, Nigeria misses Women’s World Cup",
-          "link": "https://news.google.com/rss/articles/CBMikgJBVV95cUxOZ0dJRmFzWWtad21HNTliVmgwNFVDSGhEb2RRWVdDYktabFRGX3JjbjdDcHNGdWNJOHJKRExfSEE3SmFFWTBueDc2MWU0MzBQREUyMlA2LUsxNUdhTEYwV3BjUzVVd3FtaS1LMC1xVFRPcVlkM21tcmJwVGswRy1saGw4eHFSMnZYclNJb1BmdGlKOGJGUGI5OW84eHc0cDZleUxONGZYejR1NWhLbk04VVRySXRVTTdQcG5FZ3BLTk0zZDMySGp6SS1OZmhnaVhkOXhDSVpxMFZLZVkxNUtrNzh4ekxVRjl6aWRUbHhrdXY0OUpZXzFrWDFzMksyV29ZWDN4cjUzbDBQYjRIQ3hTOVF3?oc=5",
-          "sourceName": "OkayAfrica",
-          "sourceUrl": "https://www.okayafrica.com",
-          "publishedAt": "2026-08-14T15:38:05.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Banyana upbeat after beating Nigeria 2-1 in a WAFCON play-offs",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQc3FxVEVadlN3Nm9wcldSSVd0X3g2c05NY3JtVm9GSkIteUdKUU5pRnlJN0VRd0xKNlBMU01KSTllQTFEbkJPaTNIQ1A2aHplOWZ6U0tKdUdKb1Y5Z0ZyMjZDM1FkaW5ZSzUtVnBzWEh6N2VKMmdydzAybHNsX2dSaTJ6aGRQNU1EWE9sMmFRcWk1SkhkZnVCS2xMNDB0UQ?oc=5",
-          "sourceName": "SABC News",
-          "sourceUrl": "https://www.sabcnews.com",
-          "publishedAt": "2026-08-14T10:57:55.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Banyana beat Nigeria 2-1: What happens next for the World Cup?",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxObjNqTFROZkRvclZWcjNJbDdZLXFCZ2dnVHl3c3NPN0l2M1ZINnl0dlh1akFETkR4eEg4LXEwS3c3LVdLWmtiTl9CRVVIdDdLZi1fcEQ4QWttR25pMjFSbzA5N29LcTgteDFnZHdkbjRNam04bE5QRHgyQXJTVUlYRW4zRncxVEZwMGh4Q1BPTkNUMUVWRUNDMC1B?oc=5",
-          "sourceName": "explain.co.za",
-          "sourceUrl": "https://explain.co.za",
-          "publishedAt": "2026-08-14T04:38:21.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "NIGERIA HAS LOST ITS WOMEN’S FOOTBALL ADVANTAGE — AND AFRICA IS CATCHING UP FAST",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOOGJRRktRbjFYYXBjRG1mSy1zWHlfMFJGTlVEWW1oekFJOWRaRnh5cTlMcGVTT1RCRFVXaVk0T19VN1lBTXNZU055THJTNFVvSVV1RTFaR0xGampmclp6Y0kxbHJLUVFzMGFWVjRBdDRsb1ZSWVQ2T3dtWjNzUmRfVnBjNnBCSWRlTE12VWhiaEh1a2VBamh5UlFkUXpSTDVOU01aRzRR?oc=5",
-          "sourceName": "Sports247 Nigeria",
-          "sourceUrl": "https://www.sports247.ng",
-          "publishedAt": "2026-08-14T00:32:27.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Banyana’s World Cup hopes alive after beating Nigeria in Morocco",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQZFdQNnIwNks3TEJvZ0c3TzdjTkxYdUxPeDQybUtZWUtwdUpJaDVVa1gtZmZ6bzNJWWJzN2VkUk42WEw2SUdUcXBNeDRXbG5nRmtmQm51ODdKSVNKMGxaRHJFQ2lxaHFZdzNIblRKb2F2eVNvNmFMdHZSSEhvZ01mLVJQdjBjS1FTc3NKbGlvazlvaTI2UGpoTTNKSUYxc3M?oc=5",
-          "sourceName": "South African Football Association",
-          "sourceUrl": "https://www.safa.net",
-          "publishedAt": "2026-08-13T23:06:35.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Women's Africa Cup of Nations 2026: Full schedule, all results and group standings",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQVmY3YjRJMFU4bUhHLThrM0pwcTVjVFpfYzlULUhvMjk3RUxHZzZJeTNrdmNUU1gxakdHa2JYbUFEaS1RdExwQVhDN1hTMjllQzNvN05zYWMyNm9lMDdjVWh4VjFMMEcyeVprd2pEdHNnRGp0c3JOZ0NlZlNkbEp0cXFodVF1YmJGS3U5R2ZVWVhLeFVtamNXag?oc=5",
-          "sourceName": "olympics.com",
-          "sourceUrl": "https://www.olympics.com",
-          "publishedAt": "2026-08-13T22:05:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "South Africa, Nigeria in anti-climax decider",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQZ2x0dWhLenREakt1UjBRRk9KOHdIa3lwRmV2bXVxR2Jla1ZDd05zQWNYUnhWZmZjREdMWDRoazFKRWxxWlJGVWFFdEZGYTg5OWpodWh2WVJMc3dGV2dwU25HY3JPc01HN3paN1NGN0JYS1FpSTNvMC1janpaYUxRNmlnb1hyeDc2cE1tSldyZ0NNRmI4Ull4Mk5PbXVPSnpsZFBZZF9WWGVPVFFa?oc=5",
-          "sourceName": "cafonline.com",
-          "sourceUrl": "https://www.cafonline.com",
-          "publishedAt": "2026-08-13T12:19:44.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "South Africa vs Nigeria FIFA Women’s World Cup Playoff Match Preview: Kick-off time, venue, squad news and how to watch Banyana Banyana's chance to reach the Inter-Confederation playoffs",
-          "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxPa0pjZlFfWmg0SWIxMFJaLVFaYm9KejZ0Z18xTHl5N0QtMG53TVI2MEJEYTh2aFkzem1aTTJxRnIxcHBWSjJadk91N0dBRUlkNTBuNmowTVdjbXZJWmxRS252MFdHWDBKS0ROZDI5R25GN1lCOFRocl95R2NwRC03d3JveUtHbWRuZ2NnTy13R0xWT1poTXB6bk90ZVdYSVFTVjd3anZua1lxcGVLUks2NmhaaFpENzROX05pZ1NDWVpwTjNYdTducVVCaVBjNnhJNW9WdEZZZHhfVks5ekowNElsNEdITXAtUzYzS3R6djd4LUNUbVd5RkRRWTZEbzN0YjhocVU0OFRiRlhuU2pXQ2EyUmxvVGk2VWdOeUI2dG5HXzE5RFJ0bWkwYWVRdFA5SlJQblF6YWhXMVM2b240MzRjYXRSUjFDVHE0STRNOXFNTl9WdkJv?oc=5",
-          "sourceName": "Goal.com",
-          "sourceUrl": "https://www.goal.com",
-          "publishedAt": "2026-08-13T11:41:17.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:25.753Z",
-      "status": "ok"
-    },
-    "BRA": {
-      "items": [
-        {
-          "title": "Philippines women’s national football team secures qualification for 2027 FIFA Women’s World Cup",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSDJfU3FiZHVTbXV5OHVnLWhKQXItYUdTc3BDZjY3YUlkY3dTNE41NVdGZkNBdHVDb19UU2FtM0R2OFVYcm9QZzBHMmRsOWg4SDJ0UTlUektNUm5rbFAxYXlDLVNOM1RjRGVKUjU2dEl3M2ZDbG5pMWF0Zm9SeGd6SE84SHc4cWtHWjg4MUd5YWxSMERhb0VXU3hYU05wZ2ZQYUFwMy1PLW9uZGYxdzg4MEItRkVET0lLdzV5ZA?oc=5",
-          "sourceName": "Newsonair",
-          "sourceUrl": "https://newsonair.gov.in",
-          "publishedAt": "2026-08-14T18:31:29.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "President Tebboune congratulates women's football team on qualifying for 2027 World Cup, WAFCON semi-finals",
-          "link": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPM1IyN3lKTlFnenJUV1VhVGZqeUd6VEp6TmwwZEJuVy1GWW5ZMHBjYjZEM2htVTVYTENSQlVYdW1wdVlMSmJsenpwaEhBT3l3WmlfUlh6SUtlUnhYR3A3Z3ZFR2ZVSzdqTFNWOWZkanZ6enBDVHVDODA5SUkzb1hiQ28tV0lUd1A0Wl9iUjBoaE5kdnhScXVoOEM2bGNpTTJKM25iQld1eGhORGdWb3Bxc2l1Rk5GQjFtSnNsMkpJMlpEZzFpNW5ZQWw2ZGpSemRRZTgwR0V1UC1pTTlpbC1OeUpNUnNBeGZB?oc=5",
-          "sourceName": "aps.dz",
-          "sourceUrl": "https://www.aps.dz",
-          "publishedAt": "2026-08-09T08:56:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Which countries have qualified for the 2027 Women’s World Cup? Countdown to Brazil",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOdVh1Nl8tcUcwMzFzLVBwcWZ5c2x4bWl6ZXNmT0ZRN0tFUVRISF9fMjZvQ0dIeVZURjl0RmlOZkdlRUhYNHE2Q21rb0ppMEVmRm9wdEVCXzBLOFpOWDRkb2JaZ0pKVF9sbHNiUk9FUmdRUGcwaV9HenRvMkVRYURZS1RqNUttZlk1WjVfNUU2d1JBX2hZMHFNTEpB?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-08-09T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "2027 Women's World Cup in Brazil: How to watch group stage across land",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTmlBczR2dDJTdG91bVhoN2tQVEN0aUNMdUVmQWE5eDh5TGFWMzh0ZE82Rjg2enhCR3Yxd2RESlFmRkRGLXBWUnpYcFVtWmNGVE54b0lVMV9mVU4weHJNU1dSTllZejlscXhrS3RsWjZjUmhFR21YWUt1cG41ODJsYldIYw?oc=5",
-          "sourceName": "Yahoo Sports",
-          "sourceUrl": "https://sports.yahoo.com",
-          "publishedAt": "2026-07-22T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "The 2027 FIFA Women’s World Cup is less than a year away: Key questions for the USWNT - The Athletic",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNem1uOHU2amxUS1BzcldkeTVzbDJRX0xTcFdaUkkyNVQ0T3NSdDIyM2ZMcXJsVzh2STcxZHBwLWxKMEJaQWFjMVd2cVNrcDJFbjR2U1QxTkJrbm5yNERsbUF6b1JoNFFuWmdMVUVkTjctVG9kRUw1OW1ndFlMSVQ1YmNWRHl3NjJmWmNJb2NmdlZFVWhBMkptaE03ek9Eelpm?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-07-20T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Countdown to FIFA Women’s World Cup Brazil 2027",
-          "link": "https://news.google.com/rss/articles/CBMid0FVX3lxTE9obW0yZnR0dV9xbWVoZEViU2x2ZS1PWjRXWnpXRFVwVDJfdnlqeEVzYVV5bG10eHFTbkZRdm12WHFwS0JuSWVkMndKak9HcTlIR3ROOExuYTYtcXpOb0JEVFo5MW9IdW1PektlMVdNRGZFSnpJUENR?oc=5",
-          "sourceName": "thefootballweek.com",
-          "sourceUrl": "https://thefootballweek.com",
-          "publishedAt": "2026-07-20T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "When is next World Cup? FIFA Women's World Cup returns next year",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVGY1MjlWU3BfenpmejRiQVU5OGVESHpWV1VsX2FvUGh3U1BYOGlyNmppbXF5VmJwQWVwOWc3eHhOYlJ5WXVDeG1TdGE3aEM0dmVHN21QemtfR0l0LVZMLVp2MEhmdnY3eHB1bWlDcGNKSXB5eFJFaHc4N2xyOGVpMUZPWThpS0drTjgxamFQaWtpbmRWUkg5a1dLZF9wMG1SMUNlUzU1aUdUZEN4MmRuaWs0ZUlkdXpoSkdoUEJWSkRJN196MFN6bg?oc=5",
-          "sourceName": "The Coloradoan",
-          "sourceUrl": "https://www.coloradoan.com",
-          "publishedAt": "2026-07-19T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Way-too-early 2027 Women's World Cup preview: Brazil hosts, Spain defends its crown, the USWNT comes back for revenge",
-          "link": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxNOHE0YjQteU1VZVlieFpXNEFjS2NNcWl0c0dlS3lHODd2VHc5ZG44MHEtZTBOQjRNWnpCbUl2ajZXVGtzUjFmeUNVZEhRMXFKQzNYMW5rWkNIUWw5ck5uRTU4VUdEUjN3YmZXT1NQQmp5WlNMUDYxdG0ycjZpc3p3T3JOSV94WGhGbWFFV1JfWm1mUFdIMTlfWENSVHY0NEM1Ti1SV0pXM0pXUHIzaWQ0WUNkcHJzOHBmZ2tEdjZ3aEJBdThEQ0s3WDNfX2RZM0xuTTNFYzBIcWFTNVFSWnhXa0Z3SzFScXdoTDUzelI2YlgydjFsRW5uUnJNaDk?oc=5",
-          "sourceName": "Yahoo Sports",
-          "sourceUrl": "https://sports.yahoo.com",
-          "publishedAt": "2026-07-19T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:27.264Z",
-      "status": "ok"
-    },
-    "ENG": {
-      "items": [
-        {
-          "title": "‘Ted Lasso’ Producer Brendan Hunt on What It Took to Revive the Series, Why Some Characters Didn’t Return and Whether There’s Another Three-Season Plan",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOVmt2dFlyZjQ1MWhITjR1LVEyNGNTcnNzUGI3UXhZWk95aXdOZXEyRVJEbG4wZTQzYnhzczRMNi03YmRmSWwxeU5HMm9LRHRSWllLOG1BbE9zb3dnTmQzWVFiZ3BmMEpLVkdTendtYW1OLXF6ZWMwNFdXWi1nZlllWHdyU25WM3dMaGRvWkRTRjYyaDBrTEdwTTlB?oc=5",
-          "sourceName": "Yahoo",
-          "sourceUrl": "https://www.yahoo.com",
-          "publishedAt": "2026-08-05T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "'I needed this summer' - what next for Arsenal's Kelly?",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1qcjhWNjJpd2VwbG1RNU80S1I1V0JKVTE3U3BGTGhpdkZJd0lraG1lakNzNHdqOXFSX2g4TDVRUE4zVnVQdEY1VDB0OU42aG9Pck5ySXdWaFlMZlFGZGlWc1ZubktTaF9tY2c?oc=5",
-          "sourceName": "BBC",
-          "sourceUrl": "https://www.bbc.co.uk",
-          "publishedAt": "2026-07-28T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Why England teenager Parkinson has a mindset coach",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE4xc2RBdHZ3UDdoS1E1VUtuMVZSRHpDN2FtU2tyS2x6cmZ2LXFEVjRJOGZFLUhhZEJnYjhaZmFWSllZS1dfaUxDUUdVRXNac1ZTeVJUd3JZaUc4SHFiOXBLUG9hX2ZWZDQ?oc=5",
-          "sourceName": "bbc.com",
-          "sourceUrl": "https://www.bbc.com",
-          "publishedAt": "2026-07-21T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "U.S. Women's National Team Will Face World No. 1 Spain in Two October Matches",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPY0NvMG44U2Q3a21hSXpWWmdITGZzNHYtX3IwYlJMdFNXQkhucFhyOE5uenExOFAwNUU1d3FqTDBRa2ozVkp5VUtmMFhCdnV6bmg3TDJSMnl6TmtlTGhOaWpPOFhpbEZOTU1tZGJXMzBUbFVyeXg4TGhCbzIzNm5ib2I0RGtPTVp3bDEyaEpCNUMwRVh0ZnlqY1dzdDV3QWo3QTVNWTQwZFlPaUNIQnhBcFdYNUs5T3J4M0RnaA?oc=5",
-          "sourceName": "US Soccer",
-          "sourceUrl": "https://ussoccer.com",
-          "publishedAt": "2026-07-13T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "U.S. Under-20 Women's National Ties England, 1-1, in First-Ever Women's International Match at the Arthur M. Blank U.S. Soccer National Training Center",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSTduY1N5VGloeUVCNlZha3R4Y0lNYUt2NnExbmRYdXNmajdaYWYyNXdJNXJUWm54V01GemhYNUV0VjQ1ZWhJWmw4d3VGSS1mNlhOTGVmUExfMVBHcXBqRlNIQXExMnFWd3ZRN253Q0hjQ0dzMUM5YzlRLUZ4TWlxaGFJVDREUnRoc01VaEpFSkY5bDRyZWtkTUtWaTNQQ0FOVUlmYmYtMTVDOEZFc2FhMFBOWWs?oc=5",
-          "sourceName": "US Soccer",
-          "sourceUrl": "https://ussoccer.com",
-          "publishedAt": "2026-07-09T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Bay FC Forward Keira Barry to Join England Women’s National Team for Upcoming World Cup Qualifiers",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOaC1PaE4xdFM1LS1PZE00MHNBdFpqUXJXZ0ZnTUdWRG1idGJDYUJmc1NpblJ4cjRMeHFZS2ZWbzl3UzVDc2ZEZU0wMHFxc2h1UFctMnNkd2tBbWI4V0ZKcEZTZXFmampTYnZfSEJycGpod2NhSmdqMXJFTlNkX1VsekxlVC1WVjdlZEpERG9fcU5yZHVRNWc?oc=5",
-          "sourceName": "Bay FC",
-          "sourceUrl": "https://bayfc.com",
-          "publishedAt": "2026-07-04T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Lionesses star Georgia Stanway explains decision to leave Bayern Munich, why she wanted to return to England and what made her choose Arsenal amid Chelsea & Lyon interest",
-          "link": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNNHVyNW1TWTRpN2Jkb1ZvZEk1M01HNEJzcXdTc25VRW54TDRfVnNDVHhLVWd3bnpYTnF2a2dBRTRKQmdnTElDbjdYUWw5U2cySm56ZWJsdU1HMDRCRHVERHJ0OGZmeGRqWS1PZk9FbHVzZEdYS0g2VnVYQ2FnVDB0UFlkLVgxYjRkYVZFaEIxdlBLcDZfejlKWndUQTFfRDBiWkI3NWpkYjFkaUcwTlZXLXVTM2JKbW45bEZTTUpKRnZlajVVY05BMXpva3ZLS2tfcmY1anZFMjh3RFpScUotajFRblo?oc=5",
-          "sourceName": "Goal.com",
-          "sourceUrl": "https://www.goal.com",
-          "publishedAt": "2026-07-04T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Arsenal sign Lioness Georgia Stanway from Bayern Munich",
-          "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9aMFNYQ1c2cXJtajF3Zlo2Sy1MTWFZc3EzRWd6T3dOOTlqZUljLU5meDY2MmRFS2lNSUtKbG1FeENNU0lfaThaUC1RSE5UUnNydHl4bjh3blE5N3V3UldIQ1E5RlQxNU0?oc=5",
-          "sourceName": "bbc.com",
-          "sourceUrl": "https://www.bbc.com",
-          "publishedAt": "2026-07-03T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:28.776Z",
-      "status": "ok"
-    },
-    "MEX": {
-      "items": [
-        {
-          "title": "The men’s World Cup is over, now Mexico’s women are ready for their moment",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPaW5RTTJrQjhlbHFjTl9ZNS1xU1k2bENqX2JCNWhveDZiLTczeWNEZnU0aE1pYmNscVZfdTRLMGp6a3cyLTdPSTFTVGplNnphQkVreUFkMF9FcjNWSEpEcloxRkF5RzhXclhEOHJGRW9ZbXhQT0xUSkpnRlpOeGFZb0ExMnJlRldDd2FhWHRIbU5fS2t1QWg0bGJLWnNXbmN3WldObVNSUE5UUERCYmpB?oc=5",
-          "sourceName": "Mexico News Daily",
-          "sourceUrl": "https://mexiconewsdaily.com",
-          "publishedAt": "2026-07-25T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "🚨​ Mexico's women's league will have a new format",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxORGFrNjEwazZPUFEySXNtTXB6cV9ETXZIS3hENzNiaFFWZmVpdVFyUDkwVzNxVWJJMzFpV0R6VUFlTXB1QlVJM0J0TmY2SkhGcHZrY2M1alZGRDlPRWNVWUlQWXNndVlWYzVYckNYNmkwV3NNcmdXZ1BjWDE5eGl6Sm9iRQ?oc=5",
-          "sourceName": "Yahoo Sports",
-          "sourceUrl": "https://sports.yahoo.com",
-          "publishedAt": "2026-07-23T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "When is next World Cup? FIFA Women's World Cup returns next year",
-          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPVGY1MjlWU3BfenpmejRiQVU5OGVESHpWV1VsX2FvUGh3U1BYOGlyNmppbXF5VmJwQWVwOWc3eHhOYlJ5WXVDeG1TdGE3aEM0dmVHN21QemtfR0l0LVZMLVp2MEhmdnY3eHB1bWlDcGNKSXB5eFJFaHc4N2xyOGVpMUZPWThpS0drTjgxamFQaWtpbmRWUkg5a1dLZF9wMG1SMUNlUzU1aUdUZEN4MmRuaWs0ZUlkdXpoSkdoUEJWSkRJN196MFN6bg?oc=5",
-          "sourceName": "The Coloradoan",
-          "sourceUrl": "https://www.coloradoan.com",
-          "publishedAt": "2026-07-19T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Mexico has finally reached the ‘fifth game’, but is its World Cup curse truly broken? - The Athletic",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPdmtSclE5ampTN3E0LUlLNWxGbjBWTlNBWGhXSDVwMF9tajdDSzBfZHl1Q0VTLTNZaXZyc20tWjUyMVBQaFFiNkx2cWl1Tm5rNGtwajZsMW92ZTJ6NVg2V1hvTTVGQWZUOXcxblRjZi1rTm9RTHhSSEdORFlxOXlQbUwxTHpfNllMckt6cVh5aWhWYXU2MXQ5ZDMtX2NpYy1ZaVRz?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-07-17T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Under Armour partners with Feng Chen Wang on women’s strategy",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNUkJ0YkFvVHpRUWllRHdUZnhtdlRGLS1RZy1lWVl5b19oSzZhRzI1UUUtSmplenJ2STcwNS1tOVVPemZMRG5JVWhvM0UtMktkeENhUFB3MlZRcjdYYkljSFZ2TjdHSnZNTGNfdC01T0FlMXY2d0g4dWxHMWR5T0xialRXbXdMLW1iSE1fVkRoUGlSWEQ3SldVX2llUQ?oc=5",
-          "sourceName": "Retail Dive",
-          "sourceUrl": "https://www.retaildive.com",
-          "publishedAt": "2026-07-01T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "The blind football team opening up the world for women in Mexico",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQaXg5VGxHdUNuMkFCb1pfUHc1eTQ3TlpLb09mZVd6d1QtLUJxMUNTeDZuMzUyTXBXeV9Ub3htTFlwRDNsQjNrUEx0blUzMGZIZWhUeFpsaHBmaGxENjZyNlFQYUk3OV9xMjFvSDRVejBsME00ZHBrS3R4LU56T0FidUdaWXVONDJjdGt3NDRjYU1TclVOYWlhN0twQWFWZw?oc=5",
-          "sourceName": "Positive News",
-          "sourceUrl": "https://www.positive.news",
-          "publishedAt": "2026-06-24T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Mexico’s 1971 Women’s World Cup Team Finally Got Its Parade, 55 Years Late",
-          "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1SVzQ3OWVjaloxeUU1REkybUdCMlhCY2h0T042RFNXYlNpeHdkdUJ2SmNUU3V1U21MVWFNTFBjUVRqdU1WdGRYb1VBWF9nZF9qVXB1WmZtVUlvOEV1S1dHaDRaalFmOXZaR2lmSVhiWDU3TmM?oc=5",
-          "sourceName": "fiercebymitu.com",
-          "sourceUrl": "https://www.fiercebymitu.com",
-          "publishedAt": "2026-06-18T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Women’s soccer storylines at the men’s World Cup. Plus: Emma Hayes saves the hydration break - The Athletic",
-          "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOYjVWVXZBdXJFUTd2WEwzaVM1SlZZaUdodWZndFVUWnJhd1M1QkluRXk5OV9Hd0xJT3p2RzJRQTJrdmNwZFV1aUJsdDR4LUh3YUhZenNEdmtvVDNhNllaYjdMOHZCRmNtWWs2YWJONktNT3prLWViRGY4cVlvcjhMdGJrYV9iVXZjZFZF?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-06-15T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:30.289Z",
-      "status": "ok"
-    },
-    "KOR": {
-      "items": [
-        {
-          "title": "Bangladesh drawn with Korea Republic, DPR Korea and Myanmar",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85cjZjbUFfdUdHSm1VWDZCNURGckhvVWNNQmxrQjBGdWRKNWxJVElVX0xubU9FRmJSZnk3cmR3VWFvVGFtMFBWVlBINml0QQ?oc=5",
-          "sourceName": "bssnews.net",
-          "sourceUrl": "https://www.bssnews.net",
-          "publishedAt": "2026-07-23T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Korea Republic wins 5-0 against Guam's Team Masakåda in preliminary competition",
-          "link": "https://news.google.com/rss/articles/CBMi8AFBVV95cUxNVXd1UUhFSHJmU3d3STRkWkQ0bVp0WlBKNmhqTUdsRm5uaGd1cFo5WU41Wm1oUld0RF9HMWpidXFyZmo0Y25URzBrS1d4cUswaC1rdkRPUTlQNEJiS0k4VDlPVmRLOWlldDRBczc2blB1WkxPMDRLTWRhYUFaNWZDaDIzaU9BbmJZV2hQanYwQUctMEhZTDZxa1pqUW5aM3NuMFdiWm5PQzRZWlIya2V5UGU5bFRFWmtFcE5YSGVZQVJ1UkN4UElLSjVQeHpRMWVpRDZIZHZnSDM0NWlJX1ZaQ1FBTzdaMm9vWXlVUUpfM1k?oc=5",
-          "sourceName": "guampdn.com",
-          "sourceUrl": "https://www.guampdn.com",
-          "publishedAt": "2026-06-06T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Masakåda, Matao to play international matches Wednesday night",
-          "link": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxPYkxLMWdZcUlwanhUV1hZV2R1b01KMWlULWZXYkt5M1ZjSDdCWjg1VlllaDVTblpUNldMRGdHQ3FpTWpxcENYQUYwY284eFJsM0J0a05aOUEtaDlRTW9NVW1vbU9uUzlOcjBsV2NFU1psR3VGZUFnZVNXeGRzSExfMFBCOU9LSWg3TWw2YkNFNEVPdVJmeTBUUjBCa3UyUmRjRUhJeTJLX1o1djBvMk1zd1VMV3JHRHJweDVfTzZBM0xDTEFndENLMzBqVTE5YmJDb2xCcTZkTE9yQk5VcW9J?oc=5",
-          "sourceName": "The Guam Daily Post",
-          "sourceUrl": "https://www.postguam.com",
-          "publishedAt": "2026-06-03T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "FIFA U17 Women's World Cup: Flamingos To Face Korea Republic, Puerto Rico and Poland if ...",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOUUk1MXVROXdFQy1PSlh6QnI4ZHBoZkp3WF9BVzdYOWNlYTh4YUp6VEluSmMxOW9mSVlWbDdMZUh0RGZVYmhUc3ZBYmtlcEtNTjhmdEhWWkR4dE5xbkJCLXlfTlRRWW5vR2dKZzBrVWIzRllEM2RRc0kteGMtVUFpWnViTUs4dHk3RURBVG1ocmpudEZldEs4VFd3OGRUQ0tXb1Z6RkdZdjJnUzBPaGpIY2xJUXRZcTNpdUNGbE9R?oc=5",
-          "sourceName": "bsnsports.com.ng",
-          "sourceUrl": "https://bsnsports.com.ng",
-          "publishedAt": "2026-05-22T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Black Princesses drawn in Group C with Korea Republic, Ecuador, and France",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPSW9mN2FxSUdtNldmb2haa2FjRUV2S2c5ZURJaXR3N0xsN1J1VXhjZnR0UEJneG96NzI5LVB5cGFqc0s1S3c1a1JndG9jWGIzU2FJU3d3RHFwRFAxX0RJRzZtVWFBTUVOX0dFOTBETVBVQlpDd0ZYcjVBeFFubjFOcEtnWjRkbmpXb21jbGFhcklTV0gxb1Yw0gGfAUFVX3lxTE5ab2tHUnN3aE9yVXB0M08zRDhCWVluZldLa3lPOWxheUk1cTA0b3dEUWhMMTB6amp4OWJUVE9UQTJ2VlJLVW9ySUoyXzhmMjdLd0RiZUR6LTA1cUxLbUdmdzNfR2p1aFlZSXlDb2xQT1RMaEROeXQ5WGxMSWd5S3FkeDM5a1RKbXdSSGlCZGl2aHpESlcwWUZyMGVRYUdCOA?oc=5",
-          "sourceName": "Ghana Football Association",
-          "sourceUrl": "https://ghanafa.org",
-          "publishedAt": "2026-05-15T15:07:54.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "North Korean women’s club to play rare football match in the South",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOQ2NxTkJ2TUhfTG5EcUFSVlcyMDRGUmdNeFVzbGpUU0FPR1BfWEdoVmlkRWxFMWVuOW9FVnpSSU9zUmxqcTFPQ2dlWEktRzhNc296NzNRb01NMUVVdUZVMUlQMG9TWEg2NVAxTVpkWW1lTFpZNFJ0Ynl3WWM0cXY3MHZQaDFyNFNNbDQ1QzVLbGQtUFhSSFpqak1MdElTbHBTWktRTU80NjFJQTQ?oc=5",
-          "sourceName": "Al Jazeera",
-          "sourceUrl": "https://www.aljazeera.com",
-          "publishedAt": "2026-05-04T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Preview - Group B: DPR Korea v Korea Republic",
-          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPUWRjZHVrS3kwVUFYQnY0OGpCUGtCUTktb0FtQk56QzlLWGlhNVl4S0VrSlpkX0poU19Vb1NDazl1ZlNhR2JOTkZyRDhmalpGOHEzRGRHTGNJcjRwRDBQbWhWbVpZOGYxdC1JQWlxdm5QT2RPZkF1YmN6cWZ6dmlrZlVmRzlnYzB6ODlqYlhXN3VoRklQMVh2dFoxai1fcUVJZnRyZDNCdE5HWVIzSnNUcWlwdw?oc=5",
-          "sourceName": "AFC website",
-          "sourceUrl": "https://www.the-afc.com",
-          "publishedAt": "2026-04-08T07:00:00.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "CANWNT roster announced for FIFA Series 2026™",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE44Z0pWZ1BJVHFtZUxPSkhKb0Yxb085b0o4cnBZZzluLXZ0b2lLYk9hSjNVbktkZXpQOTFxNHRYQ0t2dGhLbE5YVXZHb0ozSFU5R2lRS0tWRGtZTVN2bUV2cWh5RmZMc190TGRSRTVQZV9jLTJIeWRMQ0ZIcm1EUTA?oc=5",
-          "sourceName": "Canada Soccer Pressroom",
-          "sourceUrl": "https://news.canadasoccer.com",
-          "publishedAt": "2026-03-31T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:31.801Z",
-      "status": "ok"
-    },
-    "CHN": {
-      "items": [
-        {
-          "title": "Sam Kerr",
-          "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9TR3dmUk9aS25iU3ppaWNTMmlVRHJFVXBXallIOHlqd1FMNE9QZE9TcWdJblppV1V4S2tleHgweFVzOWJJMFNuajFvcXJFYjlaMlFOX3N5RVE?oc=5",
-          "sourceName": "Encyclopedia Britannica",
-          "sourceUrl": "https://www.britannica.com",
-          "publishedAt": "2026-08-01T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "China vs Football Union of Russia: Friendlies Women stats & head-to-head",
-          "link": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFBoTVE1amk4UHhKVEdWYk8yVGxKRTZXVUVXVEJwR2ZmN0ozX2VHazdOdnlpdVI0THU3akQzUlZldWVkWTlGZFVDaVZvZkRGWTB0LWo1OGlqa2RUdFUyTjBMOHZR?oc=5",
-          "sourceName": "bbc.com",
-          "sourceUrl": "https://www.bbc.com",
-          "publishedAt": "2026-06-06T04:29:23.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Group A: Thailand 0-1 China PR",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZU1yaWpKbW50UGp5TUh6Rl9tdm9PQUJlalBsU0dRS0k0UXNnS1JtcjFSUTlVNnVzSWMwd3o0UWlTSFFlMGNmM3EyYlFQVGlvY1FBQWtiV09YdkZmcEd6MUlpd3J3QktOTDE0Z01BV0ZJd3dTbHFuaTBFdm9OMDVPOHhyMDZuOVc2Q1FkMU1FY01reU1EZnJVWlFEWVBKOG55cEE?oc=5",
-          "sourceName": "AFC website",
-          "sourceUrl": "https://www.the-afc.com",
-          "publishedAt": "2026-04-08T07:00:00.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "Bangladesh face Vietnam in crucial match tomorrow",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBOcFZfYWI1MHJlLVBiMldIR3kyTzhlSU1MQ2R4UlVKcGppWkduSmpBWG9lWnVaajZVemIxRHZZZkF6OVlwN2dQejBLRTJ3dw?oc=5",
-          "sourceName": "bssnews.net",
-          "sourceUrl": "https://www.bssnews.net",
-          "publishedAt": "2026-04-06T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "AFC U-20 Women's Asian Cup Bangladesh take on China today",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb05IenhTU2puWV9XV3FOeTdmWXJOUDBJcmFVY2RvcVVyUHl2QWdaS1JlaVp2UDB1WTlpeWN1eUNrWmE4MzRmSENZVVZvMVB1RDFmbW5mUHJmeTVoWngzT011TXRxNXI3VFhHbDVNSHo3WjlzNzUyMmlUbDA5Z2NDM2FQY0ZNSXFkTllkV0Q4X1ZQZDRMVWNuRnJB?oc=5",
-          "sourceName": "dailyasianage.com",
-          "sourceUrl": "https://dailyasianage.com",
-          "publishedAt": "2026-04-04T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Girls shift focus to China after Thailand setback",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNTnpWaWFDU2JmbElhSGE4NFhJaFdKWUdFaXhYejA5WVZDeExKdGhjZWpWZ0tLZ3JEX1RRbGF2VXE1RUxvdFYzSFozYTBjeVFDdTVMb2FtREdkX1VjNEtQVHZuSEwwRFV3eXFLRmNRaGswc285RTg3NG8zQi13U3M4NWNITEN2azFjYmRtNUQtcUtlbUZhMUo2cmFDQWxqTGt6SEHSAacBQVVfeXFMTmtyM0lqSVA4T056aU5kVFJpNWNKeFY4RXlDMGp4RHUtNHBZd0NDM0U0R1JPYUNUUTZ1RnBILXdfamZMRjM0Tm9oQUpzM3VLUzNTbXkyOFVLemFzdHIya3Vlc0VUeDQ5V203ZnY3ejNTVldaalRWdVByd2tzTGhQR2o5MzlOTjZEdlMxcHlnTzBhMVk4YzhOenVIeldtSjBFY3RqUEtKQjA?oc=5",
-          "sourceName": "dhakatribune.com",
-          "sourceUrl": "https://www.dhakatribune.com",
-          "publishedAt": "2026-04-02T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "U-20 women’s team hold post-match recovery training",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41Z3RMNXBycHRXQkU1X3k0akpGdXNzSWk3dkZaODlETHZRTDRJNzQ0MW5DVUZ0QnVaVktIN1ZxaHM5RVVwQ0kxdXNuRklDZw?oc=5",
-          "sourceName": "bssnews.net",
-          "sourceUrl": "https://www.bssnews.net",
-          "publishedAt": "2026-04-02T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Game Day: Matildas vs China PR In AFC Women’s Asian Cup Semi-Final",
-          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxNSmFTNUc4VUsyeDZhRHVKT3lhcUxyVmN3Z2Q4YUVReVJwM3NSMFpEVGl3cTFjMDFpS0tnNFl0RmxBTHk3aVpwTUFnNG5QOVdoQ0kyLUc3OGQ0NmhKV014cERlNE1KSUtJdTdmdWVqWmh5OWtNbkpTbVhrbEtOUnQwR1hlTGhXNklmVHAwb0ZPbmFfcldxZ3dONGRvLThxcHRWcWtITFhycEFiWjlUYmFVc0NmODVpdw?oc=5",
-          "sourceName": "Network Ten",
-          "sourceUrl": "https://10.com.au",
-          "publishedAt": "2026-03-17T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:33.312Z",
-      "status": "ok"
-    },
-    "AUS": {
-      "items": [
-        {
-          "title": "Former Iran internationals gain Australian citizenship after asylum requests and new start in Brisbane",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNSnNIT2lQOHNjdzhUR01iY0NHYTR2S29QRDBIR01vOFhfc1doaHFZcDhsZFhoR3ZqeXlkQ1lzT2pnMHhWSTI4TUI2a0tLYVFqTVBtWDN3WkR5WFltR3UzanZXWjNsQWx2N2JFbW5XcmVzN01EaGhVQ3E3UjZhbHc0T01SN2ZOeW0zbDVwSmJ5aGpvMzdpTWFBZEQ5THI5NDZuS0djZVRnckYtTHJwVDlxaTZrVTFNSGND?oc=5",
-          "sourceName": "Karlobag.eu",
-          "sourceUrl": "https://karlobag.eu",
-          "publishedAt": "2026-08-13T12:26:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Australia’s fans are green, gold, still here. Even if the path to acceptance has been a difficult one - The Athletic",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbUN1ZG80ZkQzbXlmemRnME5uLXlPTzNLTEN0SExLcnpFVDBhVWVmQnhqcFVzWnZQUEREYTI5OWRxSE40M05MVlNTVjd0RGRJcHRRYmJjeXpTczlKQ0FwdmRXeWdJTTBicDRKQ29TUUFHRXJtMEppcTlUai0xLVVuZG53aw?oc=5",
-          "sourceName": "The New York Times",
-          "sourceUrl": "https://www.nytimes.com",
-          "publishedAt": "2026-07-03T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "BREAKING: Team USA defeats Australia 2-0, clinching a spot in the knockout round of the World Cup even without its star Christian Pulisic. The crowd in Seattle is electric! 🔥🇺🇸 Read more on Freep.com. 📹 Video by Amy Huschka, DFP. #teamusa #usa #world",
-          "link": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMGNzRC1qNmVYVkUxdzJ0YnZ6enByRFpKYVhqZnR1cFdPMnQyYlB1QkhDUlFxdm9ZUm92dWc4TU0wMGJoQlhIQVNKZDNmUXNiRnl1c2czb2ZpZktHTmYtZGZyU3ZnVE5YaVVxQjd3ZGxhZlk0eGU5UkItaWdsS2l5OTlxWGM5YUhxZXpmMVFqNmdBaW9OV3hUOVdSV3VHTVJ5LWZxSmRSWWFqWjJ6QU84VFFqN0h2am1yMHdTWElHbWhRN2ZXWk9XbjhlWk5tZnA5OHVxVEl5SkphS0FONGM1Sw?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-06-19T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "USA vs. Australia packs history, intensity & World Cup stakes",
-          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPYzdxRzZPOVI2Z3pYUllTZDJ5VWk3WHJuV2ZHc0dwaVNPWWRLTkc4SzlIeUlVS2JsTmFaVWlLRElMVWZmb0NIbGQtelRuZU1Oa2lHMXVsNGswMk1UZVZkNXFSblNHbFlkVXY5U0xYQms3U2IwTUtXN2RRaDlXX2MzNk1aZEg1dDBmcWJaWGdnS3VEeHl1bW9iSnFtUjVOWmNQQjkyN1ZJQ29iVFhRN0wtVFAtT3JRRUE?oc=5",
-          "sourceName": "MLSsoccer.com",
-          "sourceUrl": "https://www.mlssoccer.com",
-          "publishedAt": "2026-06-18T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Rich countries do better in women’s football but understanding why matters, not just for the Matildas",
-          "link": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPR2htbHlPckJ0ektXQl93MGU0dWg1ZWZKUWplMHBWcVZGbldfMW1RSGpEYlVLX01ienQ1bjQ3VU5lcUFQNE9oTVRrNWROM2k0ZFdhY1ZHR0pHZXpYUmpwNGM1OXloelk3dXJWNGxqSGx3a0VnM3RjTXdNdGF4aEFmMXB5LTNnb3JWblVlM204eS0wNDZOZXZKRnBtd0pFcFM5N2RmdDdfblcwQVhXVENXb2p0ZUJZaGpKT1haR3J5WlA2OTdQb0pBekowMVY5R281UkNiWUFn?oc=5",
-          "sourceName": "The Guardian",
-          "sourceUrl": "https://www.theguardian.com",
-          "publishedAt": "2026-06-10T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "CommBank Matildas to host Mexico in two match series this June",
-          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNYWVPaGpGUXVzOUZ2cVFjN3lDaDBvVzc1dUtvZ3N6RVlLZVFTV3ExXzJPc2g5bjJuVUxLQWNCZkdNbklnRURtMDJaM2ZUZ0Y0UnlBUTFOR1ZvdUNnV293WjVnWnV5VHhrWG1OVC1hNjJ5TlpnTHRoYkJMUTAtNmhoOVBZc3VSM00?oc=5",
-          "sourceName": "Matildas",
-          "sourceUrl": "https://matildas.com.au",
-          "publishedAt": "2026-05-06T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Iranian women's soccer players 'were misled,' in Australia, Pezeshkian says in video address",
-          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zT3dlRWRSTm5QaG1tRVQwUHB5MVlBVUlFYWkxZTZDdUtudktkeHhVd2VtY0xHTFRHMFR3MWltQzVibnNYVm9yTE5kRHd0aS1YMEFIZVdzTE1VRTg1X3hfcVo4emxZMlp5Y0E?oc=5",
-          "sourceName": "The Jerusalem Post",
-          "sourceUrl": "https://www.jpost.com",
-          "publishedAt": "2026-04-19T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Iran releases assets of women’s football team captain in Australia asylum drama",
-          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPZU1LVHZKYVFod3VLVW9MVVZ3QVNnbktQbmdTZHhyMDBHUllhdlMzMWt0YkVWNmJOOEtEM1FzQUh1YmMtM0oyNDlUWHFwT1RQbThhUVJZTThGRG5fN0NKT2ctWi1wWUFMVGJ2UE45Z0VfLXpXdDVWaUVseWQ3OGczT2JkRHZYNVIwanJoN0lfajNQQ3R4el9kM2JxX2IyWktvSllLb2RaNFBRNFo3ZjM0ZjV6cVFCMzFIeU45alFKOU9rTlJsRHc?oc=5",
-          "sourceName": "The Guardian",
-          "sourceUrl": "https://www.theguardian.com",
-          "publishedAt": "2026-04-14T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:34.825Z",
-      "status": "ok"
-    },
-    "PHI": {
-      "items": [
-        {
-          "title": "Philippines women’s national football team secures qualification for 2027 FIFA Women’s World Cup",
-          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOSDJfU3FiZHVTbXV5OHVnLWhKQXItYUdTc3BDZjY3YUlkY3dTNE41NVdGZkNBdHVDb19UU2FtM0R2OFVYcm9QZzBHMmRsOWg4SDJ0UTlUektNUm5rbFAxYXlDLVNOM1RjRGVKUjU2dEl3M2ZDbG5pMWF0Zm9SeGd6SE84SHc4cWtHWjg4MUd5YWxSMERhb0VXU3hYU05wZ2ZQYUFwMy1PLW9uZGYxdzg4MEItRkVET0lLdzV5ZA?oc=5",
-          "sourceName": "Newsonair",
-          "sourceUrl": "https://newsonair.gov.in",
-          "publishedAt": "2026-08-14T18:31:29.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "FULL TIME: Philippines 🇵🇭 0-1 🇲🇾 Malaysia The Philippine Men’s Football Team bow out of the ASEAN Championship, after falling to Malaysia, 0-1, in Kuala Lumpur. The Filipino booters finish fourth in Group B with one win and three losses to miss out on th",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPalBOdUVaQjlQV2dqakJDcTFZMHhtaEJYaUVPd1RmSDVpdklLS292V0tyeHBCRzgzbzBjZ1IwVjFwT2Qyckx5bndROGNlVGt5Wm1UUVNJMlBwekU0bExMT2VuX3R0ZmRvb3VHTVd6QXkyNUhRc3lCOG9QREp1X0dRLVp4MEpYaVBaN2RVNzZDeUZQejVGLWFvcTRoV2xPZ3FfUTFIQ3MtUGF1emVpdVk0MktPMEJMT3hMclozSzNnUVI0VC14aWxFb0p5M3JCNHJwcEVwSzhVSQ?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-08-08T16:13:45.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "MUST-WIN FOR PMNFT ⚽️ The Philippine Men’s National Football Team takes on Laos in the ASEAN Championship at 6 p.m. Here’s a look at the Starting XI for the Philippines in the must-win match. (📷: PFF-PMNFT) | via Paige Javier, ABS-CBN News",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcXd4Y29WSFdIT0M1SkJnZkJ4X3hFbmtYcGJrdzQtSEl0WmN6MHJ3ZTkxblRZUUlyaUp3V3dWZW4tckZYOGY0LUlCMmtlX25vTllUWGM5RGtkNTdpYkxNSi02REg0elZXOEI2cHo0akpRcElhaFVNVXZUNzhaNmJCeXUwLXJwcVRIWlB1ZHhMNzlvZnJCODZSMDBhU3Q1dEdSV2NZdFhQa0JGSmY4OGowR2xqLWZsdGlwODFCNktkWlpkZHlQTWk3amh2TGhfbEt4RmI2LWphY1JaalZpRnpLM0xR?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-08-01T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Alex Eala, Filipinas take center stage in Philippine president's national address",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOYUVnYmJCV3ZkVFY0bUdxQmdKczdDekVtdFdSSzVWeUN4SkdETXFsWFpVVnVOVDk2NGZ0RkxJMnIyVWFMc2IySkVqdkpHNlpYZldJOU1HUmtCRkYtN0RBUHd1dlEtRWI5bUM0cF9xT2hyRHJEY3RWREdDemhaR3pXUzdHVDNyQTR6ZUNDcXczbzhfMmpxRjRUWWx0eFM5MjNaYnBlNnM1b1doRVRFaENiTEtNaE81WjlsV0R2eHhuMVZfbjVhUG9WdE5Ga2hKRThSY29Oc3RvZFBnU1dTR3c?oc=5",
-          "sourceName": "ESPN",
-          "sourceUrl": "https://www.espn.co.uk",
-          "publishedAt": "2026-07-28T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "FULL TIME: Philippines 🇵🇭 1-4 🇲🇲 Myanmar The Philippine Men’s National Football Team absorbs a loss to Myanmar to open its ASEAN Championship campaign. The Philippines will next face Laos on August 1 at the Lao National Stadium. | via Paige Javier",
-          "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdFVBWG01ZDgxSEUwbGlQam9IV1F4VjVCYzBLM2Y0dTMtMW5GLTdFNkZESDQ3SFJ6UzZvM2hTallYZHY1c2RuZ1lvV3RNSmJZTkE3OWphd3AtOTB4Wkl2WElfaV9WUUozUWU5OTI0VEFpOXMwUGhHeTVqc3BQQ3lpN0JsMGdjcTh1cXUwYV9ERk1pVmhmTlg1SlFISWdITjZmMVdfSnYwQS1fd1BGM3pOSDd0LTBZaWgwcHAzaWZuQ2xKcE5ydHEyLXZEdjh3MTh4UERzTGZCUQ?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-07-28T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "PILIPINAS SA WORLD CUP? While highlighting the importance of sports and supporting talented Filipino athletes such as Alex Eala and the Philippines Women’s football team, President Ferdinand Marcos Jr. also expresses hope that one day, the country will",
-          "link": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQZTRzNG9GWXZzSHEzQTR5LWppa2hqalUtZUlMTWhYd0Q4TFdrYzN1N1lyZGhIR0tnNXBnNlNHaTBjdGV3ZDVacFpuVjN4THVZOURveFk2dm42bUI2M2lqa0pjUXZ2TFJmYWZ0QXdCQ2ZTZjV0dS12UTUtemdsaVRfM21jcVh1S0NPbkNoSFhsTTIzWVg3bUxUS09UbC1HRGJ6eVpZbjd5TXBQWk1zZWV2ZEpnZ1ltN29yRDhqVnBHWmFfWFZ0RDQ0R1kzbDMtMUx3TVBsSl90V0pnMUU?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-07-27T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "The Filipinas and the Philippine men’s national under-23 football team have been drawn into challenging groups for the 20th Asian Games in Aichi-Nagoya, Japan. Link to the full story in comment section.",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxQdHBPVzd2Y1REUTZjdWxnWXQwb3VRdE5MUlVIZDJaeS1abEg5VDBqUFpBandsZ2wzSHFlajU1S3ZDX2V4SGlYeGxibjJRWm5JcHFEUU8tYjJYcGN6UHdkUzg1RTR1YzFoc3l0X1FsMFJiVl93OWpFdkRITnVwako1RXVqTkVBNlBCd2d0TkRBSkRPdk8wM0tNUG1pQmdYMndWTGNlM1dmTFVFRGppQjJSZDdKZmYzbngwbGhlRFBhVC0xX1VxVzBJZnpQTnE1d2xXTWtZWnJWTHdFMmpId2c?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-07-25T03:01:02.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "The Philippine under-17 women’s national football team will seek a third consecutive appearance in the AFC U17 Women’s Asian Cup after being drawn into Group H of the 2027 qualifying tournament alongside Bangladesh and host Uzbekistan. Link to the fu",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdmE4U2tTSU5WQTJOZ0x3M1h6UnFhYnZrNWZBS195TkFaNjZDTVBJNXNjaDZQN2ZBY3dkNThVeURVMldVVllFalduZlNUdE9FNl8xOWtlcEwwa1dXV2ljdlhGZnBmaTBxYm15cG9tMTFIUFVkNURrQUtHd1VZaE1QWU0xZUFEUEUwTDduYWdoX3VVLXFBMG41WHE1V0JtSUVwUkJhUG85NkNrTHA3Y2NNTUZsUlVtdGZRcU9TNlRpQ2tJVnYxTFdxTnFiTUVxVjZSZUI5cGRvS1RCTmRpbGc?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-07-20T00:31:04.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:36.337Z",
-      "status": "ok"
-    },
-    "THA": {
-      "items": [
-        {
-          "title": "SAT chief says U23s, spikers can deliver",
-          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNZkRFb0dBQXRzRFFRelpMeTRWekF1MkNDQUQ4dEh1bTJOVlByc0p4c2I0NzRnaTcxVGdOTHB0WjZZVWFZdlY2VGQtQ0UwWHJJOGNhQjduY2N4OFAzMXdwbDktUnhGb3hUTHZyZldZM1F1ay0tSmhjRDdQN1VsQmZ4YlFwZm9Xa2RvLUE?oc=5",
-          "sourceName": "Bangkok Post",
-          "sourceUrl": "https://www.bangkokpost.com",
-          "publishedAt": "2026-08-06T23:18:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Vietnam women's national football team to begin run-up to ASIAD 2026",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOMDJrOXo0T0stN3B4ZjFONGNNSFFQeno0NXBqeUcxaXJYYXpDVFFSMnlFNlNQbHVORktGZVE0OHJDZkdkcnJ1WXJlM2J0ZTA1LTM0WFFEcU1PY1BaVjRDbS1WR1hHRy1hTFVEOWFaRkVWQzdBMDduVmpVRHJUUFNnQUNmYmdIaTBCdjVWN1FyUS01ZElPVkRSY2l5bExoZU82M3VQdjlRQ1paMk9E?oc=5",
-          "sourceName": "Vietnam+ (VietnamPlus)",
-          "sourceUrl": "https://en.vietnamplus.vn",
-          "publishedAt": "2026-08-06T11:41:39.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "MUST-WIN FOR PMNFT ⚽️ The Philippine Men’s National Football Team takes on Laos in the ASEAN Championship at 6 p.m. Here’s a look at the Starting XI for the Philippines in the must-win match. (📷: PFF-PMNFT) | via Paige Javier, ABS-CBN News",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcXd4Y29WSFdIT0M1SkJnZkJ4X3hFbmtYcGJrdzQtSEl0WmN6MHJ3ZTkxblRZUUlyaUp3V3dWZW4tckZYOGY0LUlCMmtlX25vTllUWGM5RGtkNTdpYkxNSi02REg0elZXOEI2cHo0akpRcElhaFVNVXZUNzhaNmJCeXUwLXJwcVRIWlB1ZHhMNzlvZnJCODZSMDBhU3Q1dEdSV2NZdFhQa0JGSmY4OGowR2xqLWZsdGlwODFCNktkWlpkZHlQTWk3amh2TGhfbEt4RmI2LWphY1JaalZpRnpLM0xR?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-08-01T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "SONA: Marcos Jr. eyes brighter future for Philippine football",
-          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSmhrTFFWbmZBTno1NEdxcVoteDNMc3lyOEN1ZDVoejl4Wjk5SXA5cDQ5Zl81VFRvYnNzMjZYZHZqaVY1dkJpaVZlTy0waHk5cDNUMWpEUU9ZcjRXVVpTVVN0ZU5iT1dRTUFWaFZpU1BmY3YwbV9QNWU0RzlybWd2cU8xNWRhcGJucUFvUThKRnl0U2ZJM09ibXVNRDZQcFlPX3U1T2pFYTVJV2ZMaFRnUnYwWmUwNXVq?oc=5",
-          "sourceName": "ABS-CBN",
-          "sourceUrl": "https://www.abs-cbn.com",
-          "publishedAt": "2026-07-27T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Philippine football has come a long way: The football academies",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPbTVJazF2Y2lFTlBvSFA2eUs2M1lodnlaUXR5M2VmYWplVlJJdEFTQ1RWMWY3WUs5ZXZScjJ2R3V5LUZ4ZzNpR3RVS2ZxU0w4WGZILV9XeUdDUzJWbW5tc2J4TmpUcElMWEZkY2Jrc1VoUGVXa0UzUXJTUVlmYXV1U2FnQzJ0dklCemV0eW8wVWowUjlBSllXMVpsdGg1aG5BME5lUWJHU2VNbGlFZ0J6cHZZRnE?oc=5",
-          "sourceName": "BusinessWorld Online",
-          "sourceUrl": "https://bworldonline.com",
-          "publishedAt": "2026-06-17T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Thailand women’s team crowned champions of AYA Tri Nations Cup",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNeFRqcy00LWJuTU05NVB4VW9UVGNOS3FoRXhCNUR2WEx2Z01IVFVhd1NDX2UtdWRRYWZ0X2Y4V1hWZXN2WnU1OWwwdUhTUkE2X2VKak5nQmd4WWJiTUxlTFpDUzA5R0oxVnNzUTlLd2VtQzJHTkxWZ0ZSTFQ2YWxJOFlXNlN3TUpISlJYOXZDWEtLNV9NX3NZNUVpSQ?oc=5",
-          "sourceName": "aseanfootball.org",
-          "sourceUrl": "https://www.aseanfootball.org",
+          "title": "North Korea turns U-17 women’s soccer triumph into propaganda blitz",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE9Qcl9QaUtMN0s4aUtNekJMYU5MQTlDSG9CWUpuOWJWVTh5Ynlib0FpSGVUZ3g3bjltdGZzUjVlelFrdFppQXZHVTRTWkV2dktRQnZRNm0xQ0YtZGE5LXJHb0VmbDVCTlhEazg2ajR2SGRZRUN5MjVPaWNsTVJyZw?oc=5",
+          "sourceName": "DailyNK",
+          "sourceUrl": "https://www.dailynk.com",
           "publishedAt": "2026-06-12T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Philippine football has come a long way",
-          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNOEwxbEhrbFdNNW54LTdPLVV1M2x6NFRndEN3dlVJWUswZjd4b1BnM0N0T0gwNWNENnpQdTFfcW9jaDRqdGo4MnN4eHRWYmdDcF9LNkZqM3lCWWM1VmM5WWJhMXpwaFpMckVkZTRsZTl2WGxUSFgzbE5XLTRXTFZOOXBLS21OMmViTzdPXzdtaUFQWE9DYXc?oc=5",
-          "sourceName": "BusinessWorld Online",
-          "sourceUrl": "https://bworldonline.com",
-          "publishedAt": "2026-06-10T07:00:00.000Z",
+          "title": "North Korea’s U-17 women’s team: world champions turned s...",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNUduZHhXR1dfY3NabWxCZzdMQmtiU3NhOWRsNzFFTDdBSDE1UW9qZ3NwX3V5c254Y3E1OFl2ZEZmZTFwaHJDekQwY3Z1Z1MxTl9MR2tIMGdSXzA3b3ZtMjNoWUFPNER4V1REWjBsQmQxM1lacHBvbHFkYXJUdkFzM3FIVm5pMjY1YlB3VWw1T0JqQ3BPdDM4S3dtakxiMXg4dFNuSkZsZWV2YkpaMmZfcXlQT3ByZHhfWnFj?oc=5",
+          "sourceName": "The Observer",
+          "sourceUrl": "https://observer.co.uk",
+          "publishedAt": "2025-11-15T08:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Uzbekistan - Thailand Live - Women's Friendlies: Football Scores & Highlights - 06/06/2026",
-          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPYVRELW5TNW1pR0ZwaUZOQ3RDNUxvbXN6M3lkWDNYaEp6YWJiZ1IxWjR4RmwtZjhCX052dklrbUdySTFBSDIwUUZWRVEyYkk3YkNKemFCeFowanYtRkhfS1AwQS13Tko4eHJDV2dVMnVFWVZ0VldZdTRjVGpFSkZOVWhacFNyMURoQUVxZjItbk9PSm1Vc3F6Q1ZLX0c0eGdMVnZTOG1TVUw5Z3BS?oc=5",
-          "sourceName": "TNT Sports",
-          "sourceUrl": "https://www.tntsports.co.uk",
-          "publishedAt": "2026-06-06T07:00:00.000Z",
+          "title": "North Korea's U-17 Women's World Cup victory tops domestic newspaper",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNaGRtdVJEbkhEdmlLZGkxbE5xWW1tTFgxRVpVNWFua19pM19aZ1ZCUHJHd2M4Qk9Ba1Uzb0wyS0VFVXVYak9ybFBfYzlEM203WDFMYXdYUHM4eno3TE5hTjdDdEVCUzRuaGQ5SWJNM0YySnU3bGgyVzhJLTBkZWZHQnBuRVZXN3FKWkd2bTZiTTBEckpWekZMamFfcE1MdjRIdjhrdUV3dHc2M1pFRWlySjB4X0g1YzQ?oc=5",
+          "sourceName": "Korea JoongAng Daily",
+          "sourceUrl": "https://www.koreajoongangdaily.com",
+          "publishedAt": "2025-11-10T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "North Korea U-17 Women Win Second Consecutive World Cup",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPYndUT04zRzNqTGRPQ2NkZWRUalVTQ0FWbk4tYkthTHRua1ZZS2kzVkNDRG1xZXNnNWZxNzlWRzFOSG5iVzlfbnRualRhSk5sZC12SGd3S1pEeHlXRDM4Y3FMZjNZajMzeVFPLTJLMGhGcHRHWmpFbHdybE1kOHhfM1dqMlJVZw?oc=5",
+          "sourceName": "조선일보",
+          "sourceUrl": "https://www.chosun.com",
+          "publishedAt": "2025-11-09T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "North Korea U-17 Women Win Second Consecutive FIFA World Cup Title",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxQOGd4djkzUElnNjl6Z21JVzFSYThKOGlnUU1KRUphVHFHZndTVzRPNW90aVBvaDY5LWZGTXBWR2g2ajlLb0hpMGVWNXRIbnRrbFdJc05BVmFpRjcwTThTZFp4VXVGbDlTaF9pWnlJOEk3M09wY0h1YTg2ajlnaGlnOU0wc1E3UQ?oc=5",
+          "sourceName": "조선일보",
+          "sourceUrl": "https://www.chosun.com",
+          "publishedAt": "2025-11-09T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "North Korea U-17 Women Aim for Second Straight World Cup Title",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNVEZ5VVU5dkd1VGJtaHZPc0xXT3Iwc0FWaFhHSU9ua0thQ2dLdF8wSWl1QktMRXd0SjlvRHlCYU5HYmJsclNOZjVPQWw0NEVSc0lnS1ZiTklwMjJLTVg5NjhjWGJiSWJtY0xDQ1lfMXd4T2RfLVN0c0VzaDBlTUFvVXN4NVFNdw?oc=5",
+          "sourceName": "조선일보",
+          "sourceUrl": "https://www.chosun.com",
+          "publishedAt": "2025-11-07T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "North Korea’s U-17 Women’s World Cup-winning footballers get heroes’ welcome home",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPeXgyOWpPR3NKdTdSS3VHUk1rTFFYOE9FTHdlTW1QbzhMX3dzUWxhTUNrbnNGWG4xRHlRZ04zb2FHYlpLYTktSTIyLU9EaUZWYjNscXEySEtpMHphNjlLNjZPUWxIU0k2ODN6SDF4NUVISExOZnA2ME9hdk1HN0RIaHdKRTZlUnlpME9wdnRUTzdIMERzVWVBeW55a2ZyS1I5ZThTQl9rczVmNm5rRERqaXRyN1h1RkxOVmowQmRhTQ?oc=5",
+          "sourceName": "straitstimes.com",
+          "sourceUrl": "https://www.straitstimes.com",
+          "publishedAt": "2024-11-10T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "North Korea’s U-17 women’s soccer team qualifies for World Cup with dominant run",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPeEpSeEZZMnprQ2dROHZ3LWFPTjRUbHhfbkFmU050ckhVSnFmVDBmVHB2WkxJLXRVR01ybmlybkxCc2ZyREM2MTFMRUJ4VExHUWFzTDViVmpKQm9wY01xTHpoNTBZSXkzTUl4WkZRWHBJX1BsR1pxc2l4cWg3eWg0SlJIZ1dOQXlqdjVjTzg2Y1BHTXZ2QU83S0NpZHlqWFFXaHc4RXR0b2NzME40YTFz?oc=5",
+          "sourceName": "NK News",
+          "sourceUrl": "https://www.nknews.org",
+          "publishedAt": "2024-05-17T07:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T09:04:37.851Z",
-      "status": "ok"
+      "fetchedAt": "2026-08-15T14:25:00.918Z",
+      "status": "ok",
+      "filteredOut": 2
+    },
+    "ESP": {
+      "items": [
+        {
+          "title": "Dominican 2024: North Korea beat Spain to win U17 Women World Cup",
+          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQR0xSZFU3dEdDQU9MX1VTNksweVVIOV9nUEpyTWpqSlpudjcwYmJMeFdDd0tSaEZGQll2Y2t3NlNwSjNGTUlRWHpwblRwV3JVbFpzWVhiWFVvdFlTV3FEREtVZG5HcEQtUXpCNFhXRU5RTUY4aDRMakE2T2lyTlJlU0tFV0tZZHZlMTg3aDVCWC16bzd0ZmVCOGhn?oc=5",
+          "sourceName": "Head Topics",
+          "sourceUrl": "https://ng.headtopics.com",
+          "publishedAt": "2024-04-11T07:00:00.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:02.749Z",
+      "status": "ok",
+      "filteredOut": 1
+    },
+    "USA": {
+      "items": [
+        {
+          "title": "24 Players Named for Final U.S. Under-17 Women's National Team Training Camp Before Roster is Chosen for 2026 FIFA U-17 Women's World Cup",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOamhKdkQ1SHBDblViMFJqODRtTHFsMW9BTHZFaGU2dWhHZVQtRUtQNzlFNHhDbHNKRTF6Yk9KWDNVMnlaUTJWSVNwRldPQ2NlcFVJM095TXdsSThyRW1uY2llZ0JUOUtPX2cza0pTNjE4bWNkelhQbnZ3eWxMcEdQM0lzdWF5QXQ1YVplM3NmNzYzM3F6NmhRblJqeV8xN1NXVE5hQlZrWHBweWkxSklfdnBoSktnUlk?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2026-08-05T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Loradana Paletta called up for United States U-17 Women’s World Cup qualifiers",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNU0VoQVZNaElLaWl4cDJIc3ZYQVdjM1p6aVRaN054LUNFWkxzYzJQOXExeGxpWk1lazBZWi1JeGhrZWNlUmhVcE9tRU5WdXF2OFdCQjBsMy1WTG9XT1N5dVhrbjdxZ2xOb1U5cFNYMThKdXVXN1ZUdUNaS2Vxam1oYmt2UGpRSUp6TmtBWDRCeWdwU2plMHNmQlh6UEN5SEFyQmtVMUI0VVpKZy1OSDZR?oc=5",
+          "sourceName": "Hudson River Blue",
+          "sourceUrl": "https://www.hudsonriverblue.com",
+          "publishedAt": "2026-03-10T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "U.S. U-17 Women’s National Team roster revealed for final round of Concacaf Qualifiers |",
+          "link": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOSWdDVDZ2dWQtMnNHZV9aTVdjb29kQ09ZdWZScWVDSktfd1E2RkNCck93N2RNTHMzMUNHcW9WcktaX2p0ci1lbVJ0Rkl0Y3ZJM1Q0SVFSVURmdVRJUkswaHNhQkJVcXBEOTVDU09sRktsQ2hxMXczM3dSVGlsMWYzWndreDVFai1lRzV4aWFWVU9hTVlyNmpueTFtYUUtLTl2T0JSc2laeHNyTl9zODBPemI2UnJnWkpu?oc=5",
+          "sourceName": "SoccerWire",
+          "sourceUrl": "https://www.soccerwire.com",
+          "publishedAt": "2026-03-09T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "USA knock Nigeria out of U-17 Women’s World Cup",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxObTZCalQxT080RWRCcU5tUE9GVXI2RkthbGcxUS1GZ1RqX2ZIM2VBMkFlbXJtSmhkLUZMbmJlenZvcHFNT2lTUUIySmstVnJKcjFFZGJnYzFVVWlLSnpSRkhnM1FHYUExS0xFenVJeEFOcjgxQWJudWZTaVRYOUN0dDdwTzZfNUszVkE?oc=5",
+          "sourceName": "The Guardian Nigeria News",
+          "sourceUrl": "https://guardian.ng",
+          "publishedAt": "2024-10-27T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Alabama’s Padelski, United States Women’s U-17 FIFA World Cup Team Advances to Knockout Round",
+          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPdmR4bmFIbG5fbDltQVRLWFozMHpXQUM4TEFaREVvX0k5MjQwM0NHcHRjdkc2N0Q2eG9xMlhLek13S05qWEpVTmE0b1Nscm1XYTdGc1U1cUltLXhvbkw5WWRkYmVLZng0Mno1RmpmRmJuTUtZalRrNUYySTF6aUlfU195ZHhVVklLZUx1SGNNSUszYi1XYy0tODRncWFFY3pFVGVIbFRaYTFRUVRRb3REalg4QWRLVEpwTFJ0SVhHbjZSdFY1cXpCWmxVWkhpQ0U?oc=5",
+          "sourceName": "Alabama Athletics",
+          "sourceUrl": "https://rolltide.com",
+          "publishedAt": "2024-10-22T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Alabama’s Padelski Named to United States Women’s U-17 FIFA World Cup Team",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPUkR5SjhaOFZEUEUwT1hPWW9mUVU2TllkbjRqNG1xTnU3TnlrQXloYS1JT1loSWdBc2wzaVNEcW5EamRFSTRsY1F2clZ6RDRSQjhPckZJNWY4eFJBSXFfV1FEUFFxRUp5ZWJaV0oxSWFkSmVtUzNKbWVrbEtKWm9yYktiZWRFU2pLbUhGYXhOSGhvQzAwUjBPSEdkOWpfaGlWRmhwYzMyOXJmZW9JVmlUeWxGVXpOQQ?oc=5",
+          "sourceName": "Alabama Athletics",
+          "sourceUrl": "https://rolltide.com",
+          "publishedAt": "2024-10-01T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "USA Ties Brazil 1-1 In Second Match Of 2022 FIFA U-17 Women’s World Cup In India",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNeDhlYXdOTVF2OXFxVGxJLTkzbUJjb1hjVWRTQmVweDJzZ2VQaHlpMURXMlBRRW5nal8ySjJPSC1melBEc0hBeWhfcEYtNVk1OE5vOVl5RlBSSlpoR0VZZ0YxWlJXalB0anpTMjZReWJselZOWVcwNGdScjAzLVc0em04Qi11RjUzTjJ3UEYxSjNyTjFyZnpLc3hWRnduWENvNllQT25yYlkwSzVRWHR4NFd5US13SGltUkdzVjdR?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2022-10-14T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "NEWS: Sophie Jones Named to U.S. U-17 WNT Roster for World Cup",
+          "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPVmxTQUpzalpJZ2FEMGd2eWhObnYtamQtVW1ZeTN0ekVMUDBjQXgzUGFBdzVjeDAySmZJdWR5WlpzOFc0Z0phaDFDU0lkTkltVVExNm4yV3l4R1ZZbTlsT0Z1cGZtOGNSSE1hczI0d0tKM1l3MnpzWTNfMFJheHoxTFJMR0pFRDVDdUhrbkJDUHQ?oc=5",
+          "sourceName": "San Jose Earthquakes",
+          "sourceUrl": "https://www.sjearthquakes.com",
+          "publishedAt": "2018-10-22T07:00:00.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:04.660Z",
+      "status": "ok",
+      "filteredOut": 7
+    },
+    "COL": {
+      "items": [],
+      "fetchedAt": "2026-08-15T14:25:06.506Z",
+      "status": "ok",
+      "filteredOut": 1
+    },
+    "NGA": {
+      "items": [
+        {
+          "title": "Nigeria U-17 Women Defeat Benin 5-3 to Qualify for 2026 FIFA U-17 Women’s World Cup",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPTTZLcTM1NENrdlFrV3o3ZTZZb1JuanMwaFJXcGI2YWlZdHd4ZTh6Z1AyN1d1QVk3UkhGVGtUUHlUcGZEN3dNWmJBdDM3T0l0NzY3TExmZlg2VHBUeGMwaWVyM3NzN3I0TWlqdmRJUjNlZE1laFQ0eHNxS191d1p6VWlBS2ZudkpTZ3dWWk9RX3RZS21LMlRPXzFDWkNReUJjU3hUWVB1Nl9CV3BVLXNtWnMxZ1Q?oc=5",
+          "sourceName": "Africa Top Sports",
+          "sourceUrl": "https://en.africatopsports.com",
+          "publishedAt": "2026-07-11T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Nigeria's Potential 2026 U-17 Women’s World Cup Opponents Revealed Ahead Of Guinea Qualifier",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQbVhwQU9KQ21zeVoyTktqRnhXWGY3V0d5N183RTJkczZ4OHhOYVNuTF9hWTlGUlBMbmljbTVwbjE0YmJXZWdLMHNpRkdIVlNrUkxWMDNzU251VDFnb2ZjRUo5bTRjdEdDNnZtUGJlV1dVQTFabW11M0hsZzdNMmdYS0hLS3MwOG94Vjg2eFM5aWRlWktBUHNlOG11TnZFQS0yR2JIYy1TZnNkN3gyY1l5QV9xY0FEaEpPS0ZCU0llOVM2SHRxUHRV?oc=5",
+          "sourceName": "Naija News",
+          "sourceUrl": "https://www.naijanews.com",
+          "publishedAt": "2026-05-21T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Flamingos Set For Guinea Clash In U-17 Women’s World Cup Qualifier",
+          "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQWnZvVkx2Ym51UXEweE5rU19fSGdaVDNHekhJcU50b0NjZlVJdGpEMVZqWi1ZWUN0QXpWVmxFWDN3WS1WdWNxNUU0Um5YZnZFbnNiS1JaQS1WaGR2bXRGQlFpUGVJUDZUMkk3V0ZYeVp5ajdUUHM3aUpZTWRwbXdvUXBrdFp4dG5NVzljM3Jjam5JSlh1aVE?oc=5",
+          "sourceName": "SportsRation",
+          "sourceUrl": "https://sportsration.com",
+          "publishedAt": "2026-05-18T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "U17 Women’s World Cup: Nigeria’s Flamingos step up ahead qualifier vs Guinea",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaldkVFRsNTYzbTlmSFI5bzlwOU9TMm5FbXBNMFBEMUFzR1RZdDVydjRTR2UyVGJmMUl4VG8yMEZRQUFIVnBmUEdnaUZZZEV3OVZrcU1abGdoeGREamtLOHBtbzU1UkxZc09Wc09YR1VkLVJtMTB1dDZTM3g3MFhLbmNzVkVISHhEMmNZTlZNWi15WTNVbUxuN2RTNA?oc=5",
+          "sourceName": "Blueprint Newspapers",
+          "sourceUrl": "https://blueprint.ng",
+          "publishedAt": "2026-05-15T17:00:59.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "U-17 WWC: Nigeria’s Flamingos Face Italy for Quarterfinal Spot",
+          "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxOelpTMzBtZjNfbVZuSVVwdlFvMHk2bTQwVkhHUlBpSU5aUWRvQkJDT3JGMGUwdU5nMnhSeUljTnhYbHdOQkpPRG56R2JuQVJLcEdqNmZnRHRUMnJpQjZDd3hTWkp1R0duM2tXWTJnNXdRdDJCWHZVRHNBSW9yUk8xNEZndnlVaVJmLWhIcg?oc=5",
+          "sourceName": "TVC News",
+          "sourceUrl": "https://www.tvcnews.tv",
+          "publishedAt": "2025-10-27T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "U17 WWC: Flamingos Trash Samoa 4-0 to Reach Round of 16",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPV09WcV9uTGVSVzJrVUJGcUxYZ1RGYVpsbEgzdnFyaWVJOXhqaTJmYTlzdzN6ZVIyRFlUeVhjT01KT1J6ckxzaW1PNGZFZWVIZ2g1MXhqMlRIS25WMWlmNndIUkZCYVNFLXJ5SEtWdHNnWnd5d1BzZEFzRFJhenBtcjM3LVU?oc=5",
+          "sourceName": "TVC News",
+          "sourceUrl": "https://www.tvcnews.tv",
+          "publishedAt": "2025-10-25T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "U17 Women’s W’Cup: Flamingos Ready For France – Coach",
+          "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9hUVlSM2pBdG5HemRlWnJsWUs4dVBPTnNnUmo0aXBWYTlyR0pFb084STlWTm90ZE1NSG1IZDJ1b212WXRWNXp5bUxwYnl0RXJtRC1xM3RvQWxHZjlhVWFYUDlPS3I4VFl5LTMyUjg0cEtrVlByVlg4VlFBdU0?oc=5",
+          "sourceName": "The Whistler Newspaper",
+          "sourceUrl": "https://thewhistler.ng",
+          "publishedAt": "2025-10-21T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "FIFA U17 Women’s World Cup: Flamingos Ready to Face France",
+          "link": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPVExnalBldWRRZldvZlhXT0tYWjRhS29aaG9FdFhUQlRWUGRlTWdwMzBfWWtsRFd5Rm1nRzJpRGdNa3hYbGdUUTdWa2VXajdEYTk4VGh6TWpUOHg1WjNudnhscFRIdDBSSllTX09NNTNwZExqRmNpaDNscFpBelRUMEItbGtZcGc?oc=5",
+          "sourceName": "TVC News",
+          "sourceUrl": "https://www.tvcnews.tv",
+          "publishedAt": "2025-10-21T07:00:00.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:08.448Z",
+      "status": "ok",
+      "filteredOut": 17
+    },
+    "BRA": {
+      "items": [
+        {
+          "title": "Brazil U17 women drawn with Canada and Norway at Morocco World Cup",
+          "link": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOVkpscVd3MzlnV0VSVWVZQ1JTRFJYOFp1UUg3cmFVOE1ybmVWQkxGTk1OVjFsU0M1NDU4aWs4Sjd4TXNuaFZlemtRWjMzT3F1QXJSZUVOZGJOb0pQMDF6MENBMTR3M0hycS1lamVrMnF4N3dodENCamhES2t5QzFCUzJ6Qlk?oc=5",
+          "sourceName": "Yahoo Sports",
+          "sourceUrl": "https://sports.yahoo.com",
+          "publishedAt": "2026-05-21T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Brazil women beat Argentina to become South American U17 champions",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSXFTZzJOcGJrcmtFcV82WjUxMTFnS0hwaVRsaFZMYU8tTlNyS3VzT180LW5qUWFSX0xDbDREY2ZaalpjUEtnbEJMNGVodnBQck1NNTU0NXFJR0JnWUhvUWU2dWtlRHUzcW00X1VGd2JWRGRxcDNtQ2NSVkIydS1PaVdoTmVuYzhXQ3BBQnVvcDZUX1VzV1ZrSWl3cmZFOEhLaURIUW95bnNScjQ?oc=5",
+          "sourceName": "OneFootball",
+          "sourceUrl": "https://onefootball.com",
+          "publishedAt": "2026-05-10T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "FIFA U-17 Women's World Cup, India vs Brazil: When And Where To Watch Live Telecast, Live Streaming",
+          "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOSE9fR0JXT0YxWUl3eWV3Vms2YV9ycTU2YUJybkNROUQyZG12UkJQZ05CdHpDVl9ITFFlN0toek9ETUJ1clBWNGlZWFdhRkh4dk1jMDMtNnBzXzlIRHRNMHI5SHNmanNsOVFjMEt6Ym9zYTRvSi1GWThJQV81ekFLeEhZRGxQVzVOSXNaNWlfMkFQTDBRUENjX0dHTDJrQjFXaDRYTlhmUF8wdS1BUWxLSVkwbk1qMEl3ZGNRMFN3U1UxSTZlVXBPRXlOUHhLM29lb3c?oc=5",
+          "sourceName": "NDTV Sports",
+          "sourceUrl": "https://sports.ndtv.com",
+          "publishedAt": "2022-10-17T07:00:00.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:10.298Z",
+      "status": "ok",
+      "filteredOut": 6
+    },
+    "ENG": {
+      "items": [
+        {
+          "title": "England Women’s U-17 squad announced for Euro qualifiers",
+          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxPRnhOOTZDTVJMRGZLX0ZwX2VJQkE0WUtQQ2tXVnBVZGx3TnRBSVlpVzhUNVNTcWZMdHBDQmVkdWVGTi0zd21TWG9tVEVwemNXelMxcXkyNVd2VkQ3djZfdDFET1FOMUpOVnhBXzU4bkRDRHlSd3ZUMk53SjFCdUFQTUdfUEJuYnUwQ2dmdHk3Ny1KeE1HM2xaRTE0VnQ?oc=5",
+          "sourceName": "OneFootball",
+          "sourceUrl": "https://onefootball.com",
+          "publishedAt": "2025-03-12T17:07:50.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Bailey and Pierre selected for England Women’s Under-17 duty",
+          "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOeDFtNGdQbVRZcGZwSUJ4VGw3ck00bXJvTXpYaWxXX1FUaldOcWtnd29GaFRxTTUzUFMtRE8xc09wYzhsTWg0M1lhdW9BSDFaOWk0cTNad0hvNTJoVGlydFJEOGRBaVZoUkE5Zm1RUXk4b2J3amo0N3l2SVN6bnhPTHVkZ3RYakZMZGJCNThHUlFqbWJwWnNfcFp2RDNJVTE0QzlqdUNwODM?oc=5",
+          "sourceName": "Tottenham Hotspur",
+          "sourceUrl": "https://www.tottenhamhotspur.com",
+          "publishedAt": "2025-02-05T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "England Women's U17 squad named for first round of Euro qualifiers",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPN21Ba2pqNXppT0hLaEFObnA1RTN2ejBibWFPeERJOHlLZFRnQXR5d3ZMMmZpWV91TkpxX3gyM1RZaTFxdEdPVXJyWkZacllVeE5peVhJMTh0ekdNb2xIdnlmTE1CcDhlbHFZb19WUFNDekI3UmZoVHBiczJUbF9XQjJCV3hDUQ?oc=5",
+          "sourceName": "TheFA.com",
+          "sourceUrl": "https://www.thefa.com",
+          "publishedAt": "2019-10-18T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Lois Fidler reveals pride at her 'best ever' U17 team",
+          "link": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQTmZNSVFSLS1MR2tJSTNMa1BLVmtadERkMHJvQVFIMU1BTE5xbnBBZVh0UFAxU0ZNdlJOS2d1ekUtd1duWXpPRXpWd1JQcXJ0d25FVlRDQ2NYS01Wa1AwU2FEZU1iMFNYV3lFbUZjaGV2bEx2djhIWmdIZVVyZFVETEFUa24xR1gxMFVRWDRsNlJrME9yaGZnNDczRWNVVjcyNFU3dGdZcGFaRWdjTGc?oc=5",
+          "sourceName": "TheFA.com",
+          "sourceUrl": "https://www.thefa.com",
+          "publishedAt": "2013-12-08T08:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Two changes to England Women's U17 Euro squad",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPT3p1R1ZfWDBBUEVyR3JxeV9BUFl5ZnBiWUloUC1mWVJ2aXROVnYwWWt3d2U3czJOajF1anZRUWI2OUIxbkhhRkotSG1BekRVUWkwVGU3Q0phQ21wY09YcHBYbWlmMi1lMUJNcmVjWDhDNGRmLXBQMkFMYlZHTWJKaXhwenJrVGhmTWQ5cUhpcURzQUFIMlhkSmJqaUNyYkdNc0ZmMjNTcjllVTYx?oc=5",
+          "sourceName": "TheFA.com",
+          "sourceUrl": "https://www.thefa.com",
+          "publishedAt": "2013-11-15T08:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "England | Women's Under-17 2014",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ0NSVGtSZVVRd25HbVZtNlVsVWlpVVphdkZmN0FMV3M5aWd6bUd6eXk3d2JXY3RZdmc5ZHdaTVczNDNIQndsRXZRTzg4dUFmSDVFenQyNGtHd1RQcFBwaldib1dXdnZFREU4ZmJKUzc0TGJtUHlYcmhUY0tsTk1RTWdpbXRwdHAyMlMyZTlR?oc=5",
+          "sourceName": "UEFA.com",
+          "sourceUrl": "https://www.uefa.com",
+          "publishedAt": "2013-10-01T07:00:00.000Z",
+          "tier": "T1"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:12.253Z",
+      "status": "ok",
+      "filteredOut": 4
+    },
+    "MEX": {
+      "items": [
+        {
+          "title": "The Tricolor’s Pride: Mexico U-17 Women Earn Historic Bronze",
+          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOajBGdkUxZTNjbG9LaldscUFxQmhLM0t0aHdvUzJmbWRtQTdPcWpqMVZ4eFhSak9VWUdja0NEOWw0aEp6Q2Q0YWh3WkllUlY1ZGs4dnBRSlM5S0R2QmtTNlUyQTlTT0Nxa2ZDV194YVBJNUR5OXkxalh2Rzk1TDU4VkdHWk1LV1ZLdjVSYzRyQXhfVGFjT0VrY2tyOA?oc=5",
+          "sourceName": "Viva Liga MX",
+          "sourceUrl": "https://vivaligamx.com",
+          "publishedAt": "2025-11-11T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Mexico Falls to the Netherlands, Will Fight for Bronze at the U-17 Women’s World Cup",
+          "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNUDJfa3NPMGx3Z3R0LUJzY0txSGV2ZGZFU2k3ZGJIN3J5QWhKSERvMjk5TDNaT0NJa2Uzc1ppRkk2MF9UYTZXaWxNU2Q3aWZiQUZfV0JTUEFSRURWSUVoWmtXemZoYURlVldIYTQyQ2VIY2xvM3luWUhXTkVlcDA5eWtFcEFSdmxCSGxPQUlrZjVoY3FwS09pdDRUVjI5b3plUWt6WWJwWHlTa3hEYmYzN2dsQ1dJUUdkcnBr?oc=5",
+          "sourceName": "Viva Liga MX",
+          "sourceUrl": "https://vivaligamx.com",
+          "publishedAt": "2025-11-06T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Mexico’s Under-17 women’s team heads to World Cup semifinals against the Netherlands",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxQb1NjSFkwa0h1cXVoMF9ZQ1BUcllIVDFJZW5yWmktdUNFZUpnMmZjelJXanhPN1Vpb0Nzd0dQclZROEM4QlhMODFJSjJRNFYxODZDLTYtRDZVdUt3aXNYQUphZTdLRXlMNEpyZS0yeU9tQ1cwYkhOYXZsMktvQXMyMjE2Yl9zZTZxN29Jd2NlVDhzM2RYSUtjeDkxak54ckdYdVhKRVRrWkV5TENBRUNpTi1UNFJrODlHOWhwaFRn?oc=5",
+          "sourceName": "Mexico News Daily",
+          "sourceUrl": "https://mexiconewsdaily.com",
+          "publishedAt": "2025-11-04T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Heroic Win for Mexico U-17 Women: Penalties Glory After 0-0 vs Italy",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNcldEN1BYRzhsc2JqTE1jZmVRZW5DRTdIYkFuaUF0UHFhRlZkY2t2ODJweGQxaVpGZWFHeEhuSi1kczJqeUNZVkJNbVZNY1NMeFQwSjQ1eGNTZFFiZmZmMkIzaDh2REFpZGZWcDI5ZC0xaUduRElRTFZJd0V3bHR6MllydU1Xa3RXSEU5RHZyVVJ1ZWdWaUY4TUxqWkQxWXRsUERoWnFn?oc=5",
+          "sourceName": "Viva Liga MX",
+          "sourceUrl": "https://vivaligamx.com",
+          "publishedAt": "2025-11-03T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Aztec History: Mexico U-17 Women's Best World Cup Performance Was Runner-Up in Uruguay 2018",
+          "link": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNWXNNQVdnUzlWcmdJcHUzMUhRa2Z2am1EaU5NZWRFcFJJaVR4aGVmT3JIaWFlZnhPNlNsbTVjWGhMdmdYU1ZuSGJrRjlRcGM4cG4wa0g5UjNZTmIzSzgxVkpfUW5rRkotckRJeW5Xd093ZGFFY0JCaXVPcGR4bXI5VnFxV2MxNzRNbTZxekdWNnpvQmY1VXVRSnhYZmU1dTNURXBqOW9EY3Z1UEFmZ0JneThyN3NWLVlabFZSNGxlTUxDN0NiQ1NjQ0tPaktwdTRtMUpWSlNQYTNBdw?oc=5",
+          "sourceName": "Soy Futbol",
+          "sourceUrl": "https://www.soyfutbol.com",
+          "publishedAt": "2025-11-03T08:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Resilient and Rising: Mexico U-17 Women Secure Quarterfinal Spot at Morocco 2025",
+          "link": "https://news.google.com/rss/articles/CBMitgFBVV95cUxObEVmNW9vcnBER3JGVS1hdG9nZ25hT3VyMHNTZDJISktvRmNQZ25oSWdwc0VvMU9LRkVuVnlFYzR6XzFZVjMta24yN0R6LXlOdi0yVk0tUnFQYldsU1VXaTBtMC1fOUpOVU9mN0dFQUpvX0Znelpkajd1UXhkWTZydWVTLTdaekJzVmlId1dPcjhaNk5iNjZ3U3pGRzNQV01KamF0MzdRc3pUamdWZ3hrdklMZGFLdw?oc=5",
+          "sourceName": "Viva Liga MX",
+          "sourceUrl": "https://vivaligamx.com",
+          "publishedAt": "2025-10-31T07:00:00.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:14.128Z",
+      "status": "ok",
+      "filteredOut": 4
+    },
+    "KOR": {
+      "items": [
+        {
+          "title": "South Korea U-17 Women's Volleyball Advances to Quarterfinals With Unblemished Record",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNYURDaXFSSHBtd1h1U1NDQ3M0YkV2akZVV3FDcl9kNDF2LVQxODBnZzJKcnVRbkZsSkstQWlYSHI3aVFIMHB4MmRpcXFfdUo4Z3IxejhuZTBKZkFSN2Nhd1RZRmJ3TnJRLUxVM2xxeTVmVGZpX1dyUE1la2Z1MW8zRzk2X3EzZw?oc=5",
+          "sourceName": "조선일보",
+          "sourceUrl": "https://www.chosun.com",
+          "publishedAt": "2026-08-13T10:55:28.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "South Korea U-17 Women’s Volleyball Team Defeats Philippines, Reaches Quarterfinals",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOUlRrNUNsOWttdHhRQTFRbXhxVWVudDdJb2ZHclVJLTZ3aFItdnF6QWpXZzhESDE5czV5Z1Ztek5BdkdTWTQ3MFpBdjFrYjh4TGdMb3NTOEI4RmsyVE5uMFEwMG5vZjZuWEtGUncyZlExVC16R0phT3BzRnJQWXE4Y0lyd0dHUQ?oc=5",
+          "sourceName": "조선일보",
+          "sourceUrl": "https://www.chosun.com",
+          "publishedAt": "2026-08-13T07:17:07.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "South Korea's U-17 women's volleyball team has advanced to the quarterfinals of the International Vo..",
+          "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFBTbmllMnZtYVJWb2w1VFcwM2hYVU9nRkxHaE1GSVZ0T09XXzJtQ2FFSlpBSGFfZ0sxM1ZOd2xHVW8tUzlEVk9FUnpObkF2SE5z?oc=5",
+          "sourceName": "매일경제",
+          "sourceUrl": "https://www.mk.co.kr",
+          "publishedAt": "2026-08-13T04:26:57.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "'Little Kim Yeon-koung' Son Seo-yeon soars again! South Korea's U17 women's volleyball team advances to the World Championship quarterfinals with a 3-0 sweep of the Philippines",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9QdC1INDRaNWkxdHYwRnJWQmZFTnBMSFM2THdhdFBtZEdqc0RZSVQ2bmpSdFIzdDQ3NW80RGFxMDVTQzZ2S1dNNGp5NDdfVUNUQlBmZnNYMGhaQWhXYV9BLVlLZkFhU0ZDRjRDYWdudnh1bUtucVdJbUt3?oc=5",
+          "sourceName": "starnewskorea.com",
+          "sourceUrl": "https://www.starnewskorea.com",
+          "publishedAt": "2026-08-13T01:26:12.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "South Korea U-17 Women's Volleyball Team Achieves 5-0 Record",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNTEMxanNjbnJ4UDlsNlNlWE9YdjBYY1k0UFpfSlVQd0VaenVEd1hCa0hwQnludmpQUjJrUGg4bG9CdlFWeVlJSm5KRU1Gak02UjNycmpxUUQwVy1MRVNTMTVIWFczSzRyRThzYmpTNXhVOWZTUnY2RUc5S0YwNEZLb1hPcVRzdw?oc=5",
+          "sourceName": "조선일보",
+          "sourceUrl": "https://www.chosun.com",
+          "publishedAt": "2026-08-12T15:41:55.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "South Korea U-17 Women's Volleyball Advances to Round of 16 with 4 Wins",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNNlNXa194S1poajVsSWlBanJBY2t2NV94bW5hZG5ZSzV4bG9GTy1qQjVBOE0yUGNnSjdlR3I5WF9fTnd0SDEwU0Y0bzhDdGlCVWVoU3U0cGYzX0dKaFIwNC1MYjdKcm1zUzRFOWxzZUI5N0dYZHNGaWpzS3FGVUtJZ3hTQ05iZw?oc=5",
+          "sourceName": "조선일보",
+          "sourceUrl": "https://www.chosun.com",
+          "publishedAt": "2026-08-11T15:44:50.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "South Korea U-17 Women's Volleyball Team Beats Italy, Tops Group D",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNdl82Y3BxUnAtOE04bkpTek9jR0ZfdnlQaDRYendrV3I0Y2lGRV9sYU0xOUZzbngyQVloTXRTNTk5VFIyR2llRS1sbnY3a2tuXzN3M1RaY0dKU1BjZUZvTnpSTFIzODNpYkk1eHlwV3dOM1dzVnZPVzNXdUs2blhnN1VMZkZLdw?oc=5",
+          "sourceName": "조선일보",
+          "sourceUrl": "https://www.chosun.com",
+          "publishedAt": "2026-08-09T09:05:58.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "South Korea U-17 Women's Volleyball Team Tops Group D After Italy Win",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPMTFTeVNDbkRucXBXdDhZVFR4S3o1NDR3N2V6UHZ4VmFmY3Ezc0RTd29kY0VteTQzbEtlWE1jbjlqOEFUYmM4dEl2OUI1SHNXMzVHbXNLM2FMX2FteHdYbWJSV1gyTERTMm1zYjNiM01qVEN6anpnZVJWT0tXQmUtZWR5OG9sZw?oc=5",
+          "sourceName": "조선일보",
+          "sourceUrl": "https://www.chosun.com",
+          "publishedAt": "2026-08-09T06:29:45.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:16.035Z",
+      "status": "ok",
+      "filteredOut": 8
+    },
+    "CHN": {
+      "items": [
+        {
+          "title": "Vietnam U17 women fall 0-3 to China in Asian tournament",
+          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZTZ5bmdTbFNUMUNwLXJVa1djeTdXLTh5TW9iXzQ1MHlfV0FmRW1RelpFTVZCNjFkMkNLNFdzS2JRRHJpcHozbFJvTEJWOVJNY3paNEJrREdpVHRNdjdDSkE4bEo0Qi1XMWV4WWpVVEhXRmExdDIzT2pjdHliaUdacHk1X3RfaVhCb2FDZHdLRXJLVjZCYXpDMw?oc=5",
+          "sourceName": "vietnamnet.vn",
+          "sourceUrl": "https://vietnamnet.vn",
+          "publishedAt": "2026-05-04T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Link to watch live U17 Vietnam women's vs U17 China women's football at the Asian tournament",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPdDRrYV80ak5WeVhGcjJQY2Z6Zk5teVlfMnVQblFJcHNvdVcxZWFtQUR0N2RZM2dzRmtxQVVObWhzVXRoMlZuMFRsYVVWQ3lYYWxhMzRzY3dBUF9SVFVMTUFHN010eXk2RVNuVV9NSnBBVE5OXzhhajJwX3VpVl9IS1NEVHBGNXBoUG82Tl9nRkJpWVJqWEpGWDI0cnBjQXV4MVNLX25ka25nQ1pJZDFsODRVRE9RLW11RE9iTmxNdHM?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-04T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "U17 Vietnam women's vs U17 China women's football schedule at the Asian Championship",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQTFhBLVlhajlaV2JKdlVOZkVTRDRIWHhUcDlDaVNfaU1LRFFNclhQcC1ib0U0RUxvcnFzZ2NMd3k1cWF3QWdqajBLTDFrQ1RaZnY3b2JoS0tXUzhOQ2ZZdm0xTEhOaHBFWHRoM2RMek52b1hYajR5YWVGMGJJYWhCX05pS1RyZjEwbzJiMGlURUJHZE5fMDVObDZRSVluQngtdnFFYy10NXNLZzc2N0xXWXhSOFBSRjJzUDhfRm84RQ?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-03T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Vietnam U17 women's team in the same group as China U17 women's team at the Asian tournament",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQN2F2WHRoQTl0RHpRYm5kcGRLelJwUlBGemZfOWduMDZIZmx6TFdhUC0wSWR6aUhVM1VqY0xCeTRLbnpHeEZmQkJqSl90RVVJNGE4S05kQXU3WGlLSW9za01WbWU2S2xLa19CUERKTTJTQk9ORDNKQ3BReWFkX2RZT09URDFJU19hUmZBRXpSY255OFpmN1V0QnZCR29IV3RNcG1HVWtn?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-02-12T08:00:00.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:17.865Z",
+      "status": "ok",
+      "filteredOut": 6
+    },
+    "AUS": {
+      "items": [
+        {
+          "title": "Live football U17 Vietnam women vs U17 Australia women at the Asian tournament",
+          "link": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNZlI2Y3FUM1hzTzI2TVc5MTVneG8zOVhSNnVVbzlQZDladVZrcVhrNEZER3M4VTlWZnAwMWxhV2VhaUZnUHFZTG1tZjlZWGlTU3cxdHphN3VOTHBqcTdHenBYUmp2dGs3cGdaMHJyZUFiTm95N0NjNXB6S3RPenl6SFpReUxJNmNadkNyb3RrQUg1YmRSNzhCQkJfVkd6aFFTMVpUR2FLdlI4OVFLWENDWm1NQQ?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-11T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "U17 Vietnam women's vs U17 Australia women's football schedule in the quarter-finals of the Asian Championship",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMzVRd1B6aDM5T3dMdlpzYmpNVlV0b3E4UzBZbDhyZHZSSEM0RzVpYmdmUWpWQkNBT21HTlJYSlVhWDhvVEYydGlhMGpIWUdfLWUwUGxIQXZMc1NmWW91allPUDFaSE41YkpmOG03Ym5ISkt3ajhCbFZhM1ZZYXpkMGxEajgwb0FZVkhqazMzenZPazZJS3J6aEpwemJxeTItcFVJUlRqRGdYTVVvRXhha193X25FRWl2X1pYMDFMMWk?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-10T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Vietnam U17 women's goalkeeper highly appreciates Australia U17 women's before the quarter-finals",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV1NsU0J1dHZ0eDZyMGtidlVzdmx4c2pONHNIZ1g0WGNHbnhqVE5rZDR2X2tvMFl0TktMZC1zNHFla0dXVWs4T3c0SFBXWFFEcEVTLU16V1lNblZ3TU4taTNYOHNaaVE2WUZ3Yl92aFpjTFJVSEc2ZnNpd2RLVGhXcTM1eVlpakNCZlBNeEs1c2xJaWtaaHc3S2Qtd1VwVGQ0RS1hYlFQb29NajVBVHBFRHl1QTNJcDQ?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-09T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "AFC U17 Women's Asian Cup 2026 quarter-final football schedule: Vietnam U17 Women vs Australia U17",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWUlfSGxXUTgxbWFvS0FWV0paT0ZQNmxIZWw5UTc0eVFCa2VRdFhHeXgybF9mRFcyaEFKOVV4b09Fb3VXaW9qak45UHh2YXBJN2Y2QjVYQmVueTQ1cVdrc1VyUnphdWFnTG1yOWhUaDdBeXQ0VTl6SmlYODd4NGw1M09UU1lvS2E1MjBnNVhMTlh0YlhEVXVOeG5mNzhyQUxuSFFTdkVfTGt2Y1F2WXU4cEM5WmRaTnRrdEJmYWxNaHlHLUYxTmtR?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-09T07:00:00.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:19.689Z",
+      "status": "ok",
+      "filteredOut": 2
+    },
+    "PHI": {
+      "items": [
+        {
+          "title": "Chd coaches help Philippines U17 women qualify for Asian Cup",
+          "link": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxNcmJ2ZXZXVFNsTDc1V2k5aXE3Slp1eVJuMUtucTRpT0hkd21zSllVdXZTZWMwbTBCY09zVW1MNDVpTmZxUDZzZWJLaWpzTURUdnRXTXdzT2Myd0JQMFV3S2ZTSHFjc09tU3NFdEdjUTRKZ1YxY05nRWVTa1BFd1FKR2JnWUItdWNRcGZKbksxN3ZicUZMU2ctdVNadVZ4R1E5RkY2enJzSXNnNk9wTXdFcGJVWi1jTHZvRWVwdWxhall5NHI1Y2d0TS1qeDNsbzRHeDBvY9IB2gFBVV95cUxOckt4WVRpcWlzRW1YQTVQM2x1Z1c4V1kxYzF1MG9ZdndQUkdaT3E0TFIybENYM3FoMFpkZjcyMGh0dVJJX0dJTGhCSEtQSG5iOWljMDBONDhCa0dOeEpSeWdGY0NvcGNvS3luSFJNNzB3Ukg0Y2JLaVFicHBERHppZEM1dl9SejNIMlMwS2UtRXdEMlBrMzBJclNPeks5RnJsR2U5cTFyNmVGNHV1WUd3dENCSkREVE5VaUEwdWdVZkJNcDM4SEE5T2Y0NkhSWmZ0Wi12cmdvaXk1Zw?oc=5",
+          "sourceName": "The Times of India",
+          "sourceUrl": "https://timesofindia.indiatimes.com",
+          "publishedAt": "2025-10-24T07:00:00.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Kulsum takes up short-term coaching role with Philippines U-17 women’s team",
+          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNS081MHFmZl8wdnQ5N1F0WFN2aEowZmRZSVE3c3VXM185ekxDeDlVTTR3OXZEYkR0MmoyTlNNakRCNzJzMVZmU3hONmVWY09Ocl8tbVRySmZzZi1KcDB1WjZKRkJXSVR2cmNTYUJ5Q0E2aWY0MUt4UDNnQ0tRbGJTTnBlMWVJM2VmM0ZMZGNMY216eWNNdXYycHc5SFZfR1hqc1ZSSWkweVRwUmVzektrQzZ4Qlo2a2xDSWtzVEhNZExvbVZHX2NZZ3QyY0htZE1qSXhkQVFQeFZkWUppNEHSAeMBQVVfeXFMUElzeU1ueHBaS0ZSckUwVWRxbVpaOTBJbDNBOXNESG5kejlBM0p0VEhQVFdaLWlvVFZDZFREVk5mZ0pXX2lkNmdaMW45ZGNid2xtcUNuT3RDdFBaM3Z4TFBYbWpMcEpfRFRMMTlETkoyWXNlbHFlYXpWV2phMExRTTZoWkQ2MXh5bEt4NFM1THAwU01LelhRY2NuTnlMRnl3QWF0c1puQnYtVTBJUjI0aTBMQjdpT005TmtEb3Ruc1dzd2pBdTJDVElhanZLak9NY0xUeTU2ZGJMakxsVXpnRmRiczg?oc=5",
+          "sourceName": "The Times of India",
+          "sourceUrl": "https://timesofindia.indiatimes.com",
+          "publishedAt": "2025-10-14T07:00:00.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:21.550Z",
+      "status": "ok",
+      "filteredOut": 2
+    },
+    "THA": {
+      "items": [
+        {
+          "title": "Thailand U17 women beat Poland 3-1 to reach volleyball world top eight",
+          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPZjZoTHh0WFlOR2tBUE1hRmVLVjBPU3lQTm9KWkQwWGZjR3BOc1RRNjJway04dkRKNjhJc2ppRTJNNGh6bnBCcm9SMGZ6N1ROR0VIdnk0ell4aGxhRTJhTVEzNUFqNXY4NWlKME10eHVuR3FlYnVzd3VyMHEycnNUNWpoTXNMVzJyY3VveTFaTEMyLThOejZFdWNNVlhiTjJrTlo5N3Z1VVV3XzZ5dV8yR2hxazlzVVI3Uk9VWkg5SlZFMmFmRldBbGRITDDSAdIBQVVfeXFMTVNjdjNIS1dxVXFHei1JeWVvTUFyc0EyM0NBZFMtZ09VYk5kemhsZGZ1dS1CVjl5cmtXZm5QenZkeDcwN0hvaDYtdWFUQWdkYlYwOXUyamMwQW9ZNWlvdExpQm9FNjR0UmxXbmVpUFVtc1hyRWxua0FId2ZySWg4aXRNTk5ibV9TNTd3N1ExTGVRVHBXNXZTalFsOFMtQXpDdFFfRFJmSFhBbmpGQmRlb1BZaktLQTlQWXMwMnJQV1dUczN2Znhqa3ZXZ09rNEhydGF3?oc=5",
+          "sourceName": "Khaosod English",
+          "sourceUrl": "https://www.khaosodenglish.com",
+          "publishedAt": "2026-08-13T02:11:04.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Thailand U17 women advance to volleyball World Championship last 16",
+          "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNR3Ytckc1VU41Z3RwMGRxc1JDV1YyZEFmQ216WTdhdnRRQVAzMFdINFk5eVNvYTFFSlZjWTNxb0xhZ3Z1RW1Nd20zajlNM3NVUWpnY0NEcjd5WW1ueGdfZ0VNWDIzRmpiNnowdUQzcnJ1Sk9QMXZoV3J4S3kzejQ1bG44R3VMN1FCbWl5dHNHWU45NGdCTXFNLUFXOUgwZURYTzlxdy03S0FJSHc4cGtvZU9FMWg3SlJDYWxKNGU3bkJxY1FxZ2pLVtIBzgFBVV95cUxOeDZfNlk5bDYtRzlZbEctakdsb2pKZnpUeG9ieTlid0syZW1jNTloRVJYdF9XMUVqMHBUckhsSmpNUWNIMnRYWTJCRXJ6UmJpTFUzS05EdUFLUmI5ZW91dWhocFp3eTlzc3YtRE8yZzlMU1B1eElPRFFhT0pvQkQ5LUx3ZnpSRWJxdFJ5bXNFR1RTMWpaSVVJazh3N1VUV1QyOEdHZU9LeDh2VGNIYzMzTEc5bUttOFdiRUhtMkd5Yy1fT2Z5RFpndUh5NmVaUQ?oc=5",
+          "sourceName": "Khaosod English",
+          "sourceUrl": "https://www.khaosodenglish.com",
+          "publishedAt": "2026-08-12T09:55:24.000Z",
+          "tier": "T2"
+        },
+        {
+          "title": "Madam Pang appeared in the match between Vietnam U17 Women's Team and Thailand U17 Women's Team",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOd29USnBNY0c1WDd3UmlfQnkzRldwdVpXSTY0VXVSRnlWSmVJTV9ZT1RJU1RMSTdDTXotQmwxZ2RabHMtLWhveWdKR25ydDU4WDhvZ29mSWs2V29pT0hUTkh1ZXhFeHpDc2ZFQ1psVzI0LWpOM0lxc0xud2xuWnVwUThiSlI4VEE1dFpOYXJIdVREUDk3VEVDYXQyTEhBOHZRbUJZ?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2025-04-03T07:00:00.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-08-15T14:25:23.377Z",
+      "status": "ok",
+      "filteredOut": 4
     },
     "BAN": {
       "items": [
         {
-          "title": "16 national stars for AFC qualifier challenge",
-          "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1aU2g3MmtBeGxEOFRzazhpTVNaakVSb1VoT05BU3pqRjRmYkVJcmY1Qzdra050M19pUEgtYVgxaTB2LTMwcC1najBIdkluWVk?oc=5",
-          "sourceName": "daily-sun.com",
-          "sourceUrl": "http://www.daily-sun.com",
-          "publishedAt": "2026-08-07T18:00:00.000Z",
+          "title": "Bangladesh begin U17 Women’s Asian Cup qualifiers against Jordan tonight",
+          "link": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQdHZKTEpobFNFcVJ3S0UxLWNUODRsU3V2NE43cFdqYXNoOTRFbTVLTnRUZHNXSGgzcXZ6eENRdlNCSkdvYWhBS19iNTlqLTJ4OEIzb2hSeV9hN1lEcWNscGRzUkxFdk9IaG5HWjhuVjZrc0wzSy05Vng2VVNOaGNmZ1ptZnk5VGN4Zlo5UHVYUWRzNUpDem00RWxySE04QUQydEdPaGl4MHFCVlhy0gGyAUFVX3lxTE1BMEY4UVRieHFEQVVyU1RmNXNRRy16aTlXaTZNZkNkcVVJWHRfSGNkRnVMTm1EZ3FGR2lIYnVnbTJSdzMwRlN4a1UwLVlWcXUzTk02LTZuenhrclJoelBRbVB4a1hZZFNHVGpwaTlVZGJRamJmZUQ5eVBPR1hJY1pET0dOZWRCdUY5dklrT0FrRDdZbWI1TWhFR21xVERaeGlmWUY3SzZ1N0U0ZlZzZGxhYkE?oc=5",
+          "sourceName": "dhakatribune.com",
+          "sourceUrl": "https://www.dhakatribune.com",
+          "publishedAt": "2025-10-13T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Nepal Women's Football Team Ready to Face Bangladesh in SAFF Championship Semifinal",
-          "link": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNc2xWOG1mV09CMUFYUWlKYnVQc3Bxbk55QTQ3ZEk4TUVfdWotM1hpWWxlS2IwcFhGMmhPMkV4TV94RlI0Ny1GVi1CbjJ3bkZHNjhaUm1fMENEa1lhU084U2FuakYyTEFSVEMyTFdnQmdaUkNnelliSk9XYzE2NnJtSFdWb096R0EtWHFBQTFnaEtxc0xp?oc=5",
-          "sourceName": "Ratopati",
-          "sourceUrl": "https://english.ratopati.com",
-          "publishedAt": "2026-08-05T20:12:49.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Bangladesh drawn with Korea Republic, DPR Korea and Myanmar",
-          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE85cjZjbUFfdUdHSm1VWDZCNURGckhvVWNNQmxrQjBGdWRKNWxJVElVX0xubU9FRmJSZnk3cmR3VWFvVGFtMFBWVlBINml0QQ?oc=5",
-          "sourceName": "bssnews.net",
+          "title": "U-17 women's football team to face Jordan tonight",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5OR3V6QnpWeVZwNEFTczB2TTBpQm16ZzVMbmJXMDdfSXhUeGhLaGV6eUo4dWk5V0EzWjFVMkFiQkxnM18xblpwNWw4N21Kdw?oc=5",
+          "sourceName": "Bangladesh Sangbad Sangstha (BSS)",
           "sourceUrl": "https://www.bssnews.net",
-          "publishedAt": "2026-07-23T07:00:00.000Z",
+          "publishedAt": "2025-10-13T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "South Korea Women's Team Faces North Korea at Asian Games",
-          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPWkJ4SU42cDRLS09VdEJLT1pnbzhRZjBBX2hMTG03QjM2ekRZUHI4UV9JdkdaMUFKSWYtT3ZKQmpyZnpvV2NmVlpCV1ppSkhPYXdSNlhTTVdMaWR4ZkxMczBhQnNBWFhhMkRLVzg3Z2g2VGEwS09VYm1IZ3lQWlAtR1lnMnlqdw?oc=5",
-          "sourceName": "조선일보",
-          "sourceUrl": "https://www.chosun.com",
-          "publishedAt": "2026-07-23T07:00:00.000Z",
+          "title": "Bangladesh U-17 women beat UAE",
+          "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE80MmQ1Y3RXbU93SURxS3p5Mi1HamphQzNLY2w4M0h6Vnh1TndHdVFfNVVSemFNLVhJeXA2NTBPR2VwUkx5MTdoekRJRHF5RGx0czcxVDZqUi12ZmZx?oc=5",
+          "sourceName": "Somoy News",
+          "sourceUrl": "https://en.somoynews.tv",
+          "publishedAt": "2025-10-09T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "The Philippine under-17 women’s national football team will seek a third consecutive appearance in the AFC U17 Women’s Asian Cup after being drawn into Group H of the 2027 qualifying tournament alongside Bangladesh and host Uzbekistan. Link to the fu",
-          "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPdmE4U2tTSU5WQTJOZ0x3M1h6UnFhYnZrNWZBS195TkFaNjZDTVBJNXNjaDZQN2ZBY3dkNThVeURVMldVVllFalduZlNUdE9FNl8xOWtlcEwwa1dXV2ljdlhGZnBmaTBxYm15cG9tMTFIUFVkNURrQUtHd1VZaE1QWU0xZUFEUEUwTDduYWdoX3VVLXFBMG41WHE1V0JtSUVwUkJhUG85NkNrTHA3Y2NNTUZsUlVtdGZRcU9TNlRpQ2tJVnYxTFdxTnFiTUVxVjZSZUI5cGRvS1RCTmRpbGc?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-07-20T00:31:04.000Z",
+          "title": "Bangladesh U-17 women's football team defeat UAE",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBHMy1qSGJEVTRNanpWTTY0cTdfa2dQLUpFWjhMZDgzQ0FqX0kybGoyU2ZmQm9USHBTZEVXR3BrNF9Qb2Q1TkJJLVJ6U2RKdw?oc=5",
+          "sourceName": "Bangladesh Sangbad Sangstha (BSS)",
+          "sourceUrl": "https://www.bssnews.net",
+          "publishedAt": "2025-10-09T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Bangladesh Women's National Football Team: A grassroots revolution that changed the game",
-          "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQVTVrdXpYUS1RWTg0UVdZb3pUMTF4bXZkdUtscXpfc0c2LUhrWGlxM2oyaGNCVkxOMzBNSjQ2bUoyWkZTcWFldktzMUpSYldfSjIybXh0dFdUcUYwWVI5MWJTMDc5alo5Z21WV0JTWlJjVUQ4NzdtS3EyaVRYTFVrR0R2aFZmYzFXZThSaDFNZS04QTVMZVRhX3RwaDdYS1l0aC1EaHJYd1dpLS1NaV91RjRybmlQSnhVUUHSAb8BQVVfeXFMUE1BLUdHYWxOMXNCZDRTTjVzQlN6MmxpbkJCaWlYOERBaGswOTZST1NxaVN2dXpLNUhSV0cxazZzU2JzNnRUcXBGWXVxRkZmUlhZRTBzRVJtMUdJU2R4am1tNWI0d3djNVlJd2dUaFZrdmQ2TFREVldVa0twN01xV1YyV1c0UlNZVGEtem81Q1RUSzhWRlFaRUhEeXFrQVh1OHFjaE1zeTNpdnV4cjZMcENROG1iTWhFWG1Uc0NBTlk?oc=5",
-          "sourceName": "The Business Standard",
-          "sourceUrl": "https://www.tbsnews.net",
-          "publishedAt": "2026-07-06T05:07:01.000Z",
+          "title": "Bangladesh U-17 women's football team win first friendly match against Syria",
+          "link": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5ZaE5oZ21scm5TLVZSWXlGdnduS1BwbTR6b3dVS3JIdXVIMF95SU1Hdm1nRURteEROSnlabDBSTmgzb25FMTU2cktteDhhUQ?oc=5",
+          "sourceName": "Bangladesh Sangbad Sangstha (BSS)",
+          "sourceUrl": "https://www.bssnews.net",
+          "publishedAt": "2025-10-08T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Bangladesh Women's Football Funding Issues | The champions Bangladesh keeps underfunding",
-          "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOUF9NRHNMa2Q2Q3gyZC1abENCV3otUnpXUTRLRjhMWlNTcy1wczdRVTlqNU9fNldTLUtjSHFTdE9XTjFWaXBFWGhVTWJtNGhPaTZEN2piMDlTbjc0QlZIdkRzWDdrX0p5ZVU5X2t4eVdkNllpclowNnJrY3NmbEdIQjRmRVdFcW5QZ2xpQ3E4MDYyN3E4TnNTWDhidF81OG5h?oc=5",
-          "sourceName": "The Daily Star",
-          "sourceUrl": "https://www.thedailystar.net",
-          "publishedAt": "2026-07-03T07:01:15.000Z",
+          "title": "Bangladesh U-17 women's dominate Nepal 3-0 to stay in title race",
+          "link": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE14THBFYVdoMm1EdmhNbXJTUTA0SG05cDFIdEEwWkk0X2NQUXFjQkQybzFzaTdkUGUtb3B5STFvcGFFS0hpdEp6MHZn?oc=5",
+          "sourceName": "Daily Observer",
+          "sourceUrl": "https://observerbd.com",
+          "publishedAt": "2025-08-24T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Time for BFF to look back at homegrown talents",
-          "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOYUt6TFdUTzVHcUdCQWEyaTF6alRoMFNiQXJ4R2pYUDZ4RlVJVndGVlY5cFozME5aQW5UREZ5dWNNcFdQUEVUekRzbFM5cUdNRHp0d1FnZGtEbEdqQ2tHMEtEcWdoaW15ZXI1SlBzWGJheWR0eXpLekdHZko1MlBuM3dzLTJ6dUdLcWY1NDgwQTBxVHBRR084?oc=5",
-          "sourceName": "New Age BD",
-          "sourceUrl": "https://www.newagebd.net",
-          "publishedAt": "2026-06-10T07:00:00.000Z",
+          "title": "U-17 women's football team reaches Bhutan safely",
+          "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBaSWkyX1k1WER5LVljYVlkY0p1WmQ0TDROLWxfVDV6TmtMeGlfcHpoWTRtV2JzUFNBNXpZUzZON1plM0cxQ3ZkRDg3WFRQMHd6NlBj?oc=5",
+          "sourceName": "Bangladesh Sangbad Sangstha (BSS)",
+          "sourceUrl": "https://www.bssnews.net",
+          "publishedAt": "2025-08-15T07:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T09:04:39.861Z",
-      "status": "ok"
+      "fetchedAt": "2026-08-15T14:25:25.253Z",
+      "status": "ok",
+      "filteredOut": 3
     },
     "VIE": {
       "items": [
         {
-          "title": "Vietnam women's national football team to begin run-up to ASIAD 2026",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWEc4WEIzSWJoNktSRnp3XzZDQmhNY19FdkxJUVBQdTJnaV90T28tXzI2V2VnVE9ZczhuRHJ0dGVHY1NnM3doZDRWeDB6dWlUeko0TnlfdXpabGtiSUVrNGp2c1NuM2s0cXpUOW54QU1OUlY2MkV6aFVKOEM5cHEwMzZsNGtLOUdWNWF3aTB5ekxxcl9fYjdxRzQ4U0lGZURta0xnc3hPZTJUUQ?oc=5",
-          "sourceName": "Báo VietNamNet",
+          "title": "Vietnam U17 women lose to Australia, miss out on World Cup berth",
+          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPanpESmFkRTRBWjNWdk9Ra0JIVzJ6QlkzRGQ5LUlUNGFRUlJkZjFhTjE0bDZNRXlSZkQ3S0pTZ3ctMDZ4dUVQZ09pSVFLbXNkVFNUMjZ2SzFqamJYblpGMVRqVG5uSTVfNTRxX2hpTTNVR3N1ZmJUNUREY1VhNkExZVdwdWNNbHYyR0RtdGJOX2M4aE9ySW5jYndqZ2lWZUlENG40?oc=5",
+          "sourceName": "vietnamnet.vn",
           "sourceUrl": "https://vietnamnet.vn",
-          "publishedAt": "2026-08-06T07:00:00.000Z",
+          "publishedAt": "2026-05-12T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "MUST-WIN FOR PMNFT ⚽️ The Philippine Men’s National Football Team takes on Laos in the ASEAN Championship at 6 p.m. Here’s a look at the Starting XI for the Philippines in the must-win match. (📷: PFF-PMNFT) | via Paige Javier, ABS-CBN News",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNcXd4Y29WSFdIT0M1SkJnZkJ4X3hFbmtYcGJrdzQtSEl0WmN6MHJ3ZTkxblRZUUlyaUp3V3dWZW4tckZYOGY0LUlCMmtlX25vTllUWGM5RGtkNTdpYkxNSi02REg0elZXOEI2cHo0akpRcElhaFVNVXZUNzhaNmJCeXUwLXJwcVRIWlB1ZHhMNzlvZnJCODZSMDBhU3Q1dEdSV2NZdFhQa0JGSmY4OGowR2xqLWZsdGlwODFCNktkWlpkZHlQTWk3amh2TGhfbEt4RmI2LWphY1JaalZpRnpLM0xR?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-08-01T07:00:00.000Z",
+          "title": "Vietnam U17 women's team returns home after the journey at the 2026 Asian Championship",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNV0taNVEydVpwcmNhTEJOS29mUlIwRHJmb1ZjUU5vWlRpRUhzM2dHbUtaTWxfVmZ6a1lCaVFSZng0bUFGeDFjeE1iYnM2aHZLZ1V2SHlMczF6U3VHVFBEa2lPOW1wc2JLLTdWbTJFV0FLQjFZQWE5enZITWJoZHZMc09VYkdMYTJ6Z1N3UWxIZm00ZmJrNnRaVEhXUHVmQ3JMMDR5aGxkTQ?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-12T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "U23 Vietnam avoid toughest rivals in Asiad 2026 group stage",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxQRFlaT1VTUDBVRmZGODIwbFdZQ0FsRE9LeGJuTWJaU1Nidkoza2Z5d01pUktIdHo4dDkxRW9pMkx2S25wMmJMR1h5MmZGVlo1Ri1VbndzYzhtQnFMRmttNFhoQnhnUkg3enlLVWh5RUdtWm11WXhuZGpUMmw4ZmlxRzVMLU5sUTJDZGtBWWxHbkhoMkM5b1FMTjJZbTQ5UQ?oc=5",
-          "sourceName": "Báo VietNamNet",
-          "sourceUrl": "https://vietnamnet.vn",
-          "publishedAt": "2026-07-23T07:00:00.000Z",
+          "title": "Vietnam U17 women's team still has a level gap compared to the strong Asian group",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOVWE2TFdyVXZmSGpYNU5GWVNfTTJYZmNOOWI4QVFtbzZVNnBXRTczc3p6TllJWWRnQlVvSjBjZVJ5MEZMdWl1SlNWWER3dmtOT01mVXZ4dVpFMUd2ZzFvZ1YwQVJSdVY5Q3VqeEpDUEFqVUdibnNVSm03TG9zTHdtVVl3QnJfYng5X0R5Y0R1QUZ6WWUzRGpsN2tZVHhOZW02Z2pjcXFUTlhZbXg3cjBFczdB?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-11T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "PH men's team draws Uzbekistan, Vietnam, Kuwait in Asian Games football; Filipinas with China, HK, Uzbekistan",
-          "link": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxOTk9NVXgyNmhuNWxxRXVQTWN3Sl92SlZvRHdLMlFuZVQyN1Q2VVZySUZTYnB3RFE5cHJRUG5VSzRnUmoycW5QNm1laWVIU2lZYXNFbTJoWEk3WkVmREhXQnJtSFVIQ1drNnBUT1N1c0hud3ZxZkRZOG9aOFI0NXBzVk9uRGJ1MVV4cGxYWm14TUZPbUFibzFGTTBWbGdSQmFySzlfQXFZOUp1UUZTM0s4Z2tEMmxkOWkxU1diWFltOGVlX1Nnb3ltQmJnUVpyU2I0QTU1NnhEUUZMWFNyaDE5UjJjN2ZNczVHNVdfSHhnY0VDWnYxc3ROQ3Nn0gH_AUFVX3lxTE9qQUN4VklqUFNxOTl1UWMxVHEwTF90YXdJaWt5NWJMMFdrRUEwX1k0M0ZRaWRJZzJDcXRvUEJkRV9ITXhhQ3ZRM2FEZXdiRkNaYm4wdG4zTm1Yakc2YWdvOEdTRkhzYmcycnZaUG5TdFlZT2hNNjFlejVsb0xfN0kzcExaRFhLSldHSHczZEk1WmtWMTZDdDI4VkJEMXRPcHgzWkZzZ0c2eDAxaVYxcTNhV2JEdFZNM0FsZzctbjNuRDRWYzNzWlRZbWJKMG5iejkyTFplcGFMMHhYc0hPbm5EM3d2M3pMSURRbmFEUkpEbUdWcXhtTjZMakVNWEVubw?oc=5",
-          "sourceName": "GMA Network",
-          "sourceUrl": "https://www.gmanetwork.com",
-          "publishedAt": "2026-07-23T07:00:00.000Z",
+          "title": "Vietnam U17 women's team determined to win a ticket to the semi-finals of the Asian tournament",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQQ3lDMHdhejd0M3B4U19fRlZpQ3ZJQWNXR0FDamoxRlFkV2NtYnlyOXVPSktzWGs3VTktd3Jjb2I5cWhqY0xVZnF4TW4teFpTM3d3d0lMU2ZxTHVZUUl2ekdYaGl2eXF3TThUQlhOMlFUQnZTWGNUZmVnVG9lWTU4bVBZanp0U19pb0I3cDVyZXBWeU04QmZScjUtdFN0YWRWMVplUjVB?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-10T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Vietnam women’s football scouts future stars in FIFA talent drive",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNdm5aM1hfWkdoUmNIbnpvd0xvdkp2X3JXbmtxZ2lta3owNTVfekJ6UWdYaXg5ZndmMDdJYWZTX0UzWXpVMHpIN2dRWUlGV1BzRXpXMy1lNFRCcWFnbXF5WkVwQWlwaGRseGM4WTBCcG1iSnhqcWhCMS05NmxlZi1FaWtUYkhtOXBMeGw3VnRnWTNiQnlXTVlOTUVMM0NNSGcwOVdqajZB?oc=5",
-          "sourceName": "Báo VietNamNet",
-          "sourceUrl": "https://vietnamnet.vn",
-          "publishedAt": "2026-06-22T07:00:00.000Z",
+          "title": "U17 Vietnam women's vs U17 Australia women's football schedule in the quarter-finals of the Asian Championship",
+          "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOMzVRd1B6aDM5T3dMdlpzYmpNVlV0b3E4UzBZbDhyZHZSSEM0RzVpYmdmUWpWQkNBT21HTlJYSlVhWDhvVEYydGlhMGpIWUdfLWUwUGxIQXZMc1NmWW91allPUDFaSE41YkpmOG03Ym5ISkt3ajhCbFZhM1ZZYXpkMGxEajgwb0FZVkhqazMzenZPazZJS3J6aEpwemJxeTItcFVJUlRqRGdYTVVvRXhha193X25FRWl2X1pYMDFMMWk?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-10T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Vietnam retain Southeast Asia's top spot in FIFA women's rankings",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQM2w5cTlfZV9ZMGs3X21oWng2QWFwSmMyMlpSVEI5cnVXZ2FzN09KMjJNSXlIemhWVW5mREFGMjdKVTBHUF9Vdko2RE1ib3VEU1VqVWktWGtGSjdnUzJPVF9iVUN2dzRYWkdXY254aHd5N2psZDVGLUJnRFI4T3VJcWYzTmNkbXRLMEhaUFROZUlaajdIZmhKOHpuSEtYTXQtYUJNRUF6azhOUFY5Q3dzakR3?oc=5",
-          "sourceName": "VOV.VN",
-          "sourceUrl": "https://english.vov.vn",
-          "publishedAt": "2026-06-17T07:00:00.000Z",
+          "title": "AFC U17 Women's Asian Cup 2026 quarter-final football schedule: Vietnam U17 Women vs Australia U17",
+          "link": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQWUlfSGxXUTgxbWFvS0FWV0paT0ZQNmxIZWw5UTc0eVFCa2VRdFhHeXgybF9mRFcyaEFKOVV4b09Fb3VXaW9qak45UHh2YXBJN2Y2QjVYQmVueTQ1cVdrc1VyUnphdWFnTG1yOWhUaDdBeXQ0VTl6SmlYODd4NGw1M09UU1lvS2E1MjBnNVhMTlh0YlhEVXVOeG5mNzhyQUxuSFFTdkVfTGt2Y1F2WXU4cEM5WmRaTnRrdEJmYWxNaHlHLUYxTmtR?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-09T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Vietnam’s U17 generation backed for long-term 2034 World Cup mission",
-          "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQNlB0WWNzTllDNzZ5VUR6NzJHODFCaGk2SFVzUG5xVjRIUG9wekdVUFZRMUwwMk1SRGU5TVpZXzFqZk1LZk82SUxjRzRKcldiNmVXRFk2emh1emExXzhuT3hxaF9wNzRkZnlkdGpDYk5FRFJPR2dXaFgtclg5ZFpRVjV2TlZfeWlnTy0yQWJZSnh1Z0N5TUVtNmhkb3BOSEt0UFZUbks0X19HZw?oc=5",
-          "sourceName": "Báo VietNamNet",
-          "sourceUrl": "https://vietnamnet.vn",
-          "publishedAt": "2026-05-16T07:00:00.000Z",
+          "title": "Vietnam U17 women's goalkeeper highly appreciates Australia U17 women's before the quarter-finals",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQV1NsU0J1dHZ0eDZyMGtidlVzdmx4c2pONHNIZ1g0WGNHbnhqVE5rZDR2X2tvMFl0TktMZC1zNHFla0dXVWs4T3c0SFBXWFFEcEVTLU16V1lNblZ3TU4taTNYOHNaaVE2WUZ3Yl92aFpjTFJVSEc2ZnNpd2RLVGhXcTM1eVlpakNCZlBNeEs1c2xJaWtaaHc3S2Qtd1VwVGQ0RS1hYlFQb29NajVBVHBFRHl1QTNJcDQ?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-09T07:00:00.000Z",
           "tier": "T2"
         },
         {
-          "title": "Vietnam U17 women fall 0-3 to China in Asian tournament",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQZTZ5bmdTbFNUMUNwLXJVa1djeTdXLTh5TW9iXzQ1MHlfV0FmRW1RelpFTVZCNjFkMkNLNFdzS2JRRHJpcHozbFJvTEJWOVJNY3paNEJrREdpVHRNdjdDSkE4bEo0Qi1XMWV4WWpVVEhXRmExdDIzT2pjdHliaUdacHk1X3RfaVhCb2FDZHdLRXJLVjZCYXpDMw?oc=5",
-          "sourceName": "Báo VietNamNet",
-          "sourceUrl": "https://vietnamnet.vn",
-          "publishedAt": "2026-05-04T07:00:00.000Z",
+          "title": "Identifying the opponent of Vietnam U17 women's team in the quarter-finals of the Asian tournament",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQV0tXREphMEV0RDlURE5NSG9yWkFpZHNlOFp4RmhGZENaRnNveUxjbjNDZTR6bUN3QWU2Vm5RWEp6ai0xNm9jZGN6QWVRSnplMGZtdUtDWFBzWktFUUgxVEl3bi1KVkZVZ1k4NkhxdHdBRVdsRER4WVRUVDFjaGZxaVdNVWJweUUzRzlwSFg4RVI5WEpLdU9mb2pCaW1zSnJ3OTRlYnBB?oc=5",
+          "sourceName": "Laodong.vn",
+          "sourceUrl": "https://news.laodong.vn",
+          "publishedAt": "2026-05-08T07:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T09:04:41.372Z",
-      "status": "ok"
+      "fetchedAt": "2026-08-15T14:25:27.108Z",
+      "status": "ok",
+      "filteredOut": 0
     },
     "MAS": {
-      "items": [
-        {
-          "title": "Lionesses book AFF Women’s Cup 2026 semi-final spot with 3-1 win over Malaysia",
-          "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOTmVWVFczMzJzc1phZ0lLXzgtZGpzaHRmd0t2b0p3VXVucmdVdTMxVW9DWW8yenZwdG1CUnlualdyNTFzQUlLajJKU0Y0cnZ6UGVFUFR4dWxxd1ByVkRtY0FfR3pGbmxTUGNkemc2VHhVQ1JHWjdDYUhGZnhfZUFPelZjVm1VbGZ6SXdIWVZZYndPV3FtWC0wbzZQSEpQUQ?oc=5",
-          "sourceName": "Football Association of Singapore",
-          "sourceUrl": "https://fas.org.sg",
-          "publishedAt": "2026-07-17T06:13:36.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Player of The Match! 🔥 MALAYSIA 🇲🇾 1-3 🇸🇬 SINGAPORE DANELLE TAN - SINGAPORE 🇸🇬 #FAM #HarimauMalaya #MalayanTigress #AFFWomensCup2026 #gpskbs #KBSMalaysia #Rakanmuda",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPODVsUmpaazlDamRuYnhHN2pHQVZ1X1hRc1FjTVBPQkdPdlI5MmdHUTJocW1RTDlQNnJTWmRyWmFYb0lzUEtqXzhoNkV6aVQ4cXRKZkhuOVhxZDV1bV9UYXNWQ0lsSkZkamVvU1FOQWFNMG5RMWJMNE5Nemk0dXlBMVBUNDhUZWY4bkdVZHA5UDFmYlpmRE13ZFdfVmF4blF6eHlHcWdUTlZiWnZmN3RQY1VaTHl2SjVuLXBLaU5QZTNzdEJLc0lhLXVsOFBFUlI0NDdPS1N4VWktRGt0ci1UVUNn?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-07-16T11:29:53.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "𝐌𝐀𝐓𝐂𝐇 𝐃𝐀𝐘 🇲🇾🐯 The wait is over. It’s time for the Malayan Tigress to roar. Let’s make it a night to remember! 💪 LAOS 🇱🇦 🆚 🇲🇾 MALAYSIA KL Football Stadium, 8:45 pm #FAM #HarimauMalaya #MalayanTigress #AFFWomensCup2026 #gpskbs #KBSMalay",
-          "link": "https://news.google.com/rss/articles/CBMi1wJBVV95cUxNdHpvZUFBWk9SbU5sN2pRZ2otNV9nRHVjRnJORV9mcjZ3Q2tfWHpZb2RTVTFpaDJvV1RWZ0t1T3pqaHNYbXp1WTR4LW1QWVFtck5JeXl0RG5SZExOQy1uVUNaVUczNXc2d0dqTUUyVTNMYm5heFpYazE1NTE0V0pPdjRuakQwVDlZRTVVdlY3TEN3RFlGb3Nwcy1mazNhQWlYUTIzU2JBeTRWR3pvdjQyVERybUpzNmRJQVNNbjVnS2FQczNteTdtZUh2cS1HTU9RdUFvc1JzZnhwaXFfTDFiQTZrMlFqTm5KOEpDZ0NUTWRBTzNqZTktT3lMUE4yVmJRaF95WFhkcXFBY2FRUEhCX0oxOFRyRTZMS2tMcXlHeFpObkxDeDctN3RRSl9CMGN0elpsTnM0bWk2Y1hoZjRETlpGbEgzdzhrU1gtQk9UeHpXTEUyQ29v?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-07-09T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "🏆✨ THE ROAD TO THE AFF WOMEN’S CUP 2026 BEGINS! ✨🏆 The moment we’ve been waiting for is here! The official AFF Women’s Cup 2026 Draw Ceremony will take place on: 📅 Monday, 22 June 2026 ⏰ 3:00 PM (MYT) 📍 Wisma FAM, Kelana Jaya, Kual",
-          "link": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZ3Nkd0tsSDVWOUZ0YVRNU1BOMnJzUFhCNnEzWmh5MmxxaE8yc0NYMi1sVW1WSmVwRV9OUVlqcTFqWDJFcHBSU1d1dG9wUDdXekFwbzBjTnpfWDNOTWUwSGV3b040aWtyTHJ6VmVUMTRxTmZGMnFCZnVGOGl0MGg3eDR2UFRvMGEydjl5T3I4OExrdFE2ZGI2YkhNZ1FXQXdRTERlUDRWa3ZpeXhyWDEtNGVnRHNHQ3hobURhNkxlSUhHSnpnNzN4Rm15clpxNHRjRkdSdEJZUjN6blluSmp4QmVn?oc=5",
-          "sourceName": "facebook.com",
-          "sourceUrl": "https://www.facebook.com",
-          "publishedAt": "2026-06-21T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Palestine women's national team defeats Malaysia 2–0 in friendly tournament",
-          "link": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFA3S0RJd0c5aHBWa29oTHVydkp4NW5HcENXMEdCRDBjbG4zX2FFSjVjeWN1MjZJcEJRS0xJSTFULUJkN2JIYlllNFM4RWFiaWJDSElrQmxUbw?oc=5",
-          "sourceName": "WAFA Agency",
-          "sourceUrl": "https://english.wafa.ps",
-          "publishedAt": "2026-06-06T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "VISIT BY MALAYSIAN WOMEN'S NATIONAL FOOTBALL TEAM - News From Mission - Embassy of Malaysia, Amman",
-          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQV2kwc3pyZnNyRC1OYWtpczFpM0lic3hzU1RrQ3FvZUxud0RYQ1laVVlYS1U4eFgwQU5YdTlrTE4zYzdaeTgxSzBIWldweHlZYmlkVFFvVTFfU0RMQTh6M2QxLU9CNWdyUlZabndHSlVzSkFIajludnpzellfUjkwVmhOVzFDQkh0bkZISlZQQzdxYXgyTVRuc0dnc1NmTFk4ZjR6Q0ZLUGk3YkZiMVdVUlRB?oc=5",
-          "sourceName": "kln.gov.my",
-          "sourceUrl": "https://www.kln.gov.my",
-          "publishedAt": "2026-06-06T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Iran welcomes women’s football team home after asylum controversy",
-          "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQeS1HcG15UENxcUVtVkNsRVJkXzJIc3ZJa2dpUVQ3dy1ObmlvbGx5LTRXbnh4RDhIMmEtVTBBcDRvUldtNzl6aHBsZnNWdmZvNmVZWmMwaTYzYzNRZmlBUldPRGtHQ1JCUmNsRDRYZC1haWlSUTVUR3dwU01tNHlPR1ZKSXJTU1M0ZXB6R0NOTlhRbVEyTmJpbzFERlltTWlfZW1OQmZ2MkdfbzYwZThNVU04aUgxTXp4aDk4T3pFbG5xcnc?oc=5",
-          "sourceName": "Free Malaysia Today",
-          "sourceUrl": "https://www.freemalaysiatoday.com",
-          "publishedAt": "2026-03-20T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Iran Women's National Team Left Malaysia After Asylum Application Was Denied",
-          "link": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9kVTFhTlNhWlVhdlNTd1FUazNfWnI1eVg2Zl9VWEhoY1ZsS0c2cUU2Wm5CSFEyN1hOMXM5UzVlZ2pldXFiX0HSAUJBVV95cUxPcGlCVzl4bjY4TFg3QWl3S2o4UWtOZ2s1aGk4aEVGXzFDUi1OaUV1bGFqMTFQcmY0N3g3SVduQkxvaXc?oc=5",
-          "sourceName": "voi.id",
-          "sourceUrl": "https://voi.id",
-          "publishedAt": "2026-03-19T10:09:41.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T09:04:43.332Z",
-      "status": "ok"
+      "items": [],
+      "fetchedAt": "2026-08-15T14:25:28.948Z",
+      "status": "ok",
+      "filteredOut": 0
     }
   }
 }

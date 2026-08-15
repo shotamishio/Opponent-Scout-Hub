@@ -58,7 +58,20 @@ export function CountryScreen() {
             }}
           >
             {cur.ja}に関する公開ニュース記事を自動収集しています（1日3回更新、無償ソースのみ）。
+            {collection.federationUrl
+              ? '協会公式サイトは個別に検索し、T1として優先表示します。'
+              : 'この国は協会公式サイトが特定できていないため、T1（協会公式）は収集対象外です。'}
           </p>
+          {collection.federationUrl && (
+            <a
+              href={collection.federationUrl}
+              target="_blank"
+              rel="noreferrer noopener"
+              style={{ fontSize: 12.5, fontFamily: 'var(--font-heading)', color: 'var(--color-accent-700)' }}
+            >
+              協会公式サイトを開く ↗
+            </a>
+          )}
         </div>
       </div>
 

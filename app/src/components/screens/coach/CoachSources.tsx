@@ -17,6 +17,13 @@ export function CoachSources({ coach, countryEn }: CoachSourcesProps) {
   const searchTerm = coach.name ?? `${countryEn} women's national football team head coach`;
   const links: { label: string; note: string; href: string }[] = [];
 
+  if (coach.federationUrl) {
+    links.push({
+      label: '協会公式サイト',
+      note: '就任・招集の一次情報（T1）',
+      href: coach.federationUrl,
+    });
+  }
   if (coach.profileUrl) {
     links.push({ label: 'Wikipedia — 監督の経歴', note: '本人の記事（経歴・実績）', href: coach.profileUrl });
   }

@@ -45,6 +45,8 @@ export interface CollectedCoach {
   /** The team's Wikipedia article — always worth linking even with no coach found. */
   teamUrl?: string;
   articles?: CollectedNewsItem[];
+  /** The federation's own site — the first place an appointment is announced. */
+  federationUrl?: string | null;
   fetchedAt?: string;
   stale?: boolean;
   lastError?: string;
@@ -56,6 +58,12 @@ export interface CountryCollection {
   fetchedAt?: string;
   lastError?: string;
   coach?: CollectedCoach;
+  /**
+   * The country's football federation site (collector/lib/officialDomains.mjs).
+   * Null when we have no verified domain — in which case that country has no
+   * T1 collection either, since there is nothing to search.
+   */
+  federationUrl?: string | null;
   /**
    * How many fetched headlines the collector's relevance filter rejected as
    * off-topic (wrong country, wrong age group, men's football, other sports)

@@ -9,6 +9,11 @@
 //  - Google News RSS (not a paid news API) — free, no key, no auth, and
 //    aggregates many outlets including wire-service pickups of official
 //    federation announcements. See lib/fetchNews.mjs.
+//  - Two queries per country: a general one, and one restricted to that
+//    country's federation website (`site:` — see buildFederationQuery). The
+//    second exists because the first collects no T1 material in practice:
+//    official announcements don't out-rank the wire services, and the first
+//    live runs produced 0 official items out of 67.
 //  - No SNS scraping — X/Instagram's free API access isn't usable at any
 //    real volume anymore. T3/T4 (individual reporters / fan info) are left
 //    empty by this collector; the UI still supports them if someone adds a
@@ -34,7 +39,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchAndClassify } from './lib/fetchNews.mjs';
 import { CATEGORY_COUNTRIES, COUNTRIES } from './lib/roster.mjs';
-import { buildQuery, isRelevant, isRecent, isAboutCoach, CATEGORY_TOPICS } from './lib/topic.mjs';
+import { buildQuery, buildFederationQuery, isRelevant, isRecent, isAboutCoach, CATEGORY_TOPICS } from './lib/topic.mjs';
+import { federationUrl } from './lib/officialDomains.mjs';
 import { findCoach } from './lib/wikipedia.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -46,15 +52,43 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+/** Same article reached through two queries — Google's link is the identity. */
+function dedupe(items) {
+  const seen = new Set();
+  return items.filter((item) => {
+    const key = item.link || item.title;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 async function collectCountry(code, category) {
   try {
-    const fetched = await fetchAndClassify(buildQuery(code, category), code);
+    const general = await fetchAndClassify(buildQuery(code, category), code);
+
+    // Second pass over the federation's own site. Without it the T1 tier is
+    // empty in practice: official announcements don't out-rank the wire
+    // services in a general news search.
+    const federationQuery = buildFederationQuery(code, category);
+    let official = [];
+    if (federationQuery) {
+      await sleep(REQUEST_SPACING_MS);
+      official = await fetchAndClassify(federationQuery, code);
+    }
+
+    // Official first, so it wins the slots when more is found than fits.
+    const fetched = dedupe([...official, ...general]);
     const items = fetched.filter((item) => isRelevant(item, code, category) && isRecent(item, category));
-    items.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
+    items.sort((a, b) => {
+      if (a.tier !== b.tier) return a.tier === 'T1' ? -1 : 1;
+      return (b.publishedAt ?? '').localeCompare(a.publishedAt ?? '');
+    });
     return {
       code,
       ok: true,
       items: items.slice(0, ITEMS_PER_COUNTRY),
+      federationUrl: federationUrl(code),
       // Kept in the output so the drop rate is visible without re-running the
       // collector: a country that suddenly filters to nothing usually means
       // its query or aliases in lib/topic.mjs need attention.
@@ -80,7 +114,10 @@ async function collectCoach(code, category) {
   const wikiName = COUNTRIES[code].search;
   try {
     const found = await findCoach(wikiName, CATEGORY_TOPICS[category].ages);
-    if (found.status !== 'ok') return { ...found, fetchedAt: new Date().toISOString() };
+    // The federation site is worth linking even when Wikipedia knows nothing:
+    // an appointment shows up there before it reaches an encyclopedia.
+    const federation = federationUrl(code);
+    if (found.status !== 'ok') return { ...found, federationUrl: federation, fetchedAt: new Date().toISOString() };
 
     await sleep(REQUEST_SPACING_MS);
     const fetched = await fetchAndClassify(`"${found.name}" (football OR soccer)`, code);
@@ -89,7 +126,7 @@ async function collectCoach(code, category) {
       .sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''))
       .slice(0, COACH_ARTICLES_PER_COUNTRY);
 
-    return { ...found, articles, fetchedAt: new Date().toISOString() };
+    return { ...found, federationUrl: federation, articles, fetchedAt: new Date().toISOString() };
   } catch (err) {
     console.error(`[collect] coach lookup failed for ${code}/${category}: ${err.message}`);
     return { status: 'error', lastError: String(err.message ?? err) };
@@ -121,6 +158,7 @@ async function collectCategory(category) {
         fetchedAt: result.fetchedAt,
         status: 'ok',
         filteredOut: result.filteredOut,
+        federationUrl: result.federationUrl,
       };
     } else if (previous?.countries?.[code]) {
       // Keep last known good data, but flag it as stale rather than fresh.
@@ -146,6 +184,10 @@ async function collectCategory(category) {
     successCount,
     totalCount: codes.length,
     itemCount: Object.values(countries).reduce((n, c) => n + c.items.length, 0),
+    officialCount: Object.values(countries).reduce(
+      (n, c) => n + c.items.filter((i) => i.tier === 'T1').length,
+      0,
+    ),
     emptyCount: Object.values(countries).filter((c) => c.items.length === 0).length,
     coachCount: Object.values(countries).filter((c) => c.coach?.status === 'ok').length,
     countries,
@@ -160,7 +202,8 @@ async function main() {
     writeFileSync(path.join(OUT_DIR, `${category}.json`), JSON.stringify(data, null, 2));
     console.log(
       `[collect] ${category}: done — ${data.successCount}/${data.totalCount} countries fetched OK, ` +
-        `${data.itemCount} on-topic items, ${data.emptyCount} countries with no on-topic news, ` +
+        `${data.itemCount} on-topic items (${data.officialCount} from federation sites), ` +
+        `${data.emptyCount} countries with no on-topic news, ` +
         `${data.coachCount}/${data.totalCount} head coaches identified`,
     );
   }

@@ -29,6 +29,7 @@
 // Categories live in CATEGORY_TOPICS below and must stay in step with the
 // app's ModeKey (app/src/types.ts) and CATEGORY_COUNTRIES in roster.mjs.
 import { COUNTRIES } from './roster.mjs';
+import { FEDERATION_DOMAINS, isOwnFederationSource } from './officialDomains.mjs';
 
 // Age categories are much sparser than the senior game, so they look further
 // back before giving up.
@@ -59,12 +60,21 @@ function ageTokens(age) {
   return [`U-${age}`, `U${age}`, `Under-${age}`];
 }
 
+// Spanish and Portuguese federations label their youth teams "sub-17", so
+// searching their sites needs the word they actually use.
+function localisedAgeTokens(age) {
+  return [...ageTokens(age), `sub-${age}`];
+}
+
+// "sub-NN" is matched here as well as in the query: without it a Spanish or
+// Portuguese federation's youth release reads as ageless and lands on the
+// senior screen — the same leak the English age labels were added to stop.
 function ageRegex(age) {
-  return new RegExp(`\\bU[-\\s]?${age}\\b|\\bunder[-\\s]?${age}\\b`, 'i');
+  return new RegExp(`\\bU[-\\s]?${age}\\b|\\bunder[-\\s]?${age}\\b|\\bsub[-\\s]?${age}\\b`, 'i');
 }
 
 // Any youth-age marker at all — used to keep youth news off the senior screen.
-const ANY_AGE_RE = /\bU[-\s]?(1[4-9]|2[0-3])\b|\bunder[-\s]?(1[4-9]|2[0-3])\b/i;
+const ANY_AGE_RE = /\b(?:U|under|sub)[-\s]?(1[4-9]|2[0-3])\b/i;
 
 // A headline has to look like women's/girls' football to count. Includes the
 // nicknames English-language media use instead of the country name.
@@ -193,6 +203,39 @@ export function buildQuery(code, category) {
   return `(${phrases.map((p) => `"${p}"`).join(' OR ')}) (football OR soccer)`;
 }
 
+// Women's-football words in the languages the federation sites publish in.
+// A federation search that only said "women" would miss most of Europe and
+// Latin America, since Google News indexes those sites in their own language.
+const WOMEN_TERMS = ['women', "women's", 'femenina', 'feminina', 'féminine', 'Frauen', 'kvinnor', 'nữ'];
+
+/**
+ * A query restricted to one country's federation website.
+ *
+ * This is what actually collects T1 (協会公式) material. The general query
+ * doesn't: federation announcements rarely rank against the wire services, so
+ * before this existed every single collected item was T2 — 0 of 67 were
+ * official. Scoping by `site:` puts the federation's own publications in
+ * their own result set instead of competing for slots in a general search.
+ *
+ * Returns null when we have no domain for the country, which is a normal
+ * outcome — see FEDERATION_DOMAINS.
+ *
+ * @param {string} code
+ * @param {string} category
+ * @returns {string|null}
+ */
+export function buildFederationQuery(code, category) {
+  const domain = FEDERATION_DOMAINS[code];
+  if (!domain) return null;
+  const topic = CATEGORY_TOPICS[category];
+  if (!topic) throw new Error(`unknown category: ${category}`);
+
+  const women = `(${WOMEN_TERMS.map((t) => `"${t}"`).join(' OR ')})`;
+  if (!topic.ages.length) return `site:${domain} ${women}`;
+  const ages = topic.ages.flatMap((age) => localisedAgeTokens(age));
+  return `site:${domain} ${women} (${ages.map((a) => `"${a}"`).join(' OR ')})`;
+}
+
 /**
  * Is the item recent enough for its category? Kept separate from isRelevant so
  * the reason an item was dropped stays legible.
@@ -247,7 +290,17 @@ export function isRelevant(item, code, category, now = Date.now()) {
   const women = WOMEN_RE.test(text);
   if (MENS_RE.test(text) && !women) return false;
   if (!women) return false;
-  if (!country.aliases.some((alias) => aliasRegex(alias).test(text))) return false;
+
+  // On the country's own federation site, the country name is the one thing a
+  // headline never repeats — "Convocatoria de la selección femenina" says who
+  // it's about by being published where it is. So the domain stands in for
+  // the country check, and only for that check: the women's-football test
+  // above still applies, because federations cover the men's team on the same
+  // site. (An earlier version waived that test too, and put RFEF's men's
+  // Nations League fixture on the senior screen.)
+  if (!isOwnFederationSource(item.sourceUrl || item.link || '', code)) {
+    if (!country.aliases.some((alias) => aliasRegex(alias).test(text))) return false;
+  }
 
   if (topic.ages.length) {
     // Youth screens: the headline must name one of the category's age groups

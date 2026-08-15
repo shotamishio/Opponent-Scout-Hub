@@ -8,7 +8,7 @@ import path from 'node:path';
 import assert from 'node:assert/strict';
 import { parseGoogleNewsRss } from './lib/fetchNews.mjs';
 import { classifyTier } from './lib/officialDomains.mjs';
-import { buildQuery, isRelevant } from './lib/topic.mjs';
+import { buildQuery, isRelevant, isRecent } from './lib/topic.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const fixture = readFileSync(path.join(__dirname, 'fixtures/sample-rss.xml'), 'utf-8');
@@ -50,15 +50,35 @@ assert.match(buildQuery('AUS', 'u20'), /"Australia women's U-20"/);
 assert.doesNotMatch(buildQuery('AUS', 'nadeshiko'), /U-\d\d/);
 assert.notEqual(buildQuery('AUS', 'u17'), buildQuery('AUS', 'u20'));
 
-// Recency is part of the query so stale hits don't come back at all.
-assert.match(buildQuery('AUS', 'nadeshiko'), /when:30d$/);
-assert.match(buildQuery('AUS', 'u16'), /when:120d$/);
+// Every query names the sport: without it, Google returns the same country's
+// women's cricket/volleyball/basketball squads for the same age group.
+assert.match(buildQuery('AUS', 'u19'), /\(football OR soccer\)$/);
+assert.match(buildQuery('AUS', 'nadeshiko'), /\(football OR soccer\)$/);
+
+// Recency is NOT delegated to the query's `when:` operator — Google News
+// honours it erratically (the first live run returned 2013/2014/2018 items
+// despite when:120d), so isRecent enforces it against the publish date.
+assert.doesNotMatch(buildQuery('AUS', 'nadeshiko'), /when:/);
 
 assert.throws(() => buildQuery('XXX', 'nadeshiko'), /unknown country/);
 assert.throws(() => buildQuery('AUS', 'u12'), /unknown category/);
 
+// --- Recency (lib/topic.mjs) ---
+const NOW = Date.parse('2026-08-15T00:00:00Z');
+const dated = (publishedAt) => ({ title: 'x', publishedAt });
+
+assert.ok(isRecent(dated('2026-08-01T00:00:00Z'), 'nadeshiko', NOW));
+assert.ok(!isRecent(dated('2026-05-01T00:00:00Z'), 'nadeshiko', NOW), 'senior window is 60 days');
+// Youth coverage is sparse, so its window is far wider.
+assert.ok(isRecent(dated('2026-05-01T00:00:00Z'), 'u20', NOW));
+assert.ok(!isRecent(dated('2024-11-09T00:00:00Z'), 'u17', NOW), 'a 2024 world cup report is not news');
+// An item with no usable date can't be shown as current news.
+assert.ok(!isRecent(dated(null), 'u20', NOW));
+assert.ok(!isRecent(dated('not a date'), 'u20', NOW));
+
 // --- Relevance filtering (lib/topic.mjs) ---
-const rel = (title, code, category, sourceName = '') => isRelevant({ title, sourceName }, code, category);
+const rel = (title, code, category, sourceName = '', sourceUrl = '') =>
+  isRelevant({ title, sourceName, sourceUrl }, code, category, NOW);
 
 // Real headlines the live collector returned, and what should happen to them.
 assert.ok(rel("U.S. Women's National Team Will Face World No. 1 Spain in Two October Matches", 'USA', 'nadeshiko'));
@@ -83,6 +103,35 @@ assert.ok(rel("Japan Vs North Korea, AFC U20 Women's Asian Cup 2026 Final", 'PRK
 assert.ok(!rel("Japan Vs North Korea, AFC U20 Women's Asian Cup 2026 Final", 'PRK', 'u17'));
 assert.ok(rel("AFC U-17 Women's Asian Cup: China through to semi-finals", 'CHN', 'u17'));
 assert.ok(!rel("AFC U-17 Women's Asian Cup: China through to semi-finals", 'CHN', 'nadeshiko'));
+
+// Other sports. Every one of these reached the live site: they really are
+// that country's women's national team at that age group, in another sport.
+assert.ok(!rel('Bangladesh U-19 women lift trophy, outclass China by 7 wickets in final T20I', 'CHN', 'u19'));
+assert.ok(!rel('Sri Lanka U19 Women thrash Australia U19 Women in one-off Youth ODI', 'AUS', 'u19'));
+assert.ok(!rel("South Korea U-17 Women's Volleyball Advances to Quarterfinals", 'KOR', 'u17'));
+assert.ok(!rel("Women's National Team Advances to WBSC Women's Baseball World Cup Finals", 'CAN', 'nadeshiko'));
+assert.ok(!rel('Replay: Victoria v Western Australia (U20 Women Quarter-Final 1) – Basketball Australia', 'AUS', 'u20'));
+// ...while the football coverage they were crowding out survives.
+assert.ok(rel("Canadian women's soccer team to host Denmark in pair of October friendlies", 'CAN', 'nadeshiko'));
+assert.ok(rel('Nigeria qualify for FIFA U20 Women’s World Cup Poland 2026', 'NGA', 'u20'));
+
+// Archival content republished with a fresh feed date, so only the headline's
+// own year gives it away.
+assert.ok(!rel('Alex Morgan Wins Best Female Athlete, USWNT Takes Home Best Team ESPY | 2019 ESPYS', 'USA', 'nadeshiko'));
+assert.ok(!rel("Mexico U-17 Women's Best World Cup Performance Was Runner-Up in Uruguay 2018", 'MEX', 'u17'));
+// A future tournament in the headline is not staleness.
+assert.ok(rel('Philippines women’s national football team qualify for 2027 FIFA Women’s World Cup', 'PHI', 'nadeshiko'));
+
+// Sites that are never scouting information, whatever the headline says.
+assert.ok(!rel('Bloke reckons he’d do OK in England women’s football team', 'ENG', 'nadeshiko', 'NewsBiscuit', 'https://www.newsbiscuit.com'));
+assert.ok(!rel("United States Women's National Team vs. Spain", 'USA', 'nadeshiko', 'Event Tickets Center', 'https://www.eventticketscenter.com'));
+assert.ok(!rel('Brazil U-20 (Women) vs Korea Republic U-20 (Women) » Best Odds and Stats', 'BRA', 'u20'));
+
+// A federation domain does not exempt an item from the checks: this is RFEF's
+// own page, about the men's team, and it reached the senior screen.
+assert.ok(!rel('Metropolitano to Host Spain vs England in the UEFA Nations League', 'ESP', 'nadeshiko', 'RFEF', 'https://rfef.es'));
+// A federation release that is about the women's team still passes.
+assert.ok(rel("24 Players Named for Final U.S. Under-17 Women's National Team Camp", 'USA', 'u17', 'US Soccer', 'https://www.ussoccer.com'));
 
 // "U.S." ends in punctuation, so \b-style boundaries would never match it.
 assert.ok(rel('Women’s World Cup 2027 odds: U.S. favored ahead of Spain', 'USA', 'nadeshiko'));

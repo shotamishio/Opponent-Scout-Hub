@@ -30,7 +30,7 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchAndClassify } from './lib/fetchNews.mjs';
 import { CATEGORY_COUNTRIES } from './lib/roster.mjs';
-import { buildQuery, isRelevant } from './lib/topic.mjs';
+import { buildQuery, isRelevant, isRecent } from './lib/topic.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.resolve(__dirname, '../app/src/data/collected');
@@ -44,7 +44,7 @@ function sleep(ms) {
 async function collectCountry(code, category) {
   try {
     const fetched = await fetchAndClassify(buildQuery(code, category), code);
-    const items = fetched.filter((item) => isRelevant(item, code, category));
+    const items = fetched.filter((item) => isRelevant(item, code, category) && isRecent(item, category));
     items.sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''));
     return {
       code,

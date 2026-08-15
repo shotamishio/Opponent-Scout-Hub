@@ -1,4 +1,4 @@
-import type { CollectedCoach } from '@/lib/collectedData';
+import { safeHref, type CollectedCoach } from '@/lib/collectedData';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 
 interface CoachSourcesProps {
@@ -60,7 +60,7 @@ export function CoachSources({ coach, countryEn }: CoachSourcesProps) {
       {links.map((link) => (
         <a
           key={link.href}
-          href={link.href}
+          href={safeHref(link.href)}
           target="_blank"
           rel="noreferrer noopener"
           style={{ display: 'flex', flexDirection: 'column', gap: 2, textDecoration: 'none' }}

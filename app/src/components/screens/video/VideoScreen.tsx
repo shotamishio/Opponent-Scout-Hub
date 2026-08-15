@@ -1,6 +1,6 @@
 import { useAppState } from '@/state/AppContext';
 import { countryData } from '@/lib/countryData';
-import { getCoach } from '@/lib/collectedData';
+import { useCoach } from '@/state/CollectedContext';
 import { VideoInputCard } from './VideoInputCard';
 import { VideoProgressCard } from './VideoProgressCard';
 import { VideoResultsPanel } from './VideoResultsPanel';
@@ -14,7 +14,7 @@ export function VideoScreen() {
   const cur = countryData(state.code);
   // The simulated speaker list includes the head coach; use the collected
   // name so it matches the rest of the app, and fall back to the role alone.
-  const coach = getCoach(state.mode, state.code);
+  const coach = useCoach(state.mode, state.code);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)', maxWidth: 1180 }}>

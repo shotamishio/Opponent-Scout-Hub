@@ -1,5 +1,5 @@
 import type { TierKey } from '@/types';
-import type { CountryCollection } from '@/lib/collectedData';
+import { safeHref, type CountryCollection } from '@/lib/collectedData';
 import { TIERS } from '@/data/tiers';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 
@@ -72,7 +72,7 @@ export function NewsTierColumns({ collection, activeTiers }: NewsTierColumnsProp
                 {item.sourceName} · {formatDate(item.publishedAt)}
               </div>
               <a
-                href={item.link}
+                href={safeHref(item.link)}
                 target="_blank"
                 rel="noreferrer"
                 style={{

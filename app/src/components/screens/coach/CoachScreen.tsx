@@ -1,6 +1,6 @@
 import { useAppDispatch, useAppState } from '@/state/AppContext';
 import { countryData } from '@/lib/countryData';
-import { getCoach } from '@/lib/collectedData';
+import { useCoach } from '@/state/CollectedContext';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 import { Tag } from '@/components/primitives/Tag';
 import { CoachSources } from './CoachSources';
@@ -17,7 +17,7 @@ export function CoachScreen() {
   const state = useAppState();
   const dispatch = useAppDispatch();
   const cur = countryData(state.code);
-  const coach = getCoach(state.mode, state.code);
+  const coach = useCoach(state.mode, state.code);
   const initials = coach.name ? `${coach.name.slice(0, 1)}.` : '—';
 
   return (

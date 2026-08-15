@@ -1,6 +1,6 @@
 import type { CountryData } from '@/lib/countryData';
 import { useAppDispatch, useAppState } from '@/state/AppContext';
-import { getCoach } from '@/lib/collectedData';
+import { useCoach } from '@/state/CollectedContext';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 
 interface CoachTeaserCardProps {
@@ -14,7 +14,7 @@ interface CoachTeaserCardProps {
 export function CoachTeaserCard({ cur }: CoachTeaserCardProps) {
   const dispatch = useAppDispatch();
   const state = useAppState();
-  const coach = getCoach(state.mode, cur.code);
+  const coach = useCoach(state.mode, cur.code);
   const found = coach.status === 'ok' && coach.name;
 
   return (

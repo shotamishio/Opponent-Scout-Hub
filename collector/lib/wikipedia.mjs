@@ -74,6 +74,7 @@ export function cleanFieldValue(raw) {
   value = value.replace(/<!--[\s\S]*?-->/g, '');
   value = value.replace(/<ref[^>]*\/>/gi, '');
   value = value.replace(/<ref[\s\S]*?<\/ref>/gi, '');
+  value = cutAtFieldBoundary(value);
   // Drop templates that only add decoration, but keep what a wrapper wraps:
   // {{nowrap|[[Name]]}} has to survive as [[Name]].
   value = value.replace(/\{\{\s*(?:flagicon|flagu?|fbicon|small|nobold)[^{}]*\}\}/gi, '');
@@ -89,7 +90,31 @@ export function cleanFieldValue(raw) {
   // Anything trailing the name — "(interim)", a date, a stray pipe.
   value = value.replace(/<[^>]+>/g, '').replace(/^[\s|]+|[\s|]+$/g, '').trim();
   if (!value) return null;
+  // A leftover "=" means we ran past this field and captured the start of the
+  // next one. The live U-17 collection produced a coach called
+  // "Captain             =" that way, from an infobox written on one line
+  // with an empty coach field.
+  if (value.includes('=') || value.length > 60) return null;
   return { name: value, article };
+}
+
+/**
+ * Infoboxes are usually one field per line, but not always — some are written
+ * inline, so the captured value can run into the next field. Cut at the first
+ * `|` that isn't inside a link or template, since those legitimately contain
+ * one ("[[Montse Tomé|Tomé]]").
+ */
+function cutAtFieldBoundary(value) {
+  let braces = 0;
+  let brackets = 0;
+  for (let i = 0; i < value.length; i++) {
+    if (value.startsWith('{{', i)) { braces++; i++; continue; }
+    if (value.startsWith('}}', i)) { braces--; i++; continue; }
+    if (value.startsWith('[[', i)) { brackets++; i++; continue; }
+    if (value.startsWith(']]', i)) { brackets--; i++; continue; }
+    if (value[i] === '|' && braces <= 0 && brackets <= 0) return value.slice(0, i);
+  }
+  return value;
 }
 
 async function apiJson(url) {

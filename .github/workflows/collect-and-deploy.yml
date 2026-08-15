@@ -1,0 +1,87 @@
+name: Collect news and deploy
+
+# Runs 3x/day (times are UTC — roughly 09:00 / 17:00 / 01:00 JST) to satisfy
+# the "1日3回自動更新" requirement. Also runnable on demand from the Actions
+# tab (workflow_dispatch) and on every push to main so a manual edit shows
+# up on the site right away without waiting for the next scheduled run.
+#
+# What this does, in order:
+#   1. Run collector/collect.mjs — fetches real news (Google News RSS) for
+#      every opponent country, writes app/src/data/collected/*.json.
+#   2. Commit those JSON files back to the repo if they changed, so the
+#      collected data has a real history you can look back through.
+#   3. Build the app (npm run build in app/), which reads the JSON files
+#      committed in step 2 as its live data.
+#   4. Deploy the built site/ to GitHub Pages — this is also how the site
+#      gets free hosting, not just the scheduler.
+#
+# One-time setup this workflow depends on (see the repo README): under
+# Settings → Pages, set "Source" to "GitHub Actions".
+on:
+  schedule:
+    - cron: '0 0,8,16 * * *'
+  workflow_dispatch: {}
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  collect-and-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # so the auto-commit step below can push back to main
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Install collector dependencies
+        run: npm ci
+        working-directory: collector
+
+      - name: Collect news
+        run: npm run collect
+        working-directory: collector
+
+      - name: Commit updated data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: '[bot] update collected news data'
+          file_pattern: 'app/src/data/collected/*.json'
+          commit_user_name: 'Opponent Scout Hub bot'
+          commit_user_email: 'actions@users.noreply.github.com'
+
+      - name: Install app dependencies
+        run: npm ci
+        working-directory: app
+
+      - name: Build site
+        run: npm run build
+        working-directory: app
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: collect-and-build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

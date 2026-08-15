@@ -1,0 +1,30 @@
+/* Ported verbatim from project/Scout Hub.dc.html lines 14-39.
+   Must be imported AFTER design-system.css — both declare --color-accent*
+   on :root at equal specificity, so import order picks the winner. This
+   file overrides the base steel-blue (#5980a6) accent with the navy the
+   design chat settled on (#021443), plus the matching ramp. */
+:root{
+  --color-accent:#021443;
+  --color-accent-100:#eaedf5;
+  --color-accent-200:#ccd3e5;
+  --color-accent-300:#a6b1cd;
+  --color-accent-400:#7987ab;
+  --color-accent-500:#3f4f7d;
+  --color-accent-600:#16255a;
+  --color-accent-700:#0c1a4d;
+  --color-accent-800:#061340;
+  --color-accent-900:#020c2b;
+  --color-accent-2:#021443;
+  --color-accent-2-100:#eaedf5;
+  --color-accent-2-200:#ccd3e5;
+  --color-accent-2-300:#a6b1cd;
+  --color-accent-2-400:#7987ab;
+  --color-accent-2-500:#3f4f7d;
+  --color-accent-2-600:#16255a;
+  --color-accent-2-700:#0c1a4d;
+  --color-accent-2-800:#061340;
+  --color-accent-2-900:#020c2b;
+}
+body{margin:0;background:var(--color-bg)}
+a{color:var(--color-accent-700);text-decoration:none}
+a:hover{color:var(--color-accent)}

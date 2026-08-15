@@ -1,0 +1,8 @@
+# site/ is a build artifact (npm run build inside app/ regenerates it, and
+# .github/workflows/collect-and-deploy.yml builds + deploys it to GitHub
+# Pages directly from a fresh checkout on every scheduled run) — not
+# committed so it doesn't bloat history with rebuilt JS/CSS every run.
+site/
+
+node_modules/
+*.tsbuildinfo

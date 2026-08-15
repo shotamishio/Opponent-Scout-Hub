@@ -1,0 +1,45 @@
+/* Self-hosted Barlow / Barlow Condensed — replaces the design system's
+   Google Fonts CDN @import so the site has zero external network
+   dependency for type (works offline, behind restrictive proxies, or if
+   Google Fonts is ever unreachable). Files sourced from the @fontsource
+   distribution (fontsource.org, OFL-1.1 licensed, same underlying font
+   files Google Fonts serves), latin subset only, weights 400/500/700 for
+   Barlow and 400/600 for Barlow Condensed — matching the original
+   `family=Barlow:wght@400;500;700&family=Barlow+Condensed:wght@400;600`
+   request exactly. */
+
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/barlow-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../assets/fonts/barlow-500.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url('../assets/fonts/barlow-700.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url('../assets/fonts/barlow-condensed-400.woff2') format('woff2');
+}
+@font-face {
+  font-family: 'Barlow Condensed';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url('../assets/fonts/barlow-condensed-600.woff2') format('woff2');
+}

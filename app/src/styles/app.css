@@ -1,0 +1,54 @@
+/* Layout glue not covered by the design-system tokens. Everything else is
+   inline styles ported directly from the source's literal values (see
+   components/) so they stay traceable back to Scout Hub.dc.html. */
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: var(--font-body);
+  color: var(--color-text);
+}
+
+.osh-shell {
+  display: grid;
+  grid-template-columns: 216px minmax(0, 1fr);
+  min-width: 0;
+  min-height: 100vh;
+  font-family: var(--font-body);
+  color: var(--color-text);
+}
+
+.osh-shell button {
+  font-family: inherit;
+}
+
+/* Hover overrides ported from the source's `style-hover` attribute — these
+   always fire on hover regardless of active/selected state, matching the
+   prototype's static CSS behavior. !important is needed because the base
+   colors are set via inline style, which otherwise outranks a plain
+   selector-based rule. */
+.osh-mode-btn:hover {
+  border-color: var(--color-accent) !important;
+}
+.osh-nav-btn:hover {
+  background: color-mix(in srgb, var(--color-text) 5%, transparent) !important;
+}
+.osh-card-hover:hover {
+  border-color: var(--color-accent) !important;
+}
+.osh-card-hover-tint:hover {
+  border-color: var(--color-accent) !important;
+  background: color-mix(in srgb, var(--color-accent) 5%, transparent) !important;
+}
+.osh-row-hover:hover {
+  background: var(--color-accent-100) !important;
+}
+.osh-dashed-hover:hover {
+  border-color: var(--color-accent) !important;
+  color: var(--color-accent) !important;
+}
+.osh-text-hover:hover {
+  color: var(--color-accent) !important;
+}

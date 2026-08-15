@@ -1,0 +1,1176 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<link rel="stylesheet" href="_ds/industry-20859635-f52b-4555-b082-f0d10789d442/styles.css">
+<script src="_ds/industry-20859635-f52b-4555-b082-f0d10789d442/_ds_bundle.js"></script>
+<style>
+:root{
+  --color-accent:#021443;
+  --color-accent-100:#eaedf5;
+  --color-accent-200:#ccd3e5;
+  --color-accent-300:#a6b1cd;
+  --color-accent-400:#7987ab;
+  --color-accent-500:#3f4f7d;
+  --color-accent-600:#16255a;
+  --color-accent-700:#0c1a4d;
+  --color-accent-800:#061340;
+  --color-accent-900:#020c2b;
+  --color-accent-2:#021443;
+  --color-accent-2-100:#eaedf5;
+  --color-accent-2-200:#ccd3e5;
+  --color-accent-2-300:#a6b1cd;
+  --color-accent-2-400:#7987ab;
+  --color-accent-2-500:#3f4f7d;
+  --color-accent-2-600:#16255a;
+  --color-accent-2-700:#0c1a4d;
+  --color-accent-2-800:#061340;
+  --color-accent-2-900:#020c2b;
+}
+body{margin:0;background:var(--color-bg)}
+a{color:var(--color-accent-700);text-decoration:none}
+a:hover{color:var(--color-accent)}
+</style>
+</helmet>
+<div style="display:grid;grid-template-columns:216px minmax(0,1fr);min-width:0;min-height:100vh;font-family:var(--font-body);color:var(--color-text)">
+
+  <aside style="border-right:1px solid var(--color-divider);padding:var(--space-4) var(--space-4) var(--space-8);display:flex;flex-direction:column;gap:var(--space-6);position:sticky;top:0;height:100vh;overflow:auto">
+    <div>
+      <div style="font-family:var(--font-heading);font-size:20px;letter-spacing:.02em">OPPONENT SCOUT HUB</div>
+      <div style="font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">対戦国情報集約 / JFA WOMEN</div>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:var(--space-2)">
+      <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">Category / カテゴリー</div>
+      <sc-for list="{{ modeList }}" as="m" hint-placeholder-count="3">
+        <button onClick="{{ m.pick }}" style="text-align:left;cursor:pointer;font-family:var(--font-heading);font-size:16px;line-height:1.15;padding:var(--space-2) var(--space-3);border:1px solid {{ m.bd }};background:{{ m.bg }};color:{{ m.fg }};border-radius:0;display:flex;flex-direction:column;gap:1px" style-hover="borderColor:var(--color-accent)">
+          <span>{{ m.ja }}</span>
+          <span style="font-family:var(--font-body);font-size:10px;letter-spacing:.1em;text-transform:uppercase;opacity:.7">{{ m.en }} · {{ m.count }} nations</span>
+        </button>
+      </sc-for>
+    </div>
+
+    <div style="display:flex;flex-direction:column;gap:1px">
+      <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent);margin-bottom:var(--space-2)">Sections</div>
+      <sc-for list="{{ navList }}" as="n" hint-placeholder-count="7">
+        <button onClick="{{ n.go }}" style="text-align:left;cursor:pointer;font-size:13px;padding:7px var(--space-3);border:0;border-left:2px solid {{ n.mark }};background:{{ n.bg }};color:{{ n.fg }};display:flex;justify-content:space-between;gap:8px;align-items:center" style-hover="background:color-mix(in srgb, var(--color-text) 5%, transparent)">
+          <span>{{ n.label }}</span>
+          <span style="font-size:10px;font-family:var(--font-heading);color:var(--color-accent-700)">{{ n.badge }}</span>
+        </button>
+      </sc-for>
+    </div>
+
+    <div class="blueprint" style="margin-top:auto;padding:var(--space-3);font-size:11px;line-height:1.5;color:color-mix(in srgb,var(--color-text) 60%,transparent)">
+      <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <div style="font-family:var(--font-heading);font-size:13px;color:var(--color-text);letter-spacing:.04em">無料構成での運用</div>
+      公式RSS・公開API・SNS公開投稿のみを収集。有料契約は不要ですが、取得頻度は1日3回に制限されます。
+    </div>
+  </aside>
+
+  <main style="min-width:0;display:flex;flex-direction:column">
+    <header style="display:flex;align-items:center;gap:var(--space-4);padding:var(--space-4) var(--space-6);border-bottom:1px solid var(--color-divider);position:sticky;top:0;background:var(--color-bg);z-index:5">
+      <div style="min-width:0">
+        <div style="font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ crumb }}</div>
+        <h3 style="margin:0">{{ pageTitle }}</h3>
+      </div>
+      <div style="margin-left:auto;display:flex;align-items:center;gap:var(--space-4);flex-wrap:wrap;justify-content:flex-end">
+        <div style="display:flex;align-items:center;gap:var(--space-2);flex:none">
+          <span style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">信頼度</span>
+          <div class="seg" style="flex:none">
+            <sc-for list="{{ tierList }}" as="t" hint-placeholder-count="4">
+              <button onClick="{{ t.toggle }}" style="cursor:pointer;padding:7px 11px;font-size:12px;font-family:var(--font-heading);border:0;border-left:1px solid var(--color-divider);background:{{ t.bg }};color:{{ t.fg }}" title="{{ t.title }}">{{ t.key }}</button>
+            </sc-for>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;gap:var(--space-2);font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">
+          <span style="width:6px;height:6px;background:var(--color-accent);display:block"></span>最終収集 08/14 07:20
+        </div>
+        <button class="btn btn-primary blueprint" onClick="{{ refresh }}" style="position:relative">
+          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+          再収集
+        </button>
+      </div>
+    </header>
+
+    <div style="padding:var(--space-6);display:flex;flex-direction:column;gap:var(--space-6)">
+
+      <sc-if value="{{ isHome }}" hint-placeholder-val="{{ true }}">
+        <div style="display:flex;flex-direction:column;gap:var(--space-4)">
+          <div style="display:flex;align-items:flex-end;gap:var(--space-4);flex-wrap:wrap">
+            <p style="max-width:56ch;margin:0;font-size:13px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 70%,transparent)">{{ modeNote }}</p>
+            <div style="margin-left:auto;display:flex;align-items:center;gap:var(--space-3)">
+              <div style="display:flex;align-items:center;gap:var(--space-2)">
+                <span style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">配置</span>
+                <div class="seg">
+                  <button onClick="{{ gridA }}" style="cursor:pointer;padding:7px 12px;font-size:12px;font-family:var(--font-heading);border:0;background:{{ gA.bg }};color:{{ gA.fg }}">均等グリッド</button>
+                  <button onClick="{{ gridB }}" style="cursor:pointer;padding:7px 12px;font-size:12px;font-family:var(--font-heading);border:0;border-left:1px solid var(--color-divider);background:{{ gB.bg }};color:{{ gB.fg }}">大会別レーン</button>
+                </div>
+              </div>
+              <button class="btn btn-secondary" onClick="{{ toggleManage }}">{{ manageLabel }}</button>
+            </div>
+          </div>
+
+          <sc-if value="{{ isGridA }}">
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(212px,1fr));gap:var(--space-6) var(--space-6)">
+              <sc-for list="{{ countries }}" as="c" hint-placeholder-count="18">
+                <div class="card blueprint" onClick="{{ c.open }}" style="cursor:pointer;gap:var(--space-3);padding:var(--space-4)" style-hover="borderColor:var(--color-accent);background:color-mix(in srgb, var(--color-accent) 5%, transparent)">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:var(--space-2)">
+                    <div style="display:flex;align-items:center;gap:var(--space-2)">
+                      <span role="img" aria-label="{{ c.en }}" style="display:block;flex:none;width:44px;height:30px;border:1px solid var(--color-divider);background:var(--color-accent-100) center/cover no-repeat url({{ c.flag }})"></span>
+                      <span style="font-family:var(--font-heading);font-size:15px;letter-spacing:.08em;color:var(--color-accent-800)">{{ c.code }}</span>
+                    </div>
+                    <sc-if value="{{ c.hasNew }}">
+                      <span style="font-family:var(--font-heading);font-size:11px;letter-spacing:.06em;padding:3px 7px;background:var(--color-accent);color:var(--color-bg)">NEW {{ c.updates }}</span>
+                    </sc-if>
+                  </div>
+                  <div>
+                    <div style="font-family:var(--font-heading);font-size:22px;line-height:1.1">{{ c.ja }}</div>
+                    <div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ c.en }}</div>
+                  </div>
+                  <div style="display:flex;justify-content:space-between;align-items:baseline;border-top:1px solid var(--color-divider);padding-top:var(--space-2)">
+                    <span style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">FIFA rank</span>
+                    <span style="font-family:var(--font-heading);font-size:18px">{{ c.rank }}</span>
+                  </div>
+                  <sc-if value="{{ c.manage }}">
+                    <button onClick="{{ c.remove }}" class="btn btn-secondary" style="width:100%;font-size:12px;padding:4px">この国を除外</button>
+                  </sc-if>
+                </div>
+              </sc-for>
+              <button onClick="{{ openAdd }}" style="cursor:pointer;min-height:168px;border:1px dashed color-mix(in srgb,var(--color-text) 30%,transparent);background:transparent;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:6px;font-family:var(--font-heading);font-size:15px;color:color-mix(in srgb,var(--color-text) 60%,transparent)" style-hover="borderColor:var(--color-accent);color:var(--color-accent)">
+                <span style="font-size:26px;line-height:1">＋</span>対戦国を追加
+              </button>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ isGridB }}">
+            <div style="display:flex;flex-direction:column;gap:var(--space-8)">
+              <sc-for list="{{ groups }}" as="g" hint-placeholder-count="3">
+                <section>
+                  <div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-4)">
+                    <span style="font-family:var(--font-heading);font-size:15px;letter-spacing:.1em;text-transform:uppercase">{{ g.label }}</span>
+                    <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ g.count }} nations</span>
+                    <span style="flex:1;height:1px;background:var(--color-divider)"></span>
+                  </div>
+                  <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1px;background:var(--color-divider);border:1px solid var(--color-divider)">
+                    <sc-for list="{{ g.items }}" as="c" hint-placeholder-count="6">
+                      <div onClick="{{ c.open }}" style="cursor:pointer;background:var(--color-bg);padding:var(--space-3) var(--space-4);display:flex;flex-direction:column;gap:var(--space-2)" style-hover="background:var(--color-accent-100)">
+                        <div style="display:flex;justify-content:space-between;align-items:center;gap:6px">
+                          <span style="display:flex;align-items:center;gap:6px">
+                            <span role="img" aria-label="{{ c.en }}" style="display:block;flex:none;width:24px;height:16px;border:1px solid var(--color-divider);background:var(--color-accent-100) center/cover no-repeat url({{ c.flagSm }})"></span>
+                            <span style="font-family:var(--font-heading);font-size:13px;letter-spacing:.08em;color:var(--color-accent-800)">{{ c.code }}</span>
+                          </span>
+                          <sc-if value="{{ c.hasNew }}">
+                            <span style="font-size:10px;font-family:var(--font-heading);padding:1px 5px;background:var(--color-accent);color:var(--color-bg)">{{ c.updates }}</span>
+                          </sc-if>
+                        </div>
+                        <div style="font-family:var(--font-heading);font-size:18px;line-height:1.1">{{ c.ja }}</div>
+                        <div style="display:flex;justify-content:space-between;align-items:baseline;font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">
+                          <span>{{ c.en }}</span><span style="font-family:var(--font-heading);font-size:14px;color:var(--color-text)">{{ c.rank }}</span>
+                        </div>
+                        <sc-if value="{{ c.manage }}">
+                          <button onClick="{{ c.remove }}" class="btn btn-secondary" style="font-size:11px;padding:2px">除外</button>
+                        </sc-if>
+                      </div>
+                    </sc-for>
+                    <button onClick="{{ openAdd }}" style="cursor:pointer;background:var(--color-bg);border:0;border-left:1px dashed var(--color-divider);padding:var(--space-3);font-family:var(--font-heading);font-size:13px;color:color-mix(in srgb,var(--color-text) 55%,transparent)" style-hover="color:var(--color-accent)">＋ 追加</button>
+                  </div>
+                </section>
+              </sc-for>
+            </div>
+          </sc-if>
+
+          <section style="margin-top:var(--space-4)">
+            <div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-3);flex-wrap:wrap">
+              <span style="font-family:var(--font-heading);font-size:15px;letter-spacing:.1em;text-transform:uppercase">アジア公式戦の対戦国 — 過去20年</span>
+              <span class="tag tag-accent">{{ asiaComp }}</span>
+              <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ asiaSpan }} · {{ asiaCount }}</span>
+              <span style="flex:1;height:1px;background:var(--color-divider)"></span>
+            </div>
+            <p style="margin:0 0 var(--space-4);max-width:70ch;font-size:12.5px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 68%,transparent)">{{ asiaNote }}</p>
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(158px,1fr));gap:1px;background:var(--color-divider);border:1px solid var(--color-divider)">
+              <sc-for list="{{ asia20 }}" as="a" hint-placeholder-count="12">
+                <div onClick="{{ a.open }}" style="cursor:pointer;background:var(--color-bg);padding:var(--space-3) var(--space-4);display:flex;flex-direction:column;gap:var(--space-2)" style-hover="background:var(--color-accent-100)">
+                  <div style="display:flex;justify-content:space-between;align-items:center;gap:6px">
+                    <span style="display:flex;align-items:center;gap:6px">
+                      <span role="img" aria-label="{{ a.en }}" style="display:block;flex:none;width:24px;height:16px;border:1px solid var(--color-divider);background:var(--color-accent-100) center/cover no-repeat url({{ a.flagSm }})"></span>
+                      <span style="font-family:var(--font-heading);font-size:13px;letter-spacing:.08em;color:var(--color-accent-800)">{{ a.code }}</span>
+                    </span>
+                    <span style="font-size:10px;letter-spacing:.06em;color:var(--color-accent-700)">{{ a.inRoster }}</span>
+                  </div>
+                  <div style="font-family:var(--font-heading);font-size:18px;line-height:1.1">{{ a.ja }}</div>
+                  <div style="font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ a.en }}</div>
+                  <div style="border-top:1px solid var(--color-divider);padding-top:5px;display:flex;flex-direction:column;gap:2px">
+                    <div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">対戦 <span style="font-family:var(--font-heading);font-size:14px;color:var(--color-text)">{{ a.times }}</span></div>
+                    <div style="font-family:var(--font-heading);font-size:12px;letter-spacing:.04em;color:var(--color-accent-700)">{{ a.years }}</div>
+                  </div>
+                </div>
+              </sc-for>
+            </div>
+          </section>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isCountry }}">
+        <div style="display:flex;flex-direction:column;gap:var(--space-6)">
+          <div style="display:flex;align-items:flex-start;gap:var(--space-6);flex-wrap:wrap">
+            <div class="blueprint" style="width:132px;height:88px;display:grid;background:var(--color-accent-100)">
+              <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+              <span role="img" aria-label="{{ cur.en }}" style="display:block;width:100%;height:100%;background:var(--color-accent-100) center/cover no-repeat url({{ cur.flag }})"></span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:6px">
+              <div style="display:flex;align-items:baseline;gap:var(--space-3)">
+                <span style="font-family:var(--font-heading);font-size:15px;letter-spacing:.1em;color:var(--color-accent-800)">{{ cur.code }}</span>
+                <span style="font-family:var(--font-heading);font-size:40px;line-height:1">{{ cur.ja }}</span>
+                <span style="font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ cur.en }}</span>
+              </div>
+              <div style="display:flex;gap:var(--space-2);flex-wrap:wrap">
+                <span class="tag tag-accent">FIFA {{ cur.rank }}位</span>
+                <span class="tag tag-neutral">{{ cur.conf }}</span>
+                <span class="tag tag-outline">直近10試合 {{ cur.form }}</span>
+                <span class="tag tag-neutral">新着 {{ cur.updates }} 件</span>
+              </div>
+              <p style="margin:4px 0 0;max-width:64ch;font-size:13px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 70%,transparent)">{{ cur.summary }}</p>
+            </div>
+            <div style="margin-left:auto;display:flex;align-items:center;gap:var(--space-3)">
+              <div class="seg">
+                <button onClick="{{ detailA }}" style="cursor:pointer;padding:7px 12px;font-size:12px;font-family:var(--font-heading);border:0;background:{{ dA.bg }};color:{{ dA.fg }}">2カラム分析</button>
+                <button onClick="{{ detailB }}" style="cursor:pointer;padding:7px 12px;font-size:12px;font-family:var(--font-heading);border:0;border-left:1px solid var(--color-divider);background:{{ dB.bg }};color:{{ dB.fg }}">ティア並列</button>
+              </div>
+              <button class="btn btn-secondary" onClick="{{ goCoach }}">監督プロファイル</button>
+            </div>
+          </div>
+
+          <sc-if value="{{ isDetailA }}">
+            <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(400px,1fr));gap:var(--space-6);align-items:start">
+              <div style="display:flex;flex-direction:column;gap:var(--space-6)">
+                <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <div style="display:flex;align-items:baseline;gap:var(--space-3)">
+                    <h4 style="margin:0">直近10試合</h4>
+                    <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">出典: 各国協会公式マッチセンター（T1）</span>
+                  </div>
+                  <div style="display:flex;flex-wrap:wrap;gap:var(--space-2);align-items:center;border-top:1px solid var(--color-divider);border-bottom:1px solid var(--color-divider);padding:var(--space-2) 0">
+                    <span style="font-family:var(--font-heading);font-size:20px;line-height:1">{{ cur.record }}</span>
+                    <span class="tag tag-accent">{{ cur.totalGf }}</span>
+                    <span class="tag tag-neutral">{{ cur.totalGa }}</span>
+                    <span class="tag tag-outline">{{ cur.gd }}</span>
+                  </div>
+                  <div style="overflow-x:auto">
+                  <table class="table" style="min-width:400px">
+                    <thead><tr><th style="width:74px">日付</th><th>対戦相手 / 大会</th><th style="width:112px">得点 - 失点</th><th style="width:78px">勝敗</th></tr></thead>
+                    <tbody>
+                      <sc-for list="{{ cur.matches }}" as="m" hint-placeholder-count="10">
+                        <tr>
+                          <td style="font-size:12px;white-space:nowrap;color:color-mix(in srgb,var(--color-text) 60%,transparent)">{{ m.date }}</td>
+                          <td>
+                            <div style="font-family:var(--font-heading);font-size:15px;line-height:1.2">{{ m.opp }}</div>
+                            <div style="font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ m.comp }} · {{ m.haJa }}</div>
+                          </td>
+                          <td style="white-space:nowrap">
+                            <div style="font-family:var(--font-heading);font-size:17px;line-height:1.1">{{ m.score }}</div>
+                            <div style="font-size:10.5px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ m.gf }} / {{ m.ga }}</div>
+                          </td>
+                          <td style="white-space:nowrap">
+                            <span style="display:inline-flex;align-items:center;gap:5px;font-family:var(--font-heading);font-size:12px;padding:2px 7px;background:{{ m.bg }};color:{{ m.fg }};border:1px solid {{ m.bd }}">{{ m.res }} {{ m.resJa }}</span>
+                          </td>
+                        </tr>
+                      </sc-for>
+                    </tbody>
+                  </table>
+                  </div>
+                </section>
+
+                <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <h4 style="margin:0">今後の試合スケジュール</h4>
+                  <div style="display:flex;flex-direction:column;gap:1px;background:var(--color-divider)">
+                    <sc-for list="{{ cur.schedule }}" as="s" hint-placeholder-count="4">
+                      <div style="background:var(--color-bg);display:grid;grid-template-columns:96px 1fr auto;gap:var(--space-3);align-items:center;padding:var(--space-3) var(--space-2)">
+                        <div style="font-family:var(--font-heading);font-size:16px">{{ s.date }}</div>
+                        <div>
+                          <div style="font-family:var(--font-heading);font-size:16px">vs {{ s.opp }}</div>
+                          <div style="font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ s.comp }} · {{ s.venue }} · {{ s.jst }}</div>
+                        </div>
+                        <span class="tag tag-outline">{{ s.status }}</span>
+                      </div>
+                    </sc-for>
+                  </div>
+                </section>
+              </div>
+
+              <div style="display:flex;flex-direction:column;gap:var(--space-6)">
+                <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <div style="display:flex;align-items:baseline;gap:var(--space-3)">
+                    <h4 style="margin:0">チームの状況</h4>
+                    <span style="margin-left:auto;font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ noteCount }}</span>
+                  </div>
+                  <div style="display:flex;flex-direction:column;gap:var(--space-3)">
+                    <sc-for list="{{ cur.notes }}" as="n" hint-placeholder-count="4">
+                      <article style="border-left:2px solid {{ n.accent }};padding-left:var(--space-3);display:flex;flex-direction:column;gap:4px">
+                        <div style="display:flex;align-items:center;gap:var(--space-2)">
+                          <span style="font-family:var(--font-heading);font-size:11px;letter-spacing:.06em;padding:2px 6px;background:{{ n.bg }};color:{{ n.fg }};border:1px solid {{ n.bd }}">{{ n.tier }}</span>
+                          <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ n.src }} · {{ n.time }}</span>
+                        </div>
+                        <div style="font-family:var(--font-heading);font-size:17px;line-height:1.2">{{ n.title }}</div>
+                        <p style="margin:0;font-size:12.5px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 75%,transparent)">{{ n.body }}</p>
+                      </article>
+                    </sc-for>
+                  </div>
+                </section>
+
+                <section class="card blueprint" onClick="{{ goCoach }}" style="padding:var(--space-4);gap:var(--space-3);cursor:pointer" style-hover="borderColor:var(--color-accent)">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <h4 style="margin:0">監督</h4>
+                  <div style="display:flex;gap:var(--space-3);align-items:center">
+                    <div class="duotone" style="width:52px;height:52px;border:1px solid var(--color-divider);background:var(--color-accent-200);display:grid;place-items:center;font-family:var(--font-heading);font-size:18px;color:var(--color-accent-800)">{{ cur.coach.initials }}</div>
+                    <div>
+                      <div style="font-family:var(--font-heading);font-size:20px;line-height:1.1">{{ cur.coach.name }}</div>
+                      <div style="font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ cur.coach.nat }} · 就任 {{ cur.coach.since }} · 通算 {{ cur.coach.record }}</div>
+                    </div>
+                  </div>
+                  <p style="margin:0;font-size:12.5px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 75%,transparent)">{{ cur.coach.brief }}</p>
+                  <span style="font-size:12px;color:var(--color-accent-700);font-family:var(--font-heading)">実績・経歴・評判を見る →</span>
+                </section>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ isDetailB }}">
+            <div style="display:flex;flex-direction:column;gap:var(--space-6)">
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1px;background:var(--color-divider);border:1px solid var(--color-divider)">
+                <sc-for list="{{ cur.stats }}" as="s" hint-placeholder-count="5">
+                  <div style="background:var(--color-bg);padding:var(--space-4)">
+                    <div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ s.label }}</div>
+                    <div style="font-family:var(--font-heading);font-size:30px;line-height:1.1">{{ s.value }}</div>
+                    <div style="font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ s.note }}</div>
+                  </div>
+                </sc-for>
+              </div>
+
+              <section>
+                <div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-4)">
+                  <h4 style="margin:0">チームの状況 — 信頼度ティア並列</h4>
+                  <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">列ごとに一次情報から順に配置。左が確度の高い情報です。</span>
+                  <span style="flex:1;height:1px;background:var(--color-divider)"></span>
+                </div>
+                <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(196px,1fr));gap:var(--space-4)">
+                  <sc-for list="{{ tierColumns }}" as="col" hint-placeholder-count="4">
+                    <div style="display:flex;flex-direction:column;gap:var(--space-3);opacity:{{ col.opacity }}">
+                      <div style="display:flex;align-items:center;gap:var(--space-2);padding-bottom:var(--space-2);border-bottom:2px solid {{ col.accent }}">
+                        <span style="font-family:var(--font-heading);font-size:12px;padding:2px 7px;background:{{ col.bg }};color:{{ col.fg }};border:1px solid {{ col.bd }}">{{ col.key }}</span>
+                        <span style="font-family:var(--font-heading);font-size:14px">{{ col.label }}</span>
+                        <span style="margin-left:auto;font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ col.count }}</span>
+                      </div>
+                      <sc-for list="{{ col.items }}" as="n" hint-placeholder-count="2">
+                        <article class="card blueprint" style="padding:var(--space-3);gap:6px">
+                          <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                          <div style="font-size:10px;letter-spacing:.06em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ n.src }} · {{ n.time }}</div>
+                          <div style="font-family:var(--font-heading);font-size:15px;line-height:1.2">{{ n.title }}</div>
+                          <p style="margin:0;font-size:12px;line-height:1.55;color:color-mix(in srgb,var(--color-text) 72%,transparent)">{{ n.body }}</p>
+                        </article>
+                      </sc-for>
+                      <sc-if value="{{ col.empty }}">
+                        <div style="border:1px dashed color-mix(in srgb,var(--color-text) 22%,transparent);padding:var(--space-4);font-size:12px;color:color-mix(in srgb,var(--color-text) 45%,transparent)">このティアは現在フィルタ対象外、または新着なし</div>
+                      </sc-if>
+                    </div>
+                  </sc-for>
+                </div>
+              </section>
+
+              <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--space-6)">
+                <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <h4 style="margin:0">直近10試合</h4>
+                  <table class="table">
+                    <thead><tr><th style="width:70px">日付</th><th>相手</th><th style="width:56px">スコア</th><th style="width:30px"></th></tr></thead>
+                    <tbody>
+                      <sc-for list="{{ cur.matches }}" as="m" hint-placeholder-count="10">
+                        <tr>
+                          <td style="font-size:12px;color:color-mix(in srgb,var(--color-text) 60%,transparent)">{{ m.date }}</td>
+                          <td style="font-family:var(--font-heading);font-size:15px">{{ m.opp }}</td>
+                          <td style="font-family:var(--font-heading);font-size:15px">{{ m.score }}</td>
+                          <td><span style="display:inline-grid;place-items:center;width:20px;height:20px;font-family:var(--font-heading);font-size:11px;background:{{ m.bg }};color:{{ m.fg }};border:1px solid {{ m.bd }}">{{ m.res }}</span></td>
+                        </tr>
+                      </sc-for>
+                    </tbody>
+                  </table>
+                </section>
+                <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <h4 style="margin:0">今後の試合スケジュール</h4>
+                  <div style="display:flex;flex-direction:column;gap:1px;background:var(--color-divider)">
+                    <sc-for list="{{ cur.schedule }}" as="s" hint-placeholder-count="4">
+                      <div style="background:var(--color-bg);display:flex;gap:var(--space-3);align-items:baseline;padding:var(--space-3) var(--space-2)">
+                        <span style="font-family:var(--font-heading);font-size:15px;width:84px">{{ s.date }}</span>
+                        <span style="font-family:var(--font-heading);font-size:15px;flex:1">vs {{ s.opp }}</span>
+                        <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ s.comp }}</span>
+                      </div>
+                    </sc-for>
+                  </div>
+                </section>
+              </div>
+            </div>
+          </sc-if>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isCoach }}">
+        <div style="display:flex;flex-direction:column;gap:var(--space-6)">
+          <div style="display:flex;gap:var(--space-6);align-items:flex-start;flex-wrap:wrap">
+            <div class="blueprint duotone" style="width:150px;height:190px;background:var(--color-accent-200);display:grid;place-items:center">
+              <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+              <span style="font-family:var(--font-heading);font-size:44px;color:var(--color-accent-800)">{{ cur.coach.initials }}</span>
+            </div>
+            <div style="display:flex;flex-direction:column;gap:var(--space-2);max-width:60ch">
+              <div style="font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ cur.ja }} / {{ cur.en }} — head coach</div>
+              <div style="font-family:var(--font-heading);font-size:44px;line-height:1">{{ cur.coach.name }}</div>
+              <div style="display:flex;gap:var(--space-2);flex-wrap:wrap">
+                <span class="tag tag-accent">{{ cur.coach.nat }}</span>
+                <span class="tag tag-neutral">就任 {{ cur.coach.since }}</span>
+                <span class="tag tag-neutral">通算 {{ cur.coach.record }}</span>
+                <span class="tag tag-outline">勝率 {{ cur.coach.winRate }}</span>
+              </div>
+              <p style="margin:var(--space-2) 0 0;font-size:13.5px;line-height:1.65;color:color-mix(in srgb,var(--color-text) 78%,transparent)">{{ cur.coach.brief }}</p>
+              <button class="btn btn-secondary" onClick="{{ backToCountry }}" style="align-self:flex-start;margin-top:var(--space-2)">← 国別詳細へ戻る</button>
+            </div>
+            <div class="card blueprint" style="margin-left:auto;padding:var(--space-4);min-width:230px;gap:var(--space-3)">
+              <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+              <div style="font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">戦術的な傾向</div>
+              <sc-for list="{{ cur.coach.traits }}" as="t" hint-placeholder-count="4">
+                <div style="display:flex;flex-direction:column;gap:3px">
+                  <div style="display:flex;justify-content:space-between;font-size:12px"><span>{{ t.label }}</span><span style="font-family:var(--font-heading)">{{ t.value }}</span></div>
+                  <div style="height:4px;background:var(--color-neutral-200)"><div style="height:4px;width:{{ t.pct }};background:var(--color-accent)"></div></div>
+                </div>
+              </sc-for>
+            </div>
+          </div>
+
+          <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:var(--space-6)">
+            <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-4)">
+              <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+              <h4 style="margin:0">経歴</h4>
+              <div style="display:flex;flex-direction:column">
+                <sc-for list="{{ cur.coach.career }}" as="c" hint-placeholder-count="4">
+                  <div style="display:grid;grid-template-columns:104px 1fr;gap:var(--space-3);padding:var(--space-3) 0;border-top:1px solid var(--color-divider)">
+                    <div style="font-family:var(--font-heading);font-size:14px;color:var(--color-accent-700)">{{ c.years }}</div>
+                    <div>
+                      <div style="font-family:var(--font-heading);font-size:17px;line-height:1.2">{{ c.role }}</div>
+                      <p style="margin:2px 0 0;font-size:12.5px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 72%,transparent)">{{ c.detail }}</p>
+                    </div>
+                  </div>
+                </sc-for>
+              </div>
+            </section>
+
+            <div style="display:flex;flex-direction:column;gap:var(--space-6)">
+              <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                <h4 style="margin:0">主な実績</h4>
+                <table class="table">
+                  <thead><tr><th>大会</th><th style="width:74px">年</th><th style="width:90px">結果</th></tr></thead>
+                  <tbody>
+                    <sc-for list="{{ cur.coach.honours }}" as="h" hint-placeholder-count="4">
+                      <tr><td style="font-family:var(--font-heading);font-size:15px">{{ h.comp }}</td><td style="font-size:13px">{{ h.year }}</td><td><span class="tag tag-accent">{{ h.result }}</span></td></tr>
+                    </sc-for>
+                  </tbody>
+                </table>
+              </section>
+
+              <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                <div style="display:flex;align-items:baseline;gap:var(--space-3)">
+                  <h4 style="margin:0">評判</h4>
+                  <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">ティア別に出典を明示。個人記者・ファン情報は参考値として扱ってください。</span>
+                </div>
+                <sc-for list="{{ cur.coach.reputation }}" as="r" hint-placeholder-count="3">
+                  <blockquote style="margin:0;border-left:2px solid {{ r.accent }};padding-left:var(--space-3);display:flex;flex-direction:column;gap:4px">
+                    <div style="display:flex;align-items:center;gap:var(--space-2)">
+                      <span style="font-family:var(--font-heading);font-size:11px;padding:2px 6px;background:{{ r.bg }};color:{{ r.fg }};border:1px solid {{ r.bd }}">{{ r.tier }}</span>
+                      <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ r.src }}</span>
+                    </div>
+                    <p style="margin:0;font-size:12.5px;line-height:1.6">{{ r.text }}</p>
+                  </blockquote>
+                </sc-for>
+              </section>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isVideo }}">
+        <div style="display:flex;flex-direction:column;gap:var(--space-6);max-width:1180px">
+          <div class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+            <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+            <div style="display:flex;gap:var(--space-3);align-items:flex-end;flex-wrap:wrap">
+              <div class="field" style="flex:1;min-width:320px">
+                <label>動画URL（記者会見・ハイライト・現地番組など）</label>
+                <input class="input" value="{{ url }}" onChange="{{ setUrl }}" placeholder="https://…">
+              </div>
+              <div class="field" style="width:180px">
+                <label>対象国</label>
+                <input class="input" value="{{ cur.ja }}" readonly="readonly">
+              </div>
+              <button class="btn btn-primary blueprint" onClick="{{ analyze }}" style="position:relative;min-height:36px">
+                <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                {{ analyzeLabel }}
+              </button>
+            </div>
+            <p style="margin:0;font-size:12px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 60%,transparent)">音声を自動言語判定して文字起こしし、日本語に翻訳・要約します。字幕が公開されている動画は字幕を優先し、無料枠では1本あたり最大90分まで処理します。</p>
+          </div>
+
+          <sc-if value="{{ videoRunning }}">
+            <div class="card blueprint" style="padding:var(--space-6);gap:var(--space-4)">
+              <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+              <div style="font-family:var(--font-heading);font-size:22px">解析中 — {{ videoStepLabel }}</div>
+              <div style="height:6px;background:var(--color-neutral-200)"><div style="height:6px;width:{{ videoPct }};background:var(--color-accent);transition:width .4s"></div></div>
+              <div style="display:flex;gap:var(--space-6);flex-wrap:wrap">
+                <sc-for list="{{ videoSteps }}" as="s" hint-placeholder-count="4">
+                  <div style="display:flex;align-items:center;gap:8px;font-size:12.5px;color:{{ s.color }}">
+                    <span style="width:10px;height:10px;border:1px solid var(--color-accent);background:{{ s.fill }};display:block"></span>{{ s.label }}
+                  </div>
+                </sc-for>
+              </div>
+            </div>
+          </sc-if>
+
+          <sc-if value="{{ videoDone }}">
+            <div style="display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);gap:var(--space-6)">
+              <div style="display:flex;flex-direction:column;gap:var(--space-6)">
+                <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <div style="display:flex;align-items:baseline;gap:var(--space-3)">
+                    <h4 style="margin:0">要点</h4>
+                    <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ videoMeta }}</span>
+                  </div>
+                  <ol style="margin:0;padding-left:1.25em;display:flex;flex-direction:column;gap:var(--space-2);font-size:13px;line-height:1.65">
+                    <sc-for list="{{ videoPoints }}" as="p" hint-placeholder-count="5">
+                      <li>{{ p.text }} <a href="#" onClick="{{ p.jump }}" style="font-family:var(--font-heading);font-size:12px">[{{ p.at }}]</a></li>
+                    </sc-for>
+                  </ol>
+                </section>
+
+                <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <h4 style="margin:0">戦術タグ</h4>
+                  <div style="display:flex;gap:var(--space-2);flex-wrap:wrap">
+                    <sc-for list="{{ videoTags }}" as="t" hint-placeholder-count="6">
+                      <span class="tag tag-accent" style="font-family:var(--font-heading);font-size:12px">{{ t.label }} <span style="opacity:.6;margin-left:5px">{{ t.count }}</span></span>
+                    </sc-for>
+                  </div>
+                  <div style="height:1px;background:var(--color-divider);margin:var(--space-2) 0"></div>
+                  <h4 style="margin:0">抽出された選手・人物</h4>
+                  <div style="display:flex;gap:var(--space-2);flex-wrap:wrap">
+                    <sc-for list="{{ videoPeople }}" as="p" hint-placeholder-count="5">
+                      <a href="#" onClick="{{ p.open }}" class="tag tag-outline" style="font-family:var(--font-heading);font-size:12px;text-decoration:none">{{ p.name }} · {{ p.role }}</a>
+                    </sc-for>
+                  </div>
+                  <button class="btn btn-primary blueprint" onClick="{{ saveMemo }}" style="position:relative;align-self:flex-start;margin-top:var(--space-2)">
+                    <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                    {{ saveLabel }}
+                  </button>
+                </section>
+              </div>
+
+              <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+                <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                <div style="display:flex;align-items:baseline;gap:var(--space-3)">
+                  <h4 style="margin:0">文字起こし（日本語訳）</h4>
+                  <span style="margin-left:auto;font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">原語: Spanish · 自動翻訳</span>
+                </div>
+                <div style="display:flex;flex-direction:column;gap:1px;background:var(--color-divider);max-height:520px;overflow:auto">
+                  <sc-for list="{{ videoTranscript }}" as="l" hint-placeholder-count="8">
+                    <div style="background:var(--color-bg);display:grid;grid-template-columns:64px 1fr;gap:var(--space-3);padding:var(--space-3) var(--space-2)">
+                      <span style="font-family:var(--font-heading);font-size:13px;color:var(--color-accent-700)">{{ l.at }}</span>
+                      <div>
+                        <div style="font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ l.who }}</div>
+                        <p style="margin:0;font-size:12.5px;line-height:1.6">{{ l.text }}</p>
+                      </div>
+                    </div>
+                  </sc-for>
+                </div>
+              </section>
+            </div>
+          </sc-if>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isSources }}">
+        <div style="display:flex;flex-direction:column;gap:var(--space-6)">
+          <p style="margin:0;max-width:70ch;font-size:13px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 70%,transparent)">情報源は4段階のティアで管理します。既定では T1・T2 のみが各画面に表示され、T3・T4 はヘッダーのフィルタで明示的に有効化したときだけ現れます。判断の根拠を常に追跡できる状態を保つための設計です。</p>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(212px,1fr));gap:var(--space-4)">
+            <sc-for list="{{ sourceColumns }}" as="col" hint-placeholder-count="4">
+              <div style="display:flex;flex-direction:column;gap:var(--space-3)">
+                <div class="blueprint" style="padding:var(--space-3);background:{{ col.headBg }}">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  <div style="display:flex;align-items:center;gap:var(--space-2)">
+                    <span style="font-family:var(--font-heading);font-size:13px;padding:2px 7px;background:{{ col.bg }};color:{{ col.fg }};border:1px solid {{ col.bd }}">{{ col.key }}</span>
+                    <span style="font-family:var(--font-heading);font-size:16px">{{ col.label }}</span>
+                  </div>
+                  <div style="font-size:11.5px;line-height:1.55;margin-top:6px;color:color-mix(in srgb,var(--color-text) 68%,transparent)">{{ col.desc }}</div>
+                  <div style="display:flex;align-items:baseline;gap:6px;margin-top:var(--space-2)">
+                    <span style="font-family:var(--font-heading);font-size:24px">{{ col.score }}</span>
+                    <span style="font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">採用信頼度</span>
+                  </div>
+                </div>
+                <sc-for list="{{ col.sources }}" as="s" hint-placeholder-count="3">
+                  <div class="card blueprint" style="padding:var(--space-3);gap:6px">
+                    <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                    <div style="font-family:var(--font-heading);font-size:15px;line-height:1.2">{{ s.name }}</div>
+                    <div style="font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ s.kind }} · {{ s.freq }}</div>
+                    <div style="display:flex;align-items:center;gap:6px;margin-top:2px">
+                      <div style="flex:1;height:3px;background:var(--color-neutral-200)"><div style="height:3px;width:{{ s.pct }};background:var(--color-accent)"></div></div>
+                      <span style="font-size:10px;font-family:var(--font-heading)">{{ s.pct }}</span>
+                    </div>
+                  </div>
+                </sc-for>
+                <button onClick="{{ noop }}" style="cursor:pointer;border:1px dashed color-mix(in srgb,var(--color-text) 26%,transparent);background:transparent;padding:var(--space-2);font-family:var(--font-heading);font-size:13px;color:color-mix(in srgb,var(--color-text) 55%,transparent)" style-hover="color:var(--color-accent);borderColor:var(--color-accent)">＋ ソース追加</button>
+              </div>
+            </sc-for>
+          </div>
+
+          <section class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+            <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+            <h4 style="margin:0">収集ログ</h4>
+            <table class="table">
+              <thead><tr><th style="width:60px">ティア</th><th>ソース</th><th>対象</th><th style="width:120px">取得</th><th style="width:96px">状態</th></tr></thead>
+              <tbody>
+                <sc-for list="{{ sourceLog }}" as="l" hint-placeholder-count="6">
+                  <tr>
+                    <td><span style="font-family:var(--font-heading);font-size:11px;padding:2px 6px;background:{{ l.bg }};color:{{ l.fg }};border:1px solid {{ l.bd }}">{{ l.tier }}</span></td>
+                    <td style="font-size:13px">{{ l.src }}</td>
+                    <td style="font-size:13px">{{ l.target }}</td>
+                    <td style="font-size:12px;color:color-mix(in srgb,var(--color-text) 60%,transparent)">{{ l.time }}</td>
+                    <td><span class="tag {{ l.tagClass }}">{{ l.status }}</span></td>
+                  </tr>
+                </sc-for>
+              </tbody>
+            </table>
+          </section>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isFeed }}">
+        <div style="display:grid;grid-template-columns:minmax(0,1fr) 300px;gap:var(--space-6)">
+          <div style="display:flex;flex-direction:column;gap:var(--space-4)">
+            <div style="display:flex;align-items:baseline;gap:var(--space-3)">
+              <span style="font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ feedCount }}</span>
+              <span style="flex:1;height:1px;background:var(--color-divider)"></span>
+            </div>
+            <sc-for list="{{ feed }}" as="f" hint-placeholder-count="8">
+              <article class="card blueprint" onClick="{{ f.open }}" style="padding:var(--space-4);gap:var(--space-2);cursor:pointer;flex-direction:row;align-items:flex-start" style-hover="borderColor:var(--color-accent)">
+                <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                <div style="width:64px;flex:none;display:flex;flex-direction:column;gap:4px;align-items:flex-start">
+                  <span style="font-family:var(--font-heading);font-size:11px;padding:2px 6px;background:{{ f.bg }};color:{{ f.fg }};border:1px solid {{ f.bd }}">{{ f.tier }}</span>
+                  <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ f.time }}</span>
+                </div>
+                <div style="flex:1;min-width:0">
+                  <div style="display:flex;align-items:center;gap:var(--space-2);flex-wrap:wrap">
+                    <span style="display:inline-flex;align-items:center;gap:5px;font-family:var(--font-heading);font-size:12px;letter-spacing:.08em;color:var(--color-accent-800);border:1px solid var(--color-divider);padding:1px 6px;background:var(--color-accent-100)">
+                      <span role="img" aria-label="{{ f.code }}" style="display:block;flex:none;width:18px;height:12px;border:1px solid var(--color-divider);background:var(--color-accent-100) center/cover no-repeat url({{ f.flagSm }})"></span>{{ f.code }}
+                    </span>
+                    <span style="font-family:var(--font-heading);font-size:18px;line-height:1.2">{{ f.title }}</span>
+                  </div>
+                  <p style="margin:5px 0 0;font-size:12.5px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 75%,transparent)">{{ f.body }}</p>
+                  <div style="margin-top:6px;font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ f.src }} · {{ f.mode }}</div>
+                </div>
+                <span class="tag tag-neutral" style="flex:none">{{ f.kind }}</span>
+              </article>
+            </sc-for>
+          </div>
+          <aside style="display:flex;flex-direction:column;gap:var(--space-4);position:sticky;top:96px;align-self:start">
+            <div class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+              <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+              <h4 style="margin:0">アラート条件</h4>
+              <sc-for list="{{ alertRules }}" as="a" hint-placeholder-count="4">
+                <div style="display:flex;justify-content:space-between;gap:var(--space-2);align-items:center;padding:var(--space-2) 0;border-top:1px solid var(--color-divider);font-size:12.5px">
+                  <span>{{ a.label }}</span>
+                  <span class="tag {{ a.tagClass }}">{{ a.state }}</span>
+                </div>
+              </sc-for>
+              <button class="btn btn-secondary" onClick="{{ noop }}" style="margin-top:var(--space-2)">条件を追加</button>
+            </div>
+            <div class="card blueprint" style="padding:var(--space-4);gap:var(--space-2)">
+              <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+              <h4 style="margin:0">今日の要注意</h4>
+              <p style="margin:0;font-size:12.5px;line-height:1.6;color:color-mix(in srgb,var(--color-text) 75%,transparent)">T1で確認済みの重要更新が3件あります。うち2件は招集メンバーの変更で、次戦のスカウティング前提に影響します。</p>
+              <button class="btn btn-primary blueprint" onClick="{{ goReport }}" style="position:relative;margin-top:var(--space-2)">
+                <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                レポートにまとめる
+              </button>
+            </div>
+          </aside>
+        </div>
+      </sc-if>
+
+      <sc-if value="{{ isReport }}">
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:var(--space-6);align-items:start">
+          <div style="display:flex;flex-direction:column;gap:var(--space-4)">
+            <div class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+              <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+              <h4 style="margin:0">出力内容</h4>
+              <sc-for list="{{ reportBlocks }}" as="b" hint-placeholder-count="6">
+                <label class="radio" style="justify-content:space-between;width:100%;padding:var(--space-2) 0;border-top:1px solid var(--color-divider)">
+                  <span style="display:flex;align-items:center;gap:8px"><span style="width:12px;height:12px;border:1px solid var(--color-accent);background:{{ b.fill }};display:block"></span>{{ b.label }}</span>
+                  <span style="font-size:11px;color:color-mix(in srgb,var(--color-text) 50%,transparent)">{{ b.pages }}</span>
+                </label>
+              </sc-for>
+            </div>
+            <div class="card blueprint" style="padding:var(--space-4);gap:var(--space-3)">
+              <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+              <h4 style="margin:0">共有</h4>
+              <div class="field"><label>共有リンク（閲覧のみ・7日間）</label><input class="input" value="https://scouthub.local/r/nadeshiko-08-14" readonly="readonly"></div>
+              <div style="display:flex;gap:var(--space-2);flex-wrap:wrap">
+                <button class="btn btn-primary blueprint" onClick="{{ noop }}" style="position:relative">
+                  <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+                  PDFを書き出す
+                </button>
+                <button class="btn btn-secondary" onClick="{{ noop }}">リンクをコピー</button>
+              </div>
+              <p style="margin:0;font-size:11.5px;line-height:1.55;color:color-mix(in srgb,var(--color-text) 58%,transparent)">出力にはティア表記と取得時刻が必ず併記されます。T3・T4を含める場合は表紙に注記が入ります。</p>
+            </div>
+          </div>
+
+          <div class="blueprint" style="min-width:0;background:var(--color-neutral-100);padding:var(--space-6);display:grid;place-items:start center;overflow-x:auto">
+            <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+            <div style="width:100%;min-width:0;max-width:660px;background:#fff;border:1px solid var(--color-divider);box-shadow:var(--shadow-md);padding:clamp(20px,4%,44px) clamp(20px,4.5%,46px);display:flex;flex-direction:column;gap:22px">
+              <div style="display:flex;justify-content:space-between;align-items:flex-start;border-bottom:2px solid var(--color-text);padding-bottom:12px">
+                <div>
+                  <div style="font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 55%,transparent)">Opponent Scout Report</div>
+                  <div style="font-family:var(--font-heading);font-size:30px;line-height:1.05">{{ cur.ja }} 対策レポート</div>
+                </div>
+                <div style="text-align:right;white-space:nowrap;font-size:11px;line-height:1.5;color:color-mix(in srgb,var(--color-text) 60%,transparent)">2026-08-14<br>{{ modeShort }}<br>T1–T2 のみ</div>
+              </div>
+              <div>
+                <div style="font-family:var(--font-heading);font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px">1. サマリー</div>
+                <p style="margin:0;font-size:12px;line-height:1.7">{{ cur.summary }}</p>
+              </div>
+              <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(112px,1fr));gap:1px;background:var(--color-divider);border:1px solid var(--color-divider)">
+                <sc-for list="{{ cur.stats }}" as="s" hint-placeholder-count="4">
+                  <div style="background:#fff;padding:10px 12px">
+                    <div style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ s.label }}</div>
+                    <div style="font-family:var(--font-heading);font-size:20px">{{ s.value }}</div>
+                  </div>
+                </sc-for>
+              </div>
+              <div>
+                <div style="font-family:var(--font-heading);font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px">2. 直近の試合結果</div>
+                <div style="display:flex;flex-direction:column">
+                  <sc-for list="{{ reportMatches }}" as="m" hint-placeholder-count="5">
+                    <div style="display:grid;grid-template-columns:70px 1fr 60px 22px;gap:10px;padding:5px 0;border-bottom:1px solid var(--color-divider);font-size:11.5px;align-items:center">
+                      <span style="color:color-mix(in srgb,var(--color-text) 60%,transparent)">{{ m.date }}</span>
+                      <span style="font-family:var(--font-heading);font-size:13px">{{ m.opp }}</span>
+                      <span style="font-family:var(--font-heading);font-size:13px">{{ m.score }}</span>
+                      <span style="display:inline-grid;place-items:center;width:18px;height:18px;font-family:var(--font-heading);font-size:10px;background:{{ m.bg }};color:{{ m.fg }};border:1px solid {{ m.bd }}">{{ m.res }}</span>
+                    </div>
+                  </sc-for>
+                </div>
+              </div>
+              <div>
+                <div style="font-family:var(--font-heading);font-size:13px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px">3. チーム状況（T1–T2）</div>
+                <div style="display:flex;flex-direction:column;gap:8px">
+                  <sc-for list="{{ reportNotes }}" as="n" hint-placeholder-count="3">
+                    <div style="border-left:2px solid var(--color-accent);padding-left:10px">
+                      <div style="font-family:var(--font-heading);font-size:13px">{{ n.title }}<span style="font-family:var(--font-body);font-size:10px;margin-left:8px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ n.tier }} / {{ n.src }}</span></div>
+                      <p style="margin:2px 0 0;font-size:11.5px;line-height:1.6">{{ n.body }}</p>
+                    </div>
+                  </sc-for>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </sc-if>
+
+    </div>
+  </main>
+
+  <sc-if value="{{ addOpen }}">
+    <div class="dialog-backdrop" onClick="{{ closeAdd }}">
+      <div class="dialog blueprint" onClick="{{ stop }}" style="width:min(620px,100%);background:var(--color-bg)">
+        <i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+        <div style="display:flex;align-items:baseline;gap:var(--space-3)">
+          <div class="dialog-title">対戦国を追加 — {{ modeShort }}</div>
+          <span style="margin-left:auto;font-size:11px;color:color-mix(in srgb,var(--color-text) 55%,transparent)">追加した国はこのカテゴリーのグリッドにのみ入ります</span>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:1px;background:var(--color-divider);border:1px solid var(--color-divider);max-height:340px;overflow:auto">
+          <sc-for list="{{ addable }}" as="a" hint-placeholder-count="12">
+            <button onClick="{{ a.add }}" style="cursor:pointer;border:0;background:var(--color-bg);padding:var(--space-3);text-align:left;display:flex;flex-direction:column;gap:2px" style-hover="background:var(--color-accent-100)">
+              <span style="display:flex;align-items:center;gap:7px">
+                <span role="img" aria-label="{{ a.en }}" style="display:block;flex:none;width:22px;height:15px;border:1px solid var(--color-divider);background:var(--color-accent-100) center/cover no-repeat url({{ a.flagSm }})"></span>
+                <span style="font-family:var(--font-heading);font-size:16px">{{ a.ja }}</span>
+              </span>
+              <span style="font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:color-mix(in srgb,var(--color-text) 55%,transparent)">{{ a.en }} · {{ a.conf }} · {{ a.rank }}位</span>
+            </button>
+          </sc-for>
+        </div>
+        <div class="dialog-actions">
+          <button class="btn btn-secondary" onClick="{{ closeAdd }}">閉じる</button>
+        </div>
+      </div>
+    </div>
+  </sc-if>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;defaultMode&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;nadeshiko&quot;,&quot;u20&quot;,&quot;u19&quot;,&quot;u17&quot;,&quot;u16&quot;],&quot;default&quot;:&quot;nadeshiko&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;初期表示&quot;},&quot;defaultTiers&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;T1-T2&quot;,&quot;T1-T3&quot;,&quot;all&quot;],&quot;default&quot;:&quot;T1-T2&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;初期表示&quot;},&quot;gridStyle&quot;:{&quot;editor&quot;:&quot;enum&quot;,&quot;options&quot;:[&quot;even&quot;,&quot;lanes&quot;],&quot;default&quot;:&quot;even&quot;,&quot;tsType&quot;:&quot;string&quot;,&quot;section&quot;:&quot;レイアウト&quot;}}">
+class Component extends DCLogic {
+  POOL = {
+    USA:{ja:'アメリカ',en:'USA',rank:1,conf:'CONCACAF'},
+    ESP:{ja:'スペイン',en:'Spain',rank:2,conf:'UEFA'},
+    GER:{ja:'ドイツ',en:'Germany',rank:3,conf:'UEFA'},
+    ENG:{ja:'イングランド',en:'England',rank:4,conf:'UEFA'},
+    SWE:{ja:'スウェーデン',en:'Sweden',rank:5,conf:'UEFA'},
+    FRA:{ja:'フランス',en:'France',rank:6,conf:'UEFA'},
+    BRA:{ja:'ブラジル',en:'Brazil',rank:7,conf:'CONMEBOL'},
+    NED:{ja:'オランダ',en:'Netherlands',rank:8,conf:'UEFA'},
+    PRK:{ja:'北朝鮮',en:'Korea DPR',rank:9,conf:'AFC'},
+    CAN:{ja:'カナダ',en:'Canada',rank:10,conf:'CONCACAF'},
+    DEN:{ja:'デンマーク',en:'Denmark',rank:11,conf:'UEFA'},
+    ITA:{ja:'イタリア',en:'Italy',rank:12,conf:'UEFA'},
+    NOR:{ja:'ノルウェー',en:'Norway',rank:13,conf:'UEFA'},
+    AUS:{ja:'オーストラリア',en:'Australia',rank:15,conf:'AFC'},
+    CHN:{ja:'中国',en:'China PR',rank:17,conf:'AFC'},
+    AUT:{ja:'オーストリア',en:'Austria',rank:19,conf:'UEFA'},
+    KOR:{ja:'韓国',en:'Korea Republic',rank:20,conf:'AFC'},
+    COL:{ja:'コロンビア',en:'Colombia',rank:22,conf:'CONMEBOL'},
+    NZL:{ja:'ニュージーランド',en:'New Zealand',rank:26,conf:'OFC'},
+    MEX:{ja:'メキシコ',en:'Mexico',rank:27,conf:'CONCACAF'},
+    POL:{ja:'ポーランド',en:'Poland',rank:28,conf:'UEFA'},
+    ARG:{ja:'アルゼンチン',en:'Argentina',rank:30,conf:'CONMEBOL'},
+    NGA:{ja:'ナイジェリア',en:'Nigeria',rank:36,conf:'CAF'},
+    VIE:{ja:'ベトナム',en:'Vietnam',rank:37,conf:'AFC'},
+    PHI:{ja:'フィリピン',en:'Philippines',rank:41,conf:'AFC'},
+    TPE:{ja:'台湾',en:'Chinese Taipei',rank:42,conf:'AFC'},
+    THA:{ja:'タイ',en:'Thailand',rank:46,conf:'AFC'},
+    PAR:{ja:'パラグアイ',en:'Paraguay',rank:49,conf:'CONMEBOL'},
+    UZB:{ja:'ウズベキスタン',en:'Uzbekistan',rank:51,conf:'AFC'},
+    MAR:{ja:'モロッコ',en:'Morocco',rank:58,conf:'CAF'},
+    CMR:{ja:'カメルーン',en:'Cameroon',rank:61,conf:'CAF'},
+    ECU:{ja:'エクアドル',en:'Ecuador',rank:63,conf:'CONMEBOL'},
+    ZAM:{ja:'ザンビア',en:'Zambia',rank:64,conf:'CAF'},
+    IND:{ja:'インド',en:'India',rank:65,conf:'AFC'},
+    JOR:{ja:'ヨルダン',en:'Jordan',rank:74,conf:'AFC'},
+    MYA:{ja:'ミャンマー',en:'Myanmar',rank:55,conf:'AFC'},
+    BAN:{ja:'バングラデシュ',en:'Bangladesh',rank:132,conf:'AFC'},
+    HKG:{ja:'香港',en:'Hong Kong',rank:78,conf:'AFC'},
+    IRN:{ja:'イラン',en:'IR Iran',rank:68,conf:'AFC'},
+    MAS:{ja:'マレーシア',en:'Malaysia',rank:87,conf:'AFC'},
+    SIN:{ja:'シンガポール',en:'Singapore',rank:130,conf:'AFC'},
+    GUM:{ja:'グアム',en:'Guam',rank:140,conf:'AFC'}
+  };
+  MODES = [
+    {key:'nadeshiko', ja:'なでしこジャパン', en:'Senior', short:'A代表', note:'FIFA女子ワールドカップ・オリンピック・AFC女子アジアカップで当たる可能性のある国を常設で監視しています。カードをクリックすると国別詳細に入ります。'},
+    {key:'u20', ja:'U-20 日本女子代表', en:'U-20', short:'U-20', note:'U-20女子ワールドカップ出場国と、AFC U-20女子アジアカップ予選で対戦する国を対象にしています。年代別は選手の入れ替わりが速いため、招集リストの更新を優先して収集します。'},
+    {key:'u19', ja:'U-19 日本女子代表', en:'U-19', short:'U-19', note:'AFC U-19女子選手権（2002–2019）の系譜にあたるカテゴリーです。現行のU-20と選手層が重なるため、アジアでの対戦履歴を参照する用途を主に想定しています。'},
+    {key:'u17', ja:'U-17 日本女子代表', en:'U-17', short:'U-17', note:'U-17女子ワールドカップ出場国とAFC U-17予選の対戦国です。公式情報が少ないため、現地メディアと記者個人の情報が相対的に重要になります。ティア表記を必ず確認してください。'},
+    {key:'u16', ja:'U-16 日本女子代表', en:'U-16', short:'U-16', note:'AFC U-16女子選手権の系譜にあたるカテゴリーです。公開情報が最も少ない年代のため、協会公式の大会ページとアジア各国の育成カテゴリー報道を中心に収集します。'}
+  ];
+  ASIA20 = {
+    nadeshiko:{comp:'AFC 女子アジアカップ', span:'2006 – 2026', rows:[['KOR',[2008,2010,2014,2018,2022]],['CHN',[2006,2010,2014,2022]],['PRK',[2006,2008,2010,2018]],['AUS',[2010,2014,2018]],['VIE',[2014,2018,2022]],['THA',[2008,2018,2022]],['TPE',[2006,2008,2014]],['MYA',[2018]],['PHI',[2022]],['JOR',[2018]],['IND',[2022]],['UZB',[2026]]]},
+    u20:{comp:'AFC U-20 女子アジアカップ', span:'2006 – 2024', rows:[['KOR',[2007,2011,2015,2019,2024]],['CHN',[2006,2011,2017,2024]],['PRK',[2007,2015,2019]],['AUS',[2011,2017,2024]],['VIE',[2019,2024]],['THA',[2015,2019]],['TPE',[2006,2011]],['MYA',[2017]],['UZB',[2024]]]},
+    u19:{comp:'AFC U-19 女子選手権', span:'2006 – 2019', rows:[['KOR',[2006,2009,2013,2017,2019]],['CHN',[2006,2011,2015,2019]],['PRK',[2007,2009,2013,2017]],['AUS',[2011,2015,2019]],['THA',[2013,2017]],['VIE',[2015,2019]],['TPE',[2006,2009]],['MYA',[2017]],['JOR',[2015]]]},
+    u17:{comp:'AFC U-17 女子アジアカップ', span:'2007 – 2024', rows:[['KOR',[2009,2013,2017,2019,2024]],['CHN',[2007,2011,2015,2024]],['PRK',[2007,2009,2017,2019]],['AUS',[2013,2017,2024]],['VIE',[2019,2024]],['THA',[2015,2019]],['PHI',[2024]],['BAN',[2024]],['MAS',[2018]]]},
+    u16:{comp:'AFC U-16 女子選手権', span:'2007 – 2019', rows:[['KOR',[2007,2011,2015,2019]],['CHN',[2007,2013,2019]],['PRK',[2009,2011,2017]],['AUS',[2013,2017]],['THA',[2015,2019]],['VIE',[2017]],['TPE',[2009]],['BAN',[2019]],['IRN',[2019]]]}
+  };
+  TIERS = {
+    T1:{label:'協会・クラブ公式', desc:'各国協会、クラブ、大会公式のリリースと公式SNS。一次情報として扱います。', score:'98%', bg:'var(--color-accent)', fg:'var(--color-bg)', bd:'var(--color-accent)', accent:'var(--color-accent)', headBg:'var(--color-accent-100)'},
+    T2:{label:'現地主要メディア', desc:'現地の全国紙・公共放送・専門紙。事実関係はおおむね信頼できます。', score:'82%', bg:'var(--color-accent-200)', fg:'var(--color-accent-800)', bd:'var(--color-accent-300)', accent:'var(--color-accent-400)', headBg:'transparent'},
+    T3:{label:'記者個人', desc:'現地記者個人のSNS投稿。速報性は高いが単独ソースは要確認。', score:'54%', bg:'var(--color-neutral-200)', fg:'var(--color-neutral-800)', bd:'var(--color-neutral-300)', accent:'var(--color-neutral-400)', headBg:'transparent'},
+    T4:{label:'ファン情報', desc:'サポーターの投稿・掲示板・現地目撃情報。傾向把握の参考のみ。', score:'23%', bg:'transparent', fg:'var(--color-neutral-700)', bd:'color-mix(in srgb, var(--color-text) 30%, transparent)', accent:'var(--color-neutral-300)', headBg:'transparent'}
+  };
+  COACHES = ['J. モレノ','A. ラーソン','M. ペレイラ','S. カーター','R. ヴァイス','H. ルグラン','K. ノヴァク','T. アンダーソン','D. オコンクウォ','Y. ソン'];
+
+  DEFAULT_ROSTER = {
+    nadeshiko:[['USA','WC'],['ESP','WC'],['ENG','WC'],['SWE','WC'],['GER','WC'],['BRA','WC'],['NED','WC'],['FRA','WC'],['CAN','OLY'],['AUS','OLY'],['NZL','OLY'],['COL','OLY'],['KOR','AFC'],['CHN','AFC'],['PRK','AFC'],['VIE','AFC'],['PHI','AFC'],['UZB','AFC']],
+    u20:[['ESP','WC'],['BRA','WC'],['USA','WC'],['NED','WC'],['NGA','WC'],['COL','WC'],['FRA','WC'],['MEX','WC'],['PRK','AFC'],['KOR','AFC'],['CHN','AFC'],['AUS','AFC'],['VIE','AFC'],['UZB','AFC']],
+    u19:[['KOR','AFC'],['CHN','AFC'],['PRK','AFC'],['AUS','AFC'],['VIE','AFC'],['THA','AFC'],['TPE','AFC'],['MYA','AFC'],['UZB','AFC'],['JOR','AFC']],
+    u17:[['PRK','WC'],['ESP','WC'],['USA','WC'],['COL','WC'],['NGA','WC'],['BRA','WC'],['ENG','WC'],['MEX','WC'],['KOR','AFC'],['CHN','AFC'],['AUS','AFC'],['PHI','AFC'],['THA','AFC'],['BAN','AFC']],
+    u16:[['KOR','AFC'],['CHN','AFC'],['PRK','AFC'],['AUS','AFC'],['VIE','AFC'],['THA','AFC'],['TPE','AFC'],['BAN','AFC'],['IND','AFC'],['PHI','AFC']]
+  };
+  state = {
+    mode:this.props.defaultMode || 'nadeshiko', screen:'home', code:'ESP',
+    gridVar:this.props.gridStyle === 'lanes' ? 'b' : 'a', detailVar:'a',
+    tiers:{'T1-T2':['T1','T2'],'T1-T3':['T1','T2','T3'],'all':['T1','T2','T3','T4']}[this.props.defaultTiers || 'T1-T2'], manage:false, addOpen:false, video:'idle', videoStep:0,
+    url:'https://www.youtube.com/watch?v=press-conf-esp-0812', saved:false,
+    roster:{...this.DEFAULT_ROSTER}
+  };
+  rosterOf(mode){
+    const r=this.state.roster||{};
+    return r[mode] || this.DEFAULT_ROSTER[mode] || [];
+  }
+
+  ISO = {USA:'us',ESP:'es',GER:'de',ENG:'gb-eng',SWE:'se',FRA:'fr',BRA:'br',NED:'nl',PRK:'kp',CAN:'ca',DEN:'dk',ITA:'it',NOR:'no',AUS:'au',CHN:'cn',AUT:'at',KOR:'kr',COL:'co',NZL:'nz',MEX:'mx',POL:'pl',ARG:'ar',NGA:'ng',VIE:'vn',PHI:'ph',TPE:'tw',THA:'th',PAR:'py',UZB:'uz',MAR:'ma',CMR:'cm',ECU:'ec',ZAM:'zm',IND:'in',JOR:'jo',MYA:'mm',BAN:'bd',HKG:'hk',IRN:'ir',MAS:'my',SIN:'sg',GUM:'gu',JPN:'jp'};
+  flag(code, w){ return 'https://flagcdn.com/w'+(w||80)+'/'+(this.ISO[code]||'jp')+'.png'; }
+  hash(code){ let h=0; for(const ch of code) h+=ch.charCodeAt(0); return h; }
+  mode(){ return this.MODES.find(m=>m.key===this.state.mode) || this.MODES[0]; }
+  oppPool(conf){
+    const m={UEFA:['ENG','FRA','GER','SWE','NED','ITA','DEN','NOR','ESP','POL','AUT'],
+      CONMEBOL:['BRA','COL','ARG','PAR','ECU','MEX','USA'],
+      CONCACAF:['USA','CAN','MEX','COL','BRA','JOR'],
+      AFC:['JPN','KOR','CHN','PRK','AUS','VIE','PHI','UZB','THA','TPE'],
+      CAF:['NGA','ZAM','CMR','MAR','MYA','ITA'],
+      OFC:['AUS','NZL','PHI','THA','USA','CAN']};
+    return m[conf]||m.UEFA;
+  }
+  nameOf(c){ return c==='JPN' ? 'Japan' : (this.POOL[c]?this.POOL[c].en:c); }
+
+  matches(code){
+    const c=this.POOL[code], h=this.hash(code), pool=this.oppPool(c.conf).filter(x=>x!==code);
+    const res=['W','W','D','L','W','L','W','D','W','L'], comps=['親善試合','W杯予選','大陸選手権','親善試合','大陸選手権','W杯予選','招待大会','親善試合','大陸選手権','W杯予選'];
+    const scores={W:['2-0','3-1','1-0','4-1','2-1'],D:['1-1','0-0','2-2'],L:['0-1','1-2','0-2']};
+    const days=[3,11,18,32,40,55,69,84,97,120];
+    const out=[];
+    for(let i=0;i<10;i++){
+      const r=res[(i+h)%10], sc=scores[r][(h+i)%scores[r].length];
+      const d=new Date(2026,7,10); d.setDate(d.getDate()-days[i]);
+      const p=sc.split('-');
+      out.push({date:(d.getMonth()+1)+'/'+d.getDate(), opp:this.nameOf(pool[(h+i*3)%pool.length]),
+        ha:(i+h)%2?'H':'A', haJa:(i+h)%2?'ホーム':'アウェイ', comp:comps[(i+h)%10], score:sc, res:r,
+        resJa:{W:'勝ち',D:'引分',L:'負け'}[r], gf:'得点 '+p[0], ga:'失点 '+p[1], ...this.resStyle(r)});
+    }
+    return out;
+  }
+  resStyle(r){
+    if(r==='W') return {bg:'var(--color-accent)', fg:'var(--color-bg)', bd:'var(--color-accent)'};
+    if(r==='D') return {bg:'var(--color-accent-200)', fg:'var(--color-accent-800)', bd:'var(--color-accent-300)'};
+    return {bg:'transparent', fg:'var(--color-neutral-700)', bd:'color-mix(in srgb, var(--color-text) 28%, transparent)'};
+  }
+  schedule(code){
+    const c=this.POOL[code], h=this.hash(code), pool=this.oppPool(c.conf).filter(x=>x!==code);
+    const rows=[['8/28','親善試合','ホーム','24:00 JST','日程確定'],['9/5','W杯アジア/大陸予選','アウェイ','21:30 JST','日程確定'],['9/9','親善試合','中立地','19:00 JST','調整中'],['10/3','大陸選手権 GS','ホーム','23:15 JST','未発表']];
+    return rows.map((r,i)=>({date:r[0], opp:this.nameOf(pool[(h+i*5)%pool.length]), comp:r[1], venue:r[2], jst:r[3], status:r[4]}));
+  }
+  notes(code){
+    const n=this.POOL[code].ja;
+    const raw=[
+      ['T1','協会公式リリース','2時間前','9月シリーズの招集メンバー23名を発表', n+'協会が公式サイトでメンバーを公表。GKを含む3名が初招集で、前回大会の主力2名が負傷離脱により外れています。ポジション別の内訳はDF7・MF7・FW6。'],
+      ['T1','クラブ公式','5時間前','主力MFがクラブで全体練習に復帰', '所属クラブが練習復帰を公式に告知。復帰戦の見込みは示されていませんが、代表活動までに実戦2試合を消化できる可能性があります。'],
+      ['T2','現地主要紙','昨日','前線の並びを4-2-3-1から4-3-3へ変更する方針', '現地紙が複数の関係者取材をもとに報道。直近3試合で採用したビルドアップの形と整合しており、サイドの幅を取る配置に戻す狙いと伝えています。'],
+      ['T2','公共放送','2日前','国内リーグ再開で代表候補の稼働時間が増加', 'リーグ再開後2週で候補選手の平均出場時間が72分に上昇。代表活動までのコンディションは良好と分析しています。'],
+      ['T3','現地記者（個人SNS）','6時間前','守備ラインの人選を1枚入れ替える可能性', '単独ソースの投稿です。過去の的中率は中程度のため、公式発表または他ソースでの裏取りができるまで前提には入れないでください。'],
+      ['T4','サポーター投稿','昨日','非公開練習でセットプレーの新しい形を確認との書き込み', '現地サポーターの目撃情報。内容の確認は取れていません。傾向の参考としてのみ記録しています。']
+    ];
+    return raw.map(r=>({tier:r[0], src:r[1], time:r[2], title:r[3], body:r[4], ...this.TIERS[r[0]]}));
+  }
+  coach(code){
+    const h=this.hash(code), c=this.POOL[code];
+    const name=this.COACHES[h%this.COACHES.length];
+    return {
+      name, initials:name.slice(0,1)+'.', nat:c.en, since:'2023年2月', record:'34勝9分11敗', winRate:'63%',
+      brief:'ボール保持と即時奪回を軸に据える現代的な指導者です。就任以降、ビルドアップの原則を大きく変えず、相手に応じて最終ラインの枚数だけを可変させる運用を続けています。プレスは高い位置から掛けますが、リード時は無理に前へ出ず中盤でブロックを作る現実的な判断も見せます。',
+      traits:[{label:'ボール保持',value:'高',pct:'82%'},{label:'ハイプレス',value:'高',pct:'76%'},{label:'サイド攻撃',value:'中',pct:'58%'},{label:'セットプレー重視',value:'中',pct:'49%'}],
+      career:[
+        {years:'2023–現在', role:c.en+' 女子代表 監督', detail:'就任1年目に大陸予選を突破。世代交代を進めながら結果を落とさず、若手6名を主力に定着させました。'},
+        {years:'2020–2022', role:'国内1部クラブ 監督', detail:'リーグ2連覇と国内カップ優勝。保持志向のスタイルをこの時期に確立しています。'},
+        {years:'2017–2020', role:'同国 U-20女子代表 監督', detail:'年代別ワールドカップでベスト8。現在の代表主力の多くをこの時期に指導しました。'},
+        {years:'2013–2017', role:'クラブ アカデミー統括', detail:'育成部門で戦術原則の共通言語化を主導。指導者としての土台を築いた時期です。'}
+      ],
+      honours:[
+        {comp:'大陸選手権', year:'2025', result:'優勝'},
+        {comp:'W杯予選', year:'2025', result:'首位通過'},
+        {comp:'招待国際大会', year:'2024', result:'準優勝'},
+        {comp:'国内リーグ（クラブ）', year:'2021・2022', result:'優勝'}
+      ],
+      reputation:[
+        {tier:'T1', src:'協会 技術委員長コメント（公式会見）', text:'「長期的な強化計画に沿って着実に積み上げている。次のサイクルまで継続して任せる方針だ」と明言しています。', ...this.TIERS.T1},
+        {tier:'T2', src:'現地主要紙 戦術コラム', text:'選手起用の一貫性を評価する一方、ビハインド時の交代が遅いという指摘が繰り返し出ています。', ...this.TIERS.T2},
+        {tier:'T3', src:'現地記者 個人SNS', text:'ロッカールームの信頼は厚いが、一部のベテランに序列固定への不満があるとの記述。単独ソースです。', ...this.TIERS.T3},
+        {tier:'T4', src:'サポーターフォーラム', text:'守備的な試合運びへの批判が一定数見られます。内容の裏取りはできていません。', ...this.TIERS.T4}
+      ]
+    };
+  }
+  stats(code){
+    const ms=this.matches(code); const w=ms.filter(m=>m.res==='W').length, d=ms.filter(m=>m.res==='D').length;
+    let gf=0, ga=0; ms.forEach(m=>{const p=m.score.split('-'); gf+=+p[0]; ga+=+p[1];});
+    return [
+      {label:'直近10試合', value:w+'-'+d+'-'+(10-w-d), note:'勝-分-敗'},
+      {label:'得点 / 試合', value:(gf/10).toFixed(1), note:'総得点 '+gf},
+      {label:'失点 / 試合', value:(ga/10).toFixed(1), note:'総失点 '+ga},
+      {label:'クリーンシート', value:ms.filter(m=>m.score.endsWith('-0')).length+'試合', note:'直近10試合中'},
+      {label:'新着情報', value:(this.hash(code)%9+2)+'件', note:'過去48時間'}
+    ];
+  }
+
+  countryData(code){
+    const c=this.POOL[code], ms=this.matches(code);
+    return {code, ja:c.ja, en:c.en, rank:c.rank, conf:c.conf, flag:this.flag(code,320), flagSm:this.flag(code,40),
+      form:ms.slice(0,5).map(m=>m.res).join(' '),
+      updates:this.hash(code)%9+2,
+      summary:c.ja+'は保持志向のビルドアップとハイプレスを併用し、直近5試合は'+ms.slice(0,5).map(m=>m.res).join('')+'。前線の入れ替えが多い一方で最終ラインは固定されており、サイドの背後が突きどころになります。以下は公式・現地メディアを中心に集約した状況です。',
+      record:ms.filter(x=>x.res==='W').length+'勝 '+ms.filter(x=>x.res==='D').length+'分 '+ms.filter(x=>x.res==='L').length+'敗',
+      totalGf:'総得点 '+ms.reduce((a,x)=>a+ +x.score.split('-')[0],0),
+      totalGa:'総失点 '+ms.reduce((a,x)=>a+ +x.score.split('-')[1],0),
+      gd:'得失点差 '+(()=>{const v=ms.reduce((a,x)=>a+ +x.score.split('-')[0]- +x.score.split('-')[1],0);return v>0?'+'+v:''+v;})(),
+      matches:ms, schedule:this.schedule(code), notes:this.notes(code), coach:this.coach(code), stats:this.stats(code)};
+  }
+
+  set(k,v){ this.setState({[k]:v}); }
+  visibleNotes(notes){ return notes.filter(n=>this.state.tiers.includes(n.tier)); }
+
+  renderVals(){
+    const S=this.state, m=this.mode(), cur=this.countryData(S.code);
+    const roster=this.rosterOf(S.mode);
+    const nav=[
+      ['home','対戦国一覧', roster.length+''],
+      ['country','国別詳細', cur.code],
+      ['coach','監督プロファイル',''],
+      ['video','動画 → 日本語要約',''],
+      ['sources','情報源・信頼度',''],
+      ['feed','更新フィード','12'],
+      ['report','レポート出力','']
+    ];
+    const on=k=>k===S.screen;
+    const titles={home:m.ja+' — 対戦国一覧', country:cur.ja+' — 国別詳細', coach:cur.ja+' — 監督プロファイル', video:'動画URL → 日本語要約', sources:'情報源と信頼度の管理', feed:'更新フィード / アラート', report:'レポート出力'};
+    const crumbs={home:m.en+' category', country:m.en+' category / '+cur.en, coach:m.en+' category / '+cur.en+' / coach', video:'tools / transcript', sources:'settings / sources', feed:'monitor / feed', report:'output / report'};
+
+    const mk=(code,comp)=>{
+      const c=this.POOL[code], u=this.hash(code)%9+2;
+      return {code, ja:c.ja, en:c.en, rank:c.rank, conf:c.conf, comp, updates:u, hasNew:u>4, manage:S.manage,
+        flag:this.flag(code,160), flagSm:this.flag(code,40),
+        open:()=>this.setState({code, screen:'country'}),
+        remove:e=>{ if(e&&e.stopPropagation)e.stopPropagation(); this.setState(s=>({roster:{...s.roster,[s.mode]:this.rosterOf(s.mode).filter(r=>r[0]!==code)}})); }};
+    };
+    const countries=roster.map(r=>mk(r[0],r[1]));
+    const gLabels={WC:'World Cup 出場国', OLY:'Olympic 出場国', AFC:'AFC 予選 対戦国', ADD:'追加した国'};
+    const groups=['WC','OLY','AFC','ADD'].map(g=>({key:g, label:gLabels[g], items:countries.filter(c=>c.comp===g), count:countries.filter(c=>c.comp===g).length})).filter(g=>g.count>0);
+
+    const seg=a=>a?{bg:'var(--color-accent)',fg:'var(--color-bg)'}:{bg:'transparent',fg:'var(--color-text)'};
+    const tierList=['T1','T2','T3','T4'].map(k=>{
+      const a=S.tiers.includes(k);
+      return {key:k, title:this.TIERS[k].label, bg:a?'var(--color-accent)':'transparent', fg:a?'var(--color-bg)':'color-mix(in srgb, var(--color-text) 55%, transparent)',
+        toggle:()=>this.setState(s=>({tiers:s.tiers.includes(k)?s.tiers.filter(x=>x!==k):[...s.tiers,k].sort()}))};
+    });
+    const tierColumns=['T1','T2','T3','T4'].map(k=>{
+      const t=this.TIERS[k], active=S.tiers.includes(k);
+      const items=active?cur.notes.filter(n=>n.tier===k):[];
+      return {key:k, label:t.label, bg:t.bg, fg:t.fg, bd:t.bd, accent:t.accent, items, count:items.length+'件',
+        empty:items.length===0, opacity:active?'1':'0.45'};
+    });
+
+    const srcSets={
+      T1:[['RFEF / 各国協会 公式サイト','RSS','1日3回','96%'],['大会公式マッチセンター','API','1日3回','99%'],['所属クラブ 公式ニュース','RSS','1日1回','94%']],
+      T2:[['現地全国紙 スポーツ面','RSS','1日3回','86%'],['公共放送 スポーツ','RSS','1日1回','83%'],['女子サッカー専門紙','RSS','1日1回','78%']],
+      T3:[['担当記者A（現地紙）','SNS','随時','61%'],['担当記者B（フリー）','SNS','随時','52%'],['現地ラジオ解説者','SNS','随時','47%']],
+      T4:[['サポーターフォーラム','スクレイプ','1日1回','28%'],['ファンアカウント群','SNS','随時','21%']]
+    };
+    const sourceColumns=['T1','T2','T3','T4'].map(k=>{
+      const t=this.TIERS[k];
+      return {key:k, label:t.label, desc:t.desc, score:t.score, bg:t.bg, fg:t.fg, bd:t.bd, headBg:t.headBg,
+        sources:srcSets[k].map(s=>({name:s[0], kind:s[1], freq:s[2], pct:s[3]}))};
+    });
+    const logRows=[['T1','大会公式マッチセンター','全対戦国 / 試合結果','08/14 07:20','成功'],['T1','各国協会 公式RSS','18か国','08/14 07:20','成功'],['T2','現地全国紙','ESP / GER / SWE','08/14 07:18','成功'],['T2','公共放送','BRA / COL','08/14 04:00','取得0件'],['T3','記者個人SNS','9アカウント','08/14 07:05','成功'],['T4','サポーターフォーラム','4板','08/13 22:40','要確認']];
+    const sourceLog=logRows.map(r=>({tier:r[0], src:r[1], target:r[2], time:r[3], status:r[4],
+      tagClass:r[4]==='成功'?'tag-accent':(r[4]==='要確認'?'tag-outline':'tag-neutral'), ...this.TIERS[r[0]]}));
+
+    const feedRaw=[
+      ['T1','ESP','招集メンバー23名を発表','スペイン協会が9月シリーズのメンバーを公表。初招集3名、負傷離脱2名。','協会公式','35分前','メンバー'],
+      ['T1','PRK','親善試合2試合の開催が正式決定','9月に中立地で2試合。相手は同大陸の1か国。','協会公式','1時間前','日程'],
+      ['T2','BRA','監督が中盤の構成変更を示唆','現地主要紙の会見詳報。アンカーを1枚に戻す可能性。','現地主要紙','2時間前','戦術'],
+      ['T1','USA','主力FWがクラブで復帰、45分出場','クラブ公式の試合レポートで確認。代表復帰に前向き。','クラブ公式','3時間前','負傷'],
+      ['T2','CHN','国内リーグ日程変更で代表合宿が短縮','公共放送の報道。合宿は5日→3日に。','公共放送','5時間前','日程'],
+      ['T3','KOR','GK起用の入れ替えを検討中との情報','記者個人の投稿。単独ソースのため裏取り待ち。','記者個人','6時間前','メンバー'],
+      ['T2','ENG','U-20から2名を飛び級招集','現地専門紙。年代別の主力2名が対象。','専門紙','8時間前','メンバー'],
+      ['T4','SWE','非公開練習でセットプレーの新形','サポーター投稿。未確認情報として記録。','ファン投稿','12時間前','戦術']
+    ];
+    const feed=feedRaw.filter(f=>S.tiers.includes(f[0])).map(f=>({
+      tier:f[0], code:f[1], title:f[2], body:f[3], src:f[4], time:f[5], kind:f[6], mode:m.short, flagSm:this.flag(f[1],40),
+      open:()=>this.setState({code:f[1], screen:'country'}), ...this.TIERS[f[0]]}));
+
+    const vSteps=['音声の取得','文字起こし（原語）','日本語への翻訳','要約と戦術タグ抽出'];
+    const videoSteps=vSteps.map((l,i)=>({label:l, color:i<=S.videoStep?'var(--color-text)':'color-mix(in srgb, var(--color-text) 40%, transparent)', fill:i<=S.videoStep?'var(--color-accent)':'transparent'}));
+    const videoPoints=[
+      ['招集メンバー発表の意図を説明。初招集3名は「予選での可変システムに対応できる選手」と明言。','01:12'],
+      ['負傷離脱2名について、復帰は10月シリーズを目標とすると回答。','04:38'],
+      ['中盤の構成を1アンカーへ戻す可能性を認めたが、相手次第と留保。','09:05'],
+      ['セットプレーの守備で「ゾーンとマンマークの併用を続ける」と説明。','14:20'],
+      ['日本との対戦について「切り替えの速さが最大の脅威」と評価。','19:47']
+    ].map(p=>({text:p[0], at:p[1], jump:e=>{ if(e&&e.preventDefault)e.preventDefault(); }}));
+    const videoTags=[['守備ブロック',4],['セットプレー',3],['ハイプレス',3],['可変システム',2],['ビルドアップ',2],['カウンター',1]].map(t=>({label:t[0], count:t[1]}));
+    const videoPeople=[['A. モリーナ','FW / 初招集'],['L. ガルシア','MF / 主将'],['N. ロペス','DF / 負傷離脱'],['P. サンチェス','GK'],[this.coach(S.code).name,'監督']].map(p=>({name:p[0], role:p[1], open:e=>{ if(e&&e.preventDefault)e.preventDefault(); }}));
+    const videoTranscript=[
+      ['00:42','記者','今回の招集で最も重視した点を教えてください。'],
+      ['01:12','監督','予選で使う可変的なシステムに対応できるかどうかです。初招集の3名はいずれも複数ポジションを担えます。'],
+      ['04:38','記者','負傷離脱の2名の状況は。'],
+      ['04:51','監督','段階的に負荷を上げている段階です。復帰は10月のシリーズを目標にしています。'],
+      ['09:05','記者','中盤の並びを変える考えはありますか。'],
+      ['09:18','監督','相手次第です。アンカーを1枚に戻す準備はしていますが、確定ではありません。'],
+      ['14:20','監督','セットプレーの守備はゾーンとマンマークの併用を続けます。担当を明確にすることが最優先です。'],
+      ['19:47','監督','日本と対戦するなら、最大の脅威は切り替えの速さでしょう。奪われた直後の5秒をどう設計するかが鍵になります。']
+    ].map(l=>({at:l[0], who:l[1], text:l[2]}));
+
+    const reportBlocks=[['サマリーと直近フォーム','1p',true],['直近10試合の結果','1p',true],['今後の試合スケジュール','0.5p',true],['チーム状況（T1–T2）','1p',true],['監督プロファイル','1p',true],['T3–T4の未確認情報','0.5p',false]]
+      .map(b=>({label:b[0], pages:b[1], fill:b[2]?'var(--color-accent)':'transparent'}));
+
+    return {
+      cur, isHome:on('home'), isCountry:on('country'), isCoach:on('coach'), isVideo:on('video'), isSources:on('sources'), isFeed:on('feed'), isReport:on('report'),
+      pageTitle:titles[S.screen], crumb:crumbs[S.screen], modeNote:m.note, modeShort:m.short,
+      modeList:this.MODES.map(x=>{
+        const a=x.key===S.mode;
+        return {ja:x.ja, en:x.en, count:this.rosterOf(x.key).length, bg:a?'var(--color-accent-100)':'transparent',
+          fg:'var(--color-text)', bd:a?'var(--color-accent)':'var(--color-divider)',
+          pick:()=>this.setState({mode:x.key, screen:'home'})};
+      }),
+      navList:nav.map(n=>({label:n[1], badge:n[2], go:()=>this.set('screen',n[0]),
+        bg:on(n[0])?'var(--color-accent-100)':'transparent', fg:'var(--color-text)',
+        mark:on(n[0])?'var(--color-accent)':'transparent'})),
+      countries, groups,
+      asia20:((this.ASIA20[S.mode]||this.ASIA20.nadeshiko).rows).map(a=>{
+        const c=this.POOL[a[0]], ys=a[1];
+        return {code:a[0], ja:c.ja, en:c.en, rank:c.rank, times:ys.length+'回', years:ys.join(' · '), flagSm:this.flag(a[0],40),
+          inRoster:roster.some(r=>r[0]===a[0]) ? '監視中' : '',
+          open:()=>this.setState({code:a[0], screen:'country'})};
+      }),
+      asiaComp:(this.ASIA20[S.mode]||this.ASIA20.nadeshiko).comp, asiaSpan:(this.ASIA20[S.mode]||this.ASIA20.nadeshiko).span,
+      asiaCount:(this.ASIA20[S.mode]||this.ASIA20.nadeshiko).rows.length+'か国',
+      asiaNote:'過去20年間の'+(this.ASIA20[S.mode]||this.ASIA20.nadeshiko).comp+'（本大会）で'+m.ja+'が対戦した国のみを抽出したグリッドです。年は対戦した大会の開催年。カードをクリックすると同じ国別詳細に入ります（サンプルデータ）。',
+      isGridA:S.gridVar==='a', isGridB:S.gridVar==='b',
+      gA:seg(S.gridVar==='a'), gB:seg(S.gridVar==='b'),
+      gridA:()=>this.set('gridVar','a'), gridB:()=>this.set('gridVar','b'),
+      isDetailA:S.detailVar==='a', isDetailB:S.detailVar==='b',
+      dA:seg(S.detailVar==='a'), dB:seg(S.detailVar==='b'),
+      detailA:()=>this.set('detailVar','a'), detailB:()=>this.set('detailVar','b'),
+      manage:S.manage, manageLabel:S.manage?'編集を終了':'国を追加 / 除外',
+      toggleManage:()=>this.set('manage',!S.manage),
+      openAdd:()=>this.set('addOpen',true), closeAdd:()=>this.set('addOpen',false),
+      stop:e=>{ if(e&&e.stopPropagation)e.stopPropagation(); },
+      addOpen:S.addOpen,
+      addable:Object.keys(this.POOL).filter(c=>!roster.some(r=>r[0]===c)).map(c=>({
+        ...this.POOL[c], flagSm:this.flag(c,40), add:()=>this.setState(s=>({roster:{...s.roster,[s.mode]:[...this.rosterOf(s.mode),[c,'ADD']]}, addOpen:false}))})),
+      tierList, tierColumns, sourceColumns, sourceLog,
+      noteCount:this.visibleNotes(cur.notes).length+' / '+cur.notes.length+' 件（フィルタ適用）',
+      feed, feedCount:feed.length+' updates · 過去24時間 · 表示ティア '+S.tiers.join(' '),
+      alertRules:[
+        {label:'招集メンバーの発表', state:'T1のみ', tagClass:'tag-accent'},
+        {label:'負傷・離脱情報', state:'T1–T2', tagClass:'tag-accent-2'},
+        {label:'試合日程の変更', state:'T1–T2', tagClass:'tag-accent-2'},
+        {label:'戦術に関する報道', state:'T2まで', tagClass:'tag-neutral'},
+        {label:'未確認の噂', state:'通知しない', tagClass:'tag-outline'}
+      ],
+      url:S.url, setUrl:e=>this.set('url',e.target.value),
+      analyze:()=>{
+        this.setState({video:'run', videoStep:0});
+        [1,2,3].forEach((n,i)=>setTimeout(()=>this.setState({videoStep:n}),700*(i+1)));
+        setTimeout(()=>this.setState({video:'done'}),3000);
+      },
+      analyzeLabel:S.video==='run'?'解析中…':'文字起こし＋要約',
+      videoRunning:S.video==='run', videoDone:S.video==='done',
+      videoStepLabel:vSteps[S.videoStep], videoPct:((S.videoStep+1)*25)+'%', videoSteps,
+      videoMeta:'記者会見 22:14 / 原語 Spanish / 処理 47秒', videoPoints, videoTags, videoPeople, videoTranscript,
+      saveMemo:()=>this.set('saved',true), saveLabel:S.saved?'保存しました（国別メモ）':'要約を'+cur.ja+'のメモに保存',
+      goCoach:()=>this.set('screen','coach'), backToCountry:()=>this.set('screen','country'), goReport:()=>this.set('screen','report'),
+      reportBlocks, reportMatches:cur.matches.slice(0,5), reportNotes:cur.notes.filter(n=>n.tier==='T1'||n.tier==='T2'),
+      refresh:()=>this.set('screen','feed'), noop:e=>{ if(e&&e.preventDefault)e.preventDefault(); }
+    };
+  }
+}
+</script>
+</body>
+</html>

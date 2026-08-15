@@ -12,10 +12,10 @@ export const DEFAULT_ROSTER: Record<ModeKey, RosterEntry[]> = {
   ],
   u20: [
     ['ESP', 'WC'], ['BRA', 'WC'], ['USA', 'WC'], ['NED', 'WC'], ['NGA', 'WC'], ['COL', 'WC'], ['FRA', 'WC'], ['MEX', 'WC'],
-    ['PRK', 'AFC'], ['KOR', 'AFC'], ['CHN', 'AFC'], ['AUS', 'AFC'], ['VIE', 'AFC'], ['UZB', 'AFC'],
+    ['PRK', 'AFC'], ['KOR', 'AFC'], ['CHN', 'AFC'], ['AUS', 'AFC'], ['VIE', 'AFC'], ['UZB', 'AFC'], ['JOR', 'AFC'],
   ],
   u17: [
     ['PRK', 'WC'], ['ESP', 'WC'], ['USA', 'WC'], ['COL', 'WC'], ['NGA', 'WC'], ['BRA', 'WC'], ['ENG', 'WC'], ['MEX', 'WC'],
-    ['KOR', 'AFC'], ['CHN', 'AFC'], ['AUS', 'AFC'], ['PHI', 'AFC'], ['THA', 'AFC'], ['BAN', 'AFC'],
+    ['KOR', 'AFC'], ['CHN', 'AFC'], ['AUS', 'AFC'], ['PHI', 'AFC'], ['THA', 'AFC'], ['BAN', 'AFC'], ['TPE', 'AFC'], ['IND', 'AFC'], ['IRN', 'AFC'],
   ],
 };

@@ -28,27 +28,35 @@
 //
 // Categories live in CATEGORY_TOPICS below and must stay in step with the
 // app's ModeKey (app/src/types.ts) and CATEGORY_COUNTRIES in roster.mjs.
-// U-19 and U-16 were dropped from all three: AFC and FIFA run these age
-// groups as U-20 and U-17, so almost no English-language football coverage
-// uses "U-19 women" or "U-16 women" — those screens could only ever be empty.
 import { COUNTRIES } from './roster.mjs';
 
 // Age categories are much sparser than the senior game, so they look further
 // back before giving up.
+//
+// `ages` is a list, not a single number, because AFC and FIFA renamed these
+// competitions: what was the AFC U-19 Women's Championship is now the U-20
+// Women's Asian Cup, and the U-16 is now the U-17. The two labels describe
+// the same player cohort, and coverage still uses both — so the U-20 category
+// collects U-19 coverage as well, and U-17 collects U-16. (Standalone U-19 and
+// U-16 categories existed until 2026-08-15 and were removed: almost nothing is
+// filed under those names any more, so those screens could only sit empty.)
+// The first listed age is the category's own label.
 //
 // recencyDays is enforced in code, against each item's publish date, and NOT
 // left to the query's `when:` operator: Google News RSS honours `when:`
 // erratically — the first live run came back with 2013, 2014 and 2018
 // headlines despite `when:120d`.
 export const CATEGORY_TOPICS = {
-  nadeshiko: { age: null, recencyDays: 60 },
-  u20: { age: 20, recencyDays: 240 },
-  u17: { age: 17, recencyDays: 240 },
+  nadeshiko: { ages: [], recencyDays: 60 },
+  u20: { ages: [20, 19], recencyDays: 240 },
+  u17: { ages: [17, 16], recencyDays: 240 },
 };
 
-// Age labels as they appear in headlines: "U-17", "U17", "Under-17".
+// Age labels as they appear in headlines: "U-17", "U17", "Under-17". The
+// spaced form ("Under 17") is left out of the query — Google treats the hyphen
+// and the space alike — but ageRegex below still matches it when filtering.
 function ageTokens(age) {
-  return [`U-${age}`, `U${age}`, `Under-${age}`, `Under ${age}`];
+  return [`U-${age}`, `U${age}`, `Under-${age}`];
 }
 
 function ageRegex(age) {
@@ -112,6 +120,15 @@ function isBlockedSource(link) {
   return BLOCKED_SOURCE_HOSTS.some((blocked) => host === blocked || host.endsWith(`.${blocked}`));
 }
 
+// Positive evidence that a headline is about football specifically. Only
+// demanded of the legacy age labels (see isRelevant): "U-19 women" in current
+// usage is overwhelmingly cricket — that age group has a Women's T20 World
+// Cup — and those reports can name neither the sport nor any cricket jargon
+// ("Three Indian-origin girls named in Australia's U19 women's squad", which
+// is cricket). "U-20 women" carries no such ambiguity in football.
+const FOOTBALL_RE =
+  /\b(football|soccer|FIFA|AFC|AFF|ASEAN|UEFA|CONCACAF|CONMEBOL|CAF|OFC|Asian Cup|Euro|Copa)\b/i;
+
 // Men's-team markers. Only disqualifying when there's no women's marker too —
 // plenty of legitimate coverage compares the two ("both men's and women's").
 const MENS_RE = /\b(men|men's|mens|boys|boys'|male|MNT|USMNT|Socceroos|Three Lions)\b/i;
@@ -128,8 +145,10 @@ export function buildQuery(code, category) {
   if (!topic) throw new Error(`unknown category: ${category}`);
 
   const name = country.search;
-  const phrases = topic.age
-    ? ageTokens(topic.age).flatMap((t) => [`${name} women's ${t}`, `${name} ${t} women`])
+  const phrases = topic.ages.length
+    ? topic.ages.flatMap((age) =>
+        ageTokens(age).flatMap((t) => [`${name} women's ${t}`, `${name} ${t} women`]),
+      )
     : [
         `${name} women's national team`,
         `${name} women's national football team`,
@@ -199,10 +218,17 @@ export function isRelevant(item, code, category, now = Date.now()) {
   if (!women) return false;
   if (!country.aliases.some((alias) => aliasRegex(alias).test(text))) return false;
 
-  if (topic.age) {
-    // Youth screens: the headline must name this age group. "U-20 Women's
-    // Asian Cup" is fine on u20; a senior friendly is not.
-    return ageRegex(topic.age).test(text);
+  if (topic.ages.length) {
+    // Youth screens: the headline must name one of the category's age groups
+    // — its own label, or the name the same competition used to go by (U-19
+    // for u20, U-16 for u17). "U-20 Women's Asian Cup" is fine on u20; a
+    // senior friendly is not, and neither is U-17.
+    const [ownLabel, ...legacyLabels] = topic.ages;
+    if (ageRegex(ownLabel).test(text)) return true;
+    // The legacy label additionally has to prove it's football — see
+    // FOOTBALL_RE. Without this, U-19 women's cricket walks straight back in
+    // through the door the fold-in opens.
+    return legacyLabels.some((age) => ageRegex(age).test(text)) && FOOTBALL_RE.test(text);
   }
   // Senior screen: reject anything carrying a youth marker.
   return !ANY_AGE_RE.test(text);

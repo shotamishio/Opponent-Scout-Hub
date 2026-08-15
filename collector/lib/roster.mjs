@@ -61,15 +61,17 @@ export const COUNTRIES = {
 // category's JSON file only contains what that screen actually shows.
 //
 // Keys must match the app's ModeKey (app/src/types.ts) and CATEGORY_TOPICS in
-// topic.mjs. U-19 and U-16 used to be here and were removed: AFC/FIFA run
-// those age groups as U-20 and U-17, so there is essentially no
-// English-language football coverage filed under "U-19/U-16 women" to collect.
+// topic.mjs. Standalone u19 and u16 keys existed until 2026-08-15; AFC/FIFA
+// run those age groups as U-20 and U-17, so their coverage is collected under
+// those categories instead (see CATEGORY_TOPICS.ages in topic.mjs).
 //
-// IRN stays in COUNTRIES above without appearing here — it's no longer in any
-// default roster, but it is still in the app's country pool, so it needs
-// search names ready if someone adds it to a category by hand.
+// The countries those two categories used to monitor came along with them:
+// JOR was U-19 only, and TPE/IND/IRN were U-16 only. They are listed here —
+// and in the app's defaultRoster.ts — so that folding the age groups together
+// doesn't quietly drop the opponents that were only ever tracked at that
+// level.
 export const CATEGORY_COUNTRIES = {
   nadeshiko: ['USA', 'ESP', 'ENG', 'SWE', 'GER', 'BRA', 'NED', 'FRA', 'CAN', 'AUS', 'NZL', 'COL', 'KOR', 'CHN', 'PRK', 'VIE', 'PHI', 'UZB', 'TPE', 'THA', 'MYA', 'JOR', 'IND'],
-  u20: ['ESP', 'BRA', 'USA', 'NED', 'NGA', 'COL', 'FRA', 'MEX', 'PRK', 'KOR', 'CHN', 'AUS', 'VIE', 'UZB', 'TPE', 'THA', 'MYA'],
-  u17: ['PRK', 'ESP', 'USA', 'COL', 'NGA', 'BRA', 'ENG', 'MEX', 'KOR', 'CHN', 'AUS', 'PHI', 'THA', 'BAN', 'VIE', 'MAS'],
+  u20: ['ESP', 'BRA', 'USA', 'NED', 'NGA', 'COL', 'FRA', 'MEX', 'PRK', 'KOR', 'CHN', 'AUS', 'VIE', 'UZB', 'TPE', 'THA', 'MYA', 'JOR'],
+  u17: ['PRK', 'ESP', 'USA', 'COL', 'NGA', 'BRA', 'ENG', 'MEX', 'KOR', 'CHN', 'AUS', 'PHI', 'THA', 'BAN', 'VIE', 'MAS', 'TPE', 'IND', 'IRN'],
 };

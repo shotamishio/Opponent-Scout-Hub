@@ -50,6 +50,15 @@ assert.match(buildQuery('AUS', 'u20'), /"Australia women's U-20"/);
 assert.doesNotMatch(buildQuery('AUS', 'nadeshiko'), /U-\d\d/);
 assert.notEqual(buildQuery('AUS', 'u17'), buildQuery('AUS', 'u20'));
 
+// ...and also for the name the same competition used to run under, so the
+// coverage that would have gone to the removed U-19/U-16 categories is
+// collected here rather than lost.
+assert.match(buildQuery('AUS', 'u20'), /"Australia women's U-19"/);
+assert.match(buildQuery('AUS', 'u17'), /"Australia women's U-16"/);
+// Not two steps down, though: U-17 is its own category, not U-20's problem.
+assert.doesNotMatch(buildQuery('AUS', 'u20'), /U-17/);
+assert.doesNotMatch(buildQuery('AUS', 'u17'), /U-20/);
+
 // Every query names the sport: without it, Google returns the same country's
 // women's cricket/volleyball/basketball squads for the same age group.
 assert.match(buildQuery('AUS', 'u17'), /\(football OR soccer\)$/);
@@ -103,6 +112,20 @@ assert.ok(rel("Japan Vs North Korea, AFC U20 Women's Asian Cup 2026 Final", 'PRK
 assert.ok(!rel("Japan Vs North Korea, AFC U20 Women's Asian Cup 2026 Final", 'PRK', 'u17'));
 assert.ok(rel("AFC U-17 Women's Asian Cup: China through to semi-finals", 'CHN', 'u17'));
 assert.ok(!rel("AFC U-17 Women's Asian Cup: China through to semi-finals", 'CHN', 'nadeshiko'));
+
+// The renamed age groups land in the category that absorbed them: U-19
+// coverage on u20, U-16 coverage on u17.
+assert.ok(rel("AFC U-19 Women's Championship: Thailand edge Vietnam", 'THA', 'u20'));
+assert.ok(rel('Chinese Taipei U-16 women open Asian Cup qualifying', 'TPE', 'u17'));
+// A legacy label has to prove it's football, because "U-19 women" today is
+// mostly cricket — and this real headline names neither sport nor jargon.
+assert.ok(!rel('Three Indian-origin girls named in Australia’s U19 women’s squad', 'AUS', 'u20'));
+// The category's own label needs no such proof.
+assert.ok(rel('Australia U-20 women name squad for Asian Cup', 'AUS', 'u20'));
+// But they stay out of the other categories, including the senior screen.
+assert.ok(!rel("AFC U-19 Women's Championship: Thailand edge Vietnam", 'THA', 'u17'));
+assert.ok(!rel("AFC U-19 Women's Championship: Thailand edge Vietnam", 'THA', 'nadeshiko'));
+assert.ok(!rel('Chinese Taipei U-16 women open Asian Cup qualifying', 'TPE', 'u20'));
 
 // Other sports. Every one of these reached the live site: they really are
 // that country's women's national team at that age group, in another sport.

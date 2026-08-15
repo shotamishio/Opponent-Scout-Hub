@@ -31,6 +31,13 @@ export interface CountryCollection {
   status: CountryCollectionStatus;
   fetchedAt?: string;
   lastError?: string;
+  /**
+   * How many fetched headlines the collector's relevance filter rejected as
+   * off-topic (wrong country, wrong age group, men's football, other sports)
+   * — see collector/lib/topic.mjs. `items: []` with a high `filteredOut`
+   * means "nothing on-topic was published", not "the fetch failed".
+   */
+  filteredOut?: number;
 }
 
 export interface CategoryCollection {
@@ -38,6 +45,9 @@ export interface CategoryCollection {
   generatedAt: string | null;
   successCount: number;
   totalCount: number;
+  /** Totals across the category, written by the collector for at-a-glance health. */
+  itemCount?: number;
+  emptyCount?: number;
   countries: Record<string, CountryCollection>;
 }
 

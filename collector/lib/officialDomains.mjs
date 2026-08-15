@@ -56,20 +56,40 @@ export const FEDERATION_DOMAINS = {
   JPN: 'jfa.jp',
 };
 
+function hostOf(link) {
+  try {
+    return new URL(link).hostname.replace(/^www\./, '');
+  } catch {
+    return null;
+  }
+}
+
+/**
+ * Is this article published by THIS country's own federation? Narrower than
+ * classifyTier — a confederation domain (FIFA/AFC/UEFA) is T1 too, but it
+ * covers every country and both genders, so it proves nothing about who the
+ * article is about. Used by topic.mjs, which treats the country's own
+ * federation as proof of country.
+ *
+ * @param {string} link
+ * @param {string} countryCode
+ */
+export function isOwnFederationSource(link, countryCode) {
+  const federationDomain = FEDERATION_DOMAINS[countryCode];
+  if (!federationDomain) return false;
+  const host = hostOf(link);
+  return host != null && host.endsWith(federationDomain);
+}
+
 /**
  * @param {string} link - the article URL from the RSS item
  * @param {string} countryCode
  * @returns {'T1' | 'T2'}
  */
 export function classifyTier(link, countryCode) {
-  let host;
-  try {
-    host = new URL(link).hostname.replace(/^www\./, '');
-  } catch {
-    return 'T2';
-  }
-  const federationDomain = FEDERATION_DOMAINS[countryCode];
-  if (federationDomain && host.endsWith(federationDomain)) return 'T1';
+  const host = hostOf(link);
+  if (host == null) return 'T2';
+  if (isOwnFederationSource(link, countryCode)) return 'T1';
   for (const domain of Object.keys(CONFEDERATION_DOMAINS)) {
     if (host.endsWith(domain)) return 'T1';
   }

@@ -24,11 +24,38 @@ export interface CollectedNewsItem {
 
 export type CountryCollectionStatus = 'ok' | 'stale' | 'never_collected';
 
+/**
+ * The head coach as found on Wikipedia by collector/lib/wikipedia.mjs, plus
+ * recent articles that name them. `status` is deliberately explicit about how
+ * the lookup ended, because "we could not find out who coaches this team" is
+ * information a scout needs, and the previous version of this screen filled
+ * that gap with an invented profile instead.
+ */
+export type CoachStatus = 'ok' | 'no_team_article' | 'no_coach_listed' | 'error';
+
+export interface CollectedCoach {
+  status: CoachStatus;
+  name?: string;
+  /** Wikipedia's one-line description, e.g. "Spanish football manager". */
+  description?: string | null;
+  /** Opening paragraphs of the coach's Wikipedia article — their career in brief. */
+  bio?: string | null;
+  /** The coach's own Wikipedia article. Null when they don't have one. */
+  profileUrl?: string | null;
+  /** The team's Wikipedia article — always worth linking even with no coach found. */
+  teamUrl?: string;
+  articles?: CollectedNewsItem[];
+  fetchedAt?: string;
+  stale?: boolean;
+  lastError?: string;
+}
+
 export interface CountryCollection {
   items: CollectedNewsItem[];
   status: CountryCollectionStatus;
   fetchedAt?: string;
   lastError?: string;
+  coach?: CollectedCoach;
   /**
    * How many fetched headlines the collector's relevance filter rejected as
    * off-topic (wrong country, wrong age group, men's football, other sports)
@@ -63,4 +90,11 @@ export function getCategoryCollection(mode: ModeKey): CategoryCollection {
 
 export function getCountryCollection(mode: ModeKey, code: CountryCode): CountryCollection {
   return CATEGORY_DATA[mode]?.countries?.[code] ?? EMPTY_COUNTRY;
+}
+
+const UNKNOWN_COACH: CollectedCoach = { status: 'no_team_article' };
+
+/** The head coach for a country in one category. Never invents one. */
+export function getCoach(mode: ModeKey, code: CountryCode): CollectedCoach {
+  return getCountryCollection(mode, code).coach ?? UNKNOWN_COACH;
 }

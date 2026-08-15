@@ -13,6 +13,10 @@
 //    real volume anymore. T3/T4 (individual reporters / fan info) are left
 //    empty by this collector; the UI still supports them if someone adds a
 //    manual source later.
+//  - Head coaches come from Wikipedia (see lib/wikipedia.mjs) plus a news
+//    search on the coach's name, replacing the invented coach profile the
+//    app shipped with. Wikipedia is the only free source that covers
+//    women's national teams at every age group.
 //  - No structured match-results/schedule collection — there's no free,
 //    reliable source covering women's national teams across 5 age
 //    categories and ~28 opponent countries. Dropped per explicit direction;
@@ -29,8 +33,9 @@ import { mkdirSync, readFileSync, writeFileSync, existsSync } from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { fetchAndClassify } from './lib/fetchNews.mjs';
-import { CATEGORY_COUNTRIES } from './lib/roster.mjs';
-import { buildQuery, isRelevant, isRecent } from './lib/topic.mjs';
+import { CATEGORY_COUNTRIES, COUNTRIES } from './lib/roster.mjs';
+import { buildQuery, isRelevant, isRecent, isAboutCoach, CATEGORY_TOPICS } from './lib/topic.mjs';
+import { findCoach } from './lib/wikipedia.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.resolve(__dirname, '../app/src/data/collected');
@@ -59,6 +64,35 @@ async function collectCountry(code, category) {
   } catch (err) {
     console.error(`[collect] failed for ${code}: ${err.message}`);
     return { code, ok: false, error: String(err.message ?? err) };
+  }
+}
+
+const COACH_ARTICLES_PER_COUNTRY = 5;
+
+/**
+ * Who coaches this team, and what has been written about them. Wikipedia
+ * supplies the name, the career summary and the links to read further (see
+ * lib/wikipedia.mjs); the news search then finds recent articles that mention
+ * them by name, so the screen can point at real reading rather than the
+ * invented career it used to show.
+ */
+async function collectCoach(code, category) {
+  const wikiName = COUNTRIES[code].search;
+  try {
+    const found = await findCoach(wikiName, CATEGORY_TOPICS[category].ages);
+    if (found.status !== 'ok') return { ...found, fetchedAt: new Date().toISOString() };
+
+    await sleep(REQUEST_SPACING_MS);
+    const fetched = await fetchAndClassify(`"${found.name}" (football OR soccer)`, code);
+    const articles = fetched
+      .filter((item) => isAboutCoach(item, found.name) && isRecent(item, category))
+      .sort((a, b) => (b.publishedAt ?? '').localeCompare(a.publishedAt ?? ''))
+      .slice(0, COACH_ARTICLES_PER_COUNTRY);
+
+    return { ...found, articles, fetchedAt: new Date().toISOString() };
+  } catch (err) {
+    console.error(`[collect] coach lookup failed for ${code}/${category}: ${err.message}`);
+    return { status: 'error', lastError: String(err.message ?? err) };
   }
 }
 
@@ -95,6 +129,15 @@ async function collectCategory(category) {
       countries[code] = { items: [], status: 'never_collected', lastError: result.error };
     }
     await sleep(REQUEST_SPACING_MS);
+
+    const coach = await collectCoach(code, category);
+    // Same rule as the news above: a failed lookup keeps whatever the last
+    // successful run found rather than blanking the coach out.
+    countries[code].coach =
+      coach.status === 'error' && previous?.countries?.[code]?.coach
+        ? { ...previous.countries[code].coach, stale: true, lastError: coach.lastError }
+        : coach;
+    await sleep(REQUEST_SPACING_MS);
   }
 
   return {
@@ -104,6 +147,7 @@ async function collectCategory(category) {
     totalCount: codes.length,
     itemCount: Object.values(countries).reduce((n, c) => n + c.items.length, 0),
     emptyCount: Object.values(countries).filter((c) => c.items.length === 0).length,
+    coachCount: Object.values(countries).filter((c) => c.coach?.status === 'ok').length,
     countries,
   };
 }
@@ -116,7 +160,8 @@ async function main() {
     writeFileSync(path.join(OUT_DIR, `${category}.json`), JSON.stringify(data, null, 2));
     console.log(
       `[collect] ${category}: done — ${data.successCount}/${data.totalCount} countries fetched OK, ` +
-        `${data.itemCount} on-topic items, ${data.emptyCount} countries with no on-topic news`,
+        `${data.itemCount} on-topic items, ${data.emptyCount} countries with no on-topic news, ` +
+        `${data.coachCount}/${data.totalCount} head coaches identified`,
     );
   }
 }

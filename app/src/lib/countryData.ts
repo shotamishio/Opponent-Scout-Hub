@@ -1,11 +1,11 @@
-// Slimmed down from the original design's synthetic version: match
-// results/schedule/team-notes are no longer fabricated here — real news
-// comes from collectedData.ts instead (see NewsTierColumns.tsx). Only the
-// coach profile remains sample data for now (no free source identified yet
-// for coaching records/reputation — flagged in the Coach screen itself).
+// Basic per-country facts for the screens. Nothing here is generated any
+// more: match results, schedules and team notes were dropped when the app
+// moved to real news (see collectedData.ts), and the coach profile followed
+// when it moved to Wikipedia — the coach now comes from getCoach() in
+// collectedData.ts, keyed by category as well as country, since each age
+// group has its own head coach.
 import { POOL, type CountryCode } from '@/data/pool';
 import { flag } from './flag';
-import { coach, type Coach } from './coach';
 
 export interface CountryData {
   code: CountryCode;
@@ -15,7 +15,6 @@ export interface CountryData {
   conf: string;
   flag: string;
   flagSm: string;
-  coach: Coach;
 }
 
 export function countryData(code: CountryCode): CountryData {
@@ -28,6 +27,5 @@ export function countryData(code: CountryCode): CountryData {
     conf: c.conf,
     flag: flag(code, 320),
     flagSm: flag(code, 40),
-    coach: coach(code),
   };
 }

@@ -1,14 +1,22 @@
 import type { CountryData } from '@/lib/countryData';
-import { useAppDispatch } from '@/state/AppContext';
+import { useAppDispatch, useAppState } from '@/state/AppContext';
+import { getCoach } from '@/lib/collectedData';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 
 interface CoachTeaserCardProps {
   cur: CountryData;
 }
 
-// Ported from Scout Hub.dc.html lines 329-341.
+// Ported from Scout Hub.dc.html lines 329-341. The name and one-line summary
+// are the collected coach (collector/lib/wikipedia.mjs); the prototype's
+// invented appointment date and win-loss record are gone, since nothing free
+// supplies them for women's national teams.
 export function CoachTeaserCard({ cur }: CoachTeaserCardProps) {
   const dispatch = useAppDispatch();
+  const state = useAppState();
+  const coach = getCoach(state.mode, cur.code);
+  const found = coach.status === 'ok' && coach.name;
+
   return (
     <section
       className="card blueprint osh-card-hover"
@@ -32,21 +40,29 @@ export function CoachTeaserCard({ cur }: CoachTeaserCardProps) {
             color: 'var(--color-accent-800)',
           }}
         >
-          {cur.coach.initials}
+          {found ? `${coach.name!.slice(0, 1)}.` : '—'}
         </div>
-        <div>
-          <div style={{ fontFamily: 'var(--font-heading)', fontSize: 20, lineHeight: 1.1 }}>{cur.coach.name}</div>
+        <div style={{ minWidth: 0 }}>
+          <div style={{ fontFamily: 'var(--font-heading)', fontSize: 20, lineHeight: 1.15 }}>
+            {found ? coach.name : '監督情報なし'}
+          </div>
           <div style={{ fontSize: 11, color: 'color-mix(in srgb,var(--color-text) 55%,transparent)' }}>
-            {cur.coach.nat} · 就任 {cur.coach.since} · 通算 {cur.coach.record}
+            {found ? coach.description ?? 'Wikipedia より収集' : 'Wikipediaに該当情報が見つかりませんでした'}
           </div>
         </div>
       </div>
       <p style={{ margin: 0, fontSize: 12.5, lineHeight: 1.6, color: 'color-mix(in srgb,var(--color-text) 75%,transparent)' }}>
-        {cur.coach.brief}
+        {coach.bio
+          ? truncate(coach.bio, 130)
+          : '監督の経歴・関連記事へのリンクを、監督プロファイル画面にまとめています。'}
       </p>
       <span style={{ fontSize: 12, color: 'var(--color-accent-700)', fontFamily: 'var(--font-heading)' }}>
-        実績・経歴・評判を見る →
+        経歴・関連記事・情報源を見る →
       </span>
     </section>
   );
+}
+
+function truncate(text: string, max: number): string {
+  return text.length <= max ? text : `${text.slice(0, max).trimEnd()}…`;
 }

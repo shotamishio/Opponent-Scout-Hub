@@ -110,6 +110,37 @@ function mentionsStaleYear(text, now) {
   return false;
 }
 
+/**
+ * Is this headline about a named head coach? Used for the Coach screen's
+ * "articles mentioning this coach" list, so it applies the same sport, junk,
+ * source and staleness rules as isRelevant — but identifies the subject by
+ * the coach's name instead of the country and age group.
+ *
+ * A surname alone only counts alongside football context: plenty of coaches
+ * are called Bell or Bell-like ordinary words, and "Bell" in a headline is
+ * not evidence on its own.
+ *
+ * @param {{title: string, sourceName?: string, sourceUrl?: string, link?: string}} item
+ * @param {string} coachName
+ * @param {number} [now] - epoch ms, injectable for tests
+ */
+export function isAboutCoach(item, coachName, now = Date.now()) {
+  if (!coachName) return false;
+  if (isBlockedSource(item.sourceUrl || item.link || '')) return false;
+
+  const text = `${item.title ?? ''} ${item.sourceName ?? ''}`;
+  if (OTHER_SPORT_RE.test(text)) return false;
+  if (JUNK_RE.test(text)) return false;
+  if (mentionsStaleYear(text, now)) return false;
+
+  if (aliasRegex(coachName).test(text)) return true;
+
+  const parts = coachName.split(/\s+/).filter(Boolean);
+  const surname = parts[parts.length - 1];
+  if (parts.length < 2 || surname.length < 3) return false;
+  return aliasRegex(surname).test(text) && FOOTBALL_RE.test(text);
+}
+
 function isBlockedSource(link) {
   let host;
   try {

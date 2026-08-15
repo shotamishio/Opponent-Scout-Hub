@@ -1,16 +1,40 @@
 {
   "category": "u20",
-  "generatedAt": "2026-08-15T14:59:34.917Z",
+  "generatedAt": "2026-08-15T15:43:39.436Z",
   "successCount": 18,
   "totalCount": 18,
-  "itemCount": 24,
-  "emptyCount": 7,
+  "itemCount": 45,
+  "officialCount": 23,
+  "emptyCount": 6,
+  "coachCount": 18,
   "countries": {
     "ESP": {
       "items": [],
-      "fetchedAt": "2026-08-15T14:59:01.263Z",
+      "fetchedAt": "2026-08-15T15:41:21.518Z",
       "status": "ok",
-      "filteredOut": 6
+      "filteredOut": 49,
+      "federationUrl": "https://rfef.es",
+      "coach": {
+        "status": "ok",
+        "name": "David Aznar",
+        "teamArticle": "Spain women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Spain_women's_national_under-20_football_team",
+        "profileUrl": "https://en.wikipedia.org/wiki/David_Aznar",
+        "description": "Spanish football manager",
+        "bio": "David Aznar Chicharro is a Spanish football manager who specializes in women's football. He currently serves as the head coach for the Spain women's national under-19 and under-20 football teams.",
+        "federationUrl": "https://rfef.es",
+        "articles": [
+          {
+            "title": "Spain WU19 EURO final reaction: David Aznar on victory over Germany",
+            "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNekhKT2t6WWMzaHlkd2xTSi0yOXJvSGFXZy01TnF4eUtnbTdkY1Vkal9TQ2Q5anI0WmJwaW5fQWtQbThNb1hveGJ3ckFMQ28zU3RfMDAzMkRvOW9Rdk9icUJpRVN6eVVrbWttV2VfY0tLN0ZObGpkTVh1TkZ4RHdyVzRyVFNHTnVCcmZKNE5RTUxfd2RmRzd2Z3ZXeW4tUmxzUHhOTTZhOGZpWVRPeWFEbE1GMk1ZOFZvRUdEUFRrSFJPZmtwcUltejA3dko?oc=5",
+            "sourceName": "UEFA.com",
+            "sourceUrl": "https://www.uefa.com",
+            "publishedAt": "2026-07-10T21:00:11.000Z",
+            "tier": "T1"
+          }
+        ],
+        "fetchedAt": "2026-08-15T15:41:27.685Z"
+      }
     },
     "BRA": {
       "items": [
@@ -33,69 +57,274 @@
         {
           "title": "Brazil U20 women thrash Bolivia, take top spot in Group B",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOQ1RtWGoyYVYwWDBBaEhsUTViWUpKR3R5cGdOWWFMczFTOWtobE0tbi02Q1pCN3JfbWNXZk16TWlpcFpHNXdNZU1rd210dHk1dVZuVlA2ZGwzQi1XUEhtb1RMUGVwNGNfVzV3WjJrcWJtd2o1RFhRMnRzV3VPSmtJLXFqbE1UN2hfRHNwRnkzNEJlNzNIOE9aNWJuVDAtUQ?oc=5",
-          "sourceName": "onefootball.com",
+          "sourceName": "OneFootball",
           "sourceUrl": "https://onefootball.com",
           "publishedAt": "2026-02-07T08:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:03.153Z",
+      "fetchedAt": "2026-08-15T15:41:31.312Z",
       "status": "ok",
-      "filteredOut": 5
+      "filteredOut": 6,
+      "federationUrl": "https://cbf.com.br",
+      "coach": {
+        "status": "ok",
+        "name": "Camilla Orlando",
+        "teamArticle": "Brazil women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Brazil_women's_national_under-20_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": "https://cbf.com.br",
+        "articles": [
+          {
+            "title": "Camilla Orlando hails historic Under-20 national team triumph",
+            "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNdjdXSnc4S1luRmZlQlh1d3dHZVc4Qlkyd2F5NTdsUEx5NHhFNWNHWDBLWEw5R0lHLTBPdEJnUF9BWDdFNGRCX0NqTmdrUHFMWUNXaTlwR0MwNnVfeWk4R2syVWVzR2UxdUNnQUdYc2M4SHh5M3BQRndzM3c4bXQzX1c0YjBkQVMxamxZZkVR?oc=5",
+            "sourceName": "Yahoo Sports",
+            "sourceUrl": "https://sports.yahoo.com",
+            "publishedAt": "2026-02-28T08:00:00.000Z",
+            "tier": "T2"
+          }
+        ],
+        "fetchedAt": "2026-08-15T15:41:34.870Z"
+      }
     },
     "USA": {
-      "items": [],
-      "fetchedAt": "2026-08-15T14:59:05.166Z",
+      "items": [
+        {
+          "title": "U.S. Under-20 Women's National Team Will Travel to Spain for Two Matches as Preparation for 2026 FIFA U-20 Women's World Cup Continues",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVl9oX3IxT2JtTjVYTmV6VGNiSzVvZmEwMDhEcHhNTFdiMlFvVUJQZUxZMEwxN3BvY21XMzlTNHVsNHhGQnZhaFUzLUp2aC1LS0xLa2dxNG5YSkliZlZRbTdVbjhFMTJmY2pER3cxbjlJU2hJTk9OazBCeW13ck5BbkkyN3JnV0o5NDBtOWhIZHJNbFB5ZEMxOTFDMjZDSm1ZVE43WGFpUVQ3UE0?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2026-07-10T08:03:26.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "U.S. Under-20 Women's National Ties England, 1-1, in First-Ever Women's International Match at the Arthur M. Blank U.S. Soccer National Training Center",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSTduY1N5VGloeUVCNlZha3R4Y0lNYUt2NnExbmRYdXNmajdaYWYyNXdJNXJUWm54V01GemhYNUV0VjQ1ZWhJWmw4d3VGSS1mNlhOTGVmUExfMVBHcXBqRlNIQXExMnFWd3ZRN253Q0hjQ0dzMUM5YzlRLUZ4TWlxaGFJVDREUnRoc01VaEpFSkY5bDRyZWtkTUtWaTNQQ0FOVUlmYmYtMTVDOEZFc2FhMFBOWWs?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2026-07-09T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "U.S. Under-20 Women's National Team to Hold Training Camp and First Women's International Matches at the Arthur M. Blank U.S. Soccer National Training Center",
+          "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkFQQlBYcG0wZzlkUW1NT1puM29lb0Q5N2NmaU41MlpTdl9ZUGFCUzNhS0t2dk53UDNxQ2JqV3ZCQ2xhMXY5cldaSkk5U3l1TURicUZPQlhTWEJ5U3Z6cGFUVmRtSlZUZmd0WlF2cURnOTBLTENKWkNiNkcwOU96aUpZS3dUNTllUEZETEZaR2F3ZDZfUHJMeDhmU2FwbzlvX2pCa3hjVmZVYnpFb0FHZHlSdV84ZkRyb2c1Z2pYQ2NGdkhBaXBUeXNnTG0zWlNpczIw?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2026-06-30T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "U.S. Under-19 and U.S. U-18 Women's National Teams to Hold Concurrent Training Camps at the Arthur M. Blank U.S. Soccer National Training Center in Fayetteville, Ga",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVVpSMGhnR3JlN2xkTEJaQ3B2elZENXV6VWMzSW1JcHdIYThZcWpCcGVjREQybDBWY1ZDUENsYjNWbTNCcVVSZ0t2U3IweFdUdUVOTFJfMGZmOVd1V0tDd09yN25Bc3pCWWZ3LV9zMmlfTGlkTDUzd19fVEs3d0lPN2stZGVQX2lrSGt3MC04NGVtZEl5NV9wTm1KOE9zZUZvU3ZlT3REMkpqYkpBR0RYc3BuUmdDMGZ6WnFxSk5JQ0NlUQ?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2026-06-24T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "U.S. Under-19 Women's National Team Falls 1-0 to Germany to Split Games in Frankfurt",
+          "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVXJNS3F5MkF4d1kzUUNScWlubGdBTWp3VUJjMUNRekhyVFZnWExTc2Y4SnFHNFpIWE50RC1VY1Yyb2lPYU4wOWpkWThWeEs2bTlOZ0xxSmJWbHVHTENlT0ZvOUxUSUxvbkpSZ2I1cnFOdl85dnhxYzlXNjkyQ1pGM0IwclRpcHdrWDRqZkpCTEEyd3ZtR3hxREtFZnhfZ0FxRzk3aA?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2026-06-09T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "U.S. Under-20 Women's National Team Defeats France U-23 WNT, 2-1, in Second of Two Matches in Spain",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQaTlrWjlYckhqdndSNDFqeUQ0cU01UVZBRVRNWkVjRk5fcGJmWEd2OWs2UnQ2ZTVTbmdPb25Md25xN251MnJIbXZ2dm9tOGtDMzkwQnNrNXdwVTZmRlJqbUFybUZrcnJEbVRjaHBob2psNjdxd29Wc0lzMUoxemZNZjBDQ2NXUzZzNzJPQk42Zm15cE1peTkxUmt4QmdKdzFtMWlpclkwU2drT3oyNXg0?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2026-06-08T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "U.S. Under-18 Women's National Roll Past Ukraine U-19 WNT 7-0 in First of Two Matches in Bulgaria",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPZktvdHhoTVEzWm5FckhLTEJneWN1TWxKS1RQYnVyQXNzYW56dlVqUEY2cENoMkRMWlVOZHFqYjRETEk2WWhqTkVFX1ZWYW9DNDVGdTRsUlBjUnZobkZwWFRFYzZ1dERfS05GUUUtQUN4SVJKdGlfX1Vxdk0zbXJ4NHprTm1tT013OTh0c1NJYVZhZTZrX0p4V3JYMk1TcU85aENXc1MtYlYtdk5VekZj?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2026-06-06T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "U.S. Under-20 Women's National Team Defeats France U-23 WNT, 5-0, in the First of Two Games in Spain",
+          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNMy0xcmFGM1VUVDVRWHFWcF9OMGQyZzBRLVcxM2NRRGxBUUs4NlpUWDRDamxTajdWLXZtRTA2cTdTaVlyWk5neGRRczFNZXZyNS1mTmpiY1BpQXZNM1k2dGs4OENPODc4ZzhRZG4zWHBzQm91YzFaeEI0V3VIRXlURExwQ29najVXMHFFdG5aSHlJTXc3NnFoM0VsaC13TmlmNWR4SnM3UEFXYXJHWG5v?oc=5",
+          "sourceName": "US Soccer",
+          "sourceUrl": "https://ussoccer.com",
+          "publishedAt": "2026-06-05T07:00:00.000Z",
+          "tier": "T1"
+        }
+      ],
+      "fetchedAt": "2026-08-15T15:41:38.750Z",
       "status": "ok",
-      "filteredOut": 19
+      "filteredOut": 97,
+      "federationUrl": "https://ussoccer.com",
+      "coach": {
+        "status": "ok",
+        "name": "Vicky Jepson",
+        "teamArticle": "United States women's national under-20 soccer team",
+        "teamUrl": "https://en.wikipedia.org/wiki/United_States_women's_national_under-20_soccer_team",
+        "profileUrl": "https://en.wikipedia.org/wiki/Vicky_Jepson",
+        "description": "English football manager (born 1987)",
+        "bio": "Victoria Jepson is an English professional football coach and manager who is currently the head coach of the United States Women's U20. She previously served as senior assistant head coach of Women's Super League club Tottenham Hotspur, where she was also the club's assistant coach and had a spell as interim head coach. She managed Liverpool in both the WSL and Women's Championship from 2018 to 2021.",
+        "federationUrl": "https://ussoccer.com",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:41:44.163Z"
+      }
     },
     "NED": {
       "items": [],
-      "fetchedAt": "2026-08-15T14:59:07.006Z",
+      "fetchedAt": "2026-08-15T15:41:47.710Z",
       "status": "ok",
-      "filteredOut": 2
+      "filteredOut": 6,
+      "federationUrl": "https://knvb.nl",
+      "coach": {
+        "status": "ok",
+        "name": "Glenda Van Lieshout",
+        "teamArticle": "Netherlands women's national under-19 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Netherlands_women's_national_under-19_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": "https://knvb.nl",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:41:51.270Z"
+      }
     },
     "NGA": {
       "items": [
         {
+          "title": "FIFA U20 WOMEN’S WORLD CUP POLAND 2025 – The NFF Official Website",
+          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XNHc1OElGZ3VPWVVJbzBkcG5OQksteDNXNGh5dGpDYWJySmV3dEVZZUlHRjFIU0kwMEJtdmtqOG1hbjIyYjhEbVBURUFocmU1NUZKRDNzZUpfZ3VHRDVxZE94OTQ0eU5f?oc=5",
+          "sourceName": "Nigeria Football Federation (NFF)",
+          "sourceUrl": "https://thenff.com",
+          "publishedAt": "2026-05-15T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Nigeria qualify for FIFA U20 Women’s World Cup Poland 2026 – The NFF Official Website",
+          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2UzRHc1OUFzSHRCazNZcXIxdjJjbFlBMjJmNEp0N09EV2pxR0d6TjhqSVQ5LUViRUFrMUJhMG9xMC1zbFpkZV9hMkU1UjhUTHp4VERNeHFyMTI1ZHN2ckJnX3Y3R21idkpzUTk0Ynl5Ymk0MVpBUEFtS1BrdXJBQmVJZw?oc=5",
+          "sourceName": "Nigeria Football Federation (NFF)",
+          "sourceUrl": "https://thenff.com",
+          "publishedAt": "2026-05-09T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Accreditation for 2026 FIFA U20 Women’s World Cup Qualifying Match: Nigeria Vs Malawi – The NFF Official Website",
+          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONExmX3doWGJHNUtzclJITUNIRzExUE8wWFB4UW5WeXVEaXNRNmttMHhoMGF3U2I5SUxjeFp3b3lJT202QkhfZ0hEQVBWUFdnT0FGMVUtU29tZVp2ZzZNTjRXTUdyaUxIX3hOekxBS25kNjdxbWdHS1FaQktlbU9VakFNSDQ2T2hqR3lvaDdvT1ZjaHp5Tkhwb1RsVkpqNjNnTE12aGh3?oc=5",
+          "sourceName": "Nigeria Football Federation (NFF)",
+          "sourceUrl": "https://thenff.com",
+          "publishedAt": "2026-04-30T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Poland 2026: Falconets intensify preparations for Malawi U20 girls – The NFF Official Website",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVmlXMnMtSjNjYXdKckVkUnZNOXZrWVpsYWtwMFd2WThrcGhVMHhFUFZZb2lFYXY1eWl1UUNRNUtFUGtyWnE4SUlWTmVyTW5DNHdsSHE0alphTDctTXNnUWhyczhkZy1IUWRZYVV1cGpBRng3VlVJMEVLZ2dpbTFzTTVwazVmUms3cEFTdWV3?oc=5",
+          "sourceName": "Nigeria Football Federation (NFF)",
+          "sourceUrl": "https://thenff.com",
+          "publishedAt": "2026-04-18T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Accreditation for 2026 FIFA U20 Women’s World Cup Qualifying Match: Nigeria Vs Senegal – The NFF Official Website",
+          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMWxjTVhKWC14eWJzbHhacHVSNkF0eFM1VHc3b2lMdFpLcXFVTzVkOG1KWk5JQkE5TkJaZlVraldrcnlTdUd2SlFyejgzQmZJMlFDSDZxeVpLWk5fTTBsWkU3QlJRWDdEQXBEeEVERFZ3QWtUTlRZSWtlR3UwQkRMWndTd09aY2daMW9FWWFuV1oxZklCaVFMaURBaDlGWnNYVnRzVGUyQQ?oc=5",
+          "sourceName": "Nigeria Football Federation (NFF)",
+          "sourceUrl": "https://thenff.com",
+          "publishedAt": "2026-02-03T08:00:00.000Z",
+          "tier": "T1"
+        },
+        {
           "title": "U-20 Women’s Match Preview: Nigeria Vs Malawi",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MVm5uQmxleTUzWmRUMWhiT012ajBlaUgwVDB0VThnUXVKZnlySGhPMzhUTlR1a1JxVkpKMnVaZ0NuUDhOQTVUaE5fWGJLbHI2OWppRTFfcEdZZWpYcnZFSHViRTF4cXM4SjRQblpyYWM?oc=5",
-          "sourceName": "von.gov.ng",
+          "sourceName": "Voice of Nigeria",
           "sourceUrl": "https://von.gov.ng",
           "publishedAt": "2026-05-09T07:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:08.866Z",
+      "fetchedAt": "2026-08-15T15:41:55.065Z",
       "status": "ok",
-      "filteredOut": 10
+      "filteredOut": 105,
+      "federationUrl": "https://thenff.com",
+      "coach": {
+        "status": "ok",
+        "name": "Christopher Danjuma",
+        "teamArticle": "Nigeria women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Nigeria_women's_national_under-20_football_team",
+        "profileUrl": "https://en.wikipedia.org/wiki/Christopher_Danjuma",
+        "description": "Football coach",
+        "bio": "\n\nChristopher Musa Danjuma is the head coach of Nasarawa Amazons in the Nigeria Women Premier League. Since August 2017, he has been doubling as the coach of Nigeria women's national under-20 football team following his recommendation and subsequent appointment by Nigeria Football Federation. He previously coached Nigeria women's national football team, after the sack of Edwin Okon in June 2015. He was relieved of his duty after 2015 African Games, with Florence Omagbemi later occupying the vacant managerial role in February 2016.",
+        "federationUrl": "https://thenff.com",
+        "articles": [
+          {
+            "title": "Christopher Danjuma Urges Nasarawa Amazons to Stay Focused Ahead of President Federation Cup Semi-Final",
+            "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQRFdYejdQR1JvWVFFYVJFOVl2aDNtZ3dEODJBZjQ5VnI4SWJ0cl95Q3Nqcm1INU5ZZUVnWnhkS2JTYUozSW1NUmRCZXd0VjF0bklnbXZzQW1OUlhuZ1VTSDNLak5iTl9nQVQtMm5KMTVrSXVwTUlvcG1OZEtPQjlxYkpScWRCRG9JTXJxQnZpM3lxSm0tSGZZZ1V0bVh5a3lIUExuZWRvZDgydmNIRWUtNnQ0UGktLXgyQktPVmxad2xEcHgxZ2ZCSw?oc=5",
+            "sourceName": "Sports247 Nigeria",
+            "sourceUrl": "https://www.sports247.ng",
+            "publishedAt": "2026-06-23T07:00:00.000Z",
+            "tier": "T2"
+          }
+        ],
+        "fetchedAt": "2026-08-15T15:41:59.601Z"
+      }
     },
     "COL": {
       "items": [],
-      "fetchedAt": "2026-08-15T14:59:10.757Z",
+      "fetchedAt": "2026-08-15T15:42:03.200Z",
       "status": "ok",
-      "filteredOut": 2
+      "filteredOut": 9,
+      "federationUrl": "https://fcf.com.co",
+      "coach": {
+        "status": "ok",
+        "name": "Carlos Alberto Quintero",
+        "teamArticle": "Colombia women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Colombia_women's_national_under-20_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": "https://fcf.com.co",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:42:06.742Z"
+      }
     },
     "FRA": {
       "items": [],
-      "fetchedAt": "2026-08-15T14:59:12.680Z",
+      "fetchedAt": "2026-08-15T15:42:10.490Z",
       "status": "ok",
-      "filteredOut": 2
+      "filteredOut": 102,
+      "federationUrl": "https://fff.fr",
+      "coach": {
+        "status": "ok",
+        "name": "Sandrine Ringler",
+        "teamArticle": "France women's national under-19 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/France_women's_national_under-19_football_team",
+        "profileUrl": "https://en.wikipedia.org/wiki/Sandrine_Ringler",
+        "description": "French footballer (born 1973)",
+        "bio": "Sandrine Ringler is a French former footballer who played as a defender for FC Vendenheim of the Division 1 Féminine.",
+        "federationUrl": "https://fff.fr",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:42:14.533Z"
+      }
     },
     "MEX": {
-      "items": [
-        {
-          "title": "Chaney Receives Invite to Train with Mexico’s U-20 Women’s National Team in Poland",
-          "link": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQT0EzQnBxb2J2bnY2SWtnM1YweTY4TzJuNG9ibGhRWUdoclRSVm9LdmNIUHdCUl9VaE5FcTZ6bGk5Rjg4TzVYN0ZMLW9FUHNnbUxsZHNWZHd6RWFRXzY5dUwwWW5vVnJOOFpSTkRVNTBDU3BTd2Y5R3RZT3UxMVRDR2o0Z0ZhdXNFOGJKNFpVYVNtN0l0YW1ocFBWVk5jeVlxY1NiTFJEMmVwcE9YWHNyNHZhOFJQY29yZ2pMRzNKOWR1WjN4RnhrQUw4QVE?oc=5",
-          "sourceName": "gocreighton.com",
-          "sourceUrl": "https://gocreighton.com",
-          "publishedAt": "2026-06-03T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-15T14:59:14.559Z",
+      "items": [],
+      "fetchedAt": "2026-08-15T15:42:18.219Z",
       "status": "ok",
-      "filteredOut": 3
+      "filteredOut": 8,
+      "federationUrl": "https://fmf.mx",
+      "coach": {
+        "status": "ok",
+        "name": "Dorival Bueno",
+        "teamArticle": "Mexico women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Mexico_women's_national_under-20_football_team",
+        "profileUrl": "https://en.wikipedia.org/wiki/Dorival_Bueno",
+        "description": "Brazilian football manager (born 1968)",
+        "bio": "Dorival Bueno dos Santos Pacheco, sometimes known as his nickname Doriva Bueno is a Brazilian football manager for the Mexico women's national under-20 team.",
+        "federationUrl": "https://fmf.mx",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:42:22.745Z"
+      }
     },
     "PRK": {
       "items": [
@@ -108,9 +337,22 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:16.464Z",
+      "fetchedAt": "2026-08-15T15:42:24.654Z",
       "status": "ok",
-      "filteredOut": 8
+      "filteredOut": 8,
+      "federationUrl": null,
+      "coach": {
+        "status": "ok",
+        "name": "Han Chol-hak",
+        "teamArticle": "North Korea women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/North_Korea_women's_national_under-20_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": null,
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:42:28.209Z"
+      }
     },
     "KOR": {
       "items": [
@@ -133,7 +375,7 @@
         {
           "title": "South Korea U-20 Women Lose 0-3 to North Korea in Semifinals",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSHhKY1Q1LWFIY0dxSmM2a3lRcnM0eWZPWVJoODRZMTZ4ME5SbUhSaFFKakx6dUZYR016c2xQeV9kdEIzRkVXYXE1ay12V3Y1RjRXRHRoMkdrZ0tuVVZCRkp4aTBOQ0I2TWUzYWFuekJqWGlpMTgtYTFnMDhXQTFVY0tESHVSZw?oc=5",
-          "sourceName": "조선일보",
+          "sourceName": "chosun.com",
           "sourceUrl": "https://www.chosun.com",
           "publishedAt": "2026-04-15T07:00:00.000Z",
           "tier": "T2"
@@ -173,15 +415,28 @@
         {
           "title": "South Korea U-20 Women Crushed 0-5 by North Korea, Advances",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOXVkXzQ5a2FYaWE0bkU1MU95UkNrWDY1NFBPczBjTW1vOVg3SVFNM185X0VpbTRIYjNnZ1hneXlqWVVEQldCOWNZY2FHVGkxejJzbHVLbWpzaHFOOEtsaGRtS0pWSU16Ukc5UVF4VGd2NnpBd3VtamZzUnpHT0tfSmlldFFNdw?oc=5",
-          "sourceName": "조선일보",
+          "sourceName": "chosun.com",
           "sourceUrl": "https://www.chosun.com",
           "publishedAt": "2026-04-09T07:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:18.422Z",
+      "fetchedAt": "2026-08-15T15:42:31.759Z",
       "status": "ok",
-      "filteredOut": 1
+      "filteredOut": 1,
+      "federationUrl": "https://kfa.or.kr",
+      "coach": {
+        "status": "ok",
+        "name": "Park Youn-jeong",
+        "teamArticle": "South Korea women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/South_Korea_women's_national_under-20_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": "https://kfa.or.kr",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:42:35.323Z"
+      }
     },
     "CHN": {
       "items": [
@@ -210,27 +465,159 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:20.334Z",
+      "fetchedAt": "2026-08-15T15:42:38.925Z",
       "status": "ok",
-      "filteredOut": 6
+      "filteredOut": 22,
+      "federationUrl": "https://thecfa.cn",
+      "coach": {
+        "status": "ok",
+        "name": "Colin Bell",
+        "teamArticle": "China women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/China_women's_national_under-20_football_team",
+        "profileUrl": "https://en.wikipedia.org/wiki/Colin_Bell_(footballer%2C_born_1961)",
+        "description": "English football manager (born 1961)",
+        "bio": "Colin Bell is an English football manager and former player, who is the current manager of Myanmar women. He previously coached the South Korea women's national team when he led the team to the 2022 Women's Asian Cup where his team finished runner ups to China. He earned reputation when he won the 2014–15 UEFA Women's Champions League with 1. FFC Frankfurt.",
+        "federationUrl": "https://thecfa.cn",
+        "articles": [
+          {
+            "title": "Colin Bell appointed Myanmar women’s national football team head coach",
+            "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQS05OMkN6YWZNLUN3eEhKTExQS0JLSzVIZmpCdUdlbTlJektpWUxqTUlMTlpTbEM1aUg1TDdzNllOQ2NjSHpIVUxqQi10VHhmMkQyQjQ2SmZOeW1SSlE1bVFvVUNSaHNpNXRfaTdYSUpqSVZfcnM4NmU2TzhHbFB0TmFhaGx3YkRGSkJxMkpTMG5Hbm4xRkFmUjNWcw?oc=5",
+            "sourceName": "Myanmar Digital News",
+            "sourceUrl": "https://www.mdn.gov.mm",
+            "publishedAt": "2026-08-14T06:25:01.000Z",
+            "tier": "T2"
+          },
+          {
+            "title": "Colin Bell: The Family Man",
+            "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UMDVDT2xvTU04WG9PWHlWYWRQc3RYRXl3TjV0QWNIZTlwd09qRmNta3hnQ0U0MURpZ0RDTmN6bEFEUjB1ODcyckp6RnpzZ3VmbkloYllOYXdldGFHLWhzZUQxOXNXUQ?oc=5",
+            "sourceName": "Manchester City FC",
+            "sourceUrl": "https://www.mancity.com",
+            "publishedAt": "2026-02-26T08:43:38.000Z",
+            "tier": "T2"
+          },
+          {
+            "title": "Remembering Colin Bell: ‘Pep would have adored him!’",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sOGxWQXc2M05OeXpLVUFGaE11RFRIbkVlN3hIcjdFaXNtU2FyQTRNTFRXalBNVUdxTUJiSWt5b2VwbFhtZGNHU0pBVUo2cU81bl9HbS04V2FtTUdualhZOHhxYlU1THJ6c0tCVFI3WHRoZVBLLUtsOURZYWw?oc=5",
+            "sourceName": "Manchester City FC",
+            "sourceUrl": "https://www.mancity.com",
+            "publishedAt": "2026-02-26T08:00:00.000Z",
+            "tier": "T2"
+          },
+          {
+            "title": "Remembering Colin Bell on his 80th birthday",
+            "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zUTQ0eTZqN2s1WUpDTzFrVVhWYkdEazUwcGM3ZnYwNHBOZnctVmZ1Ny1GZU82eUZqbWhiQmxvYXNYRWFHdmFuQUpEb2tUamN2anRoVHJtcnV6ejdTa2s3OHRsTEZ5M1FfUU90QU83Z0NRZTg?oc=5",
+            "sourceName": "Manchester City FC",
+            "sourceUrl": "https://www.mancity.com",
+            "publishedAt": "2026-02-26T08:00:00.000Z",
+            "tier": "T2"
+          }
+        ],
+        "fetchedAt": "2026-08-15T15:42:43.339Z"
+      }
     },
     "AUS": {
       "items": [
         {
-          "title": "India U20 Women vs Australia U20 Women Live: Follow AFC U-20 Women’s Asian Cup LIVE",
-          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPU3R5Tm95T29WY1RVN2ozY1B6SHpWeS1yR1pobXBpYmJiSVUtUEI3RFhQNnNnQTNCWGVMa3NxdkZOWVRQRUR1cUdrZHZBdjVMcWg2ZWFCREtUWHZ6M1Rab1ItaWkyamdQamt5WUN3V1I2a2o5WEt5UEI1TnBiRWE5RXFMbVV1by1WaWY5QWVjM2hrWDJxcnllaEpWaTVDV0dtbnhLQW9xSUpDb011MXp4TWUwX0FreUkyRlZ1NTFB?oc=5",
-          "sourceName": "khelnow.com",
-          "sourceUrl": "https://khelnow.com",
+          "title": "CommBank Young Matildas defeated 3-0 by DPR Korea in AFC U-20 Women's Asian Cup quarter-final",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOaG5iNHBVRUpYcXRaLWtLeG9XTEdnZVlLbDRpZ2lZSVp5RnBhR2tyZG5aQ3VMa2ltNWFVWTZ4OThNOW01Z0hweEp6MUxmZXNsTEwyS1NmbkYwdERGbTYxV0p5Wm9NYTVsTWpldk9RaFU2QlBzNVpsTm5UcDkyZGFYeGNLSFpSeXlxWGlTRUJxb1Zsak5KcDNBRE8zcno2NEVYSGVhTFh6ZHlyU0N0Q0UzcWRJRHdCZmlmQlo2bHl5R1BRQQ?oc=5",
+          "sourceName": "Football Australia",
+          "sourceUrl": "https://footballaustralia.com.au",
+          "publishedAt": "2026-04-13T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "How to Watch: CommBank Young Matildas v Korea DPR | AFC U-20 Women’s Asian Cup 2026",
+          "link": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOel9wNUxFbjZfUmZDTEdqcU9BT05fXzhTd1d6VzRKN1pvd0tyLTgwamNvbzA0RUItMXV5ZzRvVTRIa0dkMFpybHFuZlhYMHlaVzNoVjhvZkF4Ny1iQ2Nqak4xd3RsYTNIVjJIaVhhemQwbnB6dHFSUThOblZiWmdyRy1IcFFkUHpUdkZoaFBURU10VGQ0UkU5Nm84eVdDaTJ0WUFRVzVQeVBnbEx2Rk1rc1pjdkFkOUk?oc=5",
+          "sourceName": "Football Australia",
+          "sourceUrl": "https://footballaustralia.com.au",
+          "publishedAt": "2026-04-11T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "How to Watch: CommBank Young Matildas v Japan | AFC U-20 Women’s Asian Cup 2026™",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeHpBemcyR3pzZURtQXVoTDNVbnlLSFlQbWZfU1UyelFVcVJiQ3VoeExCb29GbjhVYzhuaG1fTWYtNWhnQ0hicUlQT1l3TWY2TFEwc2dqcVRidlVzejRDVHAxai1lZzE4aTl2QmN6UDR4dV91VUY4SlJIRWsxdGxxLTJ3ZTFhSU5TMlpPN29NNkdNMU96MjZHSWItcW1fZlhLUWU0c2ZzR0ZLQkw0UmxaeFVB?oc=5",
+          "sourceName": "Football Australia",
+          "sourceUrl": "https://footballaustralia.com.au",
+          "publishedAt": "2026-04-07T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "CommBank Young Matildas AFC U-20 Women’s Asian Cup 2026™ Squad Update: 1st April 2026",
+          "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOMFNhYmZ5a3VHQ2RUSHJvLXpRM2hMQWhaUzNEYU8yem93R1Nxb2xlSEdUc0RZSEw5UXRsZms5c3lySEJSYkM0X0ZjbU5jcFdWeDNrNWxqd2NDUjU1Z2htZUJNTzNHSHBzRzhJMzM4U2V2elBIcmVjMzdZWENUVlR2YUxHUlFCNmRMNWhJWjl0MFBhTi05bkdnZlpOOGdhdGtVVnprUjFndnNwRDAwbWNHY3BYLUk1RVduYkxfSi02NA?oc=5",
+          "sourceName": "Football Australia",
+          "sourceUrl": "https://footballaustralia.com.au",
           "publishedAt": "2026-04-05T07:00:00.000Z",
-          "tier": "T2"
+          "tier": "T1"
+        },
+        {
+          "title": "CommBank Young Matildas reveal squad for AFC U-20 Women’s Asian Cup 2026™",
+          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQSnNIRFNfbk1zUjFMMExMRFBIYTJqeFltbXhvMi1zSW9sSmFxZEozNVI1aVlnczA0ekRqclRCUWo0TVR6cGdRWFVobG5nZDh4aFJ1dlRuREJMb1JFRUQwajk3aWVKWEVVNk9abjY3ZmwwNF9ycU5SQUFTenNTREZObE94N3lLWlEyZkFrNVh0U0trUU5kdzZfWHdZVmhpV2Q4T241VFkyWGp5ZEE?oc=5",
+          "sourceName": "Football Australia",
+          "sourceUrl": "https://footballaustralia.com.au",
+          "publishedAt": "2026-04-05T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "CommBank Young Matildas defeat India 5-0 in second AFC U-20 Women's Asian Cup 2026™ match",
+          "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPYmxjekRlNHJwUVNobFR0dVB1VmlrbzJESUxpN05sQ3BpUmk3dXUxNUdHbThjcVd4V1lOeGQydlBhZ3IxRjFod2JWQzltOF9MN3k3QWkxNnNmd0IzaUpka25wa1czUXloWTFnbVZBaWk4SG9adnc1eWlKUVEzOGFsUlJ0XzB6UXNRdnVqVUdNeVBQZ1d2T2YyaXdEdkhZcVFrT0dyR2dkRTBVajJGem04VmtNXzR1OUpmb2xsbHdHbzhBdw?oc=5",
+          "sourceName": "Football Australia",
+          "sourceUrl": "https://footballaustralia.com.au",
+          "publishedAt": "2026-04-05T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "CommBank Young Matildas v India | Highlights | AFC U-20 Women’s Asian Cup 2026™",
+          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPb2kzMFBiSVVaNTB3VWliODZNbnZtLXA3Q1JSSjlmdTJ0VFNSSUQycjZjUlZHVnhPd2tSN0dLeDluaUZMbEpnZldrT0ptRDlzVW5ycktLakp2ZmVHamlCdlY2MjkzRFE3SU9Id3NnMERXdFpJc2lEaWRMaXl6dWoyRnNheHZCV19yUDJCYjBoQzk3UG9sbDkxUzNqelJlUTM3SWVGMkJkejloOHdSblBWdG1MMWI?oc=5",
+          "sourceName": "Football Australia",
+          "sourceUrl": "https://footballaustralia.com.au",
+          "publishedAt": "2026-04-05T07:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "How to Watch: CommBank Young Matildas v India | AFC U-20 Women’s Asian Cup 2026™",
+          "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOa2N3SzRPSmsxUjZObGFkcnFzZmxkSkJDY0hpdUZVeHllSEVxc0FTTUhjMm1vRHdoY0x3TkVhZEhmbVFIQmdBQzd1c2dtU1JnQ1hHYWt3RDZPMy11eHZ5TVZnWWVzaHZRVnVWR1JQLW5TZVhxQnQ5aldpdFZZbHE1UlVmMVZubnItcnFUdUNMNExVeDdTd0dEMExKX29QczRZeFBDeUlQbXRPTlItNFJKalRB?oc=5",
+          "sourceName": "Football Australia",
+          "sourceUrl": "https://footballaustralia.com.au",
+          "publishedAt": "2026-04-03T07:00:00.000Z",
+          "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:22.202Z",
+      "fetchedAt": "2026-08-15T15:42:47.113Z",
       "status": "ok",
-      "filteredOut": 5
+      "filteredOut": 91,
+      "federationUrl": "https://footballaustralia.com.au",
+      "coach": {
+        "status": "ok",
+        "name": "Alex Epakis",
+        "teamArticle": "Australia women's national under-20 soccer team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Australia_women's_national_under-20_soccer_team",
+        "profileUrl": "https://en.wikipedia.org/wiki/Alex_Epakis",
+        "description": "Australian soccer manager",
+        "bio": "Alexander Epakis is an Australian soccer manager who currently is currently the head coach of the Australia under-20 women's national team.",
+        "federationUrl": "https://footballaustralia.com.au",
+        "articles": [
+          {
+            "title": "Epakis: The team has always wanted to take this challenge head-on",
+            "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQQnlLTl9vZHBHN3hIZjVyb0o5T3BISlphbEk4UGJpeDdyenNod2N2b1ByS0VtaHVPSnVId05TQXhnX082YXpQY250R3Rvd1VYRDR2UVFkMExDVlZURjFRejFnTGxOMWNBemJUcFZpb3liVVFPMFgzZVhxclZhLW5mQmNmMURIZGZNZWFxUVZJWXM?oc=5",
+            "sourceName": "Football Australia",
+            "sourceUrl": "https://footballaustralia.com.au",
+            "publishedAt": "2026-04-11T07:00:00.000Z",
+            "tier": "T1"
+          }
+        ],
+        "fetchedAt": "2026-08-15T15:42:53.294Z"
+      }
     },
     "VIE": {
       "items": [
+        {
+          "title": "AFC U20 WOMEN’S ASIAN CUP Group A: China PR 3-0 Vietnam",
+          "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQM0dRTUpTRFVzTml4Tm9BbEZTSjBZS0pHeVVtc29lVzFNa3pDOHdDVHU1MlpXbWtuOHRWamwwVlF3QklUWE9YQjZGUlVPcVNobzVnMFFxREEzNXFleERVdkhVaTA2Y0tad1g5R1JGMU9iSjFYcVNJVzJKMGZKZnp6Yg?oc=5",
+          "sourceName": "VFF",
+          "sourceUrl": "http://en.vff.org.vn",
+          "publishedAt": "2026-04-07T07:00:00.000Z",
+          "tier": "T1"
+        },
         {
           "title": "Vietnam U20 women reach Asian Cup quarterfinals for second time",
           "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRnRoRURDV1R0TmFad09QQTNjNnpFQmh3d181RmpOajJ1RVlHMkhDU3Z4MTBEVEYzeHh6WnpJOWNJcEs3dEx6QUVlc0xSUzNQLTZkYTdjT2U2T2dvWkpCTEZZOXQ4UnZIcVBZVTl4dHhidjRBOEUxcUNqQXN5TjRfX2pGUlB0RmFyR2xfRmZSMjRoUDBwYS04eVRqbFFUejZSeXJ3?oc=5",
@@ -248,9 +635,22 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:24.076Z",
+      "fetchedAt": "2026-08-15T15:42:57.091Z",
       "status": "ok",
-      "filteredOut": 3
+      "filteredOut": 102,
+      "federationUrl": "https://vff.org.vn",
+      "coach": {
+        "status": "ok",
+        "name": "Masahiko Okiyama",
+        "teamArticle": "Vietnam women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Vietnam_women's_national_under-20_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": "https://vff.org.vn",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:43:00.965Z"
+      }
     },
     "UZB": {
       "items": [
@@ -271,51 +671,125 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:25.960Z",
+      "fetchedAt": "2026-08-15T15:43:04.475Z",
       "status": "ok",
-      "filteredOut": 4
+      "filteredOut": 4,
+      "federationUrl": "https://uzfa.uz",
+      "coach": {
+        "status": "ok",
+        "name": "Most caps         =",
+        "teamArticle": "Uzbekistan women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Uzbekistan_women's_national_under-20_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": "https://uzfa.uz",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:43:08.156Z"
+      }
     },
     "TPE": {
       "items": [
         {
           "title": "India U20 Women vs Chinese Taipei U20 Women Live: Follow AFC U-20 Women’s Asian Cup LIVE",
           "link": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNeGNhOU1PMmtfMndpQVZGdlZpYzBNVVJscTQ2d09WWVZOYVd0c0FWd0Q3Y2lTZEZpSndVSlRaM2k5VkZKaWxVdmp0TFhYTGVPVGswYW1waVRHTGpwZGNObTFLaktIbWlGM2M1b2lreGY2RlF0M19Wa3hYWHRtOUdXclVpN1R6MFMwTjV2c1h0bjN2bTVsNVVWa0JlZmIyVGJpbVRIV3JjNm0zMUhDeDVSeUxzREJOYVU4WVA2MnF4c2haRGhu?oc=5",
-          "sourceName": "khelnow.com",
+          "sourceName": "Khel Now",
           "sourceUrl": "https://khelnow.com",
           "publishedAt": "2026-04-08T07:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:27.807Z",
+      "fetchedAt": "2026-08-15T15:43:11.682Z",
       "status": "ok",
-      "filteredOut": 0
+      "filteredOut": 0,
+      "federationUrl": "https://ctfa.com.tw",
+      "coach": {
+        "status": "ok",
+        "name": "Asst Manager          =",
+        "teamArticle": "Chinese Taipei women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Chinese_Taipei_women's_national_under-20_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": "https://ctfa.com.tw",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:43:15.288Z"
+      }
     },
     "THA": {
       "items": [],
-      "fetchedAt": "2026-08-15T14:59:29.647Z",
+      "fetchedAt": "2026-08-15T15:43:18.808Z",
       "status": "ok",
-      "filteredOut": 6
+      "filteredOut": 6,
+      "federationUrl": "https://fat.or.th",
+      "coach": {
+        "status": "ok",
+        "name": "Nuengrutai Srathongvian",
+        "teamArticle": "Thailand women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Thailand_women's_national_under-20_football_team",
+        "profileUrl": "https://en.wikipedia.org/wiki/Nuengrutai_Srathongvian",
+        "description": "Thai footballer and field hockey player",
+        "bio": "Nuengrutai Srathongvian, also known as \"Coach Nueng\", is a Thai football manager and former footballer and field hockey player who is currently the manager of the Thailand women's national under-20 football team.",
+        "federationUrl": "https://fat.or.th",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:43:23.584Z"
+      }
     },
     "MYA": {
-      "items": [],
-      "fetchedAt": "2026-08-15T14:59:31.508Z",
+      "items": [
+        {
+          "title": "UEFA European U19 Women's Championship Results Today",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE15SGR6b2dhUXpYdWRNZElnOWVWWUNOYW5qMy0zUGNYelM3QzZxUlpLc05DSXdMMWJuLTIydmVPd3ZlUUtWejJvMUp0SmRCY3JYcHBnbVlLNjBua1JWZnRiNURpVGpsa3lLWkNBLTRBQ1pERGFwTlp6dXZ4TFRFbU0?oc=5",
+          "sourceName": "myanmarfootball.org",
+          "sourceUrl": "https://myanmarfootball.org",
+          "publishedAt": "2026-04-09T04:48:34.000Z",
+          "tier": "T1"
+        }
+      ],
+      "fetchedAt": "2026-08-15T15:43:27.122Z",
       "status": "ok",
-      "filteredOut": 8
+      "filteredOut": 13,
+      "federationUrl": "https://myanmarfootball.org",
+      "coach": {
+        "status": "ok",
+        "name": "Captain            =",
+        "teamArticle": "Myanmar women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Myanmar_women's_national_under-20_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": "https://myanmarfootball.org",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:43:30.816Z"
+      }
     },
     "JOR": {
       "items": [
         {
           "title": "Jordan’s U-20 Women’s National Team Set for AFC Asian Cup Opener Against North Korea",
           "link": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxQX3kybzZQaFNOQUtFeV9oVGRsd0lJLUZWcGFnRmo4emFkcDZLZnlhLVAyVUNoZVgwem0yZFlfTlFIOW40aUs0YldQcE5FeGtxS29XLVVJdTR6enpGQWRHa1g3Mm9LWC1FYk9nQ0lYNmFrTmZ0TEtadDFlRXdfZVdZOVROa1V6ZEVwa2EyLUk3Y25nQ2h6QXptT1Nhd0RiS2dqb1JaVnFwaDNYVTRtQkRQaGxVYnNJeWRHdFF3S3dCeUkyUFlWZUpYNw?oc=5",
-          "sourceName": "وكالة الانباء الاردنية",
+          "sourceName": "petra.gov.jo",
           "sourceUrl": "https://petra.gov.jo",
           "publishedAt": "2026-08-09T00:11:55.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T14:59:33.415Z",
+      "fetchedAt": "2026-08-15T15:43:34.428Z",
       "status": "ok",
-      "filteredOut": 0
+      "filteredOut": 0,
+      "federationUrl": "https://jfa.jo",
+      "coach": {
+        "status": "ok",
+        "name": "Hussam Abu Raiyyash",
+        "teamArticle": "Jordan women's national under-20 football team",
+        "teamUrl": "https://en.wikipedia.org/wiki/Jordan_women's_national_under-20_football_team",
+        "profileUrl": null,
+        "description": null,
+        "bio": null,
+        "federationUrl": "https://jfa.jo",
+        "articles": [],
+        "fetchedAt": "2026-08-15T15:43:37.935Z"
+      }
     }
   }
 }

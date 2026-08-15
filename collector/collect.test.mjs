@@ -7,8 +7,8 @@ import { fileURLToPath } from 'node:url';
 import path from 'node:path';
 import assert from 'node:assert/strict';
 import { parseGoogleNewsRss } from './lib/fetchNews.mjs';
-import { classifyTier } from './lib/officialDomains.mjs';
-import { buildQuery, isRelevant, isRecent } from './lib/topic.mjs';
+import { classifyTier, federationUrl } from './lib/officialDomains.mjs';
+import { buildQuery, buildFederationQuery, isRelevant, isRecent } from './lib/topic.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const fixture = readFileSync(path.join(__dirname, 'fixtures/sample-rss.xml'), 'utf-8');
@@ -71,6 +71,30 @@ assert.doesNotMatch(buildQuery('AUS', 'nadeshiko'), /when:/);
 
 assert.throws(() => buildQuery('XXX', 'nadeshiko'), /unknown country/);
 assert.throws(() => buildQuery('AUS', 'u12'), /unknown category/);
+
+// --- Federation-scoped queries (lib/topic.mjs) ---
+
+// The general query above collects no official material in practice — the
+// first live runs returned 0 T1 items out of 67 — so each country is also
+// searched on its own federation's site.
+const espFederation = buildFederationQuery('ESP', 'nadeshiko');
+assert.match(espFederation, /^site:rfef\.es /);
+// Federation sites publish in their own language, so the women's-football
+// term has to be asked for in more than English or most of Europe and Latin
+// America is missed.
+assert.match(espFederation, /"femenina"/);
+assert.match(espFederation, /"women"/);
+// Youth categories add the age labels, including the legacy one, and the
+// Spanish/Portuguese "sub-20" those federations actually publish under.
+const espU20 = buildFederationQuery('ESP', 'u20');
+assert.match(espU20, /"U-20"/);
+assert.match(espU20, /"U-19"/);
+assert.match(espU20, /"sub-20"/);
+// No domain, no query — a normal outcome, not an error. Korea DPR has no
+// usable federation site.
+assert.equal(buildFederationQuery('PRK', 'nadeshiko'), null);
+assert.equal(federationUrl('ESP'), 'https://rfef.es');
+assert.equal(federationUrl('PRK'), null);
 
 // --- Recency (lib/topic.mjs) ---
 const NOW = Date.parse('2026-08-15T00:00:00Z');
@@ -153,9 +177,21 @@ assert.ok(!rel('Bloke reckons he’d do OK in England women’s football team', 
 assert.ok(!rel("United States Women's National Team vs. Spain", 'USA', 'nadeshiko', 'Event Tickets Center', 'https://www.eventticketscenter.com'));
 assert.ok(!rel('Brazil U-20 (Women) vs Korea Republic U-20 (Women) » Best Odds and Stats', 'BRA', 'u20'));
 
-// A federation domain does not exempt an item from the checks: this is RFEF's
-// own page, about the men's team, and it reached the senior screen.
+// On the federation's own site the country name is the one thing a headline
+// never repeats, so the domain stands in for the country check — otherwise
+// the official announcements this collector goes looking for get thrown away
+// on arrival.
+assert.ok(rel('Convocatoria de la selección femenina para la ventana de septiembre', 'ESP', 'nadeshiko', 'RFEF', 'https://rfef.es'));
+// The very same headline from a newspaper names no country and stays out.
+assert.ok(!rel('Convocatoria de la selección femenina para la ventana de septiembre', 'ESP', 'nadeshiko', 'Marca', 'https://www.marca.com'));
+// The domain stands in for the country check and nothing else: federations
+// cover the men's team on the same site, and this RFEF page about the men's
+// Nations League fixture reached the senior screen when the trust was wider.
 assert.ok(!rel('Metropolitano to Host Spain vs England in the UEFA Nations League', 'ESP', 'nadeshiko', 'RFEF', 'https://rfef.es'));
+// Age gating still applies on federation domains too — and it has to know
+// "sub-17", or a Spanish youth release reads as ageless and lands here.
+assert.ok(!rel('Convocatoria de la selección femenina sub-17', 'ESP', 'nadeshiko', 'RFEF', 'https://rfef.es'));
+assert.ok(rel('Convocatoria de la selección femenina sub-20', 'ESP', 'u20', 'RFEF', 'https://rfef.es'));
 // A federation release that is about the women's team still passes.
 assert.ok(rel("24 Players Named for Final U.S. Under-17 Women's National Team Camp", 'USA', 'u17', 'US Soccer', 'https://www.ussoccer.com'));
 

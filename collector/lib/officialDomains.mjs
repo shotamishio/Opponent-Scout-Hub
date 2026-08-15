@@ -22,6 +22,11 @@ export const CONFEDERATION_DOMAINS = {
 // used in app/src/data/pool.ts. Only includes entries with reasonable
 // confidence; countries not listed here simply never get a T1 domain match
 // and their news lands in T2 by default, which is a safe fallback.
+//
+// These are also what the collector searches directly (buildFederationQuery
+// in topic.mjs), so a wrong entry costs a query that returns nothing rather
+// than producing wrong data — but it does mean that country's official
+// announcements go uncollected, so entries are worth verifying.
 export const FEDERATION_DOMAINS = {
   USA: 'ussoccer.com',
   ESP: 'rfef.es',
@@ -54,6 +59,20 @@ export const FEDERATION_DOMAINS = {
   MAS: 'fam.org.my',
   SIN: 'fas.org.sg',
   JPN: 'jfa.jp',
+  // Added when the collector started searching federation sites directly, so
+  // that the Asian and African opponents on the current rosters are covered
+  // too. Same caveat as above: written from general knowledge, not verified
+  // from this sandbox.
+  BAN: 'bff.com.bd',
+  CHN: 'thecfa.cn',
+  IRN: 'ffiri.ir',
+  JOR: 'jfa.jo',
+  MYA: 'myanmarfootball.org',
+  NGA: 'thenff.com',
+  TPE: 'ctfa.com.tw',
+  UZB: 'uzfa.uz',
+  // PRK (Korea DPR) is deliberately absent: the DPRK federation has no
+  // usable public site, so there is nothing to point a search at.
 };
 
 function hostOf(link) {
@@ -74,6 +93,18 @@ function hostOf(link) {
  * @param {string} link
  * @param {string} countryCode
  */
+/**
+ * The country's federation website, or null if we don't have a domain for it.
+ * Shown in the app as a "go to the source" link on the country and coach
+ * screens, and used to scope the federation search.
+ *
+ * @param {string} countryCode
+ */
+export function federationUrl(countryCode) {
+  const domain = FEDERATION_DOMAINS[countryCode];
+  return domain ? `https://${domain}` : null;
+}
+
 export function isOwnFederationSource(link, countryCode) {
   const federationDomain = FEDERATION_DOMAINS[countryCode];
   if (!federationDomain) return false;

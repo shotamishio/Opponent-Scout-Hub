@@ -3,17 +3,18 @@ import { VIDEO_META, VIDEO_POINTS, VIDEO_TAGS, VIDEO_PEOPLE_BASE } from '@/data/
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 
 interface VideoResultsPanelProps {
-  coachName: string;
+  coachName: string | null;
   countryJa: string;
 }
 
 // Ported from Scout Hub.dc.html lines 546-579. The last "person" in the
-// source is dynamic (this.coach(S.code).name, role '監督') — appended here
-// rather than baked into the static VIDEO_PEOPLE_BASE table.
+// source is dynamic (the country's head coach, role '監督') — appended here
+// rather than baked into the static VIDEO_PEOPLE_BASE table, and omitted
+// entirely when the coach isn't known rather than shown as a blank name.
 export function VideoResultsPanel({ coachName, countryJa }: VideoResultsPanelProps) {
   const state = useAppState();
   const dispatch = useAppDispatch();
-  const people = [...VIDEO_PEOPLE_BASE, { name: coachName, role: '監督' }];
+  const people = coachName ? [...VIDEO_PEOPLE_BASE, { name: coachName, role: '監督' }] : VIDEO_PEOPLE_BASE;
   const saveLabel = state.saved ? '保存しました（国別メモ）' : `要約を${countryJa}のメモに保存`;
 
   return (

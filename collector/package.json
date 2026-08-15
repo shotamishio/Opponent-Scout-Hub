@@ -6,7 +6,7 @@
   "description": "Free-tier news collector for Opponent Scout Hub. Runs on a schedule (see ../.github/workflows/collect-and-deploy.yml), fetches public news via Google News RSS per opponent country, classifies source trust tier, and writes JSON that ../app reads as its live data.",
   "scripts": {
     "collect": "node collect.mjs",
-    "test": "node collect.test.mjs && node collect.integration-test.mjs"
+    "test": "node collect.test.mjs && node wikipedia.test.mjs && node collect.integration-test.mjs"
   },
   "dependencies": {
     "fast-xml-parser": "^5.10.1"

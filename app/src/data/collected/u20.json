@@ -1,16 +1,16 @@
 {
   "category": "u20",
-  "generatedAt": "2026-08-15T17:01:04.950Z",
+  "generatedAt": "2026-08-16T00:17:07.729Z",
   "successCount": 18,
   "totalCount": 18,
   "itemCount": 45,
   "officialCount": 23,
   "emptyCount": 6,
-  "coachCount": 18,
+  "coachCount": 15,
   "countries": {
     "ESP": {
       "items": [],
-      "fetchedAt": "2026-08-15T16:58:57.743Z",
+      "fetchedAt": "2026-08-16T00:15:05.973Z",
       "status": "ok",
       "filteredOut": 49,
       "federationUrl": "https://rfef.es",
@@ -33,7 +33,7 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-08-15T16:59:01.276Z"
+        "fetchedAt": "2026-08-16T00:15:09.648Z"
       }
     },
     "BRA": {
@@ -63,9 +63,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T16:59:04.854Z",
+      "fetchedAt": "2026-08-16T00:15:13.230Z",
       "status": "ok",
-      "filteredOut": 6,
+      "filteredOut": 7,
       "federationUrl": "https://cbf.com.br",
       "coach": {
         "status": "ok",
@@ -86,7 +86,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-15T16:59:08.331Z"
+        "fetchedAt": "2026-08-16T00:15:16.910Z"
       }
     },
     "USA": {
@@ -156,7 +156,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-15T16:59:12.446Z",
+      "fetchedAt": "2026-08-16T00:15:20.755Z",
       "status": "ok",
       "filteredOut": 97,
       "federationUrl": "https://ussoccer.com",
@@ -170,12 +170,12 @@
         "bio": "Victoria Jepson is an English professional football coach and manager who is currently the head coach of the United States Women's U20. She previously served as senior assistant head coach of Women's Super League club Tottenham Hotspur, where she was also the club's assistant coach and had a spell as interim head coach. She managed Liverpool in both the WSL and Women's Championship from 2018 to 2021.",
         "federationUrl": "https://ussoccer.com",
         "articles": [],
-        "fetchedAt": "2026-08-15T16:59:16.062Z"
+        "fetchedAt": "2026-08-16T00:15:24.468Z"
       }
     },
     "NED": {
       "items": [],
-      "fetchedAt": "2026-08-15T16:59:19.601Z",
+      "fetchedAt": "2026-08-16T00:15:27.987Z",
       "status": "ok",
       "filteredOut": 6,
       "federationUrl": "https://knvb.nl",
@@ -189,7 +189,7 @@
         "bio": null,
         "federationUrl": "https://knvb.nl",
         "articles": [],
-        "fetchedAt": "2026-08-15T16:59:23.018Z"
+        "fetchedAt": "2026-08-16T00:15:31.532Z"
       }
     },
     "NGA": {
@@ -243,7 +243,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T16:59:26.789Z",
+      "fetchedAt": "2026-08-16T00:15:35.321Z",
       "status": "ok",
       "filteredOut": 105,
       "federationUrl": "https://thenff.com",
@@ -266,12 +266,12 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-15T16:59:30.296Z"
+        "fetchedAt": "2026-08-16T00:15:38.925Z"
       }
     },
     "COL": {
       "items": [],
-      "fetchedAt": "2026-08-15T16:59:33.926Z",
+      "fetchedAt": "2026-08-16T00:15:42.462Z",
       "status": "ok",
       "filteredOut": 9,
       "federationUrl": "https://fcf.com.co",
@@ -285,14 +285,14 @@
         "bio": null,
         "federationUrl": "https://fcf.com.co",
         "articles": [],
-        "fetchedAt": "2026-08-15T16:59:37.356Z"
+        "fetchedAt": "2026-08-16T00:15:46.012Z"
       }
     },
     "FRA": {
       "items": [],
-      "fetchedAt": "2026-08-15T16:59:41.069Z",
+      "fetchedAt": "2026-08-16T00:15:49.729Z",
       "status": "ok",
-      "filteredOut": 102,
+      "filteredOut": 101,
       "federationUrl": "https://fff.fr",
       "coach": {
         "status": "ok",
@@ -304,12 +304,12 @@
         "bio": "Sandrine Ringler is a French former footballer who played as a defender for FC Vendenheim of the Division 1 Féminine.",
         "federationUrl": "https://fff.fr",
         "articles": [],
-        "fetchedAt": "2026-08-15T16:59:44.526Z"
+        "fetchedAt": "2026-08-16T00:15:53.325Z"
       }
     },
     "MEX": {
       "items": [],
-      "fetchedAt": "2026-08-15T16:59:48.118Z",
+      "fetchedAt": "2026-08-16T00:15:56.963Z",
       "status": "ok",
       "filteredOut": 8,
       "federationUrl": "https://fmf.mx",
@@ -323,7 +323,7 @@
         "bio": "Dorival Bueno dos Santos Pacheco, sometimes known as his nickname Doriva Bueno is a Brazilian football manager for the Mexico women's national under-20 team.",
         "federationUrl": "https://fmf.mx",
         "articles": [],
-        "fetchedAt": "2026-08-15T16:59:52.104Z"
+        "fetchedAt": "2026-08-16T00:16:00.573Z"
       }
     },
     "PRK": {
@@ -337,7 +337,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T16:59:54.043Z",
+      "fetchedAt": "2026-08-16T00:16:02.462Z",
       "status": "ok",
       "filteredOut": 8,
       "federationUrl": null,
@@ -351,7 +351,7 @@
         "bio": null,
         "federationUrl": null,
         "articles": [],
-        "fetchedAt": "2026-08-15T16:59:57.475Z"
+        "fetchedAt": "2026-08-16T00:16:06.043Z"
       }
     },
     "KOR": {
@@ -375,7 +375,7 @@
         {
           "title": "South Korea U-20 Women Lose 0-3 to North Korea in Semifinals",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSHhKY1Q1LWFIY0dxSmM2a3lRcnM0eWZPWVJoODRZMTZ4ME5SbUhSaFFKakx6dUZYR016c2xQeV9kdEIzRkVXYXE1ay12V3Y1RjRXRHRoMkdrZ0tuVVZCRkp4aTBOQ0I2TWUzYWFuekJqWGlpMTgtYTFnMDhXQTFVY0tESHVSZw?oc=5",
-          "sourceName": "chosun.com",
+          "sourceName": "조선일보",
           "sourceUrl": "https://www.chosun.com",
           "publishedAt": "2026-04-15T07:00:00.000Z",
           "tier": "T2"
@@ -415,13 +415,13 @@
         {
           "title": "South Korea U-20 Women Crushed 0-5 by North Korea, Advances",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOOXVkXzQ5a2FYaWE0bkU1MU95UkNrWDY1NFBPczBjTW1vOVg3SVFNM185X0VpbTRIYjNnZ1hneXlqWVVEQldCOWNZY2FHVGkxejJzbHVLbWpzaHFOOEtsaGRtS0pWSU16Ukc5UVF4VGd2NnpBd3VtamZzUnpHT0tfSmlldFFNdw?oc=5",
-          "sourceName": "chosun.com",
+          "sourceName": "조선일보",
           "sourceUrl": "https://www.chosun.com",
           "publishedAt": "2026-04-09T07:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:00:01.177Z",
+      "fetchedAt": "2026-08-16T00:16:09.581Z",
       "status": "ok",
       "filteredOut": 1,
       "federationUrl": "https://kfa.or.kr",
@@ -435,7 +435,7 @@
         "bio": null,
         "federationUrl": "https://kfa.or.kr",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:00:04.624Z"
+        "fetchedAt": "2026-08-16T00:16:13.174Z"
       }
     },
     "CHN": {
@@ -465,7 +465,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:00:08.286Z",
+      "fetchedAt": "2026-08-16T00:16:16.790Z",
       "status": "ok",
       "filteredOut": 22,
       "federationUrl": "https://thecfa.cn",
@@ -512,7 +512,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-15T17:00:12.033Z"
+        "fetchedAt": "2026-08-16T00:16:20.594Z"
       }
     },
     "AUS": {
@@ -582,7 +582,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-15T17:00:15.812Z",
+      "fetchedAt": "2026-08-16T00:16:24.394Z",
       "status": "ok",
       "filteredOut": 91,
       "federationUrl": "https://footballaustralia.com.au",
@@ -605,7 +605,7 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-08-15T17:00:19.382Z"
+        "fetchedAt": "2026-08-16T00:16:28.116Z"
       }
     },
     "VIE": {
@@ -635,9 +635,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:00:23.131Z",
+      "fetchedAt": "2026-08-16T00:16:31.873Z",
       "status": "ok",
-      "filteredOut": 102,
+      "filteredOut": 103,
       "federationUrl": "https://vff.org.vn",
       "coach": {
         "status": "ok",
@@ -649,7 +649,7 @@
         "bio": null,
         "federationUrl": "https://vff.org.vn",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:00:27.190Z"
+        "fetchedAt": "2026-08-16T00:16:35.918Z"
       }
     },
     "UZB": {
@@ -671,21 +671,16 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:00:30.746Z",
+      "fetchedAt": "2026-08-16T00:16:39.443Z",
       "status": "ok",
       "filteredOut": 4,
       "federationUrl": "https://uzfa.uz",
       "coach": {
-        "status": "ok",
-        "name": "Most caps         =",
+        "status": "no_coach_listed",
         "teamArticle": "Uzbekistan women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Uzbekistan_women's_national_under-20_football_team",
-        "profileUrl": null,
-        "description": null,
-        "bio": null,
         "federationUrl": "https://uzfa.uz",
-        "articles": [],
-        "fetchedAt": "2026-08-15T17:00:34.283Z"
+        "fetchedAt": "2026-08-16T00:16:41.290Z"
       }
     },
     "TPE": {
@@ -699,26 +694,21 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:00:37.862Z",
+      "fetchedAt": "2026-08-16T00:16:44.825Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://ctfa.com.tw",
       "coach": {
-        "status": "ok",
-        "name": "Asst Manager          =",
+        "status": "no_coach_listed",
         "teamArticle": "Chinese Taipei women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Chinese_Taipei_women's_national_under-20_football_team",
-        "profileUrl": null,
-        "description": null,
-        "bio": null,
         "federationUrl": "https://ctfa.com.tw",
-        "articles": [],
-        "fetchedAt": "2026-08-15T17:00:41.442Z"
+        "fetchedAt": "2026-08-16T00:16:46.659Z"
       }
     },
     "THA": {
       "items": [],
-      "fetchedAt": "2026-08-15T17:00:44.980Z",
+      "fetchedAt": "2026-08-16T00:16:50.229Z",
       "status": "ok",
       "filteredOut": 6,
       "federationUrl": "https://fat.or.th",
@@ -732,7 +722,7 @@
         "bio": "Nuengrutai Srathongvian, also known as \"Coach Nueng\", is a Thai football manager and former footballer and field hockey player who is currently the manager of the Thailand women's national under-20 football team.",
         "federationUrl": "https://fat.or.th",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:00:48.469Z"
+        "fetchedAt": "2026-08-16T00:16:53.794Z"
       }
     },
     "MYA": {
@@ -746,21 +736,16 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-15T17:00:52.783Z",
+      "fetchedAt": "2026-08-16T00:16:57.342Z",
       "status": "ok",
       "filteredOut": 13,
       "federationUrl": "https://myanmarfootball.org",
       "coach": {
-        "status": "ok",
-        "name": "Captain            =",
+        "status": "no_coach_listed",
         "teamArticle": "Myanmar women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Myanmar_women's_national_under-20_football_team",
-        "profileUrl": null,
-        "description": null,
-        "bio": null,
         "federationUrl": "https://myanmarfootball.org",
-        "articles": [],
-        "fetchedAt": "2026-08-15T17:00:56.432Z"
+        "fetchedAt": "2026-08-16T00:16:59.103Z"
       }
     },
     "JOR": {
@@ -774,7 +759,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:01:00.028Z",
+      "fetchedAt": "2026-08-16T00:17:02.716Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://jfa.jo",
@@ -788,7 +773,7 @@
         "bio": null,
         "federationUrl": "https://jfa.jo",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:01:03.450Z"
+        "fetchedAt": "2026-08-16T00:17:06.228Z"
       }
     }
   }

@@ -1,12 +1,12 @@
 {
   "category": "u17",
-  "generatedAt": "2026-08-15T17:03:18.100Z",
+  "generatedAt": "2026-08-16T00:19:20.940Z",
   "successCount": 19,
   "totalCount": 19,
   "itemCount": 52,
   "officialCount": 40,
   "emptyCount": 8,
-  "coachCount": 17,
+  "coachCount": 16,
   "countries": {
     "PRK": {
       "items": [
@@ -19,28 +19,23 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:01:05.300Z",
+      "fetchedAt": "2026-08-16T00:17:08.058Z",
       "status": "ok",
       "filteredOut": 8,
       "federationUrl": null,
       "coach": {
-        "status": "ok",
-        "name": "Captain             =",
+        "status": "no_coach_listed",
         "teamArticle": "North Korea women's national under-17 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/North_Korea_women's_national_under-17_football_team",
-        "profileUrl": null,
-        "description": null,
-        "bio": null,
         "federationUrl": null,
-        "articles": [],
-        "fetchedAt": "2026-08-15T17:01:08.868Z"
+        "fetchedAt": "2026-08-16T00:17:09.878Z"
       }
     },
     "ESP": {
       "items": [],
-      "fetchedAt": "2026-08-15T17:01:12.500Z",
+      "fetchedAt": "2026-08-16T00:17:13.490Z",
       "status": "ok",
-      "filteredOut": 42,
+      "filteredOut": 43,
       "federationUrl": "https://rfef.es",
       "coach": {
         "status": "ok",
@@ -52,7 +47,7 @@
         "bio": "Milagros \"Mila\" Martínez Domínguez is a Spanish football manager.",
         "federationUrl": "https://rfef.es",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:01:16.099Z"
+        "fetchedAt": "2026-08-16T00:17:17.142Z"
       }
     },
     "USA": {
@@ -122,7 +117,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-15T17:01:19.922Z",
+      "fetchedAt": "2026-08-16T00:17:20.980Z",
       "status": "ok",
       "filteredOut": 92,
       "federationUrl": "https://ussoccer.com",
@@ -145,14 +140,14 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-08-15T17:01:23.396Z"
+        "fetchedAt": "2026-08-16T00:17:24.573Z"
       }
     },
     "COL": {
       "items": [],
-      "fetchedAt": "2026-08-15T17:01:26.945Z",
+      "fetchedAt": "2026-08-16T00:17:28.099Z",
       "status": "ok",
-      "filteredOut": 6,
+      "filteredOut": 7,
       "federationUrl": "https://fcf.com.co",
       "coach": {
         "status": "ok",
@@ -164,7 +159,7 @@
         "bio": null,
         "federationUrl": "https://fcf.com.co",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:01:30.480Z"
+        "fetchedAt": "2026-08-16T00:17:31.675Z"
       }
     },
     "NGA": {
@@ -234,7 +229,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-15T17:01:34.262Z",
+      "fetchedAt": "2026-08-16T00:17:35.447Z",
       "status": "ok",
       "filteredOut": 106,
       "federationUrl": "https://thenff.com",
@@ -265,7 +260,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-15T17:01:37.743Z"
+        "fetchedAt": "2026-08-16T00:17:39.051Z"
       }
     },
     "BRA": {
@@ -279,7 +274,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:01:41.280Z",
+      "fetchedAt": "2026-08-16T00:17:42.591Z",
       "status": "ok",
       "filteredOut": 1,
       "federationUrl": "https://cbf.com.br",
@@ -294,11 +289,27 @@
         "federationUrl": "https://cbf.com.br",
         "articles": [
           {
+            "title": "Simone Biles Tease, New Photos Causes Fans to Dream About Gymnastics Returns for 2028 Olympics in LA",
+            "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPeXJyYnFwYVNzWW84NE44VnB6M1ZvUnV0YTJwN0dTU3lqR3VfNm52UlRGQ0k4NUxtSnBHWXJZUXp0OHlfamlPRTRZTlBJd1YtUmxuTE0xVXItaHBNZXNYSlNXWVhKMVBTNUZRQzhkNzFUU2t6RVFCdkY2aURkRDZsWDBrSHNEVmNiV2pfay1BTDNsTU9LLUtTZDFyM2ZLR2FhZXdyYVBlajZicHkyblpYaFlzbzY1WUFlQzlIb2NEX0c3VEVyRlBtclkycTNVazA?oc=5",
+            "sourceName": "Bleacher Report",
+            "sourceUrl": "https://bleacherreport.com",
+            "publishedAt": "2026-08-15T18:40:10.000Z",
+            "tier": "T2"
+          },
+          {
             "title": "Brooklyn FC Women sign and transfer forward Simone Charley to Chicago Stars FC",
             "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNTUdIbzZMQ21rRUxPTklaR2hXa1BmdEVZdVNPazNEWm54RVRJaV9FQzlLVFlILTlNRGRJYTlhWlVtbUx4clk4bTh4bl9oblF2cG4wZndJbnYwZGw2ZlR3WTR0WGlTS0VuODRSVzNlT1d0MUFDeWJ2Q2FTSXFNZFFfME9XVzUwZ2t5a1pBYmMyY1ZnRlFtY0lTWkc5dnBUYmE3SWkzSlhB?oc=5",
-            "sourceName": "brooklynfootballclub.com",
+            "sourceName": "Brooklyn FC",
             "sourceUrl": "https://www.brooklynfootballclub.com",
             "publishedAt": "2026-08-13T23:08:51.000Z",
+            "tier": "T2"
+          },
+          {
+            "title": "Simone Stroscio Game Log - Soccer",
+            "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNcE12X1FuLUNlNTI1aFNUME5VbTFxdzByY0I1YXJKOUtucHcwcjNCWGhGQ2dZaVBKVV9LM1dSTlRxQmxnZG9LWnd2b3JuOWZkYkhZZzAwOXVBWHBXUjA2Q2hFUnludmNCVTM1eUF1UmFPSy1LMWRnRGNpRFBzSHFkTlBOV1FLTUUxRVJHV1ZfN01TMVU3eU1nYg?oc=5",
+            "sourceName": "FOX Sports",
+            "sourceUrl": "https://www.foxsports.com",
+            "publishedAt": "2026-08-02T19:25:58.000Z",
             "tier": "T2"
           },
           {
@@ -316,30 +327,14 @@
             "sourceUrl": "https://bleacherreport.com",
             "publishedAt": "2026-07-07T07:00:00.000Z",
             "tier": "T2"
-          },
-          {
-            "title": "Simone Biles Addresses Fan's Question About 'Near Death Experience' During Belize Trip with Husband",
-            "link": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQWDlaZ3BZbmFtX1Zjb0JWdE1DYlhUNW5GblpXbFNfSFBIc2tNbHgxUndTU3FNR3g5UzRWMjA3SVN0Wkl6dVNUSFpVYUM3aHZCVThVOW9oX0JGRjVWT2NlQlBQUEg5bFN0Vk1tMlh2S2ZjZ2RBSzhkekRGRmk2YmFpSlRrRmhCUWJhV1FhRklwN3p5RndmTmEySHBVaDRONmFxaTNmdFMyRDUzWng0NTVHWGRZVHYzTmxDbjVLU21GS0U2YXlYUnN1bmJXNDdHbk5MaVE?oc=5",
-            "sourceName": "Bleacher Report",
-            "sourceUrl": "https://bleacherreport.com",
-            "publishedAt": "2026-06-15T07:00:00.000Z",
-            "tier": "T2"
-          },
-          {
-            "title": "Jonathan Owens puts football aside to help Simone Biles recover from a health scare",
-            "link": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxPQ2d1dmQ2eHVxT3czQTVIb2Z0emh1U05wX1QtM1pZTmxQU0JSdzdTcDk5N1ZWRjBRc1o5SkpYUi15MGtGV1RlX0F5YllaWWdCd011UUEwZS1nTGo5NzNySDRza0ZHUGx1RV9jNUNpVHo0VW42aFZxQ2Fja3d3a1JiTWdVQ0VWa3YwWTZCZzNlVko2cjFjRmxRVTVnd3Q1cFdKQ0kxdlJKXzhPOVRSaGVPWS1lcEZmcmxxWHNjUVM3NERRaXB2OG9YNmdVYXZjNzJET0RnODZ2anh4cE9iMEHSAd4BQVVfeXFMTXh5YWk3dkdoTzFTQWppbnAteXhjbC1fWFF1Q2ExZEYydTg4UHpWRnJvem9obnRBYjhVZVRzQnpDM0RWc3BZMmRxQjRLdEstUUJIcFYxd0NFbUFXOXEwWjFMTmdjeTVINHYwU3J0RlZFbVZMam16M0RHNVhxTVhyaUFlN3djQVFjOVphZDZ2V2l3VHZwMWJsYUVQRHhlV0s3SEkwSVlXN3VzdHJOVWMxcklKMFNjRTJVb014aEZLS25SZ3NXSGE4dHg3R1l5dzhrWWdxMW1PakJfRjRiZ1NR?oc=5",
-            "sourceName": "MARCA",
-            "sourceUrl": "https://www.marca.com",
-            "publishedAt": "2026-06-15T07:00:00.000Z",
-            "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-15T17:01:44.933Z"
+        "fetchedAt": "2026-08-16T00:17:46.435Z"
       }
     },
     "ENG": {
       "items": [],
-      "fetchedAt": "2026-08-15T17:01:48.637Z",
+      "fetchedAt": "2026-08-16T00:17:50.162Z",
       "status": "ok",
       "filteredOut": 105,
       "federationUrl": "https://thefa.com",
@@ -353,12 +348,12 @@
         "bio": null,
         "federationUrl": "https://thefa.com",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:01:52.064Z"
+        "fetchedAt": "2026-08-16T00:17:53.674Z"
       }
     },
     "MEX": {
       "items": [],
-      "fetchedAt": "2026-08-15T17:01:55.662Z",
+      "fetchedAt": "2026-08-16T00:17:57.232Z",
       "status": "ok",
       "filteredOut": 11,
       "federationUrl": "https://fmf.mx",
@@ -372,7 +367,7 @@
         "bio": "Miguel Ángel Gamero Villalobos is a Mexican manager who is the current manager of Mexico U–17 women.",
         "federationUrl": "https://fmf.mx",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:01:59.169Z"
+        "fetchedAt": "2026-08-16T00:18:00.829Z"
       }
     },
     "KOR": {
@@ -380,7 +375,7 @@
         {
           "title": "South Korea U-17 Women’s Team Falls 0-1 to Japan in Asian Cup Quarterfinals",
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOZ2JJUVBhZVlNWDhRNm5BWHRfZUFiSWlLVnozeF9lME9LYkpSVlpKbkl1Y3JuV1pmU1Jqc0VyQXFWWmJNWHhCWGwxYzRueHBDT1JjT0lRYk5ZdTZ2NzVob1lubGFIUG5lV1A5V0ttLUpzMmRJMlh0OFg1cXpORHhEemFzWEpvdw?oc=5",
-          "sourceName": "chosun.com",
+          "sourceName": "조선일보",
           "sourceUrl": "https://www.chosun.com",
           "publishedAt": "2026-05-12T07:00:00.000Z",
           "tier": "T2"
@@ -394,9 +389,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:02:02.765Z",
+      "fetchedAt": "2026-08-16T00:18:04.439Z",
       "status": "ok",
-      "filteredOut": 22,
+      "filteredOut": 20,
       "federationUrl": "https://kfa.or.kr",
       "coach": {
         "status": "ok",
@@ -413,7 +408,7 @@
             "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9EaWVXT3B1Sm5uVjJpaFVrMmdyU0JPcEJja2k1QjRyWDdJSUo4U3lFQlF1QnNfb1ZnWGNPQk9DS1FLUGJqX2ViaEhGcmNGdWxvNVBGM1pZV041NWFGOHJYUXhkZGI1Tm5yZmdIaE1ERTc1d3pBOHBxME1n?oc=5",
             "sourceName": "starnewskorea.com",
             "sourceUrl": "https://www.starnewskorea.com",
-            "publishedAt": "2026-07-31T00:04:08.000Z",
+            "publishedAt": "2026-07-31T07:00:00.000Z",
             "tier": "T2"
           },
           {
@@ -427,7 +422,7 @@
           {
             "title": "Kim Eun-jung Appointed Head Coach for 2028 LA Olympics Team",
             "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNUFlORF8zbzlmRmhaNXc3SW5vVTVTZkhTWldlSVMydndteVloLVFKaFk3dko2WUc2Vlp2WlpUNTd4dmpzN1pLaS1kMFhWa1otWHdDZXZYc0lVZzNIOVk3YTRNUmVrVWlwZkFYR004MWhBRnZad1I2RlVvVXVIencwbXdQQVMyZw?oc=5",
-            "sourceName": "chosun.com",
+            "sourceName": "조선일보",
             "sourceUrl": "https://www.chosun.com",
             "publishedAt": "2026-05-07T07:00:00.000Z",
             "tier": "T2"
@@ -435,7 +430,7 @@
           {
             "title": "Kim Eun-jung Named South Korea’s 2028 LA Olympics Coach",
             "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPV2RndmZnblJIZmZGa0c4ZWtCRm9rZTRkWk5xQ2wtUGw3c1F1V1QxM1J1bXdRejBvN1pRUVhjOFZtWVNIcTNkYjNHWVo4b2s0OC1VMFJWYWNndG9rSU41dWhOZGJjMTBrRXFreXhLU0FtQXVNTHNqSnZGdWZiS09CSVlrNl9WZw?oc=5",
-            "sourceName": "chosun.com",
+            "sourceName": "조선일보",
             "sourceUrl": "https://www.chosun.com",
             "publishedAt": "2026-05-06T07:00:00.000Z",
             "tier": "T2"
@@ -449,7 +444,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-15T17:02:06.331Z"
+        "fetchedAt": "2026-08-16T00:18:08.013Z"
       }
     },
     "CHN": {
@@ -487,7 +482,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:02:09.889Z",
+      "fetchedAt": "2026-08-16T00:18:11.536Z",
       "status": "ok",
       "filteredOut": 8,
       "federationUrl": "https://thecfa.cn",
@@ -501,7 +496,7 @@
         "bio": "Wang Hongliang is a Chinese football coach and former football player as a midfielder.",
         "federationUrl": "https://thecfa.cn",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:02:13.413Z"
+        "fetchedAt": "2026-08-16T00:18:15.151Z"
       }
     },
     "AUS": {
@@ -571,7 +566,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-15T17:02:17.139Z",
+      "fetchedAt": "2026-08-16T00:18:18.863Z",
       "status": "ok",
       "filteredOut": 85,
       "federationUrl": "https://footballaustralia.com.au",
@@ -626,7 +621,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-15T17:02:22.206Z"
+        "fetchedAt": "2026-08-16T00:18:23.477Z"
       }
     },
     "PHI": {
@@ -680,7 +675,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-15T17:02:26.043Z",
+      "fetchedAt": "2026-08-16T00:18:27.247Z",
       "status": "ok",
       "filteredOut": 98,
       "federationUrl": "https://pff.org.ph",
@@ -697,18 +692,18 @@
           {
             "title": "Wanderers part ways with head coach Alen Stajcic and assistant coach Nahuel Arrarte",
             "link": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN0hEXzQySDA0cXQ3RVdxQWpvSElRX0dvNHVKMTA2UzFsbVMzQjBvbmREV1JvS3ZLZlpveXk0aHhxTGVkdVlSakExREV4ak9fZU9HT3MyMXpxTDduSWJiYjBTcEc0QTVrbDNKR0ltbTc2NXJXS1J2aHNuZldYUzNWVzI2ei1Rb08xdEo5ZmZWNEdUVGkyZkVCWWlSX2hub3lfWmJlVU4xSmx6REhsM0Q4ekV2NVZLQ2tBeHc?oc=5",
-            "sourceName": "wswanderersfc.com.au",
+            "sourceName": "Western Sydney Wanderers",
             "sourceUrl": "https://wswanderersfc.com.au",
             "publishedAt": "2026-01-20T08:00:00.000Z",
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-15T17:02:29.571Z"
+        "fetchedAt": "2026-08-16T00:18:30.908Z"
       }
     },
     "THA": {
       "items": [],
-      "fetchedAt": "2026-08-15T17:02:33.114Z",
+      "fetchedAt": "2026-08-16T00:18:34.458Z",
       "status": "ok",
       "filteredOut": 16,
       "federationUrl": "https://fat.or.th",
@@ -722,14 +717,14 @@
         "bio": "Thidarat Wiwasukhu is a Thai football manager and former player, who is the assistant coach of the Thailand.",
         "federationUrl": "https://fat.or.th",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:02:36.551Z"
+        "fetchedAt": "2026-08-16T00:18:38.023Z"
       }
     },
     "BAN": {
       "items": [],
-      "fetchedAt": "2026-08-15T17:02:40.208Z",
+      "fetchedAt": "2026-08-16T00:18:41.762Z",
       "status": "ok",
-      "filteredOut": 88,
+      "filteredOut": 90,
       "federationUrl": "https://bff.com.bd",
       "coach": {
         "status": "ok",
@@ -741,7 +736,7 @@
         "bio": null,
         "federationUrl": "https://bff.com.bd",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:02:44.467Z"
+        "fetchedAt": "2026-08-16T00:18:46.986Z"
       }
     },
     "VIE": {
@@ -779,7 +774,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:02:48.203Z",
+      "fetchedAt": "2026-08-16T00:18:50.720Z",
       "status": "ok",
       "filteredOut": 98,
       "federationUrl": "https://vff.org.vn",
@@ -793,12 +788,12 @@
         "bio": null,
         "federationUrl": "https://vff.org.vn",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:02:51.622Z"
+        "fetchedAt": "2026-08-16T00:18:54.236Z"
       }
     },
     "MAS": {
       "items": [],
-      "fetchedAt": "2026-08-15T17:02:55.125Z",
+      "fetchedAt": "2026-08-16T00:18:57.773Z",
       "status": "ok",
       "filteredOut": 4,
       "federationUrl": "https://fam.org.my",
@@ -807,19 +802,19 @@
         "teamArticle": "Football Association of Malaysia",
         "teamUrl": "https://en.wikipedia.org/wiki/Football_Association_of_Malaysia",
         "federationUrl": "https://fam.org.my",
-        "fetchedAt": "2026-08-15T17:02:56.803Z"
+        "fetchedAt": "2026-08-16T00:18:59.594Z"
       }
     },
     "TPE": {
       "items": [],
-      "fetchedAt": "2026-08-15T17:03:00.375Z",
+      "fetchedAt": "2026-08-16T00:19:03.096Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://ctfa.com.tw",
       "coach": {
         "status": "no_team_article",
         "federationUrl": "https://ctfa.com.tw",
-        "fetchedAt": "2026-08-15T17:03:01.972Z"
+        "fetchedAt": "2026-08-16T00:19:04.755Z"
       }
     },
     "IND": {
@@ -827,7 +822,7 @@
         {
           "title": "India U17 women set for two friendlies against Uzbekistan in Tashkent",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRk02RmNQVkh3SVB1YU4zYlNja0hHUEwyT0xQNE4zMzMyd01zaHZzQUFuQjBiQ2FFNU1YS3dNUWRCWlN2eC1ienM1ZjNyZ3JUT0lOeWFYNTVqNklIcEFaV2lSbmg0aUxybjB1X3prQkVFUnZGVDdYRFdSTEdYWGVudVJmZkhVbDNwT1lDeUgxVlpzT0ZSZzNTd2ZNNnFVdk10X0p0bA?oc=5",
-          "sourceName": "All India Football Federation",
+          "sourceName": "the-aiff.com",
           "sourceUrl": "https://www.the-aiff.com",
           "publishedAt": "2026-08-13T11:12:41.000Z",
           "tier": "T1"
@@ -835,7 +830,7 @@
         {
           "title": "Nita, HOPS to battle for first AIFF U17 Women's Youth League title",
           "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxOUXlvYWJaeWhXbU1rR3JVUk5wZWNPZGdDQXVZTVFaalhPRGI4TWVjUEQzdS14aVNRR1hQQThLbEp2SV9SSWdtdnpscUdxYzE3ZEtWMnBkcWh1bzl4SXljZEVJaEhrUjlWWWtCM2hVd2pleXBTX0haTHVIQ1EwSTNSRG83ei1SUHNkT2NSSERyMjdrcTcxbkc1UF94SktmQQ?oc=5",
-          "sourceName": "All India Football Federation",
+          "sourceName": "the-aiff.com",
           "sourceUrl": "https://www.the-aiff.com",
           "publishedAt": "2026-07-27T21:00:27.000Z",
           "tier": "T1"
@@ -843,7 +838,7 @@
         {
           "title": "DFA Raisen, RKM squeeze into AIFF U17 Women's Youth League quarter-finals",
           "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPNURoTVFIay1UTmsta0JpMlpra3lhQkJRT1dBdDBmV2c3M2tUT1RVVWVFQWR4bjI5VnY4TWpMTXVwTmgyQVdObXJ4UG1TVldINmhVdWhJRFZOQjA5YjhmbkJldklKTG1lbnR4VHVOLTA2QWgyOERIQUFtdmxFZ0F5bFZKNkFpbzE3Mk1CeFdUTjAxTHlSalppV2dTVUFfTTdtQVlHWFFIRQ?oc=5",
-          "sourceName": "All India Football Federation",
+          "sourceName": "the-aiff.com",
           "sourceUrl": "https://www.the-aiff.com",
           "publishedAt": "2026-07-24T07:00:00.000Z",
           "tier": "T1"
@@ -851,7 +846,7 @@
         {
           "title": "Zinc, Garhwal United secure quarter-final spots in AIFF U17 Women's Youth League",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQV20wYjk2OWp1bHBvYlBfaVRaeGxzYjNzZ3IwLWdYbkNQNEJJUmJUTXQ5VllyMnRFWkZpekt2c2ZFckNjWEJyZ3JHVXQtX0tVSlNsNHl4ek9LdDhyaWdlb0ZqTE55U1VUTnBXWXpCcTR2eXVwVFNHSHZuYXB6Qi1nVV82Y2dkWVk3dDdodVhwZncyYTQtRkxVRWNycHgwc2tXUlQ1WS0tNll6b0ZiOUZrZg?oc=5",
-          "sourceName": "All India Football Federation",
+          "sourceName": "the-aiff.com",
           "sourceUrl": "https://www.the-aiff.com",
           "publishedAt": "2026-07-20T07:00:00.000Z",
           "tier": "T1"
@@ -859,7 +854,7 @@
         {
           "title": "India to face Malaysia, Syria, Iraq in AFC U17 Women’s Asian Cup 2027 Qualifiers",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOcjdSWjJ0Z3pJdG1EckNPa1laQU9JYkIzRkkzYlpyYTY2WVp5bjJlbElHa3F4bDJwU0ViUzJHa3c4Mk1zZ05vNVFYYmtCVzUxVGI5WnFQSkZNZ2FqX19BM1hZZnBrclFILVZYRjQ1bE5Da1E2MFRoQTM3aENVNWNmMlI5aEJMSFNOWTVMQm5TTzNibTh5MUwtTW5iVHMtSkQ5UEV3QjBlWUpJN1Zib0sw?oc=5",
-          "sourceName": "All India Football Federation",
+          "sourceName": "the-aiff.com",
           "sourceUrl": "https://www.the-aiff.com",
           "publishedAt": "2026-07-16T07:00:00.000Z",
           "tier": "T1"
@@ -867,7 +862,7 @@
         {
           "title": "AIFF U17 Women's Youth League",
           "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFA3TGFseGtSNXBGVWZhRGFISllqVE5HSEQ2Y21MVUtxOGNvelozZFdnbHFWdzNGWXVzMUhmNHZLd19yXzQ1VTgtODBoaHo2VjluamcwQndia0VLck5BRTA3X1NSemlXX2Znc0UzUEVTVDJMTUM3WjdzZmZBX2Q?oc=5",
-          "sourceName": "All India Football Federation",
+          "sourceName": "the-aiff.com",
           "sourceUrl": "https://www.the-aiff.com",
           "publishedAt": "2026-06-16T15:45:56.000Z",
           "tier": "T1"
@@ -875,7 +870,7 @@
         {
           "title": "Historic first edition of AIFF U17 Women's Youth League to kick off on July 18 with 16 teams",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNenlMbl8xV0tQdmkxSmd4QXNxZ3BWRC05R01tbjA2R1NYLXprTklBQjhGbmpCbHBwNW5tUGVBT29nRTNQT3JzcHY4LWN1YTJ5VkExX3ppNTZIYzZ5ZkJSUEhXOV9NX0JQMFVINjg3Wjh5WlZ0YmE2Q3oyaExVZnVnOGFPRGl5enVRZ05oNU5mT2JoYnhQZTlNUUZzeU9QLUUzRzNpVGRWU0UwSjJVeUhvOVVTV01BdlJmMEZjQ0ZTUlR1Zw?oc=5",
-          "sourceName": "All India Football Federation",
+          "sourceName": "the-aiff.com",
           "sourceUrl": "https://www.the-aiff.com",
           "publishedAt": "2026-06-16T12:20:59.000Z",
           "tier": "T1"
@@ -883,13 +878,13 @@
         {
           "title": "Young Tigresses bow out of AFC U17 Women’s Asian Cup after quarter-final loss against China",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOYVhBS3Z0ZWdLeWhaWUVidGsxSk1NWnBnMWZVZVluWjFQeGx0X0lnYnFuWFdkRTlON1c0aVB2Rk5Jc0NCM2VNOWotWl8td0FPMXZRVEdtT092Yi01WHVlbkdsVnhjVUllY0NkeDFRbzk5QlluanBfWnZ2cnhQT0xYUEFuc25Lb3V1SUY1NWRqVlBxRXp0TzdvZFRyMXdPMUctVlZBTVA4WUtMWmJ6YVRROXBrZFBJWVRYVldSa2c3N2I?oc=5",
-          "sourceName": "All India Football Federation",
+          "sourceName": "the-aiff.com",
           "sourceUrl": "https://www.the-aiff.com",
           "publishedAt": "2026-05-11T14:59:05.000Z",
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-15T17:03:05.928Z",
+      "fetchedAt": "2026-08-16T00:19:08.719Z",
       "status": "ok",
       "filteredOut": 114,
       "federationUrl": "https://the-aiff.com",
@@ -906,7 +901,7 @@
           {
             "title": "Joakim Alexandersson Returns As India U-17 Women's Coach For 2027 Asian Cup Qualifiers",
             "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNaVVLdENHMWR5UDM4TEJ0VnN6ZktOSl95V0xSX0Y3YnlVc1FsWnVxdVpNSzBGWE5QSnpFazR5RTNNMUpBVzBCVDFyZzRNSjNpUzAzNjdTVFlmcWNsNE1vdm9WN18wc3FWVUY1WlAzWmNrNzUtSFg0VW1PemJmQWxMeU1Rc3pEQ1hMeDA1RjlIdVVwa29UN0ktbDAtZ21hRlk?oc=5",
-            "sourceName": "sportscapemagazine.com",
+            "sourceName": "Sportscape Magazine",
             "sourceUrl": "https://www.sportscapemagazine.com",
             "publishedAt": "2026-07-18T07:00:00.000Z",
             "tier": "T2"
@@ -922,7 +917,7 @@
           {
             "title": "AFC U-17 Women's Asian Cup 2027 Qualifiers: Alexandersson To Take Charge As IND Women's Team Head Coach",
             "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUGR6Ny1za0s5UDZndTd6NGVGX19ZZkRJMTI0R1k3b1JEMDZyU2tkRnVkWHVFazFYYkN2RWN5VXFKLURETC1DNFcxMHBHWEpjclJUZ1JiRkNiTjhVODNUWUFpd3hWUFR5dmlEQkxUek1OeTdYb0x5OThkeWQ4LTg0TWZjYnNkQzI1Vm1tVHRRejRkLURtN1AwdnpLWldXdk0yd2g5clMyTWpWMjNMNm9fLWs0OVBubWhZc1V2Vk13eGRoclJnZlAxOE9tbEZ1cGE0c2RCc3FpZUNuekZZSWNSOFNKR2xGcy1DZEJDSdIB-gFBVV95cUxQS24wTmRCamgySGI3bHh6Qkx2RVloMWdHNFlVT3gtRVpyTmxDckhGdTRoRlh2eU1rcG1QZW1CN3BhVm0zS21PQ21GbFJnamdsNVVUNFh0WFVZb0RQSll5ckx2NldvMHI2anI1MzEwQWxNWjFFREpyanBUMVhUejZYVjNyZXlrRDZaX1lMZ1dqd3h6MElrejRTWDNLekxrWlZlZEFRZmhQUVVKSVBUV2hjYTdmT2RuY1pUZFdobGcxbnQtWWhqVTBLTFBiQnVwTWVOZGN3eXVQdzAyVWVwZGl0eExWN0s5MDJEcThoY0FkVXo1T2xIck5YbE1n?oc=5",
-            "sourceName": "outlookindia.com",
+            "sourceName": "Outlook India",
             "sourceUrl": "https://www.outlookindia.com",
             "publishedAt": "2026-07-17T07:00:00.000Z",
             "tier": "T2"
@@ -936,15 +931,15 @@
             "tier": "T2"
           },
           {
-            "title": "'We want to qualify for World Cup': India U20 women's team Joakim Alexandersson ahead of AFC U20 Women's Asian Cup opener",
-            "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNS0VmZlRRbWhlcUJvWmJPRldmMUZwaUFfZE9JOWVqNDVQdXhscXplMjluaEVRdDRtVFU0dUkxTVM0VFpyXzNZQzI5TDdGWjVXeUU0OUNoNWpmYmJMR2ZITDJrby1xT0RYNEgyWE03X3N3NUdXa3pudm5aVU9uLXZ0VXpST1VWbHA2SUFaSWc2Q2ZuYVpPSkVhcXdNNndnVTNzWThhVUZwRUJRZkhXTlFJQmhtUm1wYWd1U1N6R2ZtaDB5LVB2dnc?oc=5",
-            "sourceName": "Khel Now",
-            "sourceUrl": "https://khelnow.com",
-            "publishedAt": "2026-04-02T07:00:00.000Z",
-            "tier": "T2"
+            "title": "Joakim Alexandersson names India's 23-member squad for AFC U20 Women's Asian Cup Thailand 2026",
+            "link": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNc1NmakRHYXJfaDdiZl8xQ3Q1dzYwZE5ZY0tkNl9YbV9qb29pMnFHUnVuTXJzM0M4NElycVNEZXYyU1l4amIxd2JyNGtXcEs2VFVQU28tMTR0bUk3bnFIUk10akFoU21oVzBfbUtZUUtuTm9zeklaVU9jZ2g2X1ctdGtyaHFodWtPaVRLaXFYaHFJYnpObHFsOGE5NUp2THlTZEJQNHhZQk5BSE9ZTmNLdjAzblR2eG1SUzcxMG9zYWxMcmM?oc=5",
+            "sourceName": "the-aiff.com",
+            "sourceUrl": "https://www.the-aiff.com",
+            "publishedAt": "2026-03-30T08:42:09.000Z",
+            "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-08-15T17:03:09.636Z"
+        "fetchedAt": "2026-08-16T00:19:12.485Z"
       }
     },
     "IRN": {
@@ -966,9 +961,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-15T17:03:13.188Z",
+      "fetchedAt": "2026-08-16T00:19:15.979Z",
       "status": "ok",
-      "filteredOut": 3,
+      "filteredOut": 2,
       "federationUrl": "https://ffiri.ir",
       "coach": {
         "status": "ok",
@@ -980,7 +975,7 @@
         "bio": null,
         "federationUrl": "https://ffiri.ir",
         "articles": [],
-        "fetchedAt": "2026-08-15T17:03:16.600Z"
+        "fetchedAt": "2026-08-16T00:19:19.440Z"
       }
     }
   }

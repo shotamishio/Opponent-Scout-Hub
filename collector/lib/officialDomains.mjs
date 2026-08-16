@@ -71,6 +71,10 @@ export const FEDERATION_DOMAINS = {
   NGA: 'thenff.com',
   TPE: 'ctfa.com.tw',
   UZB: 'uzfa.uz',
+  // Added with the rest of the app's country pool.
+  CMR: 'fecafootofficiel.com',
+  ZAM: 'fazfootball.com',
+  GUM: 'guamfootball.com',
   // PRK (Korea DPR) is deliberately absent: the DPRK federation has no
   // usable public site, so there is nothing to point a search at.
 };
@@ -84,16 +88,6 @@ function hostOf(link) {
 }
 
 /**
- * Is this article published by THIS country's own federation? Narrower than
- * classifyTier — a confederation domain (FIFA/AFC/UEFA) is T1 too, but it
- * covers every country and both genders, so it proves nothing about who the
- * article is about. Used by topic.mjs, which treats the country's own
- * federation as proof of country.
- *
- * @param {string} link
- * @param {string} countryCode
- */
-/**
  * The country's federation website, or null if we don't have a domain for it.
  * Shown in the app as a "go to the source" link on the country and coach
  * screens, and used to scope the federation search.
@@ -105,6 +99,16 @@ export function federationUrl(countryCode) {
   return domain ? `https://${domain}` : null;
 }
 
+/**
+ * Is this article published by THIS country's own federation? Narrower than
+ * classifyTier — a confederation domain (FIFA/AFC/UEFA) is T1 too, but it
+ * covers every country and both genders, so it proves nothing about who the
+ * article is about. Used by topic.mjs, which treats the country's own
+ * federation as proof of country.
+ *
+ * @param {string} link
+ * @param {string} countryCode
+ */
 export function isOwnFederationSource(link, countryCode) {
   const federationDomain = FEDERATION_DOMAINS[countryCode];
   if (!federationDomain) return false;

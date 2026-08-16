@@ -82,8 +82,8 @@ export function CountryScreen() {
           style={{ padding: 'var(--space-4)', fontSize: 13, lineHeight: 1.6, color: 'color-mix(in srgb,var(--color-text) 75%,transparent)' }}
         >
           <BlueprintFrame />
-          この国はまだ収集が実行されていません。GitHub
-          Actionsのスケジューラーが最初に実行されると、ここに実際のニュースが表示されます。
+          この国はまだ一度も収集されていません。次回の自動収集（1日3回）で取得されます。すぐに取得したい場合は、画面右上の「新しい収集を実行
+          ↗」から収集を開始し、完了後に「再収集」を押してください。
         </div>
       )}
       {collection.status === 'stale' && (

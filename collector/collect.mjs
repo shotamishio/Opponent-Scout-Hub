@@ -46,7 +46,10 @@ import { findCoach } from './lib/wikipedia.mjs';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const OUT_DIR = path.resolve(__dirname, '../app/src/data/collected');
 const ITEMS_PER_COUNTRY = 8;
-const REQUEST_SPACING_MS = 1500; // be polite; ~28 countries * ~1.5s ≈ under a minute per run
+// Be polite: one request per second. The run covers the whole country pool
+// (42 countries x 3 categories), so this delay sets the runtime — roughly a
+// quarter of an hour, which is fine for a scheduled job on a public repo.
+const REQUEST_SPACING_MS = 1000;
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));

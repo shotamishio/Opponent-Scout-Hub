@@ -3,6 +3,7 @@
 import type { ModeKey, ScreenKey, TierKey } from '@/types';
 import type { CountryCode } from '@/data/pool';
 import type { AppState } from './types';
+import type { RosterEntry } from '@/data/defaultRoster';
 import { rosterOf } from './selectors';
 
 export type AppAction =
@@ -17,6 +18,7 @@ export type AppAction =
   | { type: 'CLOSE_ADD' }
   | { type: 'ADD_COUNTRY'; code: CountryCode }
   | { type: 'REMOVE_COUNTRY'; code: CountryCode }
+  | { type: 'REPLACE_ROSTER'; roster: Record<ModeKey, RosterEntry[]> }
   | { type: 'SET_URL'; url: string }
   | { type: 'START_ANALYZE' }
   | { type: 'SET_VIDEO_STEP'; step: number }
@@ -48,6 +50,11 @@ export function appReducer(state: AppState, action: AppAction): AppState {
       return { ...state, addOpen: true };
     case 'CLOSE_ADD':
       return { ...state, addOpen: false };
+    case 'REPLACE_ROSTER':
+      // Whole-list replacement, from an imported file. Edit mode stays on:
+      // the import controls live there, and leaving it would take the
+      // "loaded N countries" confirmation off screen with them.
+      return { ...state, roster: action.roster, addOpen: false };
     case 'ADD_COUNTRY':
       return {
         ...state,

@@ -1,6 +1,7 @@
-import { createContext, useContext, useReducer, type Dispatch, type ReactNode } from 'react';
+import { createContext, useContext, useEffect, useReducer, type Dispatch, type ReactNode } from 'react';
 import { appReducer, type AppAction } from './appReducer';
-import { initialAppState, type AppState } from './types';
+import { createInitialState, type AppState } from './types';
+import { saveRoster } from './rosterStorage';
 import { useVideoAnalysis } from './useVideoAnalysis';
 
 interface AppContextValue {
@@ -11,8 +12,11 @@ interface AppContextValue {
 const AppContext = createContext<AppContextValue | null>(null);
 
 export function AppProvider({ children }: { children: ReactNode }) {
-  const [state, dispatch] = useReducer(appReducer, initialAppState);
+  const [state, dispatch] = useReducer(appReducer, undefined, createInitialState);
   useVideoAnalysis(state, dispatch);
+  // Persist the watch list on every change, so a country added by hand
+  // survives a reload and stays until it is removed.
+  useEffect(() => saveRoster(state.roster), [state.roster]);
   return <AppContext.Provider value={{ state, dispatch }}>{children}</AppContext.Provider>;
 }
 

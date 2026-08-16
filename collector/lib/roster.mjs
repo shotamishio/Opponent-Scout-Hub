@@ -19,11 +19,11 @@
 // and more reliable. Kept in sync BY HAND with app/src/data/pool.ts,
 // defaultRoster.ts and asia20.ts.
 //
-// Scope: every country that appears in any category's default roster OR any
-// category's "Asia official matches" grid — i.e. everything reachable from
-// the app without the user manually adding a country first. A manually
-// added country (via the "＋対戦国を追加" dialog) won't have collected data
-// until it's added here too.
+// Scope: the app's whole country pool (app/src/data/pool.ts), not just the
+// default rosters. It used to be only the defaults, and the consequence was
+// that adding a country by hand gave a permanently empty screen — the app
+// offered a country the collector had never heard of. Keep the two lists the
+// same: if the "＋対戦国を追加" dialog can offer it, it belongs here.
 export const COUNTRIES = {
   AUS: { ja: 'オーストラリア', en: 'Australia', search: 'Australia', aliases: ['Australia', 'Australian', 'Matildas'] },
   BAN: { ja: 'バングラデシュ', en: 'Bangladesh', search: 'Bangladesh', aliases: ['Bangladesh', 'Bangladeshi'] },
@@ -55,23 +55,41 @@ export const COUNTRIES = {
   USA: { ja: 'アメリカ', en: 'USA', search: 'United States', aliases: ['United States', 'USA', 'U.S.', 'USWNT', 'American'] },
   UZB: { ja: 'ウズベキスタン', en: 'Uzbekistan', search: 'Uzbekistan', aliases: ['Uzbekistan', 'Uzbek'] },
   VIE: { ja: 'ベトナム', en: 'Vietnam', search: 'Vietnam', aliases: ['Vietnam', 'Vietnamese'] },
+  // The rest of the app's country pool (app/src/data/pool.ts). Everything the
+  // "＋対戦国を追加" dialog can offer has to be here, or a country added by
+  // hand shows an empty screen forever — which is exactly what happened when
+  // Italy was added to the U-20 category.
+  ARG: { ja: 'アルゼンチン', en: 'Argentina', search: 'Argentina', aliases: ['Argentina', 'Argentine', 'Argentinian', 'Albiceleste'] },
+  AUT: { ja: 'オーストリア', en: 'Austria', search: 'Austria', aliases: ['Austria', 'Austrian'] },
+  CMR: { ja: 'カメルーン', en: 'Cameroon', search: 'Cameroon', aliases: ['Cameroon', 'Cameroonian', 'Indomitable Lionesses'] },
+  DEN: { ja: 'デンマーク', en: 'Denmark', search: 'Denmark', aliases: ['Denmark', 'Danish'] },
+  ECU: { ja: 'エクアドル', en: 'Ecuador', search: 'Ecuador', aliases: ['Ecuador', 'Ecuadorian'] },
+  GUM: { ja: 'グアム', en: 'Guam', search: 'Guam', aliases: ['Guam', 'Guamanian', 'Masakåda', 'Masakada'] },
+  HKG: { ja: '香港', en: 'Hong Kong', search: 'Hong Kong', aliases: ['Hong Kong'] },
+  ITA: { ja: 'イタリア', en: 'Italy', search: 'Italy', aliases: ['Italy', 'Italian', 'Azzurre'] },
+  MAR: { ja: 'モロッコ', en: 'Morocco', search: 'Morocco', aliases: ['Morocco', 'Moroccan', 'Atlas Lionesses'] },
+  NOR: { ja: 'ノルウェー', en: 'Norway', search: 'Norway', aliases: ['Norway', 'Norwegian'] },
+  PAR: { ja: 'パラグアイ', en: 'Paraguay', search: 'Paraguay', aliases: ['Paraguay', 'Paraguayan', 'Albirroja'] },
+  POL: { ja: 'ポーランド', en: 'Poland', search: 'Poland', aliases: ['Poland', 'Polish'] },
+  SIN: { ja: 'シンガポール', en: 'Singapore', search: 'Singapore', aliases: ['Singapore', 'Singaporean'] },
+  ZAM: { ja: 'ザンビア', en: 'Zambia', search: 'Zambia', aliases: ['Zambia', 'Zambian', 'Copper Queens'] },
 };
 
-// category -> which of the above countries it cares about, so each
-// category's JSON file only contains what that screen actually shows.
+/** Every country in the pool, in the order declared above. */
+const ALL_COUNTRIES = Object.keys(COUNTRIES);
+
+// category -> which of the above countries to collect for. Every category
+// collects the whole pool, so any country the user adds to any category
+// already has data waiting rather than an empty screen. Countries that turn
+// out to have no coverage for an age group simply come back empty, which the
+// screens state plainly.
 //
 // Keys must match the app's ModeKey (app/src/types.ts) and CATEGORY_TOPICS in
 // topic.mjs. Standalone u19 and u16 keys existed until 2026-08-15; AFC/FIFA
 // run those age groups as U-20 and U-17, so their coverage is collected under
 // those categories instead (see CATEGORY_TOPICS.ages in topic.mjs).
-//
-// The countries those two categories used to monitor came along with them:
-// JOR was U-19 only, and TPE/IND/IRN were U-16 only. They are listed here —
-// and in the app's defaultRoster.ts — so that folding the age groups together
-// doesn't quietly drop the opponents that were only ever tracked at that
-// level.
 export const CATEGORY_COUNTRIES = {
-  nadeshiko: ['USA', 'ESP', 'ENG', 'SWE', 'GER', 'BRA', 'NED', 'FRA', 'CAN', 'AUS', 'NZL', 'COL', 'KOR', 'CHN', 'PRK', 'VIE', 'PHI', 'UZB', 'TPE', 'THA', 'MYA', 'JOR', 'IND'],
-  u20: ['ESP', 'BRA', 'USA', 'NED', 'NGA', 'COL', 'FRA', 'MEX', 'PRK', 'KOR', 'CHN', 'AUS', 'VIE', 'UZB', 'TPE', 'THA', 'MYA', 'JOR'],
-  u17: ['PRK', 'ESP', 'USA', 'COL', 'NGA', 'BRA', 'ENG', 'MEX', 'KOR', 'CHN', 'AUS', 'PHI', 'THA', 'BAN', 'VIE', 'MAS', 'TPE', 'IND', 'IRN'],
+  nadeshiko: ALL_COUNTRIES,
+  u20: ALL_COUNTRIES,
+  u17: ALL_COUNTRIES,
 };

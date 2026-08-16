@@ -1,5 +1,5 @@
 import { useAppState } from '@/state/AppContext';
-import { getCategoryCollection } from '@/lib/collectedData';
+import { useCategoryCollection } from '@/state/CollectedContext';
 import { POOL, type CountryCode } from '@/data/pool';
 import { TIER_KEYS, TIERS } from '@/data/tiers';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
@@ -24,7 +24,7 @@ function formatDateTime(iso: string | undefined): string {
 // and a real per-country collection log (see collector/collect.mjs).
 export function SourcesScreen() {
   const state = useAppState();
-  const collection = getCategoryCollection(state.mode);
+  const collection = useCategoryCollection(state.mode);
   const allItems = Object.values(collection.countries).flatMap((c) => c.items);
 
   const columns = TIER_KEYS.map((k) => {

@@ -2,7 +2,7 @@ import { MODES } from '@/data/modes';
 import type { ScreenKey } from '@/types';
 import { useAppDispatch, useAppState } from '@/state/AppContext';
 import { rosterOf } from '@/state/selectors';
-import { getCategoryCollection } from '@/lib/collectedData';
+import { useCategoryCollection } from '@/state/CollectedContext';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 
 // Ported from Scout Hub.dc.html lines 43-74.
@@ -19,12 +19,13 @@ const NAV: { key: ScreenKey; label: string }[] = [
 export function Sidebar() {
   const state = useAppState();
   const dispatch = useAppDispatch();
+  const categoryCollection = useCategoryCollection(state.mode);
 
   const navBadge = (key: ScreenKey): string => {
     if (key === 'home') return String(rosterOf(state, state.mode).length);
     if (key === 'country') return state.code;
     if (key === 'feed') {
-      const collection = getCategoryCollection(state.mode);
+      const collection = categoryCollection;
       const count = Object.values(collection.countries)
         .flatMap((c) => c.items)
         .filter((item) => state.tiers.includes(item.tier)).length;

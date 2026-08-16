@@ -1,6 +1,7 @@
 import { useAppState } from '@/state/AppContext';
 import { countryData } from '@/lib/countryData';
-import { getCountryCollection } from '@/lib/collectedData';
+import { useCountryCollection } from '@/state/CollectedContext';
+import { safeHref } from '@/lib/collectedData';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 import { Tag } from '@/components/primitives/Tag';
 import { FlagSwatch } from '@/components/primitives/FlagSwatch';
@@ -17,7 +18,7 @@ import { CoachTeaserCard } from './CoachTeaserCard';
 export function CountryScreen() {
   const state = useAppState();
   const cur = countryData(state.code);
-  const collection = getCountryCollection(state.mode, state.code);
+  const collection = useCountryCollection(state.mode, state.code);
 
   return (
     <div style={{ display: 'flex', flexDirection: 'column', gap: 'var(--space-6)' }}>
@@ -64,7 +65,7 @@ export function CountryScreen() {
           </p>
           {collection.federationUrl && (
             <a
-              href={collection.federationUrl}
+              href={safeHref(collection.federationUrl)}
               target="_blank"
               rel="noreferrer noopener"
               style={{ fontSize: 12.5, fontFamily: 'var(--font-heading)', color: 'var(--color-accent-700)' }}

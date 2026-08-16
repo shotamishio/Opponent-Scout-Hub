@@ -1,6 +1,8 @@
 import type { ScreenKey } from '@/types';
 import { POOL } from '@/data/pool';
 import { useAppDispatch, useAppState } from '@/state/AppContext';
+import { useCollected, formatCollected } from '@/state/CollectedContext';
+import { RUN_WORKFLOW_URL } from '@/lib/collectedData';
 import { currentMode } from '@/state/selectors';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 import { TierFilterSeg } from '@/components/primitives/TierFilterSeg';
@@ -11,6 +13,7 @@ export function Header() {
   const dispatch = useAppDispatch();
   const m = currentMode(state);
   const cur = POOL[state.code];
+  const collected = useCollected();
 
   const titles: Record<ScreenKey, string> = {
     home: `${m.ja} — 対戦国一覧`,
@@ -84,23 +87,54 @@ export function Header() {
         <div
           style={{
             display: 'flex',
-            alignItems: 'center',
-            gap: 'var(--space-2)',
+            flexDirection: 'column',
+            alignItems: 'flex-end',
+            gap: 2,
             fontSize: 11,
             color: 'color-mix(in srgb,var(--color-text) 55%,transparent)',
           }}
         >
-          <span style={{ width: 6, height: 6, background: 'var(--color-accent)', display: 'block' }} />
-          最終収集 08/14 07:20
+          <span style={{ display: 'flex', alignItems: 'center', gap: 'var(--space-2)' }}>
+            <span style={{ width: 6, height: 6, background: 'var(--color-accent)', display: 'block' }} />
+            最終収集 {collected.lastCollectedAt ? formatCollected(collected.lastCollectedAt) : '未収集'}
+          </span>
+          {collected.message && (
+            <span
+              style={{
+                maxWidth: 380,
+                textAlign: 'right',
+                color:
+                  collected.status === 'error'
+                    ? 'var(--color-accent-700)'
+                    : 'color-mix(in srgb,var(--color-text) 55%,transparent)',
+              }}
+            >
+              {collected.message}
+            </span>
+          )}
         </div>
-        <button
-          className="btn btn-primary blueprint"
-          onClick={() => dispatch({ type: 'GO_SCREEN', screen: 'feed' })}
-          style={{ position: 'relative' }}
-        >
-          <BlueprintFrame />
-          再収集
-        </button>
+        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'stretch', gap: 3 }}>
+          <button
+            className="btn btn-primary blueprint"
+            onClick={collected.refresh}
+            disabled={collected.status === 'loading'}
+            title="収集済みデータを取り込み直して、画面を最新にします"
+            style={{ position: 'relative' }}
+          >
+            <BlueprintFrame />
+            {collected.status === 'loading' ? '取得中…' : '再収集'}
+          </button>
+          {/* Starting a new collection run needs credentials this page must
+              not carry, so that half is a link to the Actions page. */}
+          <a
+            href={RUN_WORKFLOW_URL}
+            target="_blank"
+            rel="noreferrer noopener"
+            style={{ fontSize: 10.5, textAlign: 'center', color: 'color-mix(in srgb,var(--color-text) 55%,transparent)' }}
+          >
+            新しい収集を実行 ↗
+          </a>
+        </div>
       </div>
     </header>
   );

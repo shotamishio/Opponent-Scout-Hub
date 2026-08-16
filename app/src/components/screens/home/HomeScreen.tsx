@@ -2,7 +2,7 @@ import { useAppDispatch, useAppState } from '@/state/AppContext';
 import { currentMode, rosterOf } from '@/state/selectors';
 import { POOL } from '@/data/pool';
 import { flag } from '@/lib/flag';
-import { getCountryCollection } from '@/lib/collectedData';
+import { useCategoryCollection } from '@/state/CollectedContext';
 import { SegToggle } from '@/components/primitives/SegToggle';
 import { EvenGrid } from './EvenGrid';
 import { LanesGrid } from './LanesGrid';
@@ -15,10 +15,11 @@ export function HomeScreen() {
   const dispatch = useAppDispatch();
   const m = currentMode(state);
   const roster = rosterOf(state, state.mode);
+  const collection = useCategoryCollection(state.mode);
 
   const countries: CountryCardData[] = roster.map(([code, comp]) => {
     const c = POOL[code];
-    const u = getCountryCollection(state.mode, code).items.length;
+    const u = collection.countries[code]?.items.length ?? 0;
     return {
       code,
       ja: c.ja,

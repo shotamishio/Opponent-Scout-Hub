@@ -1,4 +1,4 @@
-import type { CollectedCoach } from '@/lib/collectedData';
+import { safeHref, type CollectedCoach } from '@/lib/collectedData';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 import { TierBadge } from '@/components/primitives/TierBadge';
 
@@ -43,7 +43,7 @@ export function CoachArticleList({ coach }: CoachArticleListProps) {
               <TierBadge tier={article.tier} />
               <div style={{ display: 'flex', flexDirection: 'column', gap: 3, minWidth: 0 }}>
                 <a
-                  href={article.link}
+                  href={safeHref(article.link)}
                   target="_blank"
                   rel="noreferrer noopener"
                   style={{ fontSize: 13.5, lineHeight: 1.5, textDecoration: 'none' }}

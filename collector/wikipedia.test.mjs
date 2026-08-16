@@ -59,6 +59,22 @@ assert.deepEqual(cleanFieldValue('[[Ante Milicic]] <!-- update after AFC Cup -->
 assert.equal(cleanFieldValue(''), null);
 assert.equal(cleanFieldValue('{{flagicon|JPN}}'), null);
 
+// Inline infoboxes: the value runs into the next field on the same line. The
+// first live run produced a North Korea U-17 coach named "Captain             ="
+// this way, from an empty coach field written inline.
+assert.equal(cleanFieldValue('|Captain             = [[Some Player]]'), null);
+assert.deepEqual(
+  cleanFieldValue('[[Ri Song-ho]] |Captain = [[Some Player]]'),
+  { name: 'Ri Song-ho', article: 'Ri Song-ho' },
+  'the coach is taken, the next field is not',
+);
+// The pipe inside a piped link is not a field boundary.
+assert.deepEqual(cleanFieldValue('[[Montse Tomé|Tomé]]'), { name: 'Tomé', article: 'Montse Tomé' });
+// Nor is one inside a template.
+assert.deepEqual(cleanFieldValue('{{nowrap|[[Emma Hayes]]}} |Captain = x'), { name: 'Emma Hayes', article: 'Emma Hayes' });
+// Anything still carrying an "=" is a mis-capture, not a name.
+assert.equal(cleanFieldValue('Captain             = Someone'), null);
+
 // --- URLs ---
 
 assert.equal(articleUrl('Montse Tomé'), 'https://en.wikipedia.org/wiki/Montse_Tom%C3%A9');

@@ -1,5 +1,6 @@
 import { useAppDispatch, useAppState } from '@/state/AppContext';
-import { getCategoryCollection } from '@/lib/collectedData';
+import { useCategoryCollection } from '@/state/CollectedContext';
+import { safeHref } from '@/lib/collectedData';
 import { flag } from '@/lib/flag';
 import { POOL, type CountryCode } from '@/data/pool';
 import { ALERT_RULES } from '@/data/feed';
@@ -21,7 +22,7 @@ function formatDate(iso: string | null): string {
 export function FeedScreen() {
   const state = useAppState();
   const dispatch = useAppDispatch();
-  const categoryCollection = getCategoryCollection(state.mode);
+  const categoryCollection = useCategoryCollection(state.mode);
 
   const feed = Object.entries(categoryCollection.countries)
     .flatMap(([code, collection]) => collection.items.map((item) => ({ code: code as CountryCode, item })))
@@ -83,7 +84,7 @@ export function FeedScreen() {
                     {code}
                   </span>
                   <a
-                    href={item.link}
+                    href={safeHref(item.link)}
                     target="_blank"
                     rel="noreferrer"
                     onClick={(e) => e.stopPropagation()}

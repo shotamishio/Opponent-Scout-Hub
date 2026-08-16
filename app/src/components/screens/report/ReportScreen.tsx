@@ -1,7 +1,8 @@
 import { useAppState } from '@/state/AppContext';
 import { currentMode } from '@/state/selectors';
 import { countryData } from '@/lib/countryData';
-import { getCountryCollection } from '@/lib/collectedData';
+import { useCountryCollection } from '@/state/CollectedContext';
+import { safeHref } from '@/lib/collectedData';
 import { REPORT_BLOCKS } from '@/data/report';
 import { BlueprintFrame } from '@/components/primitives/BlueprintFrame';
 
@@ -14,7 +15,7 @@ export function ReportScreen() {
   const state = useAppState();
   const m = currentMode(state);
   const cur = countryData(state.code);
-  const collection = getCountryCollection(state.mode, state.code);
+  const collection = useCountryCollection(state.mode, state.code);
   const reportNews = collection.items.filter((n) => n.tier === 'T1' || n.tier === 'T2').slice(0, 8);
   const today = new Date().toLocaleDateString('ja-JP', { year: 'numeric', month: '2-digit', day: '2-digit' });
 
@@ -144,7 +145,7 @@ export function ReportScreen() {
                     </span>
                   </div>
                   <p style={{ margin: '2px 0 0', fontSize: 11.5, lineHeight: 1.6 }}>
-                    <a href={n.link} target="_blank" rel="noreferrer" style={{ color: 'var(--color-accent-700)' }}>
+                    <a href={safeHref(n.link)} target="_blank" rel="noreferrer" style={{ color: 'var(--color-accent-700)' }}>
                       {n.link}
                     </a>
                   </p>

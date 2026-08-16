@@ -7,6 +7,7 @@ import { SegToggle } from '@/components/primitives/SegToggle';
 import { EvenGrid } from './EvenGrid';
 import { LanesGrid } from './LanesGrid';
 import { Asia20Grid } from './Asia20Grid';
+import { RosterTransfer } from './RosterTransfer';
 import type { CountryCardData } from './types';
 
 // Ported from Scout Hub.dc.html lines 103-218.
@@ -82,6 +83,7 @@ export function HomeScreen() {
             {state.manage ? '編集を終了' : '国を追加 / 除外'}
           </button>
         </div>
+        {state.manage && <RosterTransfer />}
       </div>
 
       {state.gridVar === 'a' ? <EvenGrid countries={countries} /> : <LanesGrid countries={countries} />}

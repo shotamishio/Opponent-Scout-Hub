@@ -82,3 +82,78 @@ function isRosterEntry(value: unknown): value is RosterEntry {
 export function isKnownCountry(code: string): code is CountryCode {
   return Object.prototype.hasOwnProperty.call(POOL, code);
 }
+
+// --- Export / import -------------------------------------------------------
+//
+// The saved list lives in one browser, so it doesn't follow the analyst to
+// another machine. A file is the way across: written by hand from the app,
+// read back on the other machine. Deliberately a plain readable JSON file —
+// small enough to check by eye, and to hand to someone else.
+
+const FILE_FORMAT = 'opponent-scout-hub.roster';
+const FILE_VERSION = 1;
+
+export function serializeRoster(roster: RosterMap): string {
+  return JSON.stringify({ format: FILE_FORMAT, version: FILE_VERSION, exportedAt: new Date().toISOString(), roster }, null, 2);
+}
+
+export interface ImportResult {
+  roster: RosterMap;
+  /** Countries kept, per category, for the confirmation message. */
+  counts: { mode: ModeKey; count: number }[];
+  /** Entries dropped because the country or category is unknown to this version. */
+  skipped: number;
+}
+
+/**
+ * Reads an exported file back. Everything is validated: the file may come
+ * from an older version of the app (the U-19/U-16 categories existed once)
+ * or have been edited by hand, and a bad entry must be dropped rather than
+ * left to break the screens. Throws only when the file isn't one of ours at
+ * all, so the caller can say why.
+ */
+export function parseRosterFile(text: string): ImportResult {
+  let parsed: unknown;
+  try {
+    parsed = JSON.parse(text);
+  } catch {
+    throw new Error('JSONとして読み取れませんでした');
+  }
+  if (!parsed || typeof parsed !== 'object') throw new Error('中身が空か、形式が違います');
+
+  const container = parsed as Record<string, unknown>;
+  // Accept both the wrapped file and a bare category->entries map, so a
+  // hand-trimmed file still loads.
+  const source = (container.roster ?? container) as Record<string, unknown>;
+  if (container.format !== undefined && container.format !== FILE_FORMAT) {
+    throw new Error('このアプリの対戦国リストではありません');
+  }
+
+  const roster = defaultRosterMap();
+  const counts: { mode: ModeKey; count: number }[] = [];
+  let skipped = 0;
+  let matchedAnyCategory = false;
+
+  for (const mode of MODES) {
+    const saved = source[mode.key];
+    if (!Array.isArray(saved)) continue;
+    matchedAnyCategory = true;
+    const entries = saved.filter((entry) => {
+      const ok = isRosterEntry(entry);
+      if (!ok) skipped++;
+      return ok;
+    }) as RosterEntry[];
+    roster[mode.key] = entries;
+    counts.push({ mode: mode.key, count: entries.length });
+  }
+  // Categories this version no longer has (U-19/U-16) are counted as skipped
+  // so the user is told something was left out rather than silently losing it.
+  for (const key of Object.keys(source)) {
+    if (!MODES.some((mode) => mode.key === key) && Array.isArray(source[key])) {
+      skipped += (source[key] as unknown[]).length;
+    }
+  }
+  if (!matchedAnyCategory) throw new Error('対戦国リストが見つかりませんでした');
+
+  return { roster, counts, skipped };
+}

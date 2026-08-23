@@ -1,11 +1,11 @@
 {
   "category": "u20",
-  "generatedAt": "2026-08-23T08:46:12.243Z",
+  "generatedAt": "2026-08-23T16:41:18.107Z",
   "successCount": 42,
   "totalCount": 42,
-  "itemCount": 85,
-  "officialCount": 47,
-  "emptyCount": 18,
+  "itemCount": 80,
+  "officialCount": 42,
+  "emptyCount": 19,
   "coachCount": 36,
   "countries": {
     "AUS": {
@@ -75,7 +75,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-23T08:42:48.454Z",
+      "fetchedAt": "2026-08-23T16:37:47.395Z",
       "status": "ok",
       "filteredOut": 88,
       "federationUrl": "https://footballaustralia.com.au",
@@ -98,7 +98,7 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-08-23T08:42:50.916Z"
+        "fetchedAt": "2026-08-23T16:37:49.815Z"
       }
     },
     "BAN": {
@@ -144,9 +144,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:42:53.676Z",
+      "fetchedAt": "2026-08-23T16:37:52.564Z",
       "status": "ok",
-      "filteredOut": 110,
+      "filteredOut": 111,
       "federationUrl": "https://bff.com.bd",
       "coach": {
         "status": "ok",
@@ -158,7 +158,7 @@
         "bio": "Peter James Butler is an English professional football manager and former player who is the current manager of the Bangladesh women's national team. As a player, he made more than 450 appearances in the Football League and the Premier League. After retiring in October of 2000 he began coaching, working for teams in England, Australia and South-East Asia. He was in charge of the Botswana national team from 2014 until 2017. He currently holds a UEFA Pro License Qualification.",
         "federationUrl": "https://bff.com.bd",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:42:56.063Z"
+        "fetchedAt": "2026-08-23T16:37:54.889Z"
       }
     },
     "BRA": {
@@ -188,7 +188,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:42:58.658Z",
+      "fetchedAt": "2026-08-23T16:37:57.461Z",
       "status": "ok",
       "filteredOut": 4,
       "federationUrl": "https://cbf.com.br",
@@ -235,7 +235,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-23T08:43:01.004Z"
+        "fetchedAt": "2026-08-23T16:37:59.864Z"
       }
     },
     "CAN": {
@@ -297,17 +297,17 @@
           "tier": "T1"
         },
         {
-          "title": "Women's U-20 vs. Panama - CONCACAF Women's Under-20 Championship",
-          "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1NWlJBTENfYk9fNkJDelJ6b2xESHpoSk03WXJsMjVKaEZ3VnRPcUFtRWF4SGpNMndDQ1BheFlqNG1UbEJRbi1WMERBcw?oc=5",
+          "title": "Women’s U-20 camp in Mexico",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9LVFBvbl8xclBPTE14TzNVdndoVFhLRWpvNWZPR3dONTFHTG5ZZWhYc2RXV3ZZWktIbzN6SFg3blhPM0ppa0xaWGt1LVpWa1poNlVTUkY0LTJxOURFYXNfaVloQkd0VnMtSEVTT3R3?oc=5",
           "sourceName": "Canada Soccer",
           "sourceUrl": "https://canadasoccer.com",
-          "publishedAt": "2026-05-24T04:58:31.000Z",
+          "publishedAt": "2026-05-24T04:07:42.000Z",
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-23T08:43:03.790Z",
+      "fetchedAt": "2026-08-23T16:38:02.694Z",
       "status": "ok",
-      "filteredOut": 97,
+      "filteredOut": 102,
       "federationUrl": "https://canadasoccer.com",
       "coach": {
         "status": "ok",
@@ -319,7 +319,7 @@
         "bio": null,
         "federationUrl": "https://canadasoccer.com",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:43:06.701Z"
+        "fetchedAt": "2026-08-23T16:38:05.389Z"
       }
     },
     "CHN": {
@@ -349,7 +349,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:43:09.257Z",
+      "fetchedAt": "2026-08-23T16:38:08.032Z",
       "status": "ok",
       "filteredOut": 27,
       "federationUrl": "https://thecfa.cn",
@@ -404,7 +404,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-23T08:43:11.661Z"
+        "fetchedAt": "2026-08-23T16:38:10.586Z"
       }
     },
     "COL": {
@@ -412,13 +412,13 @@
         {
           "title": "U.S. Under-20 Women's National Falls to Colombia, 1-0, to Finish Training Camp at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSVBpN2xBcXhkYzNBdmlWZ3RvRGtOZUtNa2NNdzc4Z09HTnI2MUZLQ1JfT0tQSkktekxJRmtWRmZSVHFwUzZCelBkSmE0ZFhwb0prN2NXRmxpLXNpRWgwcnp0T0hESkU4SkoyUXJicHpSYzBfNldIYkZBZ1B2eHJPQXRYZTFWMlAxWDZDOVlNU3dOdE5ENWpVUnhLZ3A0YmVMYUFYZUMtd0FuNnBNc0dRM0FZWlg?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-07-13T07:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:43:14.172Z",
+      "fetchedAt": "2026-08-23T16:38:13.191Z",
       "status": "ok",
       "filteredOut": 6,
       "federationUrl": "https://fcf.com.co",
@@ -432,7 +432,7 @@
         "bio": null,
         "federationUrl": "https://fcf.com.co",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:43:16.528Z"
+        "fetchedAt": "2026-08-23T16:38:15.583Z"
       }
     },
     "ENG": {
@@ -446,7 +446,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-23T08:43:19.295Z",
+      "fetchedAt": "2026-08-23T16:38:18.447Z",
       "status": "ok",
       "filteredOut": 109,
       "federationUrl": "https://thefa.com",
@@ -455,12 +455,12 @@
         "teamArticle": "England women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/England_women's_national_under-20_football_team",
         "federationUrl": "https://thefa.com",
-        "fetchedAt": "2026-08-23T08:43:20.475Z"
+        "fetchedAt": "2026-08-23T16:38:19.543Z"
       }
     },
     "ESP": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:43:23.086Z",
+      "fetchedAt": "2026-08-23T16:38:22.197Z",
       "status": "ok",
       "filteredOut": 47,
       "federationUrl": "https://rfef.es",
@@ -483,12 +483,12 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-08-23T08:43:26.658Z"
+        "fetchedAt": "2026-08-23T16:38:24.572Z"
       }
     },
     "FRA": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:43:29.448Z",
+      "fetchedAt": "2026-08-23T16:38:27.345Z",
       "status": "ok",
       "filteredOut": 102,
       "federationUrl": "https://fff.fr",
@@ -502,14 +502,14 @@
         "bio": "Sandrine Ringler is a French former footballer who played as a defender for FC Vendenheim of the Division 1 Féminine.",
         "federationUrl": "https://fff.fr",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:43:31.801Z"
+        "fetchedAt": "2026-08-23T16:38:33.334Z"
       }
     },
     "GER": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:43:34.543Z",
+      "fetchedAt": "2026-08-23T16:38:36.158Z",
       "status": "ok",
-      "filteredOut": 104,
+      "filteredOut": 105,
       "federationUrl": "https://dfb.de",
       "coach": {
         "status": "ok",
@@ -521,7 +521,7 @@
         "bio": null,
         "federationUrl": "https://dfb.de",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:43:36.948Z"
+        "fetchedAt": "2026-08-23T16:38:38.475Z"
       }
     },
     "IND": {
@@ -591,9 +591,9 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-23T08:43:39.750Z",
+      "fetchedAt": "2026-08-23T16:38:41.424Z",
       "status": "ok",
-      "filteredOut": 119,
+      "filteredOut": 120,
       "federationUrl": "https://the-aiff.com",
       "coach": {
         "status": "ok",
@@ -646,12 +646,12 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-23T08:43:43.117Z"
+        "fetchedAt": "2026-08-23T16:38:43.969Z"
       }
     },
     "IRN": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:43:45.633Z",
+      "fetchedAt": "2026-08-23T16:38:46.541Z",
       "status": "ok",
       "filteredOut": 8,
       "federationUrl": "https://ffiri.ir",
@@ -665,7 +665,7 @@
         "bio": "Marta Mika is a Polish football manager and former professional player who played as a defender. She is currently the assistant coach of the Poland national team.",
         "federationUrl": "https://ffiri.ir",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:43:47.955Z"
+        "fetchedAt": "2026-08-23T16:38:48.867Z"
       }
     },
     "JOR": {
@@ -679,7 +679,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:43:50.527Z",
+      "fetchedAt": "2026-08-23T16:38:51.472Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://jfa.jo",
@@ -693,7 +693,7 @@
         "bio": null,
         "federationUrl": "https://jfa.jo",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:43:52.888Z"
+        "fetchedAt": "2026-08-23T16:38:53.861Z"
       }
     },
     "KOR": {
@@ -731,14 +731,6 @@
           "tier": "T2"
         },
         {
-          "title": "South Korea U-20 women fall 0-3 to North Korea, exit Asian Cup semifinals - CHOSUNBIZ",
-          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE8zOUk0Vk5OQ0ZxNDExOWpPQ0l5MWVabEVWdU5vVXhYTnJNMWZaTWZoQmZVbTJtNFVZYUl6eGVkcVNreDdDMXZoOXdaMnN6Q2w0c1FnRmprcG5CNE1CVTdKelRUU2RHa2NOOUR0aEllbXFBd29QWTc1VHFRSjZKZmvSAZMBQVVfeXFMTWtNdk9CSGU4OF9DWFpveVVqeFVDWFpBTE54UGFmcWsyZk9rRTlpY1RucFBVc29lUnZlcC1jQndQY1piRGw3MjRhQWtoTVZmNU1IVkhDQ2dVeHdxTWdNY3IzWmcyUkdqaTF6dWtuREZNY0M0TWRHXzZULWR6eVdMbzVHQkt0R2xycGNQLTJqcF9kODVr?oc=5",
-          "sourceName": "Chosunbiz",
-          "sourceUrl": "https://biz.chosun.com",
-          "publishedAt": "2026-04-15T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
           "title": "'Shooting 0-32 Humiliating Defeat' South Korea U20 Women's Football Again 'South-North Match' in a week",
           "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE9sNF9lLXFING9GS09maFVJV05WNFAxNjI0RXpXeGM2dkJUaVlURTZWOVVISm0tenNxTUJzSnJzcjVmY2Z4aXlUbjZyOG1ib2tMMXE1Zmg2WWV1aUc2bGhta0JzVWxSZHpLcDNxcmxWZmJIYUwxV2Jsdzhn?oc=5",
           "sourceName": "starnewskorea.com",
@@ -761,9 +753,17 @@
           "sourceUrl": "https://www.chosun.com",
           "publishedAt": "2026-04-09T07:00:00.000Z",
           "tier": "T2"
+        },
+        {
+          "title": "South Korea's U-20 women suffer 0-5 loss to North Korea but advance - CHOSUNBIZ",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1PUkhpZUZsb2JaU3pNaGtsTVZxa0RlcmxzWWthQUVKT3d4Z1N0MWJlNWNFQ3NRMXU1RDFyZ25mNHdLRS03eVVfQU9UV25pb05tR1VCUjVIVU1WODF0S0N5TGppUjhyVk1WU2lVZ0RlWHlkcnQ1UEZEZ09ucUZwZFXSAZMBQVVfeXFMTTVkeFZxNnlBUTl4ZzUyX1RQWDRlUnJVVHhpZk44aDM4VTZEZlY3Wi14SHZoSGlkMlA0TU15ZDlHMDJ3MTFJQ3NiSnZla3R5R1NlZllmYmZfOWZ0Z05FS2dKS1RySlRCdHlHWDVmWEc1cmxRTFQxblJtNnFubEJOQm1DWmgxUXBfYzhnZ0xfVF9zVzFZ?oc=5",
+          "sourceName": "Chosunbiz",
+          "sourceUrl": "https://biz.chosun.com",
+          "publishedAt": "2026-04-09T07:00:00.000Z",
+          "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:43:55.408Z",
+      "fetchedAt": "2026-08-23T16:38:56.469Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://kfa.or.kr",
@@ -777,12 +777,12 @@
         "bio": null,
         "federationUrl": "https://kfa.or.kr",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:43:57.790Z"
+        "fetchedAt": "2026-08-23T16:38:58.968Z"
       }
     },
     "MAS": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:44:00.328Z",
+      "fetchedAt": "2026-08-23T16:39:01.599Z",
       "status": "ok",
       "filteredOut": 11,
       "federationUrl": "https://fam.org.my",
@@ -796,12 +796,12 @@
         "bio": null,
         "federationUrl": "https://fam.org.my",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:44:02.696Z"
+        "fetchedAt": "2026-08-23T16:39:03.958Z"
       }
     },
     "MEX": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:44:05.256Z",
+      "fetchedAt": "2026-08-23T16:39:06.566Z",
       "status": "ok",
       "filteredOut": 9,
       "federationUrl": "https://fmf.mx",
@@ -815,7 +815,7 @@
         "bio": "Dorival Bueno dos Santos Pacheco, sometimes known as his nickname Doriva Bueno is a Brazilian football manager for the Mexico women's national under-20 team.",
         "federationUrl": "https://fmf.mx",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:44:08.276Z"
+        "fetchedAt": "2026-08-23T16:39:08.945Z"
       }
     },
     "MYA": {
@@ -829,7 +829,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-23T08:44:10.815Z",
+      "fetchedAt": "2026-08-23T16:39:11.589Z",
       "status": "ok",
       "filteredOut": 14,
       "federationUrl": "https://myanmarfootball.org",
@@ -838,12 +838,12 @@
         "teamArticle": "Myanmar women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Myanmar_women's_national_under-20_football_team",
         "federationUrl": "https://myanmarfootball.org",
-        "fetchedAt": "2026-08-23T08:44:11.955Z"
+        "fetchedAt": "2026-08-23T16:39:12.701Z"
       }
     },
     "NED": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:44:14.465Z",
+      "fetchedAt": "2026-08-23T16:39:15.294Z",
       "status": "ok",
       "filteredOut": 4,
       "federationUrl": "https://knvb.nl",
@@ -857,51 +857,11 @@
         "bio": null,
         "federationUrl": "https://knvb.nl",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:44:16.804Z"
+        "fetchedAt": "2026-08-23T16:39:17.666Z"
       }
     },
     "NGA": {
       "items": [
-        {
-          "title": "FIFA U20 WOMEN’S WORLD CUP POLAND 2025 – The NFF Official Website",
-          "link": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5XNHc1OElGZ3VPWVVJbzBkcG5OQksteDNXNGh5dGpDYWJySmV3dEVZZUlHRjFIU0kwMEJtdmtqOG1hbjIyYjhEbVBURUFocmU1NUZKRDNzZUpfZ3VHRDVxZE94OTQ0eU5f?oc=5",
-          "sourceName": "Nigeria Football Federation (NFF)",
-          "sourceUrl": "https://thenff.com",
-          "publishedAt": "2026-05-15T07:00:00.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "Nigeria qualify for FIFA U20 Women’s World Cup Poland 2026 – The NFF Official Website",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2UzRHc1OUFzSHRCazNZcXIxdjJjbFlBMjJmNEp0N09EV2pxR0d6TjhqSVQ5LUViRUFrMUJhMG9xMC1zbFpkZV9hMkU1UjhUTHp4VERNeHFyMTI1ZHN2ckJnX3Y3R21idkpzUTk0Ynl5Ymk0MVpBUEFtS1BrdXJBQmVJZw?oc=5",
-          "sourceName": "Nigeria Football Federation (NFF)",
-          "sourceUrl": "https://thenff.com",
-          "publishedAt": "2026-05-09T07:00:00.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "Accreditation for 2026 FIFA U20 Women’s World Cup Qualifying Match: Nigeria Vs Malawi – The NFF Official Website",
-          "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONExmX3doWGJHNUtzclJITUNIRzExUE8wWFB4UW5WeXVEaXNRNmttMHhoMGF3U2I5SUxjeFp3b3lJT202QkhfZ0hEQVBWUFdnT0FGMVUtU29tZVp2ZzZNTjRXTUdyaUxIX3hOekxBS25kNjdxbWdHS1FaQktlbU9VakFNSDQ2T2hqR3lvaDdvT1ZjaHp5Tkhwb1RsVkpqNjNnTE12aGh3?oc=5",
-          "sourceName": "Nigeria Football Federation (NFF)",
-          "sourceUrl": "https://thenff.com",
-          "publishedAt": "2026-04-30T07:00:00.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "Poland 2026: Falconets intensify preparations for Malawi U20 girls – The NFF Official Website",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVmlXMnMtSjNjYXdKckVkUnZNOXZrWVpsYWtwMFd2WThrcGhVMHhFUFZZb2lFYXY1eWl1UUNRNUtFUGtyWnE4SUlWTmVyTW5DNHdsSHE0alphTDctTXNnUWhyczhkZy1IUWRZYVV1cGpBRng3VlVJMEVLZ2dpbTFzTTVwazVmUms3cEFTdWV3?oc=5",
-          "sourceName": "Nigeria Football Federation (NFF)",
-          "sourceUrl": "https://thenff.com",
-          "publishedAt": "2026-04-18T07:00:00.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "Accreditation for 2026 FIFA U20 Women’s World Cup Qualifying Match: Nigeria Vs Senegal – The NFF Official Website",
-          "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPMWxjTVhKWC14eWJzbHhacHVSNkF0eFM1VHc3b2lMdFpLcXFVTzVkOG1KWk5JQkE5TkJaZlVraldrcnlTdUd2SlFyejgzQmZJMlFDSDZxeVpLWk5fTTBsWkU3QlJRWDdEQXBEeEVERFZ3QWtUTlRZSWtlR3UwQkRMWndTd09aY2daMW9FWWFuV1oxZklCaVFMaURBaDlGWnNYVnRzVGUyQQ?oc=5",
-          "sourceName": "Nigeria Football Federation (NFF)",
-          "sourceUrl": "https://thenff.com",
-          "publishedAt": "2026-02-03T08:00:00.000Z",
-          "tier": "T1"
-        },
         {
           "title": "U-20 Women’s Match Preview: Nigeria Vs Malawi",
           "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE5MVm5uQmxleTUzWmRUMWhiT012ajBlaUgwVDB0VThnUXVKZnlySGhPMzhUTlR1a1JxVkpKMnVaZ0NuUDhOQTVUaE5fWGJLbHI2OWppRTFfcEdZZWpYcnZFSHViRTF4cXM4SjRQblpyYWM?oc=5",
@@ -919,9 +879,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:44:19.536Z",
+      "fetchedAt": "2026-08-23T16:39:20.068Z",
       "status": "ok",
-      "filteredOut": 107,
+      "filteredOut": 11,
       "federationUrl": "https://thenff.com",
       "coach": {
         "status": "ok",
@@ -942,7 +902,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-23T08:44:22.152Z"
+        "fetchedAt": "2026-08-23T16:39:22.457Z"
       }
     },
     "NZL": {
@@ -972,7 +932,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:44:24.893Z",
+      "fetchedAt": "2026-08-23T16:39:25.245Z",
       "status": "ok",
       "filteredOut": 108,
       "federationUrl": "https://nzfootball.co.nz",
@@ -986,12 +946,12 @@
         "bio": null,
         "federationUrl": "https://nzfootball.co.nz",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:44:27.218Z"
+        "fetchedAt": "2026-08-23T16:39:28.495Z"
       }
     },
     "PHI": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:44:29.893Z",
+      "fetchedAt": "2026-08-23T16:39:31.226Z",
       "status": "ok",
       "filteredOut": 100,
       "federationUrl": "https://pff.org.ph",
@@ -1032,29 +992,20 @@
           {
             "title": "Club Statement: Sinisa Cohadzic",
             "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5uVE0tUTlMR1dvOUVtdloxVlExakp2VG9JeldqNDJEamZURXRBTFp4ajZMdTRPbVlnRkRHRWtteFVJQW8?oc=5",
-            "sourceName": "South Melbourne FC",
+            "sourceName": "South Melbourne Football Club",
             "sourceUrl": "https://www.smfc.com.au",
             "publishedAt": "2026-05-30T07:00:00.000Z",
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-23T08:44:32.255Z"
+        "fetchedAt": "2026-08-23T16:39:33.643Z"
       }
     },
     "PRK": {
-      "items": [
-        {
-          "title": "AFC U-20 Women's Asian Cup 2026 - North Korea vs South Korea",
-          "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNbzJITGxqeHlwT0RmNWpoUFdzTVdSZmJqWFVHSUtJaWtaekMyakk2MGl2TUZFZVVHUmFESjNKVEowcnpuS25TTmlyN0VZS3g3RWtieVFfdE9JNHY4X3N3UWVnbFlqNUp5Z3hkYWxodWRHa1lsdkszVXA0ZkVBQ2UyQXBoQWlWbk9iUlZtSWdxWGJaTW5SdWNlblZEc2c?oc=5",
-          "sourceName": "Tapmad",
-          "sourceUrl": "https://www.tapmad.com",
-          "publishedAt": "2026-04-09T11:29:40.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-08-23T08:44:33.590Z",
+      "items": [],
+      "fetchedAt": "2026-08-23T16:39:35.086Z",
       "status": "ok",
-      "filteredOut": 8,
+      "filteredOut": 9,
       "federationUrl": null,
       "coach": {
         "status": "ok",
@@ -1066,12 +1017,12 @@
         "bio": null,
         "federationUrl": null,
         "articles": [],
-        "fetchedAt": "2026-08-23T08:44:36.013Z"
+        "fetchedAt": "2026-08-23T16:39:37.482Z"
       }
     },
     "SWE": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:44:38.545Z",
+      "fetchedAt": "2026-08-23T16:39:40.030Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://svenskfotboll.se",
@@ -1085,7 +1036,7 @@
         "bio": "Caroline Sjöblom is the technical director at Chelsea FC women. She was a Finnish women's football manager and former player. As a player, she won the 2009 Naisten Liiga with Åland United. and participated in the 2010–11 UEFA Women's Champions League.",
         "federationUrl": "https://svenskfotboll.se",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:44:40.935Z"
+        "fetchedAt": "2026-08-23T16:39:42.852Z"
       }
     },
     "THA": {
@@ -1099,9 +1050,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:44:43.444Z",
+      "fetchedAt": "2026-08-23T16:39:45.373Z",
       "status": "ok",
-      "filteredOut": 7,
+      "filteredOut": 6,
       "federationUrl": "https://fat.or.th",
       "coach": {
         "status": "ok",
@@ -1113,7 +1064,7 @@
         "bio": "Nuengrutai Srathongvian, also known as \"Coach Nueng\", is a Thai football manager and former footballer and field hockey player who is currently the manager of the Thailand women's national under-20 football team.",
         "federationUrl": "https://fat.or.th",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:44:45.830Z"
+        "fetchedAt": "2026-08-23T16:39:48.501Z"
       }
     },
     "TPE": {
@@ -1127,7 +1078,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:44:48.301Z",
+      "fetchedAt": "2026-08-23T16:39:51.076Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://ctfa.com.tw",
@@ -1136,7 +1087,7 @@
         "teamArticle": "Chinese Taipei women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Chinese_Taipei_women's_national_under-20_football_team",
         "federationUrl": "https://ctfa.com.tw",
-        "fetchedAt": "2026-08-23T08:44:49.492Z"
+        "fetchedAt": "2026-08-23T16:39:52.188Z"
       }
     },
     "USA": {
@@ -1144,7 +1095,7 @@
         {
           "title": "How Vicky Jepson Selected the Roster for the 2026 FIFA U-20 Women’s World Cup",
           "link": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQMFM5UG1OanFxUXhPbW42ZUVveTU1aFhKTTJXckRRWmdoOW5JZ3Raa0FVLWg3U1Q5UEVsZU9qMmpBZWNBaEtYN09vN0RxTnAydGd3dXpMSkpCbGVEZXRCMXc4cVhyQXotb0FqeHhrd3pkaTNSQW5KRU9zdVk5d3doRDlZVGlib3BjYjRtUTg4d1Bsd3JRZXZfTzViSUIwdWd2aG9aMmg1SmJXZEFyY2luSw?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://www.ussoccer.com",
           "publishedAt": "2026-08-20T21:27:07.000Z",
           "tier": "T1"
@@ -1152,7 +1103,7 @@
         {
           "title": "2026 FIFA U-20 Women's World Cup",
           "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTFA2YTVqWDRNVnQ0Y3hNR1pNakhHdGt2eF9waE94ZUE5dVU3dW9lOHllcEQyMFBjMzFPTTAwOVhjSENaN1BsYzhmdHZYazhNZzNCYTUxS2NRaXVMYy14akcxUk4xaVpVbEt5YlVRV1p4cnVpX3I5enpDWlNIUjhMZw?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://www.ussoccer.com",
           "publishedAt": "2026-08-19T20:44:22.000Z",
           "tier": "T1"
@@ -1160,7 +1111,7 @@
         {
           "title": "U.S. U-20 WNT Head Coach Vicky Jepson Names 21-Player Roster for 2026 FIFA Under-20 Women's World Cup in Poland",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLWRzazVSb3Z2SFJNT1FSeGZ4dWlpSENVcV9YMHJMVjlqR3RoUDN2bi1HcXp5YlNUOE9oYUtfMVJqYUFoemExSmZGNV9qV01mSkVGUnl3Vm9uTExpcVVncVRLYktMRUM3V2tzTzEwWmc3RC13elpQeUQ3a255eUlaVjFOWHdqRDYyYXJIQXd3SjV4X1BBaFlNNF9Ma3JWcDJYZmstaXd0bk9UcXpHRDJB?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-08-19T19:04:11.000Z",
           "tier": "T1"
@@ -1168,7 +1119,7 @@
         {
           "title": "U.S. Under-20 Women's National Falls to Colombia, 1-0, to Finish Training Camp at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSVBpN2xBcXhkYzNBdmlWZ3RvRGtOZUtNa2NNdzc4Z09HTnI2MUZLQ1JfT0tQSkktekxJRmtWRmZSVHFwUzZCelBkSmE0ZFhwb0prN2NXRmxpLXNpRWgwcnp0T0hESkU4SkoyUXJicHpSYzBfNldIYkZBZ1B2eHJPQXRYZTFWMlAxWDZDOVlNU3dOdE5ENWpVUnhLZ3A0YmVMYUFYZUMtd0FuNnBNc0dRM0FZWlg?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-07-13T07:00:00.000Z",
           "tier": "T1"
@@ -1176,7 +1127,7 @@
         {
           "title": "U.S. Under-20 Women's National Team Will Travel to Spain for Two Matches as Preparation for 2026 FIFA U-20 Women's World Cup Continues",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVl9oX3IxT2JtTjVYTmV6VGNiSzVvZmEwMDhEcHhNTFdiMlFvVUJQZUxZMEwxN3BvY21XMzlTNHVsNHhGQnZhaFUzLUp2aC1LS0xLa2dxNG5YSkliZlZRbTdVbjhFMTJmY2pER3cxbjlJU2hJTk9OazBCeW13ck5BbkkyN3JnV0o5NDBtOWhIZHJNbFB5ZEMxOTFDMjZDSm1ZVE43WGFpUVQ3UE0?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-07-10T08:03:26.000Z",
           "tier": "T1"
@@ -1184,7 +1135,7 @@
         {
           "title": "U.S. Under-20 Women's National Ties England, 1-1, in First-Ever Women's International Match at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSTduY1N5VGloeUVCNlZha3R4Y0lNYUt2NnExbmRYdXNmajdaYWYyNXdJNXJUWm54V01GemhYNUV0VjQ1ZWhJWmw4d3VGSS1mNlhOTGVmUExfMVBHcXBqRlNIQXExMnFWd3ZRN253Q0hjQ0dzMUM5YzlRLUZ4TWlxaGFJVDREUnRoc01VaEpFSkY5bDRyZWtkTUtWaTNQQ0FOVUlmYmYtMTVDOEZFc2FhMFBOWWs?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-07-09T07:00:00.000Z",
           "tier": "T1"
@@ -1192,7 +1143,7 @@
         {
           "title": "U.S. Under-20 Women's National Team to Hold Training Camp and First Women's International Matches at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkFQQlBYcG0wZzlkUW1NT1puM29lb0Q5N2NmaU41MlpTdl9ZUGFCUzNhS0t2dk53UDNxQ2JqV3ZCQ2xhMXY5cldaSkk5U3l1TURicUZPQlhTWEJ5U3Z6cGFUVmRtSlZUZmd0WlF2cURnOTBLTENKWkNiNkcwOU96aUpZS3dUNTllUEZETEZaR2F3ZDZfUHJMeDhmU2FwbzlvX2pCa3hjVmZVYnpFb0FHZHlSdV84ZkRyb2c1Z2pYQ2NGdkhBaXBUeXNnTG0zWlNpczIw?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-06-30T07:00:00.000Z",
           "tier": "T1"
@@ -1200,15 +1151,15 @@
         {
           "title": "U.S. Under-19 and U.S. U-18 Women's National Teams to Hold Concurrent Training Camps at the Arthur M. Blank U.S. Soccer National Training Center in Fayetteville, Ga",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVVpSMGhnR3JlN2xkTEJaQ3B2elZENXV6VWMzSW1JcHdIYThZcWpCcGVjREQybDBWY1ZDUENsYjNWbTNCcVVSZ0t2U3IweFdUdUVOTFJfMGZmOVd1V0tDd09yN25Bc3pCWWZ3LV9zMmlfTGlkTDUzd19fVEs3d0lPN2stZGVQX2lrSGt3MC04NGVtZEl5NV9wTm1KOE9zZUZvU3ZlT3REMkpqYkpBR0RYc3BuUmdDMGZ6WnFxSk5JQ0NlUQ?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-06-24T07:00:00.000Z",
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-23T08:44:52.287Z",
+      "fetchedAt": "2026-08-23T16:39:55.087Z",
       "status": "ok",
-      "filteredOut": 95,
+      "filteredOut": 96,
       "federationUrl": "https://ussoccer.com",
       "coach": {
         "status": "ok",
@@ -1223,7 +1174,7 @@
           {
             "title": "How Vicky Jepson Selected the Roster for the 2026 FIFA U-20 Women’s World Cup",
             "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQTJ6TmQ0cVR3elFBa3pyY2dCMk82YjZWRzRqX3lTWFVVM1NWWWp2NnN3MFI1ZUZJSG15WDFJc3Q1ZDJOckQ2WTVyeGI0MVdhLUR4cnNDZlRZcGM0MkI1dVk5RXF3Y1ZwejVsYkpqQXZPUEwwR21VRTlfMHhnel9TeUdwUDA2ODFVZUNGTUNPS3MzS19qVkRwcDdwMGhXbTBkNU8tLXQ5UEVIRU0?oc=5",
-            "sourceName": "U.S. Soccer",
+            "sourceName": "US Soccer",
             "sourceUrl": "https://ussoccer.com",
             "publishedAt": "2026-08-20T21:27:07.000Z",
             "tier": "T1"
@@ -1239,13 +1190,13 @@
           {
             "title": "U.S. U-20 WNT Head Coach Vicky Jepson Names 21-Player Roster for 2026 FIFA Under-20 Women's World Cup in Poland",
             "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLWRzazVSb3Z2SFJNT1FSeGZ4dWlpSENVcV9YMHJMVjlqR3RoUDN2bi1HcXp5YlNUOE9oYUtfMVJqYUFoemExSmZGNV9qV01mSkVGUnl3Vm9uTExpcVVncVRLYktMRUM3V2tzTzEwWmc3RC13elpQeUQ3a255eUlaVjFOWHdqRDYyYXJIQXd3SjV4X1BBaFlNNF9Ma3JWcDJYZmstaXd0bk9UcXpHRDJB?oc=5",
-            "sourceName": "U.S. Soccer",
+            "sourceName": "US Soccer",
             "sourceUrl": "https://ussoccer.com",
             "publishedAt": "2026-08-19T19:04:11.000Z",
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-08-23T08:44:55.212Z"
+        "fetchedAt": "2026-08-23T16:39:57.500Z"
       }
     },
     "UZB": {
@@ -1267,16 +1218,16 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:44:57.724Z",
+      "fetchedAt": "2026-08-23T16:40:00.081Z",
       "status": "ok",
-      "filteredOut": 7,
+      "filteredOut": 6,
       "federationUrl": "https://uzfa.uz",
       "coach": {
         "status": "no_coach_listed",
         "teamArticle": "Uzbekistan women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Uzbekistan_women's_national_under-20_football_team",
         "federationUrl": "https://uzfa.uz",
-        "fetchedAt": "2026-08-23T08:44:58.869Z"
+        "fetchedAt": "2026-08-23T16:40:01.194Z"
       }
     },
     "VIE": {
@@ -1304,11 +1255,19 @@
           "sourceUrl": "https://baonghean.vn",
           "publishedAt": "2026-04-09T07:00:00.000Z",
           "tier": "T2"
+        },
+        {
+          "title": "Vietnam U20 women set to beat Thailand at AFC U20 Women’s Asian Cup 2026",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQWG9PR0d6M2JhQXhfTGhvUERObTQ0VThnU25kT2Zldndjd2VwSlJ1WDVGUHJsRmJLQ1BjbGR4dWxYeDMwSVpOMmp3R3NiaGJ1VTN5UnFLNDlFc3ZSdTUzS19tQW5ZNmtaUnlrMXhsQ0hvN1U3Tlc1OU1YeTd1S184ZHhzTDRYSlU0MVBiZ0dhRXc3dlZnTy1CV3lNZnBiX18zY0RfUFBOcERDY1d0R2FLdy1oa2ZRY09zc3FXUg?oc=5",
+          "sourceName": "VOV.VN",
+          "sourceUrl": "https://english.vov.vn",
+          "publishedAt": "2026-04-02T07:00:00.000Z",
+          "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:45:01.551Z",
+      "fetchedAt": "2026-08-23T16:40:04.043Z",
       "status": "ok",
-      "filteredOut": 102,
+      "filteredOut": 101,
       "federationUrl": "https://vff.org.vn",
       "coach": {
         "status": "ok",
@@ -1320,7 +1279,7 @@
         "bio": null,
         "federationUrl": "https://vff.org.vn",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:45:04.926Z"
+        "fetchedAt": "2026-08-23T16:40:06.743Z"
       }
     },
     "ARG": {
@@ -1334,9 +1293,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:45:07.463Z",
+      "fetchedAt": "2026-08-23T16:40:09.319Z",
       "status": "ok",
-      "filteredOut": 3,
+      "filteredOut": 2,
       "federationUrl": "https://afa.com.ar",
       "coach": {
         "status": "ok",
@@ -1348,14 +1307,14 @@
         "bio": null,
         "federationUrl": "https://afa.com.ar",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:45:09.852Z"
+        "fetchedAt": "2026-08-23T16:40:11.665Z"
       }
     },
     "AUT": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:45:12.413Z",
+      "fetchedAt": "2026-08-23T16:40:14.237Z",
       "status": "ok",
-      "filteredOut": 14,
+      "filteredOut": 13,
       "federationUrl": "https://oefb.at",
       "coach": {
         "status": "ok",
@@ -1367,7 +1326,7 @@
         "bio": null,
         "federationUrl": "https://oefb.at",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:45:14.776Z"
+        "fetchedAt": "2026-08-23T16:40:16.576Z"
       }
     },
     "CMR": {
@@ -1389,7 +1348,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:45:17.269Z",
+      "fetchedAt": "2026-08-23T16:40:19.126Z",
       "status": "ok",
       "filteredOut": 7,
       "federationUrl": "https://fecafootofficiel.com",
@@ -1398,12 +1357,12 @@
         "teamArticle": "Cameroon women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Cameroon_women's_national_under-20_football_team",
         "federationUrl": "https://fecafootofficiel.com",
-        "fetchedAt": "2026-08-23T08:45:18.403Z"
+        "fetchedAt": "2026-08-23T16:40:20.234Z"
       }
     },
     "DEN": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:45:20.889Z",
+      "fetchedAt": "2026-08-23T16:40:22.802Z",
       "status": "ok",
       "filteredOut": 1,
       "federationUrl": "https://dbu.dk",
@@ -1417,12 +1376,12 @@
         "bio": "Kristine Pedersen is a Danish football coach and former player who played as a midfielder. Pedersen played for A-Liga sides Vejle B and Fortuna Hjørring, representing the latter in the Champions League. Pedersen earned 31 caps with the Denmark national team from 2008 to 2012.",
         "federationUrl": "https://dbu.dk",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:45:23.317Z"
+        "fetchedAt": "2026-08-23T16:40:25.417Z"
       }
     },
     "ECU": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:45:25.807Z",
+      "fetchedAt": "2026-08-23T16:40:27.991Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://ecuafutbol.org",
@@ -1445,12 +1404,12 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-23T08:45:28.115Z"
+        "fetchedAt": "2026-08-23T16:40:30.349Z"
       }
     },
     "GUM": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:45:30.608Z",
+      "fetchedAt": "2026-08-23T16:40:32.923Z",
       "status": "ok",
       "filteredOut": 9,
       "federationUrl": "https://guamfootball.com",
@@ -1464,14 +1423,14 @@
         "bio": null,
         "federationUrl": "https://guamfootball.com",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:45:32.945Z"
+        "fetchedAt": "2026-08-23T16:40:35.309Z"
       }
     },
     "HKG": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:45:35.510Z",
+      "fetchedAt": "2026-08-23T16:40:37.940Z",
       "status": "ok",
-      "filteredOut": 11,
+      "filteredOut": 10,
       "federationUrl": "https://hkfa.com",
       "coach": {
         "status": "ok",
@@ -1483,7 +1442,7 @@
         "bio": null,
         "federationUrl": "https://hkfa.com",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:45:37.836Z"
+        "fetchedAt": "2026-08-23T16:40:40.323Z"
       }
     },
     "ITA": {
@@ -1497,9 +1456,9 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-23T08:45:40.430Z",
+      "fetchedAt": "2026-08-23T16:40:42.992Z",
       "status": "ok",
-      "filteredOut": 43,
+      "filteredOut": 42,
       "federationUrl": "https://figc.it",
       "coach": {
         "status": "ok",
@@ -1511,12 +1470,12 @@
         "bio": null,
         "federationUrl": "https://figc.it",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:45:42.722Z"
+        "fetchedAt": "2026-08-23T16:40:45.348Z"
       }
     },
     "MAR": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:45:45.269Z",
+      "fetchedAt": "2026-08-23T16:40:47.956Z",
       "status": "ok",
       "filteredOut": 6,
       "federationUrl": "https://frmf.ma",
@@ -1571,12 +1530,12 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-23T08:45:47.750Z"
+        "fetchedAt": "2026-08-23T16:40:50.492Z"
       }
     },
     "NOR": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:45:50.256Z",
+      "fetchedAt": "2026-08-23T16:40:53.022Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://fotball.no",
@@ -1590,12 +1549,12 @@
         "bio": "Lena Tyriberget is a Norwegian football coach and teacher. Since 5 August 2022, she has been the head coach of Norway women's national Under-19 team. From 2021 until July 2022, she was one of two assistant coaches for the Norway women's national football team. Previously, she has also worked as head of youth development, member of board, assistant coach, manager, taken care of the field, and with analysis.",
         "federationUrl": "https://fotball.no",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:45:52.632Z"
+        "fetchedAt": "2026-08-23T16:40:58.104Z"
       }
     },
     "PAR": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:45:55.126Z",
+      "fetchedAt": "2026-08-23T16:41:00.683Z",
       "status": "ok",
       "filteredOut": 4,
       "federationUrl": "https://apf.org.py",
@@ -1604,12 +1563,12 @@
         "teamArticle": "Paraguay women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Paraguay_women's_national_under-20_football_team",
         "federationUrl": "https://apf.org.py",
-        "fetchedAt": "2026-08-23T08:45:56.238Z"
+        "fetchedAt": "2026-08-23T16:41:01.878Z"
       }
     },
     "POL": {
       "items": [],
-      "fetchedAt": "2026-08-23T08:45:58.921Z",
+      "fetchedAt": "2026-08-23T16:41:04.623Z",
       "status": "ok",
       "filteredOut": 100,
       "federationUrl": "https://pzpn.pl",
@@ -1623,7 +1582,7 @@
         "bio": null,
         "federationUrl": "https://pzpn.pl",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:46:01.262Z"
+        "fetchedAt": "2026-08-23T16:41:06.980Z"
       }
     },
     "SIN": {
@@ -1669,9 +1628,9 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-08-23T08:46:03.991Z",
+      "fetchedAt": "2026-08-23T16:41:09.805Z",
       "status": "ok",
-      "filteredOut": 99,
+      "filteredOut": 98,
       "federationUrl": "https://fas.org.sg",
       "coach": {
         "status": "ok",
@@ -1683,7 +1642,7 @@
         "bio": null,
         "federationUrl": "https://fas.org.sg",
         "articles": [],
-        "fetchedAt": "2026-08-23T08:46:06.338Z"
+        "fetchedAt": "2026-08-23T16:41:12.224Z"
       }
     },
     "ZAM": {
@@ -1713,7 +1672,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-08-23T08:46:08.832Z",
+      "fetchedAt": "2026-08-23T16:41:14.780Z",
       "status": "ok",
       "filteredOut": 5,
       "federationUrl": "https://fazfootball.com",
@@ -1744,7 +1703,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-08-23T08:46:11.243Z"
+        "fetchedAt": "2026-08-23T16:41:17.106Z"
       }
     }
   }

@@ -1,11 +1,11 @@
 {
   "category": "u20",
-  "generatedAt": "2026-09-02T04:33:40.499Z",
-  "successCount": 0,
+  "generatedAt": "2026-09-02T12:50:24.586Z",
+  "successCount": 42,
   "totalCount": 42,
-  "itemCount": 88,
-  "officialCount": 51,
-  "emptyCount": 20,
+  "itemCount": 82,
+  "officialCount": 49,
+  "emptyCount": 21,
   "coachCount": 36,
   "countries": {
     "AUS": {
@@ -75,8 +75,8 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-09-01T19:23:55.425Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:46:49.716Z",
+      "status": "ok",
       "filteredOut": 90,
       "federationUrl": "https://footballaustralia.com.au",
       "coach": {
@@ -98,11 +98,8 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-09-01T19:23:57.905Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Alex%20Epakis%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Australia%20women's%20U-20%22%20OR%20%22Australia%20U-20%20women%22%20OR%20%22Australia%20women's%20U20%22%20OR%20%22Australia%20U20%20women%22%20OR%20%22Australia%20women's%20Under-20%22%20OR%20%22Australia%20Under-20%20women%22%20OR%20%22Australia%20women's%20U-19%22%20OR%20%22Australia%20U-19%20women%22%20OR%20%22Australia%20women's%20U19%22%20OR%20%22Australia%20U19%20women%22%20OR%20%22Australia%20women's%20Under-19%22%20OR%20%22Australia%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:46:52.480Z"
+      }
     },
     "BAN": {
       "items": [
@@ -112,14 +109,6 @@
           "sourceName": "Laodong.vn",
           "sourceUrl": "https://news.laodong.vn",
           "publishedAt": "2026-04-07T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Vietnam U20 women's team determined to beat Bangladesh U20 women's team to nurture hopes of going further",
-          "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNRkU2UXFGQkFjUmRtWllCc0pGYzJZQi1CdXVCV0lTeXlVNVhQeENKVXlRTnlDNnpiUHVEd0FieW1IVzRGX0kxUVg2c2E2YWF2QnhFcUhkZmk1SjNUcXh6dVZBc3AtNkNPaFJvZzFBbnVvdC03NGFUazVaZ2tIQlp4eDFnUWwwV3JwRHhNd2taSVJPTEZZRmJWU3Yyei1abDVPSWxNSkRBTlNZbWR4QUk4clVmeUc?oc=5",
-          "sourceName": "Laodong.vn",
-          "sourceUrl": "https://news.laodong.vn",
-          "publishedAt": "2026-04-06T07:00:00.000Z",
           "tier": "T2"
         },
         {
@@ -147,8 +136,8 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:24:00.652Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:46:55.242Z",
+      "status": "ok",
       "filteredOut": 108,
       "federationUrl": "https://bff.com.bd",
       "coach": {
@@ -161,11 +150,8 @@
         "bio": "Peter James Butler is an English professional football manager and former player who is the current manager of the Bangladesh women's national team. As a player, he made more than 450 appearances in the Football League and the Premier League. After retiring in October of 2000 he began coaching, working for teams in England, Australia and South-East Asia. He was in charge of the Botswana national team from 2014 until 2017. He currently holds a UEFA Pro License Qualification.",
         "federationUrl": "https://bff.com.bd",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:24:03.125Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Peter%20James%20Butler%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Bangladesh%20women's%20U-20%22%20OR%20%22Bangladesh%20U-20%20women%22%20OR%20%22Bangladesh%20women's%20U20%22%20OR%20%22Bangladesh%20U20%20women%22%20OR%20%22Bangladesh%20women's%20Under-20%22%20OR%20%22Bangladesh%20Under-20%20women%22%20OR%20%22Bangladesh%20women's%20U-19%22%20OR%20%22Bangladesh%20U-19%20women%22%20OR%20%22Bangladesh%20women's%20U19%22%20OR%20%22Bangladesh%20U19%20women%22%20OR%20%22Bangladesh%20women's%20Under-19%22%20OR%20%22Bangladesh%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:46:57.886Z"
+      }
     },
     "BRA": {
       "items": [
@@ -178,25 +164,25 @@
           "tier": "T2"
         },
         {
-          "title": "Why Brazil’s Women’s U-20 Championship Matters",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1FZFpyRHVRZ1JxRnV3UE5wVU1sRGF0cXBQWEY0aE5NOFNWa1Z6X3o4Q1Y4N280cHBqVlU5MURCZVhZdm9kQ2FOV2JKSGNjSnJGNzV1WlVHUDBuWEo3TTBIMlYyU0s2OFVXdnI1ZW9lZ29WMjdQeDBubjJn?oc=5",
-          "sourceName": "The Football Week",
-          "sourceUrl": "https://thefootballweek.com",
-          "publishedAt": "2026-06-09T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
           "title": "Canali Named To Brazil’s U-20 Women’s National Team Roster",
           "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNZXpOcWxHUjFnUS0wZC1XUVY4bmlpLUNqSjhjeHVyazRUaFVCckFlZms4YWNNWVkzVkh1Sjlzd1ZJMGVUaU85ZFVhVzkxc3o1TC1mUTJ1SlhjYS1fT2hXMW9KSGMza2R2NTZYVVc4R3ZtOFByTDYxeWNRTmJsZVk3Wi1qVzJOaVh6ZkNjVzFfYmlTS014dngyWWtnNGhoRHNV?oc=5",
           "sourceName": "virginiasports.com",
           "sourceUrl": "https://virginiasports.com",
           "publishedAt": "2026-05-26T07:00:00.000Z",
           "tier": "T2"
+        },
+        {
+          "title": "Brazil U20 women thrash Bolivia, take top spot in Group B",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOYmU5bjBMS1F1R3QtT3ExaVpXQUJXMll0dmJFb0ZxZ25BblVjbExmOUs2dU10dGVyVmRyNTNvOUNfUTdrSW1DM1NQQzNPMV9GOGtlT2d2WVFwdEJnVEttNVYyM2RFX0tfSXhrWUluNEU5Snk3cElpUENLXzczWnBxcnJyVDN0QQ?oc=5",
+          "sourceName": "Yahoo Sports Canada",
+          "sourceUrl": "https://ca.sports.yahoo.com",
+          "publishedAt": "2026-02-07T08:00:00.000Z",
+          "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:24:05.767Z",
-      "status": "stale",
-      "filteredOut": 3,
+      "fetchedAt": "2026-09-02T12:47:00.534Z",
+      "status": "ok",
+      "filteredOut": 2,
       "federationUrl": "https://cbf.com.br",
       "coach": {
         "status": "ok",
@@ -217,34 +203,39 @@
             "tier": "T2"
           },
           {
-            "title": "Camilla Orlando names Brazil women’s under-20 squad for World Cup",
-            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPN3NtQkUwd0UwSEFCUFFHQWRpd3p6aFRJb2pYZ2dnVzhEZzJEUXR6S1lZTTN5Y0otUG1Mc3RpWFZUbVVfTmF6Wmh4Uk43OVFmNkNzaW5JT1BVRjJsOERvMXhQaHFnX0hsY1AzZ1RBTl9uanU1QXk2WFhXR1hScEluTk9ZQVluOVNPNkgxaDN1RENKY0diRUROdE9OdVd2REVrSlFxTldCNjM?oc=5",
-            "sourceName": "OneFootball",
-            "sourceUrl": "https://onefootball.com",
-            "publishedAt": "2026-08-19T07:00:00.000Z",
-            "tier": "T2"
-          },
-          {
             "title": "Camilla Orlando on Brazil's build-up and World Cup rivals",
             "link": "https://news.google.com/rss/articles/CBMingFBVV95cUxNeWEzZXVxeWxpMnhEVmM3Mjc0QlJneU0tdUFobExMNkd5dTRRdzJnblJEaHZ5UEhWSGFLTWhoR0U0WGFiZG5iM2VpU2dGVFliZnh3Y09ETm0yQkVYOHp1aGcwR2JEbWxpZWFLY2c1NFpCZGZNa2lqcXZtTF90a1FCdmYyTUg5cVl6NDNOaUlDZkNPUXNmdjFwQkFNRERIUQ?oc=5",
             "sourceName": "OneFootball",
             "sourceUrl": "https://onefootball.com",
             "publishedAt": "2026-08-19T07:00:00.000Z",
             "tier": "T2"
+          },
+          {
+            "title": "Camilla Orlando names Brazil women’s under-20 squad for World Cup",
+            "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOeS0zQjZnNjcwNm5tN3ZkVkxTbDI1NTdZUTNrcWxkVHBmT21oV1RFX09zSW5OM3BNdEd2UmJzNWhRUU1GVzRRUF9JN2xJaVNsdlY4LVRLTUU4SWJTYnV3ZTdGc2w0aWE0Y0xLSExteHZBeDRGdUNDeFRmM0J0SVk2Nm9qMzVlTEQ3dFE?oc=5",
+            "sourceName": "Yahoo Sports Canada",
+            "sourceUrl": "https://ca.sports.yahoo.com",
+            "publishedAt": "2026-08-19T07:00:00.000Z",
+            "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-09-01T19:24:08.209Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Camilla%20Orlando%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Brazil%20women's%20U-20%22%20OR%20%22Brazil%20U-20%20women%22%20OR%20%22Brazil%20women's%20U20%22%20OR%20%22Brazil%20U20%20women%22%20OR%20%22Brazil%20women's%20Under-20%22%20OR%20%22Brazil%20Under-20%20women%22%20OR%20%22Brazil%20women's%20U-19%22%20OR%20%22Brazil%20U-19%20women%22%20OR%20%22Brazil%20women's%20U19%22%20OR%20%22Brazil%20U19%20women%22%20OR%20%22Brazil%20women's%20Under-19%22%20OR%20%22Brazil%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:03.165Z"
+      }
     },
     "CAN": {
       "items": [
         {
+          "title": "Women’s U-19 camp in Europe",
+          "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE04WTUwNUMyRFk4SlJhWVF5RWd4NVJ2X0hlS2dSVXhZUklyQTR0YzhicFdxY202NnFQUUJtdFpabFBiLURTQWRHb2NaSGVtRUVTaEdxVE1QSUMxbExBRG00Wk1kTVNyYW43Q1B2OGZn?oc=5",
+          "sourceName": "Canada Soccer",
+          "sourceUrl": "https://canadasoccer.com",
+          "publishedAt": "2026-09-01T19:26:06.000Z",
+          "tier": "T1"
+        },
+        {
           "title": "CANW20 Roster Unveiled for FIFA U-20 Women’s World Cup Poland 2026™",
           "link": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNZEcyRkJwTnRXbUw2RDA0WDVGOVQ4NjFWZ3NqZHN5QlhZLW1jMVoyLUFXNWJfdVBLWDJWRmtRSHlJLUlrVXFlUFZzUHFQRW1aczFyNy1TOThZOUZMeC1jNFNmUDRGcUNKZ3pHcy1JeEwyRV9qOF9lZGlaQXpJOVBKR2g1R3VoSnV5d2RFTTZFZlQ2OGZ6eXVXMHZrQkpzc0tDNHpvckhUN0JlZjY0dDNrUWN3?oc=5",
-          "sourceName": "news.canadasoccer.com",
+          "sourceName": "Canada Soccer Pressroom",
           "sourceUrl": "https://news.canadasoccer.com",
           "publishedAt": "2026-08-20T07:00:00.000Z",
           "tier": "T1"
@@ -282,14 +273,6 @@
           "tier": "T1"
         },
         {
-          "title": "Women's U-20 vs. England - FIFA U-20 Women's World Cup Poland 2026",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE15VDhIY1k0a2FORU9tbWpPajA5dTVDRFdGZEJhSEk0YkRSMnFqcmlOYzhDbVB1TVV6MmxJbHFJckYtWVluZnZaUk1xODk?oc=5",
-          "sourceName": "Canada Soccer",
-          "sourceUrl": "https://canadasoccer.com",
-          "publishedAt": "2026-07-23T02:00:42.000Z",
-          "tier": "T1"
-        },
-        {
           "title": "Women’s U-20 pre-tournament camp",
           "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1zMXU0Z05EWU9nTllWbENlaU1wRC01T01VVk8zVFV2SFFoV2oyaTZ0dUpLV0RGYks2WWFqUE1pX1I0Ykl0Rk9EQnAtRmZ6Z3ZNZEtKbFEyTm5DZTBIanRyNExycmtvUzF6Nkc3ejhyWER5dkVLTWc?oc=5",
           "sourceName": "Canada Soccer",
@@ -298,17 +281,17 @@
           "tier": "T1"
         },
         {
-          "title": "Women's U-20 vs. Japan - Women's U-20 International Series in Spain",
-          "link": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE53X3pzdWR1MVRlR2Z4UWYyMVFBcDEwWkR0NGVCZDRJaDNrSWZsbEJjdWFLdldHZ0V0YnFxUjJXUHRKVjluWnRBODRURUQ?oc=5",
+          "title": "Women’s U-20 camp in USA",
+          "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9Cb0psRFJBZEtyNFo0bjY1MEZjNi0zMWdueTZEMmtLZDFxbkJRT1FTaDJSZEVxTnVGTGQ1dzRqM0FDSHprVmJMc1BOQVVpcFFSc3pLNzZFVmFZOVBIVXo2aV9lM1NSQmRKd2c?oc=5",
           "sourceName": "Canada Soccer",
           "sourceUrl": "https://canadasoccer.com",
-          "publishedAt": "2026-06-06T20:24:13.000Z",
+          "publishedAt": "2026-06-26T08:53:44.000Z",
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-09-01T19:24:11.084Z",
-      "status": "stale",
-      "filteredOut": 88,
+      "fetchedAt": "2026-09-02T12:47:06.096Z",
+      "status": "ok",
+      "filteredOut": 82,
       "federationUrl": "https://canadasoccer.com",
       "coach": {
         "status": "ok",
@@ -320,11 +303,8 @@
         "bio": null,
         "federationUrl": "https://canadasoccer.com",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:24:14.756Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Cindy%20Tye%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Canada%20women's%20U-20%22%20OR%20%22Canada%20U-20%20women%22%20OR%20%22Canada%20women's%20U20%22%20OR%20%22Canada%20U20%20women%22%20OR%20%22Canada%20women's%20Under-20%22%20OR%20%22Canada%20Under-20%20women%22%20OR%20%22Canada%20women's%20U-19%22%20OR%20%22Canada%20U-19%20women%22%20OR%20%22Canada%20women's%20U19%22%20OR%20%22Canada%20U19%20women%22%20OR%20%22Canada%20women's%20Under-19%22%20OR%20%22Canada%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:09.144Z"
+      }
     },
     "CHN": {
       "items": [
@@ -335,18 +315,10 @@
           "sourceUrl": "https://macaonews.org",
           "publishedAt": "2026-04-13T07:00:00.000Z",
           "tier": "T2"
-        },
-        {
-          "title": "AFC U-20 Women's Asian Cup Bangladesh take on China today",
-          "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPb05IenhTU2puWV9XV3FOeTdmWXJOUDBJcmFVY2RvcVVyUHl2QWdaS1JlaVp2UDB1WTlpeWN1eUNrWmE4MzRmSENZVVZvMVB1RDFmbW5mUHJmeTVoWngzT011TXRxNXI3VFhHbDVNSHo3WjlzNzUyMmlUbDA5Z2NDM2FQY0ZNSXFkTllkV0Q4X1ZQZDRMVWNuRnJB?oc=5",
-          "sourceName": "dailyasianage.com",
-          "sourceUrl": "https://dailyasianage.com",
-          "publishedAt": "2026-04-04T07:00:00.000Z",
-          "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:24:17.384Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:47:11.779Z",
+      "status": "ok",
       "filteredOut": 30,
       "federationUrl": "https://thecfa.cn",
       "coach": {
@@ -362,7 +334,7 @@
           {
             "title": "VIDEO: Jeffersonville boys' soccer coach Colin Bell talks about the upcoming season",
             "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxOUzBuNEd4c01fSHRSQm5iY1FjZFdPbGxESXptQUZlMjFvS2hneEl0RFBOaGVxVnlOYjIzVEtnUzdvemZIYWJOX1hhalNaMWJzdGRxRDNYRHM0NE9senFVZkRRUE9jQU1OUXBIYzRQMk1MbWlXSzQ2c1ppQ0NPbGR5a2s2QUtsME45aHk4WWU0Q0N3Si1raWFaMDkzb2stcE1mM3Nfd2hzYUF6TUV3TEZtUzhkZ2drSVQ5S01jYlJJZDN2Y1JRRjh2UGdLVnFqNktEVnVqR25qYi03b2FnNnRRWXQyY1JSNlY2aXMzakhiSDEwTW1ET2l6WnZsbUxaVEt1?oc=5",
-            "sourceName": "News and Tribune",
+            "sourceName": "newsandtribune.com",
             "sourceUrl": "https://www.newsandtribune.com",
             "publishedAt": "2026-08-17T07:00:00.000Z",
             "tier": "T2"
@@ -384,41 +356,38 @@
             "tier": "T2"
           },
           {
-            "title": "Remembering Colin Bell: ‘Pep would have adored him!’",
-            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sOGxWQXc2M05OeXpLVUFGaE11RFRIbkVlN3hIcjdFaXNtU2FyQTRNTFRXalBNVUdxTUJiSWt5b2VwbFhtZGNHU0pBVUo2cU81bl9HbS04V2FtTUdualhZOHhxYlU1THJ6c0tCVFI3WHRoZVBLLUtsOURZYWw?oc=5",
-            "sourceName": "Manchester City FC",
-            "sourceUrl": "https://www.mancity.com",
-            "publishedAt": "2026-02-26T08:00:00.000Z",
-            "tier": "T2"
-          },
-          {
             "title": "Remembering Colin Bell on his 80th birthday",
             "link": "https://news.google.com/rss/articles/CBMic0FVX3lxTE4zUTQ0eTZqN2s1WUpDTzFrVVhWYkdEazUwcGM3ZnYwNHBOZnctVmZ1Ny1GZU82eUZqbWhiQmxvYXNYRWFHdmFuQUpEb2tUamN2anRoVHJtcnV6ejdTa2s3OHRsTEZ5M1FfUU90QU83Z0NRZTg?oc=5",
             "sourceName": "Manchester City FC",
             "sourceUrl": "https://www.mancity.com",
             "publishedAt": "2026-02-26T08:00:00.000Z",
             "tier": "T2"
+          },
+          {
+            "title": "Remembering Colin Bell: ‘Pep would have adored him!’",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5sOGxWQXc2M05OeXpLVUFGaE11RFRIbkVlN3hIcjdFaXNtU2FyQTRNTFRXalBNVUdxTUJiSWt5b2VwbFhtZGNHU0pBVUo2cU81bl9HbS04V2FtTUdualhZOHhxYlU1THJ6c0tCVFI3WHRoZVBLLUtsOURZYWw?oc=5",
+            "sourceName": "Manchester City FC",
+            "sourceUrl": "https://www.mancity.com",
+            "publishedAt": "2026-02-26T08:00:00.000Z",
+            "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-09-01T19:24:19.939Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Colin%20Bell%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22China%20women's%20U-20%22%20OR%20%22China%20U-20%20women%22%20OR%20%22China%20women's%20U20%22%20OR%20%22China%20U20%20women%22%20OR%20%22China%20women's%20Under-20%22%20OR%20%22China%20Under-20%20women%22%20OR%20%22China%20women's%20U-19%22%20OR%20%22China%20U-19%20women%22%20OR%20%22China%20women's%20U19%22%20OR%20%22China%20U19%20women%22%20OR%20%22China%20women's%20Under-19%22%20OR%20%22China%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:14.410Z"
+      }
     },
     "COL": {
       "items": [
         {
           "title": "U.S. Under-20 Women's National Falls to Colombia, 1-0, to Finish Training Camp at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSVBpN2xBcXhkYzNBdmlWZ3RvRGtOZUtNa2NNdzc4Z09HTnI2MUZLQ1JfT0tQSkktekxJRmtWRmZSVHFwUzZCelBkSmE0ZFhwb0prN2NXRmxpLXNpRWgwcnp0T0hESkU4SkoyUXJicHpSYzBfNldIYkZBZ1B2eHJPQXRYZTFWMlAxWDZDOVlNU3dOdE5ENWpVUnhLZ3A0YmVMYUFYZUMtd0FuNnBNc0dRM0FZWlg?oc=5",
-          "sourceName": "US Soccer",
+          "sourceName": "U.S. Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-07-13T07:00:00.000Z",
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:24:22.483Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:47:16.987Z",
+      "status": "ok",
       "filteredOut": 9,
       "federationUrl": "https://fcf.com.co",
       "coach": {
@@ -431,41 +400,28 @@
         "bio": null,
         "federationUrl": "https://fcf.com.co",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:24:24.962Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Carlos%20Alberto%20Quintero%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Colombia%20women's%20U-20%22%20OR%20%22Colombia%20U-20%20women%22%20OR%20%22Colombia%20women's%20U20%22%20OR%20%22Colombia%20U20%20women%22%20OR%20%22Colombia%20women's%20Under-20%22%20OR%20%22Colombia%20Under-20%20women%22%20OR%20%22Colombia%20women's%20U-19%22%20OR%20%22Colombia%20U-19%20women%22%20OR%20%22Colombia%20women's%20U19%22%20OR%20%22Colombia%20U19%20women%22%20OR%20%22Colombia%20women's%20Under-19%22%20OR%20%22Colombia%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:19.584Z"
+      }
     },
     "ENG": {
-      "items": [
-        {
-          "title": "Five Blues named in England's U-20 Women's World Cup squad | News | Official Site",
-          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQb0YyaDlNQjVrY2hTWUgwejVmVFNidV9xeE9sdEpvOXFCcDhSMko5QmhDYUo1MW1OWG5neU03MFdITXJuSkVFX2REb3R4c1BiTTdhYTNDb2pTNkJsLTNwcHZZTE5TcWdoSUg2MklwVzFxVHBrOEM4dTZRT0RESXNVa000VnBCMDd1TjZDSDNoeHNVZi00bUJNSXZiXzZLU1E?oc=5",
-          "sourceName": "chelseafc.com",
-          "sourceUrl": "https://www.chelseafc.com",
-          "publishedAt": "2026-08-21T13:00:00.000Z",
-          "tier": "T1"
-        }
-      ],
-      "fetchedAt": "2026-09-01T19:24:27.734Z",
-      "status": "stale",
-      "filteredOut": 108,
+      "items": [],
+      "fetchedAt": "2026-09-02T12:47:22.500Z",
+      "status": "ok",
+      "filteredOut": 110,
       "federationUrl": "https://thefa.com",
       "coach": {
         "status": "no_coach_listed",
         "teamArticle": "England women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/England_women's_national_under-20_football_team",
         "federationUrl": "https://thefa.com",
-        "fetchedAt": "2026-09-02T04:23:52.318Z"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22England%20women's%20U-20%22%20OR%20%22England%20U-20%20women%22%20OR%20%22England%20women's%20U20%22%20OR%20%22England%20U20%20women%22%20OR%20%22England%20women's%20Under-20%22%20OR%20%22England%20Under-20%20women%22%20OR%20%22England%20women's%20U-19%22%20OR%20%22England%20U-19%20women%22%20OR%20%22England%20women's%20U19%22%20OR%20%22England%20U19%20women%22%20OR%20%22England%20women's%20Under-19%22%20OR%20%22England%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:23.845Z"
+      }
     },
     "ESP": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:24:31.648Z",
-      "status": "stale",
-      "filteredOut": 44,
+      "fetchedAt": "2026-09-02T12:47:26.501Z",
+      "status": "ok",
+      "filteredOut": 42,
       "federationUrl": "https://rfef.es",
       "coach": {
         "status": "ok",
@@ -486,17 +442,14 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-09-01T19:24:34.116Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22David%20Aznar%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Spain%20women's%20U-20%22%20OR%20%22Spain%20U-20%20women%22%20OR%20%22Spain%20women's%20U20%22%20OR%20%22Spain%20U20%20women%22%20OR%20%22Spain%20women's%20Under-20%22%20OR%20%22Spain%20Under-20%20women%22%20OR%20%22Spain%20women's%20U-19%22%20OR%20%22Spain%20U-19%20women%22%20OR%20%22Spain%20women's%20U19%22%20OR%20%22Spain%20U19%20women%22%20OR%20%22Spain%20women's%20Under-19%22%20OR%20%22Spain%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:29.131Z"
+      }
     },
     "FRA": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:24:36.889Z",
-      "status": "stale",
-      "filteredOut": 102,
+      "fetchedAt": "2026-09-02T12:47:31.889Z",
+      "status": "ok",
+      "filteredOut": 101,
       "federationUrl": "https://fff.fr",
       "coach": {
         "status": "ok",
@@ -508,16 +461,13 @@
         "bio": "Sandrine Ringler is a French former footballer who played as a defender for FC Vendenheim of the Division 1 Féminine.",
         "federationUrl": "https://fff.fr",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:24:39.397Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Sandrine%20Ringler%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22France%20women's%20U-20%22%20OR%20%22France%20U-20%20women%22%20OR%20%22France%20women's%20U20%22%20OR%20%22France%20U20%20women%22%20OR%20%22France%20women's%20Under-20%22%20OR%20%22France%20Under-20%20women%22%20OR%20%22France%20women's%20U-19%22%20OR%20%22France%20U-19%20women%22%20OR%20%22France%20women's%20U19%22%20OR%20%22France%20U19%20women%22%20OR%20%22France%20women's%20Under-19%22%20OR%20%22France%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:34.522Z"
+      }
     },
     "GER": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:24:42.176Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:47:38.317Z",
+      "status": "ok",
       "filteredOut": 105,
       "federationUrl": "https://dfb.de",
       "coach": {
@@ -530,11 +480,8 @@
         "bio": null,
         "federationUrl": "https://dfb.de",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:24:44.611Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Kathrin%20Peter%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Germany%20women's%20U-20%22%20OR%20%22Germany%20U-20%20women%22%20OR%20%22Germany%20women's%20U20%22%20OR%20%22Germany%20U20%20women%22%20OR%20%22Germany%20women's%20Under-20%22%20OR%20%22Germany%20Under-20%20women%22%20OR%20%22Germany%20women's%20U-19%22%20OR%20%22Germany%20U-19%20women%22%20OR%20%22Germany%20women's%20U19%22%20OR%20%22Germany%20U19%20women%22%20OR%20%22Germany%20women's%20Under-19%22%20OR%20%22Germany%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:40.952Z"
+      }
     },
     "IND": {
       "items": [
@@ -603,9 +550,9 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-09-01T19:24:47.575Z",
-      "status": "stale",
-      "filteredOut": 121,
+      "fetchedAt": "2026-09-02T12:47:43.927Z",
+      "status": "ok",
+      "filteredOut": 125,
       "federationUrl": "https://the-aiff.com",
       "coach": {
         "status": "ok",
@@ -644,25 +591,22 @@
           {
             "title": "Joakim Alexandersson Back As India U-17 Women's Head Coach For AFC Qualifiers",
             "link": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOZjZhZFpmVlk0ZjFsWUtNZEpZZlpYMVR1ZUM4eXI1RG1YRENXVnlQRFZ4aWxMa29QckNibVcwNDl5YUxHdm1TcWtIbnFMR1ktR0JKWElQNmRsblhpekNTME94SW5SOWNJakZrQ1poX2FSRzlnRXFWX1RFaklycHh4dW9VUm5sT2Q2anZhRlVfNndUWlhIbVU0Q082OENWNFlma1puQnhSSQ?oc=5",
-            "sourceName": "Rediff",
+            "sourceName": "rediff.com",
             "sourceUrl": "https://www.rediff.com",
             "publishedAt": "2026-07-17T07:00:00.000Z",
             "tier": "T2"
           },
           {
-            "title": "\"We have to go for the win\": Joakim Alexandersson urges focus as India U-20 Women face Chinese Taipei next",
-            "link": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxNX2JNRjhkdE9ELVBnbzFyRXVmQ01CZUp4ZzlFTkJiSHpKMXJYM2o4NzRFVlNxRkNMODB0RGpENkVvZzVYYmFwWXRKOGxra2daQXhseWlyM04yRlNHSXFBSlhPQzBuLTZ3ZURQSmJDZEFZSTI5UVQwXzBvandsWlREaGZvSXVMNGRhd2dsdEZoM0ZETGFxZ1VvajBfdkgtLTJvbEpmaDl4R1NNeWVselFONUxyaUlTcHVvVGJIMG4xT0NZcmVzQVRWeWxaRE95bFlGeTRwb1E3cmctVHBkY1NvUnItZXJVbFpDdXlKbFBn?oc=5",
-            "sourceName": "Khel Now",
-            "sourceUrl": "https://khelnow.com",
-            "publishedAt": "2026-04-07T07:00:00.000Z",
+            "title": "AFC U-17 Women's Asian Cup 2027 Qualifiers: Alexandersson To Take Charge As IND Women's Team Head Coach",
+            "link": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOUGR6Ny1za0s5UDZndTd6NGVGX19ZZkRJMTI0R1k3b1JEMDZyU2tkRnVkWHVFazFYYkN2RWN5VXFKLURETC1DNFcxMHBHWEpjclJUZ1JiRkNiTjhVODNUWUFpd3hWUFR5dmlEQkxUek1OeTdYb0x5OThkeWQ4LTg0TWZjYnNkQzI1Vm1tVHRRejRkLURtN1AwdnpLWldXdk0yd2g5clMyTWpWMjNMNm9fLWs0OVBubWhZc1V2Vk13eGRoclJnZlAxOE9tbEZ1cGE0c2RCc3FpZUNuekZZSWNSOFNKR2xGcy1DZEJDSdIB-gFBVV95cUxQS24wTmRCamgySGI3bHh6Qkx2RVloMWdHNFlVT3gtRVpyTmxDckhGdTRoRlh2eU1rcG1QZW1CN3BhVm0zS21PQ21GbFJnamdsNVVUNFh0WFVZb0RQSll5ckx2NldvMHI2anI1MzEwQWxNWjFFREpyanBUMVhUejZYVjNyZXlrRDZaX1lMZ1dqd3h6MElrejRTWDNLekxrWlZlZEFRZmhQUVVKSVBUV2hjYTdmT2RuY1pUZFdobGcxbnQtWWhqVTBLTFBiQnVwTWVOZGN3eXVQdzAyVWVwZGl0eExWN0s5MDJEcThoY0FkVXo1T2xIck5YbE1n?oc=5",
+            "sourceName": "Outlook India",
+            "sourceUrl": "https://www.outlookindia.com",
+            "publishedAt": "2026-07-17T07:00:00.000Z",
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-09-01T19:24:50.086Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Joakim%20Alexandersson%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22India%20women's%20U-20%22%20OR%20%22India%20U-20%20women%22%20OR%20%22India%20women's%20U20%22%20OR%20%22India%20U20%20women%22%20OR%20%22India%20women's%20Under-20%22%20OR%20%22India%20Under-20%20women%22%20OR%20%22India%20women's%20U-19%22%20OR%20%22India%20U-19%20women%22%20OR%20%22India%20women's%20U19%22%20OR%20%22India%20U19%20women%22%20OR%20%22India%20women's%20Under-19%22%20OR%20%22India%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:46.683Z"
+      }
     },
     "IRN": {
       "items": [
@@ -675,8 +619,8 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:24:52.689Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:47:49.218Z",
+      "status": "ok",
       "filteredOut": 8,
       "federationUrl": "https://ffiri.ir",
       "coach": {
@@ -689,11 +633,8 @@
         "bio": "Marta Mika is a Polish football manager and former professional player who played as a defender. She is currently the assistant coach of the Poland national team.",
         "federationUrl": "https://ffiri.ir",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:24:55.130Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Marta%20Mika%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Iran%20women's%20U-20%22%20OR%20%22Iran%20U-20%20women%22%20OR%20%22Iran%20women's%20U20%22%20OR%20%22Iran%20U20%20women%22%20OR%20%22Iran%20women's%20Under-20%22%20OR%20%22Iran%20Under-20%20women%22%20OR%20%22Iran%20women's%20U-19%22%20OR%20%22Iran%20U-19%20women%22%20OR%20%22Iran%20women's%20U19%22%20OR%20%22Iran%20U19%20women%22%20OR%20%22Iran%20women's%20Under-19%22%20OR%20%22Iran%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:51.818Z"
+      }
     },
     "JOR": {
       "items": [
@@ -706,8 +647,8 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:24:57.738Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:47:54.418Z",
+      "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://jfa.jo",
       "coach": {
@@ -720,11 +661,8 @@
         "bio": null,
         "federationUrl": "https://jfa.jo",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:25:00.177Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Hussam%20Abu%20Raiyyash%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Jordan%20women's%20U-20%22%20OR%20%22Jordan%20U-20%20women%22%20OR%20%22Jordan%20women's%20U20%22%20OR%20%22Jordan%20U20%20women%22%20OR%20%22Jordan%20women's%20Under-20%22%20OR%20%22Jordan%20Under-20%20women%22%20OR%20%22Jordan%20women's%20U-19%22%20OR%20%22Jordan%20U-19%20women%22%20OR%20%22Jordan%20women's%20U19%22%20OR%20%22Jordan%20U19%20women%22%20OR%20%22Jordan%20women's%20Under-19%22%20OR%20%22Jordan%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:47:57.011Z"
+      }
     },
     "KOR": {
       "items": [
@@ -749,14 +687,6 @@
           "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPSHhKY1Q1LWFIY0dxSmM2a3lRcnM0eWZPWVJoODRZMTZ4ME5SbUhSaFFKakx6dUZYR016c2xQeV9kdEIzRkVXYXE1ay12V3Y1RjRXRHRoMkdrZ0tuVVZCRkp4aTBOQ0I2TWUzYWFuekJqWGlpMTgtYTFnMDhXQTFVY0tESHVSZw?oc=5",
           "sourceName": "조선일보",
           "sourceUrl": "https://www.chosun.com",
-          "publishedAt": "2026-04-15T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "\"Shooting Numbers 2-21\" South Korea's U20 Women's Soccer Defeated 0-3 to North Korea again... Asian Cup semi-finals eliminated",
-          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE44OHE0UmdZOTJvdjNMYzJwdzlyN09STWcxY2p4U3UzSHp5aTdCU1hac0JOZ2ZGSkxMalpKajFWYmpMZnVFdmU5LUZNd0Yzek5lUnNvT2c0OVIxREg5Yl9QbGtkal8ySU90LUNvelNncDZZY2ZoVWZZZldR?oc=5",
-          "sourceName": "starnewskorea.com",
-          "sourceUrl": "https://www.starnewskorea.com",
           "publishedAt": "2026-04-15T07:00:00.000Z",
           "tier": "T2"
         },
@@ -791,10 +721,18 @@
           "sourceUrl": "https://biz.chosun.com",
           "publishedAt": "2026-04-09T07:00:00.000Z",
           "tier": "T2"
+        },
+        {
+          "title": "Park Yoon-jeong leads South Korea U-20 women to 2-0 win over Uzbekistan - CHOSUNBIZ",
+          "link": "https://news.google.com/rss/articles/CBMif0FVX3lxTE1ONlF5a2xzWl9CaVFVSmhnRDZma2xvSG9kaFFRdFRuUWUwX1ViODIzU05mcGZZbXFxSkhqTlVCZkd5NVBYcUI3SGs1b0NMa2tteHhkcTR6WGhjVXBxbUdDa2NKbGctUWt3dFV2OTF2QTNOSlVBYlVrNDVEak5tdUHSAZMBQVVfeXFMT19MUGNFbmJ6bHZDb2VkNElaRnppRTFRcGllQ0U2NVZtNUczWXVtMDVKOUNaTWpJM21LZUx4QzBKNjhkNnNPQVBudHZrd241MHR1X2FIOS14aDFKTnZrSGwtblVvUXJodF9Qbm9GelQzcEhveWdzVVFvZ1pseVF6aF9oT01JbWVEcmFfWVdvQlhvdkU4?oc=5",
+          "sourceName": "Chosunbiz",
+          "sourceUrl": "https://biz.chosun.com",
+          "publishedAt": "2026-04-02T07:00:00.000Z",
+          "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:25:02.818Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:47:59.579Z",
+      "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://kfa.or.kr",
       "coach": {
@@ -807,16 +745,13 @@
         "bio": null,
         "federationUrl": "https://kfa.or.kr",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:25:05.263Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Park%20Youn-jeong%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22South%20Korea%20women's%20U-20%22%20OR%20%22South%20Korea%20U-20%20women%22%20OR%20%22South%20Korea%20women's%20U20%22%20OR%20%22South%20Korea%20U20%20women%22%20OR%20%22South%20Korea%20women's%20Under-20%22%20OR%20%22South%20Korea%20Under-20%20women%22%20OR%20%22South%20Korea%20women's%20U-19%22%20OR%20%22South%20Korea%20U-19%20women%22%20OR%20%22South%20Korea%20women's%20U19%22%20OR%20%22South%20Korea%20U19%20women%22%20OR%20%22South%20Korea%20women's%20Under-19%22%20OR%20%22South%20Korea%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:02.198Z"
+      }
     },
     "MAS": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:25:07.902Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:48:04.794Z",
+      "status": "ok",
       "filteredOut": 8,
       "federationUrl": "https://fam.org.my",
       "coach": {
@@ -829,17 +764,14 @@
         "bio": null,
         "federationUrl": "https://fam.org.my",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:25:10.369Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Cameron%20NG%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Malaysia%20women's%20U-20%22%20OR%20%22Malaysia%20U-20%20women%22%20OR%20%22Malaysia%20women's%20U20%22%20OR%20%22Malaysia%20U20%20women%22%20OR%20%22Malaysia%20women's%20Under-20%22%20OR%20%22Malaysia%20Under-20%20women%22%20OR%20%22Malaysia%20women's%20U-19%22%20OR%20%22Malaysia%20U-19%20women%22%20OR%20%22Malaysia%20women's%20U19%22%20OR%20%22Malaysia%20U19%20women%22%20OR%20%22Malaysia%20women's%20Under-19%22%20OR%20%22Malaysia%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:07.464Z"
+      }
     },
     "MEX": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:25:12.951Z",
-      "status": "stale",
-      "filteredOut": 7,
+      "fetchedAt": "2026-09-02T12:48:10.071Z",
+      "status": "ok",
+      "filteredOut": 6,
       "federationUrl": "https://fmf.mx",
       "coach": {
         "status": "ok",
@@ -851,11 +783,8 @@
         "bio": "Dorival Bueno dos Santos Pacheco, sometimes known as his nickname Doriva Bueno is a Brazilian football manager for the Mexico women's national under-20 team.",
         "federationUrl": "https://fmf.mx",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:25:15.385Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Dorival%20Bueno%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Mexico%20women's%20U-20%22%20OR%20%22Mexico%20U-20%20women%22%20OR%20%22Mexico%20women's%20U20%22%20OR%20%22Mexico%20U20%20women%22%20OR%20%22Mexico%20women's%20Under-20%22%20OR%20%22Mexico%20Under-20%20women%22%20OR%20%22Mexico%20women's%20U-19%22%20OR%20%22Mexico%20U-19%20women%22%20OR%20%22Mexico%20women's%20U19%22%20OR%20%22Mexico%20U19%20women%22%20OR%20%22Mexico%20women's%20Under-19%22%20OR%20%22Mexico%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:12.956Z"
+      }
     },
     "MYA": {
       "items": [
@@ -876,24 +805,23 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-09-01T19:25:17.988Z",
-      "status": "stale",
-      "filteredOut": 11,
+      "fetchedAt": "2026-09-02T12:48:15.523Z",
+      "status": "ok",
+      "filteredOut": 12,
       "federationUrl": "https://myanmarfootball.org",
       "coach": {
         "status": "no_coach_listed",
         "teamArticle": "Myanmar women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Myanmar_women's_national_under-20_football_team",
         "federationUrl": "https://myanmarfootball.org",
-        "fetchedAt": "2026-09-02T04:26:38.033Z"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Myanmar%20women's%20U-20%22%20OR%20%22Myanmar%20U-20%20women%22%20OR%20%22Myanmar%20women's%20U20%22%20OR%20%22Myanmar%20U20%20women%22%20OR%20%22Myanmar%20women's%20Under-20%22%20OR%20%22Myanmar%20Under-20%20women%22%20OR%20%22Myanmar%20women's%20U-19%22%20OR%20%22Myanmar%20U-19%20women%22%20OR%20%22Myanmar%20women's%20U19%22%20OR%20%22Myanmar%20U19%20women%22%20OR%20%22Myanmar%20women's%20Under-19%22%20OR%20%22Myanmar%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:16.826Z"
+      }
     },
     "NED": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:25:21.732Z",
-      "status": "stale",
-      "filteredOut": 7,
+      "fetchedAt": "2026-09-02T12:48:19.390Z",
+      "status": "ok",
+      "filteredOut": 6,
       "federationUrl": "https://knvb.nl",
       "coach": {
         "status": "ok",
@@ -905,11 +833,8 @@
         "bio": null,
         "federationUrl": "https://knvb.nl",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:25:24.142Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Glenda%20Van%20Lieshout%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Netherlands%20women's%20U-20%22%20OR%20%22Netherlands%20U-20%20women%22%20OR%20%22Netherlands%20women's%20U20%22%20OR%20%22Netherlands%20U20%20women%22%20OR%20%22Netherlands%20women's%20Under-20%22%20OR%20%22Netherlands%20Under-20%20women%22%20OR%20%22Netherlands%20women's%20U-19%22%20OR%20%22Netherlands%20U-19%20women%22%20OR%20%22Netherlands%20women's%20U19%22%20OR%20%22Netherlands%20U19%20women%22%20OR%20%22Netherlands%20women's%20Under-19%22%20OR%20%22Netherlands%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:21.944Z"
+      }
     },
     "NGA": {
       "items": [
@@ -978,8 +903,8 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-09-01T19:25:26.954Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:48:24.786Z",
+      "status": "ok",
       "filteredOut": 113,
       "federationUrl": "https://thenff.com",
       "coach": {
@@ -1001,11 +926,8 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-09-01T19:25:29.486Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Christopher%20Danjuma%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Nigeria%20women's%20U-20%22%20OR%20%22Nigeria%20U-20%20women%22%20OR%20%22Nigeria%20women's%20U20%22%20OR%20%22Nigeria%20U20%20women%22%20OR%20%22Nigeria%20women's%20Under-20%22%20OR%20%22Nigeria%20Under-20%20women%22%20OR%20%22Nigeria%20women's%20U-19%22%20OR%20%22Nigeria%20U-19%20women%22%20OR%20%22Nigeria%20women's%20U19%22%20OR%20%22Nigeria%20U19%20women%22%20OR%20%22Nigeria%20women's%20Under-19%22%20OR%20%22Nigeria%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:27.442Z"
+      }
     },
     "NZL": {
       "items": [
@@ -1026,9 +948,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:25:32.339Z",
-      "status": "stale",
-      "filteredOut": 109,
+      "fetchedAt": "2026-09-02T12:48:30.159Z",
+      "status": "ok",
+      "filteredOut": 108,
       "federationUrl": "https://nzfootball.co.nz",
       "coach": {
         "status": "ok",
@@ -1040,16 +962,13 @@
         "bio": null,
         "federationUrl": "https://nzfootball.co.nz",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:25:34.830Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Callum%20Holmes%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22New%20Zealand%20women's%20U-20%22%20OR%20%22New%20Zealand%20U-20%20women%22%20OR%20%22New%20Zealand%20women's%20U20%22%20OR%20%22New%20Zealand%20U20%20women%22%20OR%20%22New%20Zealand%20women's%20Under-20%22%20OR%20%22New%20Zealand%20Under-20%20women%22%20OR%20%22New%20Zealand%20women's%20U-19%22%20OR%20%22New%20Zealand%20U-19%20women%22%20OR%20%22New%20Zealand%20women's%20U19%22%20OR%20%22New%20Zealand%20U19%20women%22%20OR%20%22New%20Zealand%20women's%20Under-19%22%20OR%20%22New%20Zealand%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:32.818Z"
+      }
     },
     "PHI": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:25:37.668Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:48:35.588Z",
+      "status": "ok",
       "filteredOut": 100,
       "federationUrl": "https://pff.org.ph",
       "coach": {
@@ -1079,32 +998,21 @@
             "tier": "T2"
           },
           {
-            "title": "South Melbourne parts ways with coach Sinisa Cohadzic",
-            "link": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNM2c3LU44ZnRKck5mMmpQTkpGNDJ5TS1oNXNnVFJhVXI1TFdBRzJTbVJ6LTMyMzVTVXh5ZTlXMTR6WVVWay1CNHd1X1RmWmRvd0tNOVlSLUdsQVNIRlBIbnV1MlVsLXhhTnVuM2dSTm9BLWZfQnIyOFNYdFN6bHV6WXVyWUhwVllTMEdzSDcwUldCUUtNOFhmZGMzZWh4SFZiUjNnZEF5MFJxdw?oc=5",
-            "sourceName": "Neos Kosmos",
-            "sourceUrl": "https://neoskosmos.com",
-            "publishedAt": "2026-05-30T07:00:00.000Z",
-            "tier": "T2"
-          },
-          {
             "title": "Club Statement: Sinisa Cohadzic",
             "link": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5uVE0tUTlMR1dvOUVtdloxVlExakp2VG9JeldqNDJEamZURXRBTFp4ajZMdTRPbVlnRkRHRWtteFVJQW8?oc=5",
-            "sourceName": "smfc.com.au",
+            "sourceName": "South Melbourne FC",
             "sourceUrl": "https://www.smfc.com.au",
             "publishedAt": "2026-05-30T07:00:00.000Z",
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-09-01T19:25:40.152Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Sinisa%20Cohadzic%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Philippines%20women's%20U-20%22%20OR%20%22Philippines%20U-20%20women%22%20OR%20%22Philippines%20women's%20U20%22%20OR%20%22Philippines%20U20%20women%22%20OR%20%22Philippines%20women's%20Under-20%22%20OR%20%22Philippines%20Under-20%20women%22%20OR%20%22Philippines%20women's%20U-19%22%20OR%20%22Philippines%20U-19%20women%22%20OR%20%22Philippines%20women's%20U19%22%20OR%20%22Philippines%20U19%20women%22%20OR%20%22Philippines%20women's%20Under-19%22%20OR%20%22Philippines%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:38.263Z"
+      }
     },
     "PRK": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:25:41.520Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:48:39.658Z",
+      "status": "ok",
       "filteredOut": 9,
       "federationUrl": null,
       "coach": {
@@ -1117,16 +1025,13 @@
         "bio": null,
         "federationUrl": null,
         "articles": [],
-        "fetchedAt": "2026-09-01T19:25:43.893Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Han%20Chol-hak%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22North%20Korea%20women's%20U-20%22%20OR%20%22North%20Korea%20U-20%20women%22%20OR%20%22North%20Korea%20women's%20U20%22%20OR%20%22North%20Korea%20U20%20women%22%20OR%20%22North%20Korea%20women's%20Under-20%22%20OR%20%22North%20Korea%20Under-20%20women%22%20OR%20%22North%20Korea%20women's%20U-19%22%20OR%20%22North%20Korea%20U-19%20women%22%20OR%20%22North%20Korea%20women's%20U19%22%20OR%20%22North%20Korea%20U19%20women%22%20OR%20%22North%20Korea%20women's%20Under-19%22%20OR%20%22North%20Korea%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:42.171Z"
+      }
     },
     "SWE": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:25:46.447Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:48:44.752Z",
+      "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://svenskfotboll.se",
       "coach": {
@@ -1139,17 +1044,14 @@
         "bio": "Caroline Sjöblom is the technical director at Chelsea FC women. She was a Finnish women's football manager and former player. As a player, she won the 2009 Naisten Liiga with Åland United. and participated in the 2010–11 UEFA Women's Champions League.",
         "federationUrl": "https://svenskfotboll.se",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:25:48.859Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Caroline%20Sj%C3%B6blom%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Sweden%20women's%20U-20%22%20OR%20%22Sweden%20U-20%20women%22%20OR%20%22Sweden%20women's%20U20%22%20OR%20%22Sweden%20U20%20women%22%20OR%20%22Sweden%20women's%20Under-20%22%20OR%20%22Sweden%20Under-20%20women%22%20OR%20%22Sweden%20women's%20U-19%22%20OR%20%22Sweden%20U-19%20women%22%20OR%20%22Sweden%20women's%20U19%22%20OR%20%22Sweden%20U19%20women%22%20OR%20%22Sweden%20women's%20Under-19%22%20OR%20%22Sweden%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:47.418Z"
+      }
     },
     "THA": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:25:51.423Z",
-      "status": "stale",
-      "filteredOut": 7,
+      "fetchedAt": "2026-09-02T12:48:49.982Z",
+      "status": "ok",
+      "filteredOut": 6,
       "federationUrl": "https://fat.or.th",
       "coach": {
         "status": "ok",
@@ -1161,16 +1063,13 @@
         "bio": "Nuengrutai Srathongvian, also known as \"Coach Nueng\", is a Thai football manager and former footballer and field hockey player who is currently the manager of the Thailand women's national under-20 football team.",
         "federationUrl": "https://fat.or.th",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:25:53.891Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Nuengrutai%20Srathongvian%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Thailand%20women's%20U-20%22%20OR%20%22Thailand%20U-20%20women%22%20OR%20%22Thailand%20women's%20U20%22%20OR%20%22Thailand%20U20%20women%22%20OR%20%22Thailand%20women's%20Under-20%22%20OR%20%22Thailand%20Under-20%20women%22%20OR%20%22Thailand%20women's%20U-19%22%20OR%20%22Thailand%20U-19%20women%22%20OR%20%22Thailand%20women's%20U19%22%20OR%20%22Thailand%20U19%20women%22%20OR%20%22Thailand%20women's%20Under-19%22%20OR%20%22Thailand%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:52.610Z"
+      }
     },
     "TPE": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:25:56.435Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:48:55.167Z",
+      "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://ctfa.com.tw",
       "coach": {
@@ -1178,16 +1077,15 @@
         "teamArticle": "Chinese Taipei women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Chinese_Taipei_women's_national_under-20_football_team",
         "federationUrl": "https://ctfa.com.tw",
-        "fetchedAt": "2026-09-02T04:28:50.648Z"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Chinese%20Taipei%20women's%20U-20%22%20OR%20%22Chinese%20Taipei%20U-20%20women%22%20OR%20%22Chinese%20Taipei%20women's%20U20%22%20OR%20%22Chinese%20Taipei%20U20%20women%22%20OR%20%22Chinese%20Taipei%20women's%20Under-20%22%20OR%20%22Chinese%20Taipei%20Under-20%20women%22%20OR%20%22Chinese%20Taipei%20women's%20U-19%22%20OR%20%22Chinese%20Taipei%20U-19%20women%22%20OR%20%22Chinese%20Taipei%20women's%20U19%22%20OR%20%22Chinese%20Taipei%20U19%20women%22%20OR%20%22Chinese%20Taipei%20women's%20Under-19%22%20OR%20%22Chinese%20Taipei%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:48:56.480Z"
+      }
     },
     "USA": {
       "items": [
         {
           "title": "How Vicky Jepson Selected the Roster for the 2026 FIFA U-20 Women’s World Cup",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQTJ6TmQ0cVR3elFBa3pyY2dCMk82YjZWRzRqX3lTWFVVM1NWWWp2NnN3MFI1ZUZJSG15WDFJc3Q1ZDJOckQ2WTVyeGI0MVdhLUR4cnNDZlRZcGM0MkI1dVk5RXF3Y1ZwejVsYkpqQXZPUEwwR21VRTlfMHhnel9TeUdwUDA2ODFVZUNGTUNPS3MzS19qVkRwcDdwMGhXbTBkNU8tLXQ5UEVIRU0?oc=5",
-          "sourceName": "US Soccer",
+          "sourceName": "U.S. Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-08-20T21:27:07.000Z",
           "tier": "T1"
@@ -1195,7 +1093,7 @@
         {
           "title": "U.S. U-20 WNT Head Coach Vicky Jepson Names 21-Player Roster for 2026 FIFA Under-20 Women's World Cup in Poland",
           "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLWRzazVSb3Z2SFJNT1FSeGZ4dWlpSENVcV9YMHJMVjlqR3RoUDN2bi1HcXp5YlNUOE9oYUtfMVJqYUFoemExSmZGNV9qV01mSkVGUnl3Vm9uTExpcVVncVRLYktMRUM3V2tzTzEwWmc3RC13elpQeUQ3a255eUlaVjFOWHdqRDYyYXJIQXd3SjV4X1BBaFlNNF9Ma3JWcDJYZmstaXd0bk9UcXpHRDJB?oc=5",
-          "sourceName": "US Soccer",
+          "sourceName": "U.S. Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-08-19T07:00:00.000Z",
           "tier": "T1"
@@ -1203,7 +1101,7 @@
         {
           "title": "U.S. Under-20 Women's National Falls to Colombia, 1-0, to Finish Training Camp at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPSVBpN2xBcXhkYzNBdmlWZ3RvRGtOZUtNa2NNdzc4Z09HTnI2MUZLQ1JfT0tQSkktekxJRmtWRmZSVHFwUzZCelBkSmE0ZFhwb0prN2NXRmxpLXNpRWgwcnp0T0hESkU4SkoyUXJicHpSYzBfNldIYkZBZ1B2eHJPQXRYZTFWMlAxWDZDOVlNU3dOdE5ENWpVUnhLZ3A0YmVMYUFYZUMtd0FuNnBNc0dRM0FZWlg?oc=5",
-          "sourceName": "US Soccer",
+          "sourceName": "U.S. Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-07-13T07:00:00.000Z",
           "tier": "T1"
@@ -1211,7 +1109,7 @@
         {
           "title": "U.S. Under-20 Women's National Team Will Travel to Spain for Two Matches as Preparation for 2026 FIFA U-20 Women's World Cup Continues",
           "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPVl9oX3IxT2JtTjVYTmV6VGNiSzVvZmEwMDhEcHhNTFdiMlFvVUJQZUxZMEwxN3BvY21XMzlTNHVsNHhGQnZhaFUzLUp2aC1LS0xLa2dxNG5YSkliZlZRbTdVbjhFMTJmY2pER3cxbjlJU2hJTk9OazBCeW13ck5BbkkyN3JnV0o5NDBtOWhIZHJNbFB5ZEMxOTFDMjZDSm1ZVE43WGFpUVQ3UE0?oc=5",
-          "sourceName": "US Soccer",
+          "sourceName": "U.S. Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-07-10T08:03:26.000Z",
           "tier": "T1"
@@ -1219,7 +1117,7 @@
         {
           "title": "U.S. Under-20 Women's National Ties England, 1-1, in First-Ever Women's International Match at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxNSTduY1N5VGloeUVCNlZha3R4Y0lNYUt2NnExbmRYdXNmajdaYWYyNXdJNXJUWm54V01GemhYNUV0VjQ1ZWhJWmw4d3VGSS1mNlhOTGVmUExfMVBHcXBqRlNIQXExMnFWd3ZRN253Q0hjQ0dzMUM5YzlRLUZ4TWlxaGFJVDREUnRoc01VaEpFSkY5bDRyZWtkTUtWaTNQQ0FOVUlmYmYtMTVDOEZFc2FhMFBOWWs?oc=5",
-          "sourceName": "US Soccer",
+          "sourceName": "U.S. Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-07-09T07:00:00.000Z",
           "tier": "T1"
@@ -1227,7 +1125,7 @@
         {
           "title": "U.S. Under-20 Women's National Team to Hold Training Camp and First Women's International Matches at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQWkFQQlBYcG0wZzlkUW1NT1puM29lb0Q5N2NmaU41MlpTdl9ZUGFCUzNhS0t2dk53UDNxQ2JqV3ZCQ2xhMXY5cldaSkk5U3l1TURicUZPQlhTWEJ5U3Z6cGFUVmRtSlZUZmd0WlF2cURnOTBLTENKWkNiNkcwOU96aUpZS3dUNTllUEZETEZaR2F3ZDZfUHJMeDhmU2FwbzlvX2pCa3hjVmZVYnpFb0FHZHlSdV84ZkRyb2c1Z2pYQ2NGdkhBaXBUeXNnTG0zWlNpczIw?oc=5",
-          "sourceName": "US Soccer",
+          "sourceName": "U.S. Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-06-30T07:00:00.000Z",
           "tier": "T1"
@@ -1235,7 +1133,7 @@
         {
           "title": "U.S. Under-19 and U.S. U-18 Women's National Teams to Hold Concurrent Training Camps at the Arthur M. Blank U.S. Soccer National Training Center in Fayetteville, Ga",
           "link": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQVVpSMGhnR3JlN2xkTEJaQ3B2elZENXV6VWMzSW1JcHdIYThZcWpCcGVjREQybDBWY1ZDUENsYjNWbTNCcVVSZ0t2U3IweFdUdUVOTFJfMGZmOVd1V0tDd09yN25Bc3pCWWZ3LV9zMmlfTGlkTDUzd19fVEs3d0lPN2stZGVQX2lrSGt3MC04NGVtZEl5NV9wTm1KOE9zZUZvU3ZlT3REMkpqYkpBR0RYc3BuUmdDMGZ6WnFxSk5JQ0NlUQ?oc=5",
-          "sourceName": "US Soccer",
+          "sourceName": "U.S. Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-06-24T07:00:00.000Z",
           "tier": "T1"
@@ -1243,15 +1141,15 @@
         {
           "title": "U.S. Under-19 Women's National Team Falls 1-0 to Germany to Split Games in Frankfurt",
           "link": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVXJNS3F5MkF4d1kzUUNScWlubGdBTWp3VUJjMUNRekhyVFZnWExTc2Y4SnFHNFpIWE50RC1VY1Yyb2lPYU4wOWpkWThWeEs2bTlOZ0xxSmJWbHVHTENlT0ZvOUxUSUxvbkpSZ2I1cnFOdl85dnhxYzlXNjkyQ1pGM0IwclRpcHdrWDRqZkpCTEEyd3ZtR3hxREtFZnhfZ0FxRzk3aA?oc=5",
-          "sourceName": "US Soccer",
+          "sourceName": "U.S. Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-06-09T07:00:00.000Z",
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-09-01T19:26:00.572Z",
-      "status": "stale",
-      "filteredOut": 100,
+      "fetchedAt": "2026-09-02T12:48:59.341Z",
+      "status": "ok",
+      "filteredOut": 97,
       "federationUrl": "https://ussoccer.com",
       "coach": {
         "status": "ok",
@@ -1264,35 +1162,16 @@
         "federationUrl": "https://ussoccer.com",
         "articles": [
           {
-            "title": "How Vicky Jepson Selected the Roster for the 2026 FIFA U-20 Women’s World Cup",
-            "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQTJ6TmQ0cVR3elFBa3pyY2dCMk82YjZWRzRqX3lTWFVVM1NWWWp2NnN3MFI1ZUZJSG15WDFJc3Q1ZDJOckQ2WTVyeGI0MVdhLUR4cnNDZlRZcGM0MkI1dVk5RXF3Y1ZwejVsYkpqQXZPUEwwR21VRTlfMHhnel9TeUdwUDA2ODFVZUNGTUNPS3MzS19qVkRwcDdwMGhXbTBkNU8tLXQ5UEVIRU0?oc=5",
-            "sourceName": "US Soccer",
-            "sourceUrl": "https://ussoccer.com",
-            "publishedAt": "2026-08-20T21:27:07.000Z",
-            "tier": "T1"
-          },
-          {
-            "title": "What They’re Saying: Vicky Jepson",
-            "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1STVd1VGEwNXRKZTJ1Wklpb3o1QzhHZlFnbWVJVk9PZzV2RFBBdm9jTHV1M0pGQmNtaVFkd3RkNVMtUTM0OTU1MHhyVzNTS2hDdXJYZWc3RUVScW9RckZHWndQZDhYVGNjdEFObHFHRQ?oc=5",
-            "sourceName": "Soccer America",
-            "sourceUrl": "https://www.socceramerica.com",
-            "publishedAt": "2026-08-19T22:44:39.000Z",
-            "tier": "T2"
-          },
-          {
             "title": "U.S. U-20 WNT Head Coach Vicky Jepson Names 21-Player Roster for 2026 FIFA Under-20 Women's World Cup in Poland",
             "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOLWRzazVSb3Z2SFJNT1FSeGZ4dWlpSENVcV9YMHJMVjlqR3RoUDN2bi1HcXp5YlNUOE9oYUtfMVJqYUFoemExSmZGNV9qV01mSkVGUnl3Vm9uTExpcVVncVRLYktMRUM3V2tzTzEwWmc3RC13elpQeUQ3a255eUlaVjFOWHdqRDYyYXJIQXd3SjV4X1BBaFlNNF9Ma3JWcDJYZmstaXd0bk9UcXpHRDJB?oc=5",
-            "sourceName": "US Soccer",
+            "sourceName": "U.S. Soccer",
             "sourceUrl": "https://ussoccer.com",
             "publishedAt": "2026-08-19T07:00:00.000Z",
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-09-01T19:26:03.059Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Vicky%20Jepson%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22United%20States%20women's%20U-20%22%20OR%20%22United%20States%20U-20%20women%22%20OR%20%22United%20States%20women's%20U20%22%20OR%20%22United%20States%20U20%20women%22%20OR%20%22United%20States%20women's%20Under-20%22%20OR%20%22United%20States%20Under-20%20women%22%20OR%20%22United%20States%20women's%20U-19%22%20OR%20%22United%20States%20U-19%20women%22%20OR%20%22United%20States%20women's%20U19%22%20OR%20%22United%20States%20U19%20women%22%20OR%20%22United%20States%20women's%20Under-19%22%20OR%20%22United%20States%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:02.155Z"
+      }
     },
     "UZB": {
       "items": [
@@ -1321,18 +1200,17 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:26:05.630Z",
-      "status": "stale",
-      "filteredOut": 6,
+      "fetchedAt": "2026-09-02T12:49:04.680Z",
+      "status": "ok",
+      "filteredOut": 5,
       "federationUrl": "https://uzfa.uz",
       "coach": {
         "status": "no_coach_listed",
         "teamArticle": "Uzbekistan women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Uzbekistan_women's_national_under-20_football_team",
         "federationUrl": "https://uzfa.uz",
-        "fetchedAt": "2026-09-02T04:29:19.175Z"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Uzbekistan%20women's%20U-20%22%20OR%20%22Uzbekistan%20U-20%20women%22%20OR%20%22Uzbekistan%20women's%20U20%22%20OR%20%22Uzbekistan%20U20%20women%22%20OR%20%22Uzbekistan%20women's%20Under-20%22%20OR%20%22Uzbekistan%20Under-20%20women%22%20OR%20%22Uzbekistan%20women's%20U-19%22%20OR%20%22Uzbekistan%20U-19%20women%22%20OR%20%22Uzbekistan%20women's%20U19%22%20OR%20%22Uzbekistan%20U19%20women%22%20OR%20%22Uzbekistan%20women's%20Under-19%22%20OR%20%22Uzbekistan%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:06.015Z"
+      }
     },
     "VIE": {
       "items": [
@@ -1343,14 +1221,6 @@
           "sourceUrl": "http://en.vff.org.vn",
           "publishedAt": "2026-04-07T07:00:00.000Z",
           "tier": "T1"
-        },
-        {
-          "title": "Vietnam U20 women reach Asian Cup quarterfinals for second time",
-          "link": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRnRoRURDV1R0TmFad09QQTNjNnpFQmh3d181RmpOajJ1RVlHMkhDU3Z4MTBEVEYzeHh6WnpJOWNJcEs3dEx6QUVlc0xSUzNQLTZkYTdjT2U2T2dvWkpCTEZZOXQ4UnZIcVBZVTl4dHhidjRBOEUxcUNqQXN5TjRfX2pGUlB0RmFyR2xfRmZSMjRoUDBwYS04eVRqbFFUejZSeXJ3?oc=5",
-          "sourceName": "Báo VietNamNet",
-          "sourceUrl": "https://vietnamnet.vn",
-          "publishedAt": "2026-04-09T07:00:00.000Z",
-          "tier": "T2"
         },
         {
           "title": "Vietnam U20 women's team qualifies for the quarterfinals of the Asian U20 Women's Championship; Ronaldo is close to reaching 1,000 goals.",
@@ -1369,8 +1239,8 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:26:09.558Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:49:08.755Z",
+      "status": "ok",
       "filteredOut": 101,
       "federationUrl": "https://vff.org.vn",
       "coach": {
@@ -1383,11 +1253,8 @@
         "bio": null,
         "federationUrl": "https://vff.org.vn",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:26:12.799Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Masahiko%20Okiyama%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Vietnam%20women's%20U-20%22%20OR%20%22Vietnam%20U-20%20women%22%20OR%20%22Vietnam%20women's%20U20%22%20OR%20%22Vietnam%20U20%20women%22%20OR%20%22Vietnam%20women's%20Under-20%22%20OR%20%22Vietnam%20Under-20%20women%22%20OR%20%22Vietnam%20women's%20U-19%22%20OR%20%22Vietnam%20U-19%20women%22%20OR%20%22Vietnam%20women's%20U19%22%20OR%20%22Vietnam%20U19%20women%22%20OR%20%22Vietnam%20women's%20Under-19%22%20OR%20%22Vietnam%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:12.846Z"
+      }
     },
     "ARG": {
       "items": [
@@ -1400,8 +1267,8 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:26:15.311Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:49:15.397Z",
+      "status": "ok",
       "filteredOut": 1,
       "federationUrl": "https://afa.com.ar",
       "coach": {
@@ -1414,16 +1281,13 @@
         "bio": null,
         "federationUrl": "https://afa.com.ar",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:26:17.735Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Christian%20Meloni%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Argentina%20women's%20U-20%22%20OR%20%22Argentina%20U-20%20women%22%20OR%20%22Argentina%20women's%20U20%22%20OR%20%22Argentina%20U20%20women%22%20OR%20%22Argentina%20women's%20Under-20%22%20OR%20%22Argentina%20Under-20%20women%22%20OR%20%22Argentina%20women's%20U-19%22%20OR%20%22Argentina%20U-19%20women%22%20OR%20%22Argentina%20women's%20U19%22%20OR%20%22Argentina%20U19%20women%22%20OR%20%22Argentina%20women's%20Under-19%22%20OR%20%22Argentina%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:18.037Z"
+      }
     },
     "AUT": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:26:20.317Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:49:20.662Z",
+      "status": "ok",
       "filteredOut": 11,
       "federationUrl": "https://oefb.at",
       "coach": {
@@ -1436,56 +1300,44 @@
         "bio": null,
         "federationUrl": "https://oefb.at",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:26:23.273Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Markus%20Hackl%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Austria%20women's%20U-20%22%20OR%20%22Austria%20U-20%20women%22%20OR%20%22Austria%20women's%20U20%22%20OR%20%22Austria%20U20%20women%22%20OR%20%22Austria%20women's%20Under-20%22%20OR%20%22Austria%20Under-20%20women%22%20OR%20%22Austria%20women's%20U-19%22%20OR%20%22Austria%20U-19%20women%22%20OR%20%22Austria%20women's%20U19%22%20OR%20%22Austria%20U19%20women%22%20OR%20%22Austria%20women's%20Under-19%22%20OR%20%22Austria%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:23.214Z"
+      }
     },
     "CMR": {
       "items": [
         {
-          "title": "Cameroon will not be taking part in the U20 Women’s World Cup in Poland",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOWEtobXV5LVB4OTVtakhzRS1jNnA4WUxiLU50Z3pDeTVhT1VIODFINzRFcTgtQnM5Rm1uWWpJRlF0MlE1aFRnSW80Rm9rSElhUHNpalJyeTNYeTZTNllfNUlfMzlpOVJaZXRES3p4N2JKcUJCQXdEUEo5bmdGYk5wNWpzSlZvQkZkUWNPa2FJX0liVWpRY1hfU3hsNWl2LWRFRFE?oc=5",
-          "sourceName": "dailysports.net",
-          "sourceUrl": "https://dailysports.net",
-          "publishedAt": "2026-05-10T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
-          "title": "Cameroon U20 Lionesses close in on World Cup Qualification after first-leg win",
-          "link": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdE1LVUI3YVhkbzB5THVhZXNweVN1bzhsLXkzb2dWT3h0UHZOWkotRndtdGdvYzBVNm1mcjJkeGVJLTNSUldkQUFqbjdvLWNaWDB0OUZnLV9TMmVrcmtQZzBJcll6eUxvRHNpVmZ1U3NRdVhEMDRzR3pDRkZwcXdKR0x4NTlhc0xMcGFta3pwV3pPcC1IcGxXWTB4VXdtR2dhS0xmNFZsMVZZSW1DU293?oc=5",
-          "sourceName": "Le bled parle",
-          "sourceUrl": "https://www.lebledparle.com",
-          "publishedAt": "2026-05-03T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
           "title": "Cameroon's U20 women's team qualifies for the final round of African qualifiers for the 2026 World Cup in Poland",
           "link": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxPSktoU1VZcmI2dzc4MkhJeW96bHFwRkVtVE45MTloeGpCRGFuZHdrT0FCZVJzRzBoUDFLdlg1R2kzUzVoWDUxcXVWY29YeFM4Rms2S3J5UEFUZDFyTmp4cmhzRVF5VzcxWnBfSGo3Z05aWVRKMGluYm81YnFBM1ZIWDdBdXVybTBFZGtGNDc1R2tSSmVLLUd0akxtbEdrSGt6d25OSjAydmJORGZaQ1p4UWp1TzFJVkc3b1BkZjRDVEJxNi11em1DM1BIZGFHMU9ZTm5haDZfOA?oc=5",
-          "sourceName": "dailysports.net",
+          "sourceName": "Dailysports",
           "sourceUrl": "https://dailysports.net",
           "publishedAt": "2026-02-13T08:00:00.000Z",
           "tier": "T2"
+        },
+        {
+          "title": "Cameroon's U20 women's team arrives in Botswana for their return match",
+          "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPSHVwc0lNbENpT3hETGszTHV2S0RaN3BZa2VMUDdQOW54eU1CYnQtY2FnMjcwUXVaUlFHQ25kbnhHdUZrWWY2RlB1aTltSVdSZ2R2NElabGVfdUloc08tamFOeHZnWVhWZEhyeDYwTlM1a3NkY2s1eGM5cjNuXzlRN1czVkFSYWlmRS1VbG9NdUNjUkpmbVdzVWcyR3JWMFE?oc=5",
+          "sourceName": "Dailysports",
+          "sourceUrl": "https://dailysports.net",
+          "publishedAt": "2026-02-11T08:00:00.000Z",
+          "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:26:25.867Z",
-      "status": "stale",
-      "filteredOut": 6,
+      "fetchedAt": "2026-09-02T12:49:25.830Z",
+      "status": "ok",
+      "filteredOut": 7,
       "federationUrl": "https://fecafootofficiel.com",
       "coach": {
         "status": "no_coach_listed",
         "teamArticle": "Cameroon women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Cameroon_women's_national_under-20_football_team",
         "federationUrl": "https://fecafootofficiel.com",
-        "fetchedAt": "2026-09-02T04:30:20.751Z"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Cameroon%20women's%20U-20%22%20OR%20%22Cameroon%20U-20%20women%22%20OR%20%22Cameroon%20women's%20U20%22%20OR%20%22Cameroon%20U20%20women%22%20OR%20%22Cameroon%20women's%20Under-20%22%20OR%20%22Cameroon%20Under-20%20women%22%20OR%20%22Cameroon%20women's%20U-19%22%20OR%20%22Cameroon%20U-19%20women%22%20OR%20%22Cameroon%20women's%20U19%22%20OR%20%22Cameroon%20U19%20women%22%20OR%20%22Cameroon%20women's%20Under-19%22%20OR%20%22Cameroon%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:27.102Z"
+      }
     },
     "DEN": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:26:29.583Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:49:29.673Z",
+      "status": "ok",
       "filteredOut": 1,
       "federationUrl": "https://dbu.dk",
       "coach": {
@@ -1497,26 +1349,14 @@
         "description": "Danish footballer (born 1986)",
         "bio": "Kristine Pedersen is a Danish football coach and former player who played as a midfielder. Pedersen played for A-Liga sides Vejle B and Fortuna Hjørring, representing the latter in the Champions League. Pedersen earned 31 caps with the Denmark national team from 2008 to 2012.",
         "federationUrl": "https://dbu.dk",
-        "articles": [
-          {
-            "title": "2026 FM Championship: Demark's Emily Kristine Pedersen vying for first LPGA win heading into weekend",
-            "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNa3VsWURsVk5tVEdRQzNnM2NHSDNKNEU0Vmg4YjFIRnpsZ2dPaURxLU1yenFSbmZJa3B3a0tGbVJHRXJzUFJMTHlZSXNYQU5raDh1amJiY2t1eVR0UG8zTHhCY3hXVzNwaUZ6V1AtcXZxQjc5Z1djOTFHTVhGdGxINHJ2bjY1amlreFlJ?oc=5",
-            "sourceName": "Yahoo Sports",
-            "sourceUrl": "https://sports.yahoo.com",
-            "publishedAt": "2026-08-28T21:29:41.000Z",
-            "tier": "T2"
-          }
-        ],
-        "fetchedAt": "2026-09-01T19:26:32.136Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Kristine%20Pedersen%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Denmark%20women's%20U-20%22%20OR%20%22Denmark%20U-20%20women%22%20OR%20%22Denmark%20women's%20U20%22%20OR%20%22Denmark%20U20%20women%22%20OR%20%22Denmark%20women's%20Under-20%22%20OR%20%22Denmark%20Under-20%20women%22%20OR%20%22Denmark%20women's%20U-19%22%20OR%20%22Denmark%20U-19%20women%22%20OR%20%22Denmark%20women's%20U19%22%20OR%20%22Denmark%20U19%20women%22%20OR%20%22Denmark%20women's%20Under-19%22%20OR%20%22Denmark%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "articles": [],
+        "fetchedAt": "2026-09-02T12:49:32.713Z"
+      }
     },
     "ECU": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:26:34.689Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:49:35.252Z",
+      "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://ecuafutbol.org",
       "coach": {
@@ -1529,17 +1369,14 @@
         "bio": null,
         "federationUrl": "https://ecuafutbol.org",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:26:37.085Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Eduardo%20Moscoso%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Ecuador%20women's%20U-20%22%20OR%20%22Ecuador%20U-20%20women%22%20OR%20%22Ecuador%20women's%20U20%22%20OR%20%22Ecuador%20U20%20women%22%20OR%20%22Ecuador%20women's%20Under-20%22%20OR%20%22Ecuador%20Under-20%20women%22%20OR%20%22Ecuador%20women's%20U-19%22%20OR%20%22Ecuador%20U-19%20women%22%20OR%20%22Ecuador%20women's%20U19%22%20OR%20%22Ecuador%20U19%20women%22%20OR%20%22Ecuador%20women's%20Under-19%22%20OR%20%22Ecuador%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:37.833Z"
+      }
     },
     "GUM": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:26:39.659Z",
-      "status": "stale",
-      "filteredOut": 9,
+      "fetchedAt": "2026-09-02T12:49:40.421Z",
+      "status": "ok",
+      "filteredOut": 10,
       "federationUrl": "https://guamfootball.com",
       "coach": {
         "status": "ok",
@@ -1551,17 +1388,14 @@
         "bio": null,
         "federationUrl": "https://guamfootball.com",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:26:42.093Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Maggie%20Phillips%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Guam%20women's%20U-20%22%20OR%20%22Guam%20U-20%20women%22%20OR%20%22Guam%20women's%20U20%22%20OR%20%22Guam%20U20%20women%22%20OR%20%22Guam%20women's%20Under-20%22%20OR%20%22Guam%20Under-20%20women%22%20OR%20%22Guam%20women's%20U-19%22%20OR%20%22Guam%20U-19%20women%22%20OR%20%22Guam%20women's%20U19%22%20OR%20%22Guam%20U19%20women%22%20OR%20%22Guam%20women's%20Under-19%22%20OR%20%22Guam%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:43.035Z"
+      }
     },
     "HKG": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:26:44.772Z",
-      "status": "stale",
-      "filteredOut": 11,
+      "fetchedAt": "2026-09-02T12:49:45.637Z",
+      "status": "ok",
+      "filteredOut": 9,
       "federationUrl": "https://hkfa.com",
       "coach": {
         "status": "ok",
@@ -1573,25 +1407,22 @@
         "bio": null,
         "federationUrl": "https://hkfa.com",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:26:47.190Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Chan%20Shuk-Chi%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Hong%20Kong%20women's%20U-20%22%20OR%20%22Hong%20Kong%20U-20%20women%22%20OR%20%22Hong%20Kong%20women's%20U20%22%20OR%20%22Hong%20Kong%20U20%20women%22%20OR%20%22Hong%20Kong%20women's%20Under-20%22%20OR%20%22Hong%20Kong%20Under-20%20women%22%20OR%20%22Hong%20Kong%20women's%20U-19%22%20OR%20%22Hong%20Kong%20U-19%20women%22%20OR%20%22Hong%20Kong%20women's%20U19%22%20OR%20%22Hong%20Kong%20U19%20women%22%20OR%20%22Hong%20Kong%20women's%20Under-19%22%20OR%20%22Hong%20Kong%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:48.213Z"
+      }
     },
     "ITA": {
       "items": [
         {
           "title": "FIFA Under-20 Women's World Cup in Poland, groups drawn: Italy in Group D with Japan, New Zealand and the United States.",
           "link": "https://news.google.com/rss/articles/CBMi-wFBVV95cUxQcGRLU0lRVnVFalF1U3FuclRhV2hoem1OcDRzQ3BJT2JEM01DYnRLaU9OOUUzRVZ5WXBNQW8xSTlxWGxEZnVmZzlKRUt1ZlV3Vzh2MklJelJ0bDVxeFJFVzh0dVVSSE1PaVh2b2Iwbl9VbXNwcUhNTHpXdnpVc19rZFRGQTczaVJnTnRjZ25XQW1QNEUwbDRwRkM1Vmh5aTBBUWRfYXdmRV93UTBvcWhLZnJLbkpHcjN2RnZXUmxkWXJQa1kwT1NDQWEtLTU0VFJlWDM2WlRrMzNvR1gwN3J0QlplMmgzR2dTZUluN0FJb1NLVU44djFwQ21rcw?oc=5",
-          "sourceName": "FIGC",
+          "sourceName": "figc.it",
           "sourceUrl": "https://www.figc.it",
           "publishedAt": "2026-05-16T07:00:00.000Z",
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-09-01T19:26:49.899Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:49:50.916Z",
+      "status": "ok",
       "filteredOut": 43,
       "federationUrl": "https://figc.it",
       "coach": {
@@ -1604,16 +1435,13 @@
         "bio": null,
         "federationUrl": "https://figc.it",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:26:52.297Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Nicola%20Matteucci%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Italy%20women's%20U-20%22%20OR%20%22Italy%20U-20%20women%22%20OR%20%22Italy%20women's%20U20%22%20OR%20%22Italy%20U20%20women%22%20OR%20%22Italy%20women's%20Under-20%22%20OR%20%22Italy%20Under-20%20women%22%20OR%20%22Italy%20women's%20U-19%22%20OR%20%22Italy%20U-19%20women%22%20OR%20%22Italy%20women's%20U19%22%20OR%20%22Italy%20U19%20women%22%20OR%20%22Italy%20women's%20Under-19%22%20OR%20%22Italy%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:53.460Z"
+      }
     },
     "MAR": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:26:54.963Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:49:56.042Z",
+      "status": "ok",
       "filteredOut": 6,
       "federationUrl": "https://frmf.ma",
       "coach": {
@@ -1651,9 +1479,9 @@
             "tier": "T2"
           },
           {
-            "title": "Women's AFCON: Jorge Vilda promises players will fight 'until the very end' to make Moroccans proud - HESPRESS English",
+            "title": "Women's AFCON: Jorge Vilda promises players will fight 'until the very end' to make Moroccans proud",
             "link": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOeVNIR0tfNF81eHNKVldreVU5aG1VY19BTXlWY1g2eGw2c0ZqVzdLdUV0dWUyS013cXVVMXdrYzA1YW1IcVFXYW9CTDJpeFF2c2pueFpQdDRUVDhJOXlDUXFTbGtIWFljTDdSRGlZd3VsSWlKd3hxUE5NMkMzOGk1Si1Hby1ISE1id3FaWmhNTnZPdmxPaF9fTGp6MXdVZl85ejZXME5EM0Iya0F5SE14UjJVc05sMnQyRTk5eFRpS0x1MGY0RE1NUmJyaw?oc=5",
-            "sourceName": "HESPRESS English - Morocco News",
+            "sourceName": "en.hespress.com",
             "sourceUrl": "https://en.hespress.com",
             "publishedAt": "2026-07-25T07:00:00.000Z",
             "tier": "T2"
@@ -1667,16 +1495,13 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-09-01T19:26:57.581Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Jorge%20Vilda%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Morocco%20women's%20U-20%22%20OR%20%22Morocco%20U-20%20women%22%20OR%20%22Morocco%20women's%20U20%22%20OR%20%22Morocco%20U20%20women%22%20OR%20%22Morocco%20women's%20Under-20%22%20OR%20%22Morocco%20Under-20%20women%22%20OR%20%22Morocco%20women's%20U-19%22%20OR%20%22Morocco%20U-19%20women%22%20OR%20%22Morocco%20women's%20U19%22%20OR%20%22Morocco%20U19%20women%22%20OR%20%22Morocco%20women's%20Under-19%22%20OR%20%22Morocco%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:49:58.738Z"
+      }
     },
     "NOR": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:27:00.113Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:50:01.272Z",
+      "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://fotball.no",
       "coach": {
@@ -1689,31 +1514,27 @@
         "bio": "Lena Tyriberget is a Norwegian football coach and teacher. Since 5 August 2022, she has been the head coach of Norway women's national Under-19 team. From 2021 until July 2022, she was one of two assistant coaches for the Norway women's national football team. Previously, she has also worked as head of youth development, member of board, assistant coach, manager, taken care of the field, and with analysis.",
         "federationUrl": "https://fotball.no",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:27:02.545Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Lena%20Tyriberget%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Norway%20women's%20U-20%22%20OR%20%22Norway%20U-20%20women%22%20OR%20%22Norway%20women's%20U20%22%20OR%20%22Norway%20U20%20women%22%20OR%20%22Norway%20women's%20Under-20%22%20OR%20%22Norway%20Under-20%20women%22%20OR%20%22Norway%20women's%20U-19%22%20OR%20%22Norway%20U-19%20women%22%20OR%20%22Norway%20women's%20U19%22%20OR%20%22Norway%20U19%20women%22%20OR%20%22Norway%20women's%20Under-19%22%20OR%20%22Norway%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:50:03.908Z"
+      }
     },
     "PAR": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:27:05.107Z",
-      "status": "stale",
-      "filteredOut": 4,
+      "fetchedAt": "2026-09-02T12:50:06.424Z",
+      "status": "ok",
+      "filteredOut": 3,
       "federationUrl": "https://apf.org.py",
       "coach": {
         "status": "no_coach_listed",
         "teamArticle": "Paraguay women's national under-20 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Paraguay_women's_national_under-20_football_team",
         "federationUrl": "https://apf.org.py",
-        "fetchedAt": "2026-09-02T04:32:40.393Z"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Paraguay%20women's%20U-20%22%20OR%20%22Paraguay%20U-20%20women%22%20OR%20%22Paraguay%20women's%20U20%22%20OR%20%22Paraguay%20U20%20women%22%20OR%20%22Paraguay%20women's%20Under-20%22%20OR%20%22Paraguay%20Under-20%20women%22%20OR%20%22Paraguay%20women's%20U-19%22%20OR%20%22Paraguay%20U-19%20women%22%20OR%20%22Paraguay%20women's%20U19%22%20OR%20%22Paraguay%20U19%20women%22%20OR%20%22Paraguay%20women's%20Under-19%22%20OR%20%22Paraguay%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:50:07.751Z"
+      }
     },
     "POL": {
       "items": [],
-      "fetchedAt": "2026-09-01T19:27:09.117Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:50:10.440Z",
+      "status": "ok",
       "filteredOut": 100,
       "federationUrl": "https://pzpn.pl",
       "coach": {
@@ -1726,34 +1547,23 @@
         "bio": null,
         "federationUrl": "https://pzpn.pl",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:27:11.506Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Marcin%20Kasprowicz%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Poland%20women's%20U-20%22%20OR%20%22Poland%20U-20%20women%22%20OR%20%22Poland%20women's%20U20%22%20OR%20%22Poland%20U20%20women%22%20OR%20%22Poland%20women's%20Under-20%22%20OR%20%22Poland%20Under-20%20women%22%20OR%20%22Poland%20women's%20U-19%22%20OR%20%22Poland%20U-19%20women%22%20OR%20%22Poland%20women's%20U19%22%20OR%20%22Poland%20U19%20women%22%20OR%20%22Poland%20women's%20Under-19%22%20OR%20%22Poland%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:50:12.916Z"
+      }
     },
     "SIN": {
       "items": [
         {
           "title": "Trials for National Under-19 Women’s Team!",
           "link": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9vbGFsOTdMTF9HRVlBSEZBdTJKRWJyTERQUlgtOFNweHM0SlMwNGxxMVNxSnhweDI4SGJOWmlIQVJhUUV3TzFsajdBR1N2ajFwTmt1R2NnaHpEZkJ3ODNRNVlhMDVfdlhwdm95dQ?oc=5",
-          "sourceName": "Football Association of Singapore",
+          "sourceName": "Football Association of Singapore (FAS)",
           "sourceUrl": "https://fas.org.sg",
           "publishedAt": "2026-02-28T19:07:29.000Z",
           "tier": "T1"
         },
         {
-          "title": "Chasing new goals: Fazrul Nawaz leads the charge for the Under-19 Women’s Team",
-          "link": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE9QTkVDeFdVUHpwbzV6NWdsQW5mNFc0QmFSSlBoQnBxRFd3eVlBbzJaODRkV3pXaXB6Y2FoSHg5Qjc4Vk5POHZMUTFFdHp4VXkwQlNzaG9zR1ByQQ?oc=5",
-          "sourceName": "Football Association of Singapore",
-          "sourceUrl": "https://fas.org.sg",
-          "publishedAt": "2026-02-28T10:46:06.000Z",
-          "tier": "T1"
-        },
-        {
           "title": "Under-19 Women’s National Team Ends AFC Championship Qualifiers Campaign",
           "link": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOTDZZNU93dk90SURzV0FtVGdSX25INmR1QjhtT1lxM3ZGcXpuZFpPX1dlMUxmaHlYdjNYUlM2cGpnVERLLXZkLXZpWVp0SUU5TmR6T0FhZHVSbF9CODM2QS0zSnpLZWRhcmpFbnM4OXpnSnVXN0lvbklXYVgyNkQ3WDVWUDg1UXpXMWtldm5hSDh3RjBJR0E?oc=5",
-          "sourceName": "Football Association of Singapore",
+          "sourceName": "Football Association of Singapore (FAS)",
           "sourceUrl": "https://fas.org.sg",
           "publishedAt": "2026-02-18T08:24:54.000Z",
           "tier": "T1"
@@ -1761,7 +1571,7 @@
         {
           "title": "U19 Women’s team to participate in invitational football tournament",
           "link": "https://news.google.com/rss/articles/CBMijwFBVV95cUxONGx1a1ZMTDdkUlBzaW5SOW1zdEQyMGdYQVJBcjFYRVpRNENDZnJGV3pIZ2RXOGFmekozcERWTkpKdUswVXpzX1pmTG5FQlg4WlFIMDJCQW9WanBMbVUzTjVZY0Q0VDlLbFNEWnB0WDNVMFpEWk1HUDBKR0VMcV9rRjRFYUtWbDRvV21TdWswOA?oc=5",
-          "sourceName": "Football Association of Singapore",
+          "sourceName": "Football Association of Singapore (FAS)",
           "sourceUrl": "https://fas.org.sg",
           "publishedAt": "2026-02-16T17:35:20.000Z",
           "tier": "T1"
@@ -1769,7 +1579,7 @@
         {
           "title": "U20 Women fall to Vietnam, but draw positives from first half performance",
           "link": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNTzMxUkstT2poWFBFZnlxYzA1WFptZGJkTGFURzMxVEo3MTVlcDNsU1dFdXNTdldwdHBHOTFVVUVVaUVQRFNkZkFFaWFnNnFKcW1fNkN1cVdES28tRXZtYmo4UE1VVzlKdTBEaWRTWFltVzNNNC1Kbi1rTnB6cWw5Z0dKX18yS2Vjdi1wMDZscEZLQ1dWSXJV?oc=5",
-          "sourceName": "Football Association of Singapore",
+          "sourceName": "Football Association of Singapore (FAS)",
           "sourceUrl": "https://fas.org.sg",
           "publishedAt": "2026-02-14T12:55:48.000Z",
           "tier": "T1"
@@ -1777,15 +1587,15 @@
         {
           "title": "Trials To Be Held For Under-19 Women’s National Team",
           "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1HeG85bkN0dlN2M1oxdWNmX2EyOVNHT0tiQ0dpc1RQZ3NKRUtuVHpSSVZVaW1nLThtVV8zOWtYM1lnYVZMYXJVNC1TLUxxQzM3VWRNa29GVU9pYmJnWEF5cXZEdjBGX0NWblNkNFVxUzhXSVNxOUhCNUpXdw?oc=5",
-          "sourceName": "Football Association of Singapore",
+          "sourceName": "Football Association of Singapore (FAS)",
           "sourceUrl": "https://fas.org.sg",
           "publishedAt": "2026-02-13T11:11:58.000Z",
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-09-01T19:27:14.297Z",
-      "status": "stale",
-      "filteredOut": 96,
+      "fetchedAt": "2026-09-02T12:50:15.785Z",
+      "status": "ok",
+      "filteredOut": 97,
       "federationUrl": "https://fas.org.sg",
       "coach": {
         "status": "ok",
@@ -1797,11 +1607,8 @@
         "bio": null,
         "federationUrl": "https://fas.org.sg",
         "articles": [],
-        "fetchedAt": "2026-09-01T19:27:16.703Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Manisha%20Tailor%20(U20)Katerina%20Falida%20(U16)%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Singapore%20women's%20U-20%22%20OR%20%22Singapore%20U-20%20women%22%20OR%20%22Singapore%20women's%20U20%22%20OR%20%22Singapore%20U20%20women%22%20OR%20%22Singapore%20women's%20Under-20%22%20OR%20%22Singapore%20Under-20%20women%22%20OR%20%22Singapore%20women's%20U-19%22%20OR%20%22Singapore%20U-19%20women%22%20OR%20%22Singapore%20women's%20U19%22%20OR%20%22Singapore%20U19%20women%22%20OR%20%22Singapore%20women's%20Under-19%22%20OR%20%22Singapore%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:50:18.401Z"
+      }
     },
     "ZAM": {
       "items": [
@@ -1838,8 +1645,8 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-09-01T19:27:19.288Z",
-      "status": "stale",
+      "fetchedAt": "2026-09-02T12:50:21.001Z",
+      "status": "ok",
       "filteredOut": 5,
       "federationUrl": "https://fazfootball.com",
       "coach": {
@@ -1853,17 +1660,9 @@
         "federationUrl": "https://fazfootball.com",
         "articles": [
           {
-            "title": "Florence Mwila vows to fix ZESCO Ndola Girls’ ‘grey areas’ after back-to-back COSAFA final losses",
-            "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOV2VzZk4yYzFnanc2QlUtU1FPdVZwTDFzWnFSZjU4YVg0OEkxWWFVYmtMSVdnOG52S1piX0NSZ2pQSW5ycWhEbjNfeVpRT0FIbml5S0N3UjRiVGhYa2FTaDVjVFNoZ0hkd3E2VHc1b3NWNEhOZ01YeFlzWU1UcXRRTk5wbWlZdWJZc3Y3Nm9ZYjFkdlZtVVhYWGpvNEMyT20tMlBiS3BUUzZOemlYZW1JSzhyOXVfdm53NEhpNg?oc=5",
-            "sourceName": "AfricaSoccer.com",
-            "sourceUrl": "https://africasoccer.com",
-            "publishedAt": "2026-08-31T15:35:47.000Z",
-            "tier": "T2"
-          },
-          {
             "title": "Zanaco FC Announces Departure of Ladies Coach Florence Mwila After Five Years",
             "link": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQcDF2Y3BsNjBHb0EwYzNUVHhaZzFYeE1ETG5MWFM4b1FkZW1YY1YtNHZoeWNwVWdfb3VwY0RxRzA3ejBJN2VUdDZrMGlKNlRzcmZIUUdJdDRtWEVJRENIelpzSlNkd19HUm9QSmpSMDBybUlIYVJERVk4VE5SMkgyb2ExRkxNbW9VbkQ1YXNUaVNZdEJsMUROVE5fVE00aWxSZ3d6dHhR0gGrAUFVX3lxTFBZMW15aS1CX0ROdWxKME93ekQ4aW9ldGVlTUs4dGo3R2RTMWlwOUNkbW9Ja2hnb1BwZ25KUjVqdVpiVEhtdlB0eS01RmhxR3g0bWliRm9KVURZRTZfUVBkWlhHR01wT2EzWDZTZGVmY2RmYXYwRXROYmdWRnRaQkJHRm9aYUJMamNHYUFNWmZrNl9FMzVKZW43Mk1WdEhlX0k3UWdmSXA3R3hnYw?oc=5",
-            "sourceName": "Mwebantu",
+            "sourceName": "mwebantu.com",
             "sourceUrl": "https://www.mwebantu.com",
             "publishedAt": "2026-07-10T07:00:00.000Z",
             "tier": "T2"
@@ -1877,11 +1676,8 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-09-01T19:27:21.657Z",
-        "stale": true,
-        "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=%22Florence%20Mwila%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
-      },
-      "lastError": "Google News RSS request failed: 503 https://news.google.com/rss/search?q=(%22Zambia%20women's%20U-20%22%20OR%20%22Zambia%20U-20%20women%22%20OR%20%22Zambia%20women's%20U20%22%20OR%20%22Zambia%20U20%20women%22%20OR%20%22Zambia%20women's%20Under-20%22%20OR%20%22Zambia%20Under-20%20women%22%20OR%20%22Zambia%20women's%20U-19%22%20OR%20%22Zambia%20U-19%20women%22%20OR%20%22Zambia%20women's%20U19%22%20OR%20%22Zambia%20U19%20women%22%20OR%20%22Zambia%20women's%20Under-19%22%20OR%20%22Zambia%20Under-19%20women%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
+        "fetchedAt": "2026-09-02T12:50:23.586Z"
+      }
     }
   }
 }

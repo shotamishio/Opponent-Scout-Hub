@@ -1,11 +1,11 @@
 {
   "category": "u17",
-  "generatedAt": "2026-10-12T05:48:52.825Z",
+  "generatedAt": "2026-10-12T17:53:01.131Z",
   "successCount": 42,
   "totalCount": 42,
-  "itemCount": 109,
-  "officialCount": 64,
-  "emptyCount": 18,
+  "itemCount": 110,
+  "officialCount": 63,
+  "emptyCount": 17,
   "coachCount": 36,
   "countries": {
     "AUS": {
@@ -75,7 +75,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:45:30.660Z",
+      "fetchedAt": "2026-10-12T17:49:33.951Z",
       "status": "ok",
       "filteredOut": 87,
       "federationUrl": "https://footballaustralia.com.au",
@@ -130,7 +130,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-10-12T05:45:33.556Z"
+        "fetchedAt": "2026-10-12T17:49:37.092Z"
       }
     },
     "BAN": {
@@ -184,9 +184,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:45:36.147Z",
+      "fetchedAt": "2026-10-12T17:49:39.854Z",
       "status": "ok",
-      "filteredOut": 88,
+      "filteredOut": 90,
       "federationUrl": "https://bff.com.bd",
       "coach": {
         "status": "ok",
@@ -198,14 +198,14 @@
         "bio": null,
         "federationUrl": "https://bff.com.bd",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:45:38.756Z"
+        "fetchedAt": "2026-10-12T17:49:42.534Z"
       }
     },
     "BRA": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:45:41.434Z",
+      "fetchedAt": "2026-10-12T17:49:45.228Z",
       "status": "ok",
-      "filteredOut": 25,
+      "filteredOut": 24,
       "federationUrl": "https://cbf.com.br",
       "coach": {
         "status": "ok",
@@ -258,7 +258,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-10-12T05:45:44.053Z"
+        "fetchedAt": "2026-10-12T17:49:47.989Z"
       }
     },
     "CAN": {
@@ -328,7 +328,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:45:46.855Z",
+      "fetchedAt": "2026-10-12T17:49:50.819Z",
       "status": "ok",
       "filteredOut": 68,
       "federationUrl": "https://canadasoccer.com",
@@ -342,7 +342,7 @@
         "bio": null,
         "federationUrl": "https://canadasoccer.com",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:45:49.227Z"
+        "fetchedAt": "2026-10-12T17:49:53.257Z"
       }
     },
     "CHN": {
@@ -372,7 +372,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:45:51.810Z",
+      "fetchedAt": "2026-10-12T17:49:55.826Z",
       "status": "ok",
       "filteredOut": 7,
       "federationUrl": "https://thecfa.cn",
@@ -386,14 +386,14 @@
         "bio": "Wang Hongliang is a Chinese football coach and former football player as a midfielder.",
         "federationUrl": "https://thecfa.cn",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:45:54.139Z"
+        "fetchedAt": "2026-10-12T17:49:58.191Z"
       }
     },
     "COL": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:45:56.861Z",
+      "fetchedAt": "2026-10-12T17:50:00.972Z",
       "status": "ok",
-      "filteredOut": 7,
+      "filteredOut": 8,
       "federationUrl": "https://fcf.com.co",
       "coach": {
         "status": "ok",
@@ -405,7 +405,7 @@
         "bio": null,
         "federationUrl": "https://fcf.com.co",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:45:59.245Z"
+        "fetchedAt": "2026-10-12T17:50:03.386Z"
       }
     },
     "ENG": {
@@ -443,22 +443,6 @@
           "tier": "T1"
         },
         {
-          "title": "Walsall FC Women U16 | Central Warwickshire Girls Football League",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQVWtua3hZaE5xc3RNZlVQLVpFOTZrdGh2VnpTMHdRakNadTRLdU1pZld0b05FQVZyQi1kdHBBSEV2RkNsVGFFaG9nQUF2SUgweDFiOUF2TmlURl9ualBzT1FyT1g5RVB1TEFsdkE4aTR3VV9VRWZlaU1FOFNMYmhZTnN5eWo1emx6bzBKZ0dR?oc=5",
-          "sourceName": "FA Full-Time",
-          "sourceUrl": "https://fulltime.thefa.com",
-          "publishedAt": "2026-10-07T10:11:57.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "Accrington Stanley Women FC U16 Blue | South Manchester Girls Football League",
-          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQzM5Y3VqczRFRDNmMVA2eE9qNmFidnBIWjhmb2Y4Z2hCT3djS1VUdC1FM3JwMVVqSlY1WWRNa3BEOWZhSEhDRzE4WVlxaTNMOXViV0xueldXWkJxNjEyRlB6V0FETHJZaklvY0VpOXRYRy1aTUZnUXdFWmdfQndNajVEbVp4ZExrdzZJMmRB?oc=5",
-          "sourceName": "FA Full-Time",
-          "sourceUrl": "https://fulltime.thefa.com",
-          "publishedAt": "2026-09-17T04:34:50.000Z",
-          "tier": "T1"
-        },
-        {
           "title": "St Albans City FC Women U16 Girls | Hertfordshire Girls Football Partnership League",
           "link": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1waDQxQnpfNzdLQ0dITjZPc0pSakFzLTFFSEcxSUlUUXJkaG9mOGxEQjRHSHJENEdlSDQ1VnNCQlJ5d3hscW5pZWxqZEkzMFY3RkNSZ1NhV2J3NW9pVWVveXRRX3FOUlU?oc=5",
           "sourceName": "FA Full-Time",
@@ -473,11 +457,19 @@
           "sourceUrl": "https://fulltime.thefa.com",
           "publishedAt": "2026-08-31T16:12:00.000Z",
           "tier": "T1"
+        },
+        {
+          "title": "St Albans City FC Women U16 Girls | Hertfordshire Girls Football Partnership League",
+          "link": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNVGtDZ2xuT0RCQUtiOThuaHhfLTBfZTlCTFRPdHZCYU1pbTl5LU43SGdmeHhBNENVN0hWaWg4WW95UlBHQ0Q0a1hpc3NEVkFaSW9NQXk2X0RGMk0wQ29KbC1zNVIxMFpkd1BETlFLTFFPNTFncXdQdl9HbHE1ei1PajFKZnZ0RkdnZEo0MWVn?oc=5",
+          "sourceName": "FA Full-Time",
+          "sourceUrl": "https://fulltime.thefa.com",
+          "publishedAt": "2026-08-28T02:54:36.000Z",
+          "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:46:01.946Z",
+      "fetchedAt": "2026-10-12T17:50:06.312Z",
       "status": "ok",
-      "filteredOut": 96,
+      "filteredOut": 98,
       "federationUrl": "https://thefa.com",
       "coach": {
         "status": "ok",
@@ -489,12 +481,21 @@
         "bio": null,
         "federationUrl": "https://thefa.com",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:46:04.278Z"
+        "fetchedAt": "2026-10-12T17:50:08.734Z"
       }
     },
     "ESP": {
-      "items": [],
-      "fetchedAt": "2026-10-12T05:46:06.914Z",
+      "items": [
+        {
+          "title": "Spain U17 Women v Australia U17 Women, Round 1, FIFA U-17 Women's World Cup, 22nd October 2026",
+          "link": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNUDZ6akRBN3poUTJfc05Ld3dudHRPVkg0S041NXJmT2JtZDkwdHhBOUZYNHV6YnJhWVRPU2lWUWdoYmZrNE9ZZC0tOVhJQUg2XzlFSFBUWktHYmRqQm5vcUx3UHFXVlEtX1JSZVRCQ1NSQUM4S3M5WGxmQUdjLWFMbEFfdVZUOW9BNGRFOS1kNjU0S202blJ2bkZ1d1RfbVFvc0hrZjFQYlRCTUZLeFhCWHludFZRVjBHbS1PQzR3?oc=5",
+          "sourceName": "CommBank Matildas",
+          "sourceUrl": "https://matildas.com.au",
+          "publishedAt": "2026-07-21T01:57:06.000Z",
+          "tier": "T2"
+        }
+      ],
+      "fetchedAt": "2026-10-12T17:50:11.452Z",
       "status": "ok",
       "filteredOut": 45,
       "federationUrl": "https://rfef.es",
@@ -508,12 +509,12 @@
         "bio": "Milagros \"Mila\" Martínez Domínguez is a Spanish football manager.",
         "federationUrl": "https://rfef.es",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:46:09.287Z"
+        "fetchedAt": "2026-10-12T17:50:13.988Z"
       }
     },
     "FRA": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:46:12.028Z",
+      "fetchedAt": "2026-10-12T17:50:16.744Z",
       "status": "ok",
       "filteredOut": 100,
       "federationUrl": "https://fff.fr",
@@ -527,12 +528,12 @@
         "bio": "Cécile Locatelli is a French former footballer who played as a defender for Lyon of the Division 1 Féminine.",
         "federationUrl": "https://fff.fr",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:46:14.380Z"
+        "fetchedAt": "2026-10-12T17:50:19.130Z"
       }
     },
     "GER": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:46:17.186Z",
+      "fetchedAt": "2026-10-12T17:50:22.019Z",
       "status": "ok",
       "filteredOut": 105,
       "federationUrl": "https://dfb.de",
@@ -555,7 +556,7 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-10-12T05:46:19.521Z"
+        "fetchedAt": "2026-10-12T17:50:24.460Z"
       }
     },
     "IND": {
@@ -611,7 +612,7 @@
         {
           "title": "Turning dominance into wins the next step for India U17 women",
           "link": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQRDhrblRtblkxQXhBRkZWTGRTbTM1UGF2bzMxQ2FleGxEelROZmhsNHJOTFJ0dzJIQXhnZWJSQ1B6VFlSM3V2NUFBN2ZpanBaX2VncG9vUFNFYzllZl83Rm44UFRMcm9abUpTeDdhcU45MThzQml6OGNpeU1QR2RVNmI0eUVUZ3FBZnUxTHNRMy1hZ2dQT0F0ck5B?oc=5",
-          "sourceName": "AIFF",
+          "sourceName": "All India Football Federation",
           "sourceUrl": "https://www.the-aiff.com",
           "publishedAt": "2026-09-02T11:31:36.000Z",
           "tier": "T1"
@@ -625,9 +626,9 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:46:22.394Z",
+      "fetchedAt": "2026-10-12T17:50:27.468Z",
       "status": "ok",
-      "filteredOut": 89,
+      "filteredOut": 87,
       "federationUrl": "https://the-aiff.com",
       "coach": {
         "status": "ok",
@@ -680,7 +681,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-10-12T05:46:24.784Z"
+        "fetchedAt": "2026-10-12T17:50:29.873Z"
       }
     },
     "IRN": {
@@ -718,7 +719,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:46:27.357Z",
+      "fetchedAt": "2026-10-12T17:50:32.490Z",
       "status": "ok",
       "filteredOut": 2,
       "federationUrl": "https://ffiri.ir",
@@ -732,12 +733,12 @@
         "bio": null,
         "federationUrl": "https://ffiri.ir",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:46:29.732Z"
+        "fetchedAt": "2026-10-12T17:50:34.837Z"
       }
     },
     "JOR": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:46:32.283Z",
+      "fetchedAt": "2026-10-12T17:50:37.490Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://jfa.jo",
@@ -751,7 +752,7 @@
         "bio": null,
         "federationUrl": "https://jfa.jo",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:46:34.676Z"
+        "fetchedAt": "2026-10-12T17:50:39.861Z"
       }
     },
     "KOR": {
@@ -771,9 +772,17 @@
           "sourceUrl": "https://biz.chosun.com",
           "publishedAt": "2026-05-08T07:00:00.000Z",
           "tier": "T2"
+        },
+        {
+          "title": "'18-goal explosion' powerhouse North Korea to face off! South Korea's U-17 women's national team defeats Taiwan 4-0 to advance to the quarterfinals... Decisive match for Group 1 against North Korea",
+          "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5Ld0xPMzk0N2J2ajdFakRUMTJYUE14RWRLelhLX09lOS1COEEzRU9HOW1NMUlhSGxhVkt3TWtDejRfQllLYlo1ODhmMnRqM0R0bVBtOV9CTFRtY3ZuWUpDd3l2SjNWX0h6VjdYX1RQeUJlMFY4NEpCTFV3?oc=5",
+          "sourceName": "스타뉴스",
+          "sourceUrl": "https://www.starnewskorea.com",
+          "publishedAt": "2026-05-05T07:00:00.000Z",
+          "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:46:37.269Z",
+      "fetchedAt": "2026-10-12T17:50:42.509Z",
       "status": "ok",
       "filteredOut": 13,
       "federationUrl": "https://kfa.or.kr",
@@ -828,7 +837,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-10-12T05:46:39.666Z"
+        "fetchedAt": "2026-10-12T17:50:45.018Z"
       }
     },
     "MAS": {
@@ -858,16 +867,16 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:46:42.202Z",
+      "fetchedAt": "2026-10-12T17:50:47.675Z",
       "status": "ok",
-      "filteredOut": 11,
+      "filteredOut": 12,
       "federationUrl": "https://fam.org.my",
       "coach": {
         "status": "no_coach_listed",
         "teamArticle": "Football Association of Malaysia",
         "teamUrl": "https://en.wikipedia.org/wiki/Football_Association_of_Malaysia",
         "federationUrl": "https://fam.org.my",
-        "fetchedAt": "2026-10-12T05:46:43.338Z"
+        "fetchedAt": "2026-10-12T17:50:48.807Z"
       }
     },
     "MEX": {
@@ -897,7 +906,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:46:45.937Z",
+      "fetchedAt": "2026-10-12T17:50:51.453Z",
       "status": "ok",
       "filteredOut": 9,
       "federationUrl": "https://fmf.mx",
@@ -911,7 +920,7 @@
         "bio": "Miguel Ángel Gamero Villalobos is a Mexican manager who is the current manager of Mexico U–17 women.",
         "federationUrl": "https://fmf.mx",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:46:48.331Z"
+        "fetchedAt": "2026-10-12T17:50:53.916Z"
       }
     },
     "MYA": {
@@ -941,7 +950,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:46:50.859Z",
+      "fetchedAt": "2026-10-12T17:50:56.533Z",
       "status": "ok",
       "filteredOut": 6,
       "federationUrl": "https://myanmarfootball.org",
@@ -950,12 +959,12 @@
         "teamArticle": "Myanmar women's national under-17 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Myanmar_women's_national_under-17_football_team",
         "federationUrl": "https://myanmarfootball.org",
-        "fetchedAt": "2026-10-12T05:46:52.008Z"
+        "fetchedAt": "2026-10-12T17:50:57.680Z"
       }
     },
     "NED": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:46:54.538Z",
+      "fetchedAt": "2026-10-12T17:51:00.277Z",
       "status": "ok",
       "filteredOut": 1,
       "federationUrl": "https://knvb.nl",
@@ -969,7 +978,7 @@
         "bio": null,
         "federationUrl": "https://knvb.nl",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:46:56.962Z"
+        "fetchedAt": "2026-10-12T17:51:02.606Z"
       }
     },
     "NGA": {
@@ -1039,7 +1048,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:46:59.782Z",
+      "fetchedAt": "2026-10-12T17:51:05.422Z",
       "status": "ok",
       "filteredOut": 100,
       "federationUrl": "https://thenff.com",
@@ -1053,6 +1062,14 @@
         "bio": null,
         "federationUrl": "https://thenff.com",
         "articles": [
+          {
+            "title": "‘Harmony Chidi Is Human, Young Players Have Emotions’ — Flamingos Coach Akeem Busari Explains Discipline, Leadership Ahead of U-17 World Cup",
+            "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPU0E5ZUlHNmYzWkZmQm5KODJEUXEyS0VyWlM3YjhZc3B3Y1U5bmhjX1BDbE1QQ25fV0JBdFc4aXplYUtSZDVZNEFVVmhmd2htcTZSXy03QkU2ekZ2bEN1Z1VfUl8zaW56TzNhYUswZ1AzQUxLTHhxZkpiRmlwWVl5ZC1UNk02cWh4TjRSSGs4M3dWclJrLWFWblpaVVZKZFZZeF92VlhBTHF3WVIwelFaS3lSXzhicTZ5Nk5jZ0U3SUNXdk5JM1RFQjRDcDFBRFFHWGN0Z1NOejF1NUxUWERVWFI1LURkZklPLUxVOHBaZGYwdw?oc=5",
+            "sourceName": "Sports247 Nigeria",
+            "sourceUrl": "https://www.sports247.ng",
+            "publishedAt": "2026-10-12T13:44:22.000Z",
+            "tier": "T2"
+          },
           {
             "title": "Flamingos Coach Akeem Busari Picks Final 21 Players for FIFA U17 Women’s World Cup",
             "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNX1Fra3I5cUo5enB2azBRazVJa3NoNTR0TkNLZmFkSF9vNU02cEM3d29qXzlQeGRQLUQxaHNsZ3BzVEk1NFJCMHZQNHZGUml4bFVfZlRBSVhtTklJMk9lZ2JaVUEzT004ak11SHprVWVEdm5EbXN2V3hUR0FLRWFYVnRvbElnbTRQM0xOZEdmQlRDZmszLWowX3g1Q0JlekJqNEdBbW83Nkc0dWM?oc=5",
@@ -1084,17 +1101,9 @@
             "sourceUrl": "https://www.sports247.ng",
             "publishedAt": "2026-07-12T07:00:00.000Z",
             "tier": "T2"
-          },
-          {
-            "title": "Flamingos Coach Akeem Busari Unfazed By Benin's Danger Woman Ahead Of Decisive World Cup Qualifier",
-            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNRjIyWnlXNUxCTDZRT0NaZV9NRE1LZ081dl9YaUhneUcwWVlTLVBZTjVrd3VXc081cFhuWWY4ZkdqSm1DZk9HZW9WMTd4NC1UYUF3VjdyREVERVNQS1BBNXloSnJTTWlxMzR6Wl9kUFdJbnZFZV9WY3BVOXZ1UmpWSXBWekFkUUJkbDB1U1dxM2dmVGsxaVVRWnl2SjM2anVlQjhXSFo2R2h4VlNHczJOV2U2SXF1ZzRNaWFxOU11R1c?oc=5",
-            "sourceName": "Sports247 Nigeria",
-            "sourceUrl": "https://www.sports247.ng",
-            "publishedAt": "2026-07-10T21:14:22.000Z",
-            "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-10-12T05:47:02.142Z"
+        "fetchedAt": "2026-10-12T17:51:07.877Z"
       }
     },
     "NZL": {
@@ -1108,7 +1117,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:47:04.903Z",
+      "fetchedAt": "2026-10-12T17:51:10.703Z",
       "status": "ok",
       "filteredOut": 108,
       "federationUrl": "https://nzfootball.co.nz",
@@ -1122,7 +1131,7 @@
         "bio": null,
         "federationUrl": "https://nzfootball.co.nz",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:47:07.372Z"
+        "fetchedAt": "2026-10-12T17:51:13.075Z"
       }
     },
     "PHI": {
@@ -1133,14 +1142,6 @@
           "sourceName": "Philippine Football Federation",
           "sourceUrl": "https://pff.org.ph",
           "publishedAt": "2026-10-11T15:28:31.000Z",
-          "tier": "T1"
-        },
-        {
-          "title": "U17 WACQ: Granger powers Filipinas U17 past Uzbekistan with hat-trick",
-          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNZldiN1N5TU1wN3c0ei1qZ2xEX0xPbzgwT0l6dEllSVQteC03N0NfSVVZM04ybjFKMW11d28tWExMdGM1VWNtdDEtR3NaUU8wWlpzblFoeTNzeU5CUExEWjdKUW9VUm1ET19xUHQwcmJwamZKRkRNUEJkc3NJbzcwaXk1UnltTGRESkZCTE5aLUNTQQ?oc=5",
-          "sourceName": "Philippine Football Federation",
-          "sourceUrl": "https://pff.org.ph",
-          "publishedAt": "2026-10-05T14:20:59.000Z",
           "tier": "T1"
         },
         {
@@ -1160,9 +1161,9 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:47:10.187Z",
+      "fetchedAt": "2026-10-12T17:51:15.921Z",
       "status": "ok",
-      "filteredOut": 101,
+      "filteredOut": 102,
       "federationUrl": "https://pff.org.ph",
       "coach": {
         "status": "ok",
@@ -1199,7 +1200,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-10-12T05:47:13.177Z"
+        "fetchedAt": "2026-10-12T17:51:18.989Z"
       }
     },
     "PRK": {
@@ -1221,7 +1222,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:47:14.515Z",
+      "fetchedAt": "2026-10-12T17:51:20.399Z",
       "status": "ok",
       "filteredOut": 8,
       "federationUrl": null,
@@ -1230,12 +1231,12 @@
         "teamArticle": "North Korea women's national under-17 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/North_Korea_women's_national_under-17_football_team",
         "federationUrl": null,
-        "fetchedAt": "2026-10-12T05:47:15.699Z"
+        "fetchedAt": "2026-10-12T17:51:21.545Z"
       }
     },
     "SWE": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:47:18.239Z",
+      "fetchedAt": "2026-10-12T17:51:24.175Z",
       "status": "ok",
       "filteredOut": 1,
       "federationUrl": "https://svenskfotboll.se",
@@ -1244,7 +1245,7 @@
         "teamArticle": "Sweden women's national under-17 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Sweden_women's_national_under-17_football_team",
         "federationUrl": "https://svenskfotboll.se",
-        "fetchedAt": "2026-10-12T05:47:19.375Z"
+        "fetchedAt": "2026-10-12T17:51:25.305Z"
       }
     },
     "THA": {
@@ -1258,7 +1259,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:47:21.945Z",
+      "fetchedAt": "2026-10-12T17:51:27.950Z",
       "status": "ok",
       "filteredOut": 9,
       "federationUrl": "https://fat.or.th",
@@ -1272,12 +1273,12 @@
         "bio": "Thidarat Wiwasukhu is a Thai football manager and former player, who is the assistant coach of the Thailand.",
         "federationUrl": "https://fat.or.th",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:47:24.400Z"
+        "fetchedAt": "2026-10-12T17:51:30.384Z"
       }
     },
     "TPE": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:47:26.929Z",
+      "fetchedAt": "2026-10-12T17:51:32.989Z",
       "status": "ok",
       "filteredOut": 1,
       "federationUrl": "https://ctfa.com.tw",
@@ -1291,7 +1292,7 @@
         "bio": null,
         "federationUrl": "https://ctfa.com.tw",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:47:29.975Z"
+        "fetchedAt": "2026-10-12T17:51:35.751Z"
       }
     },
     "USA": {
@@ -1331,7 +1332,7 @@
         {
           "title": "U.S. Under-17 Women’s National Team Defeats Chile, 1-0, in Second Match of Training Camp at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQeHdqLWJXWVd5T29EbDdieGtfSWNacG9jb2pjblZja2F2ck52VkxOTm92Vk1jNjA5TVh1UFh1NjVjV3dHQUhic19UcjEwbXZVUFZoTGtaSHhhZlpTRXBSSnE4VTFwQzZNb0F1VEFDdWxld1FhS0hQc2p5R2pRaG9NQUdPVDdIejVJNGJ4VVl0cGFVaUtPb1RKYzJqWEdHX0IxY1pYTGo2ZHdVQUhmdjMwR3pwdW1Uc1pFQkxoWE5YOUY?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-08-17T07:00:00.000Z",
           "tier": "T1"
@@ -1339,7 +1340,7 @@
         {
           "title": "U.S. Under-17 Women’s National Team Draws 1-1 With Mexico in First of Three Games at the Arthur M. Blank U.S. Soccer National Training Center",
           "link": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQbXkxWUNNY0gtaTBqSHZRRFM3d2h3TVJRWkp1aUNFRkh2U2dXdkpKVC05b21WcG9nQ01QVS1nVk1PLTlFamdnT3N5ZHl3SGttUlo3SjdiR1laaVAzU09mOWpJNXpHOC1tbFJ3aF81aVFGajhYV3hLOXZsZGdEcW9Xdnd5a21wYzJMRllXT09MX0Q1TnBQdE91UUtlT0NhWExVeDVsSWUyeHAwcUp0RzdES2ZxOWU3SW5FZG0tekFabw?oc=5",
-          "sourceName": "U.S. Soccer",
+          "sourceName": "US Soccer",
           "sourceUrl": "https://ussoccer.com",
           "publishedAt": "2026-08-14T13:44:09.000Z",
           "tier": "T1"
@@ -1361,9 +1362,9 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:47:32.788Z",
+      "fetchedAt": "2026-10-12T17:51:38.663Z",
       "status": "ok",
-      "filteredOut": 96,
+      "filteredOut": 95,
       "federationUrl": "https://ussoccer.com",
       "coach": {
         "status": "ok",
@@ -1400,7 +1401,7 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-10-12T05:47:35.159Z"
+        "fetchedAt": "2026-10-12T17:51:41.047Z"
       }
     },
     "UZB": {
@@ -1422,7 +1423,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:47:37.673Z",
+      "fetchedAt": "2026-10-12T17:51:43.623Z",
       "status": "ok",
       "filteredOut": 2,
       "federationUrl": "https://uzfa.uz",
@@ -1436,7 +1437,7 @@
         "bio": null,
         "federationUrl": "https://uzfa.uz",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:47:40.030Z"
+        "fetchedAt": "2026-10-12T17:51:46.013Z"
       }
     },
     "VIE": {
@@ -1506,9 +1507,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:47:42.776Z",
+      "fetchedAt": "2026-10-12T17:51:48.853Z",
       "status": "ok",
-      "filteredOut": 113,
+      "filteredOut": 122,
       "federationUrl": "https://vff.org.vn",
       "coach": {
         "status": "ok",
@@ -1519,13 +1520,46 @@
         "description": null,
         "bio": null,
         "federationUrl": "https://vff.org.vn",
-        "articles": [],
-        "fetchedAt": "2026-10-12T05:47:45.120Z"
+        "articles": [
+          {
+            "title": "Coach Masahiko Okiyama: Vietnam U17 women's team aims for high goals at the 2027 Asian Championships.",
+            "link": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQNUpoMmxEN2tXbEFiZlJybVV6bWpzNm9lemdkT0FzZGk2YlRUX0pjazNSdU5TbHEzRGM5RzNKNldfQWlYc2NvLVVwb3drdm0xRTdBWDZmQUVMVnZlYXBray1NLUdPY196T1lOTUpKNUpxNVhhLWhPOUlTTmMzZFpCNzk3ZzRvbVBWdGN1UHFEb0E0R1dPOUFoYnZxSWJIbUdwWHpIRDZ2SU4?oc=5",
+            "sourceName": "Vietnam.vn",
+            "sourceUrl": "https://www.vietnam.vn",
+            "publishedAt": "2026-10-12T08:01:29.000Z",
+            "tier": "T2"
+          },
+          {
+            "title": "Coach Masahiko Okiyama talks about the journey to qualify for the 2027 AFC U17 Women's Championship.",
+            "link": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOQUpnN2dmYXZOd0oxa0JqUEN2UFI3MUdnTVNYUVh0NElsdWlGZS1kRWk2M0s0Q3o5SkhPUi1yUzZEcUtKVDR4dHlWcGpUQzlWamVKZDJ4bXg1N2ZKNUZEODJKQjZkaGJLVkxjSENEU0FBczc1MTVqbm4zdkhERmFBVFVfbmpiWU5wMjhsX3g3NGE4cmhHSmdEa0RDVi0wZDRO?oc=5",
+            "sourceName": "Vietnam.vn",
+            "sourceUrl": "https://www.vietnam.vn",
+            "publishedAt": "2026-10-12T05:22:15.000Z",
+            "tier": "T2"
+          },
+          {
+            "title": "Coach Masahiko Okiyama: \"Thank you to the players for making history.\"",
+            "link": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPYkRDTGs2RW9KazdtS1JzOEFIUHNwM0tfdUN5cGhmRm9NUjVLQklUMGlIblE0eFdTZ0NtdmNfdHB3MXlLeElic0pENVJ6WmdaS0hyX19KcG1icm50dk1fMFcxUHlid3JvTklFMllCRkg5LU1xdVY0aV9sYVRwdDQxUmc3Tno4Sno2ckpmRQ?oc=5",
+            "sourceName": "Vietnam.vn",
+            "sourceUrl": "https://www.vietnam.vn",
+            "publishedAt": "2026-10-09T10:10:29.000Z",
+            "tier": "T2"
+          },
+          {
+            "title": "Coach Masahiko Okiyama finalizes the squad for the 2027 AFC U17 Women's Asian Cup qualifiers.",
+            "link": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNS2Y1c2RCVG5yczA4c1dmUTNLdTN4NFAyTmZrRUVodDhTd0hqYzhkRC11N3Q0bWwyMUhVbVRxUzd4R1FsV0M0aWcyQzY1R1NjVFl6My1mSzVmQ1d5ZTd1cmxjNnNkR3pOMU1sTkxfN25yeldVX1V1UHZUR0NvbXl5dzF3SGdtNUx3RU9aNXU1Vl9RZGRiWFliemU4QXNqUkk?oc=5",
+            "sourceName": "Vietnam.vn",
+            "sourceUrl": "https://www.vietnam.vn",
+            "publishedAt": "2026-10-03T06:06:36.000Z",
+            "tier": "T2"
+          }
+        ],
+        "fetchedAt": "2026-10-12T17:51:51.243Z"
       }
     },
     "ARG": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:47:47.658Z",
+      "fetchedAt": "2026-10-12T17:51:53.868Z",
       "status": "ok",
       "filteredOut": 2,
       "federationUrl": "https://afa.com.ar",
@@ -1539,12 +1573,12 @@
         "bio": null,
         "federationUrl": "https://afa.com.ar",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:47:49.981Z"
+        "fetchedAt": "2026-10-12T17:51:56.227Z"
       }
     },
     "AUT": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:47:52.542Z",
+      "fetchedAt": "2026-10-12T17:51:58.856Z",
       "status": "ok",
       "filteredOut": 24,
       "federationUrl": "https://oefb.at",
@@ -1558,7 +1592,7 @@
         "bio": null,
         "federationUrl": "https://oefb.at",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:47:54.897Z"
+        "fetchedAt": "2026-10-12T17:52:01.231Z"
       }
     },
     "CMR": {
@@ -1580,7 +1614,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:47:57.407Z",
+      "fetchedAt": "2026-10-12T17:52:03.863Z",
       "status": "ok",
       "filteredOut": 7,
       "federationUrl": "https://fecafootofficiel.com",
@@ -1589,12 +1623,12 @@
         "teamArticle": "Cameroon women's national under-17 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Cameroon_women's_national_under-17_football_team",
         "federationUrl": "https://fecafootofficiel.com",
-        "fetchedAt": "2026-10-12T05:47:58.604Z"
+        "fetchedAt": "2026-10-12T17:52:04.967Z"
       }
     },
     "DEN": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:48:01.110Z",
+      "fetchedAt": "2026-10-12T17:52:07.621Z",
       "status": "ok",
       "filteredOut": 3,
       "federationUrl": "https://dbu.dk",
@@ -1608,12 +1642,12 @@
         "bio": null,
         "federationUrl": "https://dbu.dk",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:48:03.480Z"
+        "fetchedAt": "2026-10-12T17:52:10.084Z"
       }
     },
     "ECU": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:48:05.946Z",
+      "fetchedAt": "2026-10-12T17:52:12.663Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://ecuafutbol.org",
@@ -1627,12 +1661,12 @@
         "bio": null,
         "federationUrl": "https://ecuafutbol.org",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:48:08.278Z"
+        "fetchedAt": "2026-10-12T17:52:15.054Z"
       }
     },
     "GUM": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:48:10.831Z",
+      "fetchedAt": "2026-10-12T17:52:17.657Z",
       "status": "ok",
       "filteredOut": 10,
       "federationUrl": "https://guamfootball.com",
@@ -1646,14 +1680,14 @@
         "bio": null,
         "federationUrl": "https://guamfootball.com",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:48:13.175Z"
+        "fetchedAt": "2026-10-12T17:52:20.054Z"
       }
     },
     "HKG": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:48:15.824Z",
+      "fetchedAt": "2026-10-12T17:52:22.823Z",
       "status": "ok",
-      "filteredOut": 37,
+      "filteredOut": 38,
       "federationUrl": "https://hkfa.com",
       "coach": {
         "status": "ok",
@@ -1665,11 +1699,19 @@
         "bio": null,
         "federationUrl": "https://hkfa.com",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:48:18.229Z"
+        "fetchedAt": "2026-10-12T17:52:25.304Z"
       }
     },
     "ITA": {
       "items": [
+        {
+          "title": "The Women’s Under-17 National Team: Italy starts off on the right foot, beating Hungary 2-1 in Tirrenia",
+          "link": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxPQVByTV9ra3pUN2h5ZXkySnl0QnJhNTJjNWZrYTZiaEZfZDhaajdLTzlZNHg2cVdueGFqTnpmSGRiblhpNmdybjRhbXNzOF9CcG9qVjVkOGNiLU1KX1BsYmdEeVJjeEFxSEJySkp0YkgyWU5VZE5kLXNNUFVvTTFYeEk1cWF3ZW5TSjU5Vjc2a2U0NHRrZXRmbHI0LUYzQXFkVlRvTFUwU3RQelJLVGZ4Y1lWOUI0ZHlSNFJJQzcweThETkNBR3Y5amE4dnI0cXYtSXp3Zkg4TzdZUmNuWGpEazhZbjdiS09IazVyUmJ5TmFIUQ?oc=5",
+          "sourceName": "FIGC",
+          "sourceUrl": "https://www.figc.it",
+          "publishedAt": "2026-09-16T10:26:52.000Z",
+          "tier": "T1"
+        },
         {
           "title": "Looking ahead: Round 1 groups drawn for the Women’s U19 and U17 European Qualifiers",
           "link": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQRXNWM1I2WFNTMEY4NE1fRE9JcHV1VlFib0tMbVZwZ1Fva3hqaDZOZjhDcDJsQTBtWXRjWVhuWk5EaUg2ZUVqdFVlblZDTURQTGFaYm1TOVluTEp1bzFFUkUyWVo2TE1Vdk1jQjl5c2dKbUFLczlXa09TRWxDNERKN2doS1VhS1p2Zl9UU2FJbzhuVkNpZEp2ZTVybFp6UXZXLWpUemh4YWlDemktdm4wZjFMU1RvMXkyQmNOZ0NvUzJIX1BhdVRDY3hpTjgzZw?oc=5",
@@ -1679,9 +1721,9 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:48:20.878Z",
+      "fetchedAt": "2026-10-12T17:52:28.015Z",
       "status": "ok",
-      "filteredOut": 50,
+      "filteredOut": 52,
       "federationUrl": "https://figc.it",
       "coach": {
         "status": "ok",
@@ -1702,7 +1744,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-10-12T05:48:23.201Z"
+        "fetchedAt": "2026-10-12T17:52:30.332Z"
       }
     },
     "MAR": {
@@ -1740,7 +1782,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:48:25.744Z",
+      "fetchedAt": "2026-10-12T17:52:32.972Z",
       "status": "ok",
       "filteredOut": 7,
       "federationUrl": "https://frmf.ma",
@@ -1754,14 +1796,14 @@
         "bio": null,
         "federationUrl": "https://frmf.ma",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:48:28.076Z"
+        "fetchedAt": "2026-10-12T17:52:35.452Z"
       }
     },
     "NOR": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:48:30.688Z",
+      "fetchedAt": "2026-10-12T17:52:38.155Z",
       "status": "ok",
-      "filteredOut": 1,
+      "filteredOut": 2,
       "federationUrl": "https://fotball.no",
       "coach": {
         "status": "ok",
@@ -1773,12 +1815,12 @@
         "bio": null,
         "federationUrl": "https://fotball.no",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:48:33.037Z"
+        "fetchedAt": "2026-10-12T17:52:40.554Z"
       }
     },
     "PAR": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:48:35.529Z",
+      "fetchedAt": "2026-10-12T17:52:43.104Z",
       "status": "ok",
       "filteredOut": 0,
       "federationUrl": "https://apf.org.py",
@@ -1787,12 +1829,12 @@
         "teamArticle": "Paraguay women's national under-17 football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Paraguay_women's_national_under-17_football_team",
         "federationUrl": "https://apf.org.py",
-        "fetchedAt": "2026-10-12T05:48:36.714Z"
+        "fetchedAt": "2026-10-12T17:52:44.285Z"
       }
     },
     "POL": {
       "items": [],
-      "fetchedAt": "2026-10-12T05:48:39.426Z",
+      "fetchedAt": "2026-10-12T17:52:47.141Z",
       "status": "ok",
       "filteredOut": 102,
       "federationUrl": "https://pzpn.pl",
@@ -1806,7 +1848,7 @@
         "bio": null,
         "federationUrl": "https://pzpn.pl",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:48:41.813Z"
+        "fetchedAt": "2026-10-12T17:52:49.668Z"
       }
     },
     "SIN": {
@@ -1876,7 +1918,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-10-12T05:48:44.525Z",
+      "fetchedAt": "2026-10-12T17:52:52.546Z",
       "status": "ok",
       "filteredOut": 92,
       "federationUrl": "https://fas.org.sg",
@@ -1890,7 +1932,7 @@
         "bio": null,
         "federationUrl": "https://fas.org.sg",
         "articles": [],
-        "fetchedAt": "2026-10-12T05:48:46.947Z"
+        "fetchedAt": "2026-10-12T17:52:54.954Z"
       }
     },
     "ZAM": {
@@ -1928,9 +1970,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-10-12T05:48:49.454Z",
+      "fetchedAt": "2026-10-12T17:52:57.602Z",
       "status": "ok",
-      "filteredOut": 3,
+      "filteredOut": 4,
       "federationUrl": "https://fazfootball.com",
       "coach": {
         "status": "ok",
@@ -1959,7 +2001,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-10-12T05:48:51.824Z"
+        "fetchedAt": "2026-10-12T17:53:00.131Z"
       }
     }
   }

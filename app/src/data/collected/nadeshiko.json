@@ -1,11 +1,11 @@
 {
   "category": "nadeshiko",
-  "generatedAt": "2026-11-22T06:25:07.293Z",
-  "successCount": 42,
+  "generatedAt": "2026-11-22T16:12:41.183Z",
+  "successCount": 41,
   "totalCount": 42,
   "itemCount": 75,
-  "officialCount": 33,
-  "emptyCount": 15,
+  "officialCount": 35,
+  "emptyCount": 16,
   "coachCount": 40,
   "countries": {
     "AUS": {
@@ -19,7 +19,7 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-11-22T06:21:35.832Z",
+      "fetchedAt": "2026-11-22T16:09:09.399Z",
       "status": "ok",
       "filteredOut": 83,
       "federationUrl": "https://footballaustralia.com.au",
@@ -50,7 +50,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:21:38.590Z"
+        "fetchedAt": "2026-11-22T16:09:12.172Z"
       }
     },
     "BAN": {
@@ -80,7 +80,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:21:41.174Z",
+      "fetchedAt": "2026-11-22T16:09:14.756Z",
       "status": "ok",
       "filteredOut": 98,
       "federationUrl": "https://bff.com.bd",
@@ -94,21 +94,12 @@
         "bio": "Peter James Butler is an English professional football manager and former player who is the current manager of the Bangladesh women's national team. As a player, he made more than 450 appearances in the Football League and the Premier League. After retiring in October of 2000 he began coaching, working for teams in England, Australia and South-East Asia. He was in charge of the Botswana national team from 2014 until 2017. He currently holds a UEFA Pro License Qualification.",
         "federationUrl": "https://bff.com.bd",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:21:43.649Z"
+        "fetchedAt": "2026-11-22T16:09:17.250Z"
       }
     },
     "BRA": {
-      "items": [
-        {
-          "title": "Washington Spirit Forward Tamara Bolt Earns First Call-Up to Brazil Women’s National Team",
-          "link": "https://news.google.com/rss/articles/CBMizwFBVV95cUxORnp5MndCcllma0ptQzJWMl9BVFVERXlpQnRiOFlSRjdUVV9OZTZwZFF4aExycmJOSEVia2lhTVJlVVdUcXRGRFBNRWxUbUhna0s2UFBWdlpXaFQ4emZZUjFNb2twa3RtYWtmNm12SU1lM2dkSWhpRHYxNk1lbHBmRzgtM0RxWDZfOHBRc2JOY1NHN0NXWWRkQ0ZZTE5MeTdBczdBd2xDcmpMZzBrZ0ptZTlFVW8tcHNqRU5QSERsRTZnS2pMREJLTTBGem5lUE0?oc=5",
-          "sourceName": "Washington Spirit",
-          "sourceUrl": "https://washingtonspirit.com",
-          "publishedAt": "2026-09-23T07:00:00.000Z",
-          "tier": "T2"
-        }
-      ],
-      "fetchedAt": "2026-11-22T06:21:46.131Z",
+      "items": [],
+      "fetchedAt": "2026-11-22T16:09:19.770Z",
       "status": "ok",
       "filteredOut": 53,
       "federationUrl": "https://cbf.com.br",
@@ -122,7 +113,7 @@
         "bio": "Arthur José Ribas Elias is a Brazilian football manager, currently in charge of the Brazil women's national football team.",
         "federationUrl": "https://cbf.com.br",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:21:48.653Z"
+        "fetchedAt": "2026-11-22T16:09:22.259Z"
       }
     },
     "CAN": {
@@ -133,6 +124,22 @@
           "sourceName": "Canada Soccer Pressroom",
           "sourceUrl": "https://news.canadasoccer.com",
           "publishedAt": "2026-11-18T16:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Women’s national eastern identification camp",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOTzQ5Y25velgxLWM1YzFaNHNWZ05JNHl5SjJwMnFua0NGV29JRVU0ZWhTTjlKNF8wanI5dGNEWVVaQjNUMXBWSU0ybnZRS2ZHM3VHRjlCVV9Bbkt4aC1JRFhRZFJ3SmRPYTBKVXVBcHdEWkt4N1lSZmdWcVdkYndjV3pDY2JTZw?oc=5",
+          "sourceName": "Canada Soccer",
+          "sourceUrl": "https://canadasoccer.com",
+          "publishedAt": "2026-11-17T01:00:00.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Canada Soccer brings together 26 young women referees for national development weekend in Toronto",
+          "link": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQZnM5aDgydUhPZlctdFJjckk3RGZ3S3V0RXRUQzloMVBuTUlUZjF4WlJONm02TDBDUTBQLU9qcEl4cjZtNUlqaHVqRERsOFYtNjRBV2V5aWpxeEplMkJCbHRuT05mYkNqeVBmekFfWXJfRm9jNTM5YVU2eGFQWU9QdDdfcXU4N2xaQTN6QkIyMXp0RGxsaVZ6SUlSR0t6dmx1bXB6RGthUWN3MFJUQlM5alZWYlFRWk9FbmotQU1iSzNjeURadkE?oc=5",
+          "sourceName": "Canada Soccer Pressroom",
+          "sourceUrl": "https://news.canadasoccer.com",
+          "publishedAt": "2026-10-28T07:00:00.000Z",
           "tier": "T1"
         },
         {
@@ -160,16 +167,16 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:21:51.280Z",
+      "fetchedAt": "2026-11-22T16:09:25.126Z",
       "status": "ok",
-      "filteredOut": 105,
+      "filteredOut": 144,
       "federationUrl": "https://canadasoccer.com",
       "coach": {
         "status": "no_coach_listed",
         "teamArticle": "Canada national football team",
         "teamUrl": "https://en.wikipedia.org/wiki/Canada_national_football_team",
         "federationUrl": "https://canadasoccer.com",
-        "fetchedAt": "2026-11-22T06:21:52.472Z"
+        "fetchedAt": "2026-11-22T16:09:26.423Z"
       }
     },
     "CHN": {
@@ -199,7 +206,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:21:54.979Z",
+      "fetchedAt": "2026-11-22T16:09:29.032Z",
       "status": "ok",
       "filteredOut": 42,
       "federationUrl": "https://thecfa.cn",
@@ -222,14 +229,14 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:21:57.782Z"
+        "fetchedAt": "2026-11-22T16:09:31.871Z"
       }
     },
     "COL": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:22:00.225Z",
+      "fetchedAt": "2026-11-22T16:09:34.373Z",
       "status": "ok",
-      "filteredOut": 18,
+      "filteredOut": 19,
       "federationUrl": "https://fcf.com.co",
       "coach": {
         "status": "ok",
@@ -241,7 +248,7 @@
         "bio": "Ángelo Adolfo Marsiglia Olivares is a Colombian football manager who is currently the head coach of the Colombia women's national team.",
         "federationUrl": "https://fcf.com.co",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:22:02.608Z"
+        "fetchedAt": "2026-11-22T16:09:37.289Z"
       }
     },
     "ENG": {
@@ -287,14 +294,6 @@
           "tier": "T1"
         },
         {
-          "title": "Women’s FA Cup second round TV pick confirmed",
-          "link": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQaHFONXlQM1VySF9lYjdQajA1LS1RREtRV3JrSW1fU2tETTZNbHZWV0d1UXY2dGtScE4weEsybk10TVhfbkU1cVFaYUdQak9rOWl6SGpKYzU1bzdFbklxZzF0cnpDMENhTjhfX1JaZUNDaUVVYXlUWVp2bnd1T3ZBVVRFcU00SE0wM2tpX0s5RFF4MGk2Ml9FaQ?oc=5",
-          "sourceName": "TheFA.com",
-          "sourceUrl": "https://www.thefa.com",
-          "publishedAt": "2026-11-02T08:00:00.000Z",
-          "tier": "T1"
-        },
-        {
           "title": "Women's FA Cup second round draw confirmed",
           "link": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOT1BVMlRtbGpHdzZBZUZLM0J2RkZmaVpUdGptQXEzQmp0dmFGYmJXc0UyWlJ1NDEzNVMzTzJrRjNQYU9PRkNxQkVaakdaMWVwTkxsQ2RIZV90NlZ1bHFKOEtVcHphb0VXMUNhYXBpdXhhUldQNGlHTG1CWWhQaXN3MWVkUXh4SFlqVjFxOXJBZ2JoRm8?oc=5",
           "sourceName": "TheFA.com",
@@ -309,11 +308,19 @@
           "sourceUrl": "https://www.thefa.com",
           "publishedAt": "2026-10-23T07:00:00.000Z",
           "tier": "T1"
+        },
+        {
+          "title": "Sue Day on the future of the women's game",
+          "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPTVJHUTJMTFlBR3YxRV9WRHNJeEhJQWFQakVXeU1pMHlSdUNXNGNocFdxNnVxVVR0OUZKNmtQeHhXcEdYMllqOGdLTFR0SXVhUE84N1ZSSUxBUEx4Q2h0eE1YM0UwNmxvaVluVmpkWHFORU4zY0g4eWJCQnEzNTkwN2FVY2U2Q2QwMEZXRk9maHZqdw?oc=5",
+          "sourceName": "TheFA.com",
+          "sourceUrl": "https://www.thefa.com",
+          "publishedAt": "2026-10-16T07:00:00.000Z",
+          "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-11-22T06:22:06.684Z",
+      "fetchedAt": "2026-11-22T16:09:40.130Z",
       "status": "ok",
-      "filteredOut": 186,
+      "filteredOut": 136,
       "federationUrl": "https://thefa.com",
       "coach": {
         "status": "ok",
@@ -366,7 +373,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:22:09.238Z"
+        "fetchedAt": "2026-11-22T16:09:42.755Z"
       }
     },
     "ESP": {
@@ -404,9 +411,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:22:11.939Z",
+      "fetchedAt": "2026-11-22T16:09:45.367Z",
       "status": "ok",
-      "filteredOut": 79,
+      "filteredOut": 80,
       "federationUrl": "https://rfef.es",
       "coach": {
         "status": "ok",
@@ -451,12 +458,12 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-11-22T06:22:14.481Z"
+        "fetchedAt": "2026-11-22T16:09:47.931Z"
       }
     },
     "FRA": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:22:17.208Z",
+      "fetchedAt": "2026-11-22T16:09:50.773Z",
       "status": "ok",
       "filteredOut": 30,
       "federationUrl": "https://fff.fr",
@@ -479,7 +486,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:22:19.851Z"
+        "fetchedAt": "2026-11-22T16:09:53.322Z"
       }
     },
     "GER": {
@@ -517,7 +524,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:22:22.524Z",
+      "fetchedAt": "2026-11-22T16:09:56.017Z",
       "status": "ok",
       "filteredOut": 80,
       "federationUrl": "https://dfb.de",
@@ -531,7 +538,7 @@
         "bio": "Christian Richard Wück is a German football coach and former professional footballer who played as an attacking midfielder or as a winger. He works as head coach of the Germany women's national team.",
         "federationUrl": "https://dfb.de",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:22:24.903Z"
+        "fetchedAt": "2026-11-22T16:09:58.463Z"
       }
     },
     "IND": {
@@ -561,14 +568,6 @@
           "tier": "T2"
         },
         {
-          "title": "India women’s football team to play Russia in historic Kolkata debut",
-          "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOeXJmeGM0bEx5dFdwMVdPV1c3SUdxcm5VRWUwaW5TbWJfMmVLR1I0SEI4U1Rrb1FkaHRpNWtmOFl3cF9PcFREZWdZLWIzcHFDREVITkJqSDlKMVJVbzkwTkRnd3R3OFVJTDVaU2h6ck1NbmRKWG42LXgyYlpSMVNJcEgwX3NzcS1qa3libjQzcFQtNGhKRWNnUVNSNnMtTmFBdWc?oc=5",
-          "sourceName": "The News Mill",
-          "sourceUrl": "https://thenewsmill.com",
-          "publishedAt": "2026-09-27T07:00:00.000Z",
-          "tier": "T2"
-        },
-        {
           "title": "Capri Sports wins 15-year mandate to scale India’s women’s football leagues",
           "link": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPWEk2WVBkalREUDdMdV83U0I3ZThJcW13RWFBdjBhaXNQcmNkMGZvMjM2TlZFTzBTcElPcnUxamFwakFNMkR4WURaV1RWN2ZYUXJPU1hTSnN2cVBaeFFtS3Z5ZTdIdjhLeG5ZQUVpZjN5aE5mbml1NU9Nd0dFci1JVlZGZ3RKYjNTQXJ5Ny1fZGozeFR1V01jOFM0Ni1RMzEzekU1aDFpVnFhRUNwTV9UTHZFbWZfQ1FCM1pWVTI2NzdMbEQ5aE9hRXhNNHBqNzZFbHYwdjBwLUFZaTVNRG5yM2R4MNIB6AFBVV95cUxQTU1VX3Mzd2JUbDBDZkJBMWRCR2VtSDVaTFRiSVJtX3pQaTBWQXNhamlEUENEa3pBbXRYMXc1Wnh3MlRJSjBZTEhWVkhmNXZINm53TlRnQXBjQlVMSWRpaktnaEpiLWphWXFLTWVVUVJaeVpvYjJ5QVpRUUJzZHFab2JXalNzUzRIWXRnWVdxNGhMb2ZqRWtlQzhsQkZXRDFlSUVRbXhDSUN2eUFLWUw0WDZIQk4xcUp0M0VHdmdJWFlOMXA2V1RiOGdhN1pwRW9QVS1sdE9rTnpfRXBqcTE1MDB1TUo3MXNz?oc=5",
           "sourceName": "sports.economictimes.indiatimes.com",
@@ -577,9 +576,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:22:27.493Z",
+      "fetchedAt": "2026-11-22T16:10:01.047Z",
       "status": "ok",
-      "filteredOut": 124,
+      "filteredOut": 110,
       "federationUrl": "https://the-aiff.com",
       "coach": {
         "status": "ok",
@@ -632,12 +631,12 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:22:29.912Z"
+        "fetchedAt": "2026-11-22T16:10:03.569Z"
       }
     },
     "IRN": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:22:32.549Z",
+      "fetchedAt": "2026-11-22T16:10:06.198Z",
       "status": "ok",
       "filteredOut": 54,
       "federationUrl": "https://ffiri.ir",
@@ -660,7 +659,7 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-11-22T06:22:35.079Z"
+        "fetchedAt": "2026-11-22T16:10:08.722Z"
       }
     },
     "JOR": {
@@ -690,7 +689,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:22:37.588Z",
+      "fetchedAt": "2026-11-22T16:10:11.329Z",
       "status": "ok",
       "filteredOut": 7,
       "federationUrl": "https://jfa.jo",
@@ -704,7 +703,7 @@
         "bio": "Lamia Boumehdi is a Moroccan football manager and former player who is the head coach of the Jordan women's national team. She played as a attacker and has captained the Morocco women's national team.",
         "federationUrl": "https://jfa.jo",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:22:40.121Z"
+        "fetchedAt": "2026-11-22T16:10:13.746Z"
       }
     },
     "KOR": {
@@ -742,9 +741,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:22:42.656Z",
+      "fetchedAt": "2026-11-22T16:10:16.325Z",
       "status": "ok",
-      "filteredOut": 11,
+      "filteredOut": 9,
       "federationUrl": "https://kfa.or.kr",
       "coach": {
         "status": "ok",
@@ -789,7 +788,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:22:45.102Z"
+        "fetchedAt": "2026-11-22T16:10:18.731Z"
       }
     },
     "MAS": {
@@ -803,7 +802,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:22:47.620Z",
+      "fetchedAt": "2026-11-22T16:10:21.404Z",
       "status": "ok",
       "filteredOut": 54,
       "federationUrl": "https://fam.org.my",
@@ -817,7 +816,7 @@
         "bio": null,
         "federationUrl": "https://fam.org.my",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:22:50.318Z"
+        "fetchedAt": "2026-11-22T16:10:24.212Z"
       }
     },
     "MEX": {
@@ -831,9 +830,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:22:52.833Z",
+      "fetchedAt": "2026-11-22T16:10:26.768Z",
       "status": "ok",
-      "filteredOut": 27,
+      "filteredOut": 28,
       "federationUrl": "https://fmf.mx",
       "coach": {
         "status": "ok",
@@ -854,14 +853,14 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:22:55.402Z"
+        "fetchedAt": "2026-11-22T16:10:31.165Z"
       }
     },
     "MYA": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:22:57.909Z",
+      "fetchedAt": "2026-11-22T16:10:33.726Z",
       "status": "ok",
-      "filteredOut": 30,
+      "filteredOut": 29,
       "federationUrl": "https://myanmarfootball.org",
       "coach": {
         "status": "ok",
@@ -873,12 +872,12 @@
         "bio": "Colin Bell is an English football manager and former player, who is the current manager of Myanmar women. He previously coached the South Korea women's national team when he led the team to the 2022 Women's Asian Cup where his team finished runner ups to China. He earned reputation when he won the 2014–15 UEFA Women's Champions League with 1. FFC Frankfurt.",
         "federationUrl": "https://myanmarfootball.org",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:23:00.420Z"
+        "fetchedAt": "2026-11-22T16:10:36.230Z"
       }
     },
     "NED": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:23:03.103Z",
+      "fetchedAt": "2026-11-22T16:10:38.903Z",
       "status": "ok",
       "filteredOut": 18,
       "federationUrl": "https://knvb.nl",
@@ -892,7 +891,7 @@
         "bio": "Arjan Veurink, is a Dutch football coach who serves as the Manager of the Netherlands women's national team. He previously served as the head coach of FC Twente women and assistant coach of the Netherlands women's national football team.",
         "federationUrl": "https://knvb.nl",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:23:05.767Z"
+        "fetchedAt": "2026-11-22T16:10:41.420Z"
       }
     },
     "NGA": {
@@ -922,9 +921,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:23:08.438Z",
+      "fetchedAt": "2026-11-22T16:10:44.084Z",
       "status": "ok",
-      "filteredOut": 114,
+      "filteredOut": 113,
       "federationUrl": "https://thenff.com",
       "coach": {
         "status": "ok",
@@ -953,7 +952,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:23:10.903Z"
+        "fetchedAt": "2026-11-22T16:10:46.642Z"
       }
     },
     "NZL": {
@@ -983,9 +982,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:23:13.618Z",
+      "fetchedAt": "2026-11-22T16:10:49.280Z",
       "status": "ok",
-      "filteredOut": 80,
+      "filteredOut": 79,
       "federationUrl": "https://nzfootball.co.nz",
       "coach": {
         "status": "ok",
@@ -997,14 +996,6 @@
         "bio": null,
         "federationUrl": "https://nzfootball.co.nz",
         "articles": [
-          {
-            "title": "Coach Michael Mayne keen to make up for lost time with Football Ferns squad",
-            "link": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxQWWpTSmdwZ29iVlFrNmduQTZpUHdqNGJfNjlLN044T1BtTlVzYlZicV9oQk1zZ054YmVjcExQZGZsU2NjWlJRWmp4c1hSNUp2aFJ6MlpDS1l6NWFYUl9iUTNZLV9HdE8wb1QtcTh4UExPRlJFYWFOSlhfRmZQaS14NDlDelB3VEJ0U05IQmtrZ1pjVDNSc2hQYngyZHNUeWtKUHJ6djZ1VFZNMWwyYmdnMVRRWml0NlFYeWZGaUJ2V0E?oc=5",
-            "sourceName": "Friends of Football",
-            "sourceUrl": "https://www.friendsoffootballnz.com",
-            "publishedAt": "2026-11-17T21:26:02.000Z",
-            "tier": "T2"
-          },
           {
             "title": "‘We’re safe and well’ — Ferns coach Michael Mayne after quake ends tour",
             "link": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQem1hVERJNUcyT29rLTAtc3ZFbGdiWktzSGJaTlpIaHZIS0EzZi1lTTBZdFh3VnVTUndoNm9XNVpSV05TOXgzMjFNejBvdUNLMzBsYXhpM0l4dkFTWlZEN2t2cDV4VWFTTERzM3BHUVRSRVlibnA2UXV5U0xLZ2kzb2NIalZ6U3hvSzNna1lwVTJDZThxdi1FODRxdHprcWYySmF6SGpYNGdMMUZSTU5HZ1pYTlo?oc=5",
@@ -1022,11 +1013,27 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:23:16.028Z"
+        "fetchedAt": "2026-11-22T16:10:51.683Z"
       }
     },
     "PHI": {
       "items": [
+        {
+          "title": "Filipinas take on Asia’s best on road to Olympics and World Cup",
+          "link": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNWmM5MDI2bDluVXp6NkZRS0NiRnRmRVhIQTl6cWhpU1VJX2FFVG5wV2E3R1hHUjZUNWstUzl5eDFYSzdrUTZrV0c4eDRrVkx4NWZzazFOUnVhUDdMekl6cGc2UlhJeXlLWVRYTkNsMzVSamZUOGo2N094MHczd3Z2QTVkeFpHRGNOa0E?oc=5",
+          "sourceName": "Philippine Football Federation",
+          "sourceUrl": "https://pff.org.ph",
+          "publishedAt": "2026-11-12T10:27:38.000Z",
+          "tier": "T1"
+        },
+        {
+          "title": "Filipinas in Asian Games top 8, show progress vs Japan",
+          "link": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1KX3hNQ1VHeV9xVU1jQzVxa1dCZW52ZkFFT2ptdGNNSnV6dUhBLVdnRVZJazVnOV93a1VYMGJ5QlN0dUNfMkhpUkdMd1MwaUtiV2hwX1pzbjgzejhEXzR6WFBMUlItdEVYMnBlWm5OWWJ1YjJIVTMzbTU0SDFVZw?oc=5",
+          "sourceName": "Philippine Football Federation",
+          "sourceUrl": "https://pff.org.ph",
+          "publishedAt": "2026-09-25T07:00:00.000Z",
+          "tier": "T1"
+        },
         {
           "title": "Philippines Women's National Football Team to Compete in AFC Qualifiers for 2028 Olympics",
           "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQdFhRdnAxNlU3MU1pbGVZRlBralg3MG5rRkZNWkwtVkRaRnFSa0YyS0tVTU9UM1U3SURZVy1vSXhybjFUeE1kSDI5N1hEWklkbXpPaDNGOGtzNUFsZ2xuR3NQWWROVl9xVXJIMldvYi10S2NnRUlLaFpnOG5FRTlKQU1IRm1RcXc4cVQ4ZnhFeVo3TEVmTTE5WE5JeVg?oc=5",
@@ -1036,9 +1043,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:23:18.649Z",
+      "fetchedAt": "2026-11-22T16:10:54.517Z",
       "status": "ok",
-      "filteredOut": 81,
+      "filteredOut": 117,
       "federationUrl": "https://pff.org.ph",
       "coach": {
         "status": "ok",
@@ -1051,6 +1058,14 @@
         "federationUrl": "https://pff.org.ph",
         "articles": [
           {
+            "title": "Torcaso tickled pink by tough AFC draw",
+            "link": "https://news.google.com/rss/articles/CBMifEFVX3lxTFBYVjhfdnZINUN2VENXSHRWUXl1OGp4SHBYYksyQUk5Wnl2RnNhUVZLSDhlMk1nMHJzWGRCdjd6NGltZGIzMEQ3QnJ1OWQ1RmhOcklmaUtxR01hRGtiUXNkVS01ZXQ0N1h0UFdsZzRLVE5MbUI1S3VKWU14UHg?oc=5",
+            "sourceName": "Daily Tribune",
+            "sourceUrl": "https://tribune.net.ph",
+            "publishedAt": "2026-11-14T01:26:31.000Z",
+            "tier": "T2"
+          },
+          {
             "title": "Stajcic to help U17 Girls in AFC qualis as Torcaso prepares Filipinas for FIFA Women’s World Cup",
             "link": "https://news.google.com/rss/articles/CBMiogFBVV95cUxPVDRTeUV1cHhsUmlqQTRPTzZpaVhhTUFpQzBIYmphZFBqSHFyMEdFd09fWjE5TTQ3QW1vQ0xRbmYySkZKdHE5Vk9keDY3LVVmUGRsWnYzaXM5VnZ0NzR2UDllT0pvN2U5RE5ETXBTNE5jdmx4cTdXekZDai1fLWRQU1B4N2ZOQ3VBS1BKMHBOWmExUTBiVUhOdHhpMUVQcEVOR3c?oc=5",
             "sourceName": "Philippine Football Federation",
@@ -1059,7 +1074,7 @@
             "tier": "T1"
           }
         ],
-        "fetchedAt": "2026-11-22T06:23:21.074Z"
+        "fetchedAt": "2026-11-22T16:10:57.092Z"
       }
     },
     "PRK": {
@@ -1073,7 +1088,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:23:22.496Z",
+      "fetchedAt": "2026-11-22T16:10:58.545Z",
       "status": "ok",
       "filteredOut": 15,
       "federationUrl": null,
@@ -1087,7 +1102,7 @@
         "bio": null,
         "federationUrl": null,
         "articles": [],
-        "fetchedAt": "2026-11-22T06:23:24.874Z"
+        "fetchedAt": "2026-11-22T16:11:00.909Z"
       }
     },
     "SWE": {
@@ -1102,7 +1117,7 @@
         }
       ],
       "fetchedAt": "2026-11-22T06:23:27.406Z",
-      "status": "ok",
+      "status": "stale",
       "filteredOut": 18,
       "federationUrl": "https://svenskfotboll.se",
       "coach": {
@@ -1115,8 +1130,9 @@
         "bio": "Tony Gustavsson is a Swedish professional football manager and former player who is the head coach of the Sweden women's national team.",
         "federationUrl": "https://svenskfotboll.se",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:23:29.982Z"
-      }
+        "fetchedAt": "2026-11-22T16:11:04.677Z"
+      },
+      "lastError": "Google News RSS request failed: 429 https://news.google.com/rss/search?q=(%22Sweden%20women's%20national%20team%22%20OR%20%22Sweden%20women's%20national%20football%20team%22%20OR%20%22Sweden%20women's%20football%22%20OR%20%22Sweden%20women's%20soccer%22)%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
     },
     "THA": {
       "items": [
@@ -1129,7 +1145,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:23:32.417Z",
+      "fetchedAt": "2026-11-22T16:11:07.214Z",
       "status": "ok",
       "filteredOut": 8,
       "federationUrl": "https://fat.or.th",
@@ -1143,12 +1159,12 @@
         "bio": "Natipong Sritong-In is a Thai-French football manager and former player who played as a striker. He is the head coach of the Thailand women.",
         "federationUrl": "https://fat.or.th",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:23:34.865Z"
+        "fetchedAt": "2026-11-22T16:11:09.667Z"
       }
     },
     "TPE": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:23:37.337Z",
+      "fetchedAt": "2026-11-22T16:11:12.195Z",
       "status": "ok",
       "filteredOut": 11,
       "federationUrl": "https://ctfa.com.tw",
@@ -1162,7 +1178,7 @@
         "bio": "Patrick De Wilde is a Belgian football coach.",
         "federationUrl": "https://ctfa.com.tw",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:23:39.794Z"
+        "fetchedAt": "2026-11-22T16:11:14.836Z"
       }
     },
     "USA": {
@@ -1176,11 +1192,11 @@
           "tier": "T1"
         },
         {
-          "title": "U.S. Women's National Team Returns to Southern California for Training Camp to Kick Off 2027 Along With a Match Against Panama at Dignity Health Sports Park",
-          "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPR0ZZV0JDZjFNSkZHR2JjTk9WMXE3TkJzT3RqVG8yZGJnS2MyVkc5Qlk1LXBFanJNSEtwczFfZG1QbkxYWERRWkhSQVJHQ1ljSElaR1lNeGRaM0pGZ1NodzIzZTZJRXFZdThFdmxsTlZHX1QxdktkN296N0RpOFRxZmxrWWh1Z2RUS2VyS1FWM2I0MjAyWmZOVC1VZ0FudFByQkVDQXJxNVBmV2c?oc=5",
+          "title": "Hayes Names 23-Player Roster for the 2026 Concacaf W Championship With 2027 FIFA Women's World Cup Berth on the Line",
+          "link": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSDJIdHJNclozWFFtLUhNQWhCRlItdUFjYURJU2dGME9TUV9tM2JaRGFrNUUySUxaVmpOZ2NWalBsVDZzRTRoRW9WcHNraXNiSGJhdmp3c2JyLXVTNE9PMEwwcW1WOWVSeXNXQ2RoYWt2M2ZYVHM2WjRRYnVGekFEZUtITkFBMUpCd2pEdkxya1ZzdGEzVUlHVGNhblZLeTlUYTlOQjlUSlUxaHNVR0prSDZSS2NNTV9zSEpHUQ?oc=5",
           "sourceName": "US Soccer",
-          "sourceUrl": "https://ussoccer.com",
-          "publishedAt": "2026-11-16T16:18:50.000Z",
+          "sourceUrl": "https://www.ussoccer.com",
+          "publishedAt": "2026-11-18T16:05:36.000Z",
           "tier": "T1"
         },
         {
@@ -1208,11 +1224,11 @@
           "tier": "T1"
         },
         {
-          "title": "NWSL Gets Huge Boost From U.S. Women's Soccer Legend: 'We Are the NFL'",
-          "link": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBYLUhUUElCVjRpNHhtTG55NERsdDNMaVprRWFmWWZUNlJHVVFmV0Q2Nm1LQVBDM01nSzZUU3BIZmoyU0FwdWt0c0dMblE5NHpNSVdVMmNKbk96WHhSbElZMXBFV01wT2tib25rb3Q2cE9yN0ZITnBlVXdNQQ?oc=5",
+          "title": "Emma Hayes expects USWNT stars on double-duty to be ready for World Cup qualifier",
+          "link": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOc1ZfYnJFZF9UVGFoekxCNmp6YW12VXdBR1FDeW50d0FZb1pGbE1Bc1ZiS0JOZ3FuUWpxRVhGN1ZhaXRDcF9hR2M3czU2QnItUHBja2pKazI0dXFDTXh1blJnWmNIRVF6SG9JMzZFdkpINE9WWVZkQnN3R1JFcW1vXy1kX2NVUQ?oc=5",
           "sourceName": "Yahoo Sports",
           "sourceUrl": "https://sports.yahoo.com",
-          "publishedAt": "2026-11-21T19:22:17.000Z",
+          "publishedAt": "2026-11-22T02:31:00.000Z",
           "tier": "T2"
         },
         {
@@ -1232,21 +1248,21 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:23:42.514Z",
+      "fetchedAt": "2026-11-22T16:11:17.577Z",
       "status": "ok",
-      "filteredOut": 92,
+      "filteredOut": 94,
       "federationUrl": "https://ussoccer.com",
       "coach": {
         "status": "no_coach_listed",
         "teamArticle": "United States women's national football team",
         "teamUrl": "https://en.wikipedia.org/wiki/United_States_women's_national_football_team",
         "federationUrl": "https://ussoccer.com",
-        "fetchedAt": "2026-11-22T06:23:43.689Z"
+        "fetchedAt": "2026-11-22T16:11:18.769Z"
       }
     },
     "UZB": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:23:46.181Z",
+      "fetchedAt": "2026-11-22T16:11:21.343Z",
       "status": "ok",
       "filteredOut": 13,
       "federationUrl": "https://uzfa.uz",
@@ -1260,19 +1276,11 @@
         "bio": "Kotryna Kulbytė is a Lithuanian UEFA PRO-level football coach who currently leads the Uzbekistan women's national team. She also worked as football analyst, coaches instructor.",
         "federationUrl": "https://uzfa.uz",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:23:48.503Z"
+        "fetchedAt": "2026-11-22T16:11:23.951Z"
       }
     },
     "VIE": {
       "items": [
-        {
-          "title": "Ho Chi Minh City Women’s FC bow out of AFC Women’s Champions League 2026/27",
-          "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNRnNUM0F5alhNUS1hME9lcTB1RWdKSHdNSEZpbmJSSkRrNFpxTDItRGlCQ2JWTk9BYUpkeTNubkdnTDlDNG5HcG9LLTVQWWNTeEpIaTlZRkR4d0s1QThITk1EVk8yQUxLQUhXYWRheE9tMGJUSFpaS2Y2Q0FhTnJmcjFjODhrcGtpMTdlZGpkclJxVjVEeUZaTkpwTQ?oc=5",
-          "sourceName": "VFF",
-          "sourceUrl": "http://en.vff.org.vn",
-          "publishedAt": "2026-11-20T04:53:13.000Z",
-          "tier": "T1"
-        },
         {
           "title": "FIFA referee Le Thi Ly officiates women’s football at the 20th Asian Games",
           "link": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPcnhaTzNUVDZBTlk1QWp6amVGNHhaZFU0UUtWSVhGWmtESVFSYWF2SWhjYW83Qi1iX2dmaXhfOEpnbUU4RFE5SThFOFJmTkpZLVlQalJ0QkJUMHBtVGhqMGVBbDJlVk9odGRsNlpWeExwVkh0NzFYR0Y0eXRkUWVXTFVXZi1IMFRrWUFNZFBIcWZyb2ItVmxKVlBLQQ?oc=5",
@@ -1282,9 +1290,9 @@
           "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-11-22T06:23:51.099Z",
+      "fetchedAt": "2026-11-22T16:11:26.625Z",
       "status": "ok",
-      "filteredOut": 92,
+      "filteredOut": 83,
       "federationUrl": "https://vff.org.vn",
       "coach": {
         "status": "ok",
@@ -1296,14 +1304,14 @@
         "bio": "Hoàng Văn Phúc is a Vietnamese football manager and former player who is the head coach of the Vietnam women's national team.",
         "federationUrl": "https://vff.org.vn",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:23:53.572Z"
+        "fetchedAt": "2026-11-22T16:11:29.066Z"
       }
     },
     "ARG": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:23:56.066Z",
+      "fetchedAt": "2026-11-22T16:11:31.606Z",
       "status": "ok",
-      "filteredOut": 36,
+      "filteredOut": 33,
       "federationUrl": "https://afa.com.ar",
       "coach": {
         "status": "ok",
@@ -1315,14 +1323,14 @@
         "bio": "Germán Darío Portanova is an Argentine football manager and former player. He has played as a midfielder for clubs of Argentina, Chile, Paraguay and Spain. He currently manages the Argentina women's national team.",
         "federationUrl": "https://afa.com.ar",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:23:58.434Z"
+        "fetchedAt": "2026-11-22T16:11:34.055Z"
       }
     },
     "AUT": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:24:00.965Z",
+      "fetchedAt": "2026-11-22T16:11:36.689Z",
       "status": "ok",
-      "filteredOut": 39,
+      "filteredOut": 36,
       "federationUrl": "https://oefb.at",
       "coach": {
         "status": "ok",
@@ -1334,12 +1342,12 @@
         "bio": "Lars Søndergaard is a Danish professional football manager and former player who last worked as manager of the Denmark women's national team.",
         "federationUrl": "https://oefb.at",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:24:03.647Z"
+        "fetchedAt": "2026-11-22T16:11:39.170Z"
       }
     },
     "CMR": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:24:06.162Z",
+      "fetchedAt": "2026-11-22T16:11:41.692Z",
       "status": "ok",
       "filteredOut": 7,
       "federationUrl": "https://fecafootofficiel.com",
@@ -1362,14 +1370,14 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:24:08.573Z"
+        "fetchedAt": "2026-11-22T16:11:44.134Z"
       }
     },
     "DEN": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:24:11.122Z",
+      "fetchedAt": "2026-11-22T16:11:46.762Z",
       "status": "ok",
-      "filteredOut": 18,
+      "filteredOut": 26,
       "federationUrl": "https://dbu.dk",
       "coach": {
         "status": "ok",
@@ -1381,12 +1389,12 @@
         "bio": "Jakob Saldern Stein Michelsen is a Danish football manager.",
         "federationUrl": "https://dbu.dk",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:24:13.533Z"
+        "fetchedAt": "2026-11-22T16:11:49.166Z"
       }
     },
     "ECU": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:24:16.024Z",
+      "fetchedAt": "2026-11-22T16:11:51.637Z",
       "status": "ok",
       "filteredOut": 3,
       "federationUrl": "https://ecuafutbol.org",
@@ -1400,14 +1408,16 @@
         "bio": "Eva Mariana Espejo Pinzón is a Mexican professional football manager who is the current manager of the Ecuador women's national football team.",
         "federationUrl": "https://ecuafutbol.org",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:24:18.461Z"
+        "fetchedAt": "2026-11-22T06:24:18.461Z",
+        "stale": true,
+        "lastError": "Google News RSS request failed: 429 https://news.google.com/rss/search?q=%22Eva%20Espejo%22%20(football%20OR%20soccer)&hl=en-US&gl=US&ceid=US:en"
       }
     },
     "GUM": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:24:20.944Z",
+      "fetchedAt": "2026-11-22T16:11:56.687Z",
       "status": "ok",
-      "filteredOut": 10,
+      "filteredOut": 9,
       "federationUrl": "https://guamfootball.com",
       "coach": {
         "status": "ok",
@@ -1419,12 +1429,12 @@
         "bio": null,
         "federationUrl": "https://guamfootball.com",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:24:23.312Z"
+        "fetchedAt": "2026-11-22T16:11:59.098Z"
       }
     },
     "HKG": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:24:25.844Z",
+      "fetchedAt": "2026-11-22T16:12:01.680Z",
       "status": "ok",
       "filteredOut": 47,
       "federationUrl": "https://hkfa.com",
@@ -1438,7 +1448,7 @@
         "bio": "José Ricardo Rambo is a Brazilian football coach. He works for football development in Hong Kong after retiring from professional football. He is the former player and manager of Rangers (HKG). He was also the head coach of Sun Hei and China League One club Guangdong Sunray Cave previously. He is currently the head coach of Hong Kong women's national football team.",
         "federationUrl": "https://hkfa.com",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:24:30.637Z"
+        "fetchedAt": "2026-11-22T16:12:04.140Z"
       }
     },
     "ITA": {
@@ -1484,7 +1494,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:24:33.220Z",
+      "fetchedAt": "2026-11-22T16:12:06.797Z",
       "status": "ok",
       "filteredOut": 60,
       "federationUrl": "https://figc.it",
@@ -1498,7 +1508,7 @@
         "bio": "Andrea Soncin is an Italian football coach and former player who is currently in charge of the Italian women's national team.",
         "federationUrl": "https://figc.it",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:24:35.793Z"
+        "fetchedAt": "2026-11-22T16:12:09.251Z"
       }
     },
     "MAR": {
@@ -1528,9 +1538,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:24:38.430Z",
+      "fetchedAt": "2026-11-22T16:12:11.891Z",
       "status": "ok",
-      "filteredOut": 64,
+      "filteredOut": 65,
       "federationUrl": "https://frmf.ma",
       "coach": {
         "status": "ok",
@@ -1542,14 +1552,14 @@
         "bio": "Jorge Vilda Rodríguez is a Spanish football coach who has been the head coach of the Morocco women's national team since October 2023. He was previously the head coach of the Spain women's national football team from 2015 to 2023, winning the 2023 Women's World Cup. Vilda was also sporting director of the RFEF's women's national team system and tactical instructor at their National Coaching School.",
         "federationUrl": "https://frmf.ma",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:24:41.027Z"
+        "fetchedAt": "2026-11-22T16:12:14.506Z"
       }
     },
     "NOR": {
       "items": [],
-      "fetchedAt": "2026-11-22T06:24:43.616Z",
+      "fetchedAt": "2026-11-22T16:12:17.275Z",
       "status": "ok",
-      "filteredOut": 36,
+      "filteredOut": 43,
       "federationUrl": "https://fotball.no",
       "coach": {
         "status": "ok",
@@ -1578,7 +1588,7 @@
             "tier": "T2"
           }
         ],
-        "fetchedAt": "2026-11-22T06:24:46.056Z"
+        "fetchedAt": "2026-11-22T16:12:19.800Z"
       }
     },
     "PAR": {
@@ -1592,7 +1602,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:24:48.492Z",
+      "fetchedAt": "2026-11-22T16:12:22.277Z",
       "status": "ok",
       "filteredOut": 5,
       "federationUrl": "https://apf.org.py",
@@ -1606,7 +1616,7 @@
         "bio": null,
         "federationUrl": "https://apf.org.py",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:24:51.310Z"
+        "fetchedAt": "2026-11-22T16:12:25.089Z"
       }
     },
     "POL": {
@@ -1620,7 +1630,7 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:24:53.782Z",
+      "fetchedAt": "2026-11-22T16:12:27.647Z",
       "status": "ok",
       "filteredOut": 59,
       "federationUrl": "https://pzpn.pl",
@@ -1634,7 +1644,7 @@
         "bio": "Nina Patalon is a Polish professional football manager and former player who played as a midfielder, currently in charge of Poland women's national team.",
         "federationUrl": "https://pzpn.pl",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:24:56.418Z"
+        "fetchedAt": "2026-11-22T16:12:30.049Z"
       }
     },
     "SIN": {
@@ -1646,17 +1656,9 @@
           "sourceUrl": "https://fas.org.sg",
           "publishedAt": "2026-11-12T09:05:52.000Z",
           "tier": "T1"
-        },
-        {
-          "title": "Singapore women’s football takes centre stage this October",
-          "link": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOX2JTdFdqQTFNbGhhT1pSSEs0dmtuZ3NkdGt5dzlYNHYycXJhRi1ramVKQlJRTzJTdDlaanZ6cU9CTTJNLS1nQ3QwT1BiX3ptTnc1TFllVXdjd0hUcHR4X0tnN1BzaVpud2NQZVdtM0FWUXFCREs1V2dyMmk3RHhhVlZyTQ?oc=5",
-          "sourceName": "Football Association of Singapore (FAS)",
-          "sourceUrl": "https://fas.org.sg",
-          "publishedAt": "2026-09-23T08:26:45.000Z",
-          "tier": "T1"
         }
       ],
-      "fetchedAt": "2026-11-22T06:24:58.950Z",
+      "fetchedAt": "2026-11-22T16:12:32.642Z",
       "status": "ok",
       "filteredOut": 70,
       "federationUrl": "https://fas.org.sg",
@@ -1670,7 +1672,7 @@
         "bio": "Mihoko Ishida  is a retired Japanese footballer who played for Arsenal. Since retiring from professional football Ishida has become a professional singer. In 2022 Isidia was hired as the assistant coach of Yokohama FC Seagulls, and was made head coach the next season.",
         "federationUrl": "https://fas.org.sg",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:25:01.319Z"
+        "fetchedAt": "2026-11-22T16:12:35.133Z"
       }
     },
     "ZAM": {
@@ -1684,9 +1686,9 @@
           "tier": "T2"
         }
       ],
-      "fetchedAt": "2026-11-22T06:25:03.853Z",
+      "fetchedAt": "2026-11-22T16:12:37.747Z",
       "status": "ok",
-      "filteredOut": 14,
+      "filteredOut": 42,
       "federationUrl": "https://fazfootball.com",
       "coach": {
         "status": "ok",
@@ -1698,7 +1700,7 @@
         "bio": "Nora Häuptle is a Swiss football manager and former player who is in charge of the Zambia women's national team since 4 January 2025.",
         "federationUrl": "https://fazfootball.com",
         "articles": [],
-        "fetchedAt": "2026-11-22T06:25:06.294Z"
+        "fetchedAt": "2026-11-22T16:12:40.182Z"
       }
     }
   }
